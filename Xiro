@@ -1,0 +1,106 @@
+#CLASS {Xiro} OPEN
+
+#ACTION {%1 yawns and falls asleep.}
+{
+     dir $hsntarget
+}
+
+#ACTION {A%1of gold coins is lying here.}
+{
+     get all.gold
+}
+
+#ACTION {Kraken screams insanely and charges into A barbarian warrior!}
+{
+     charge barbarian
+}
+
+#ACTION {You join the fight with %1.}
+{
+     joinjoin
+}
+
+#ACTION {You open the %1}
+{
+     l
+}
+
+#ALIAS {charm}
+{
+     charmm
+}
+
+#ALIAS {darkfire}
+{
+     #echo {casting darkfire};
+     darkfir
+}
+
+#ALIAS {drain}
+{
+     #echo {casting drain};
+     drai
+}
+
+#ALIAS {edrain}
+{
+     #echo {energy drain};
+     edrai
+}
+
+#ALIAS {joinjoin}
+{
+     #nop
+}
+
+#ALIAS {pracskill}
+{
+     #nop
+}
+
+#ALIAS {vdrain}
+{
+     #echo {vampiric drain};
+     vdrai
+}
+
+#VARIABLE         {MSP}  {{LAST}{spell_summon.wav}{SOUND}{0}{VOLUME}{0}}
+#VARIABLE         {OLD_MSDP_OPPONENT_NAME}    {the guard Matthew}
+#VARIABLE         {auto}  {{deposit}{1}{join}{1}{poke}{impale}{recall}{/}{recallPercent}{30}}
+#VARIABLE         {autoHealSelfPercent}  {50}
+#VARIABLE         {autohealList}  {}
+#VARIABLE         {autorescueList}  {}
+#VARIABLE         {channelAdvice}  {}
+#VARIABLE         {channelArena}  {}
+#VARIABLE         {channelBarter}  {}
+#VARIABLE         {channelGossip}  {}
+#VARIABLE         {character.lastDeath}  {You were last killed by the Overlord and lost 2693135  exp, 2 hps, 0 mana, and 1 stamina.}
+#VARIABLE         {enemyConditionTone}  {500}
+#VARIABLE         {filter}  {0}
+#VARIABLE         {fleeString}  {}
+#VARIABLE         {friends}  {{1}{Hare}{2}{Abuna}{3}{Kackerlacka}{4}{Loki}}
+#VARIABLE         {groupAdd}  {}
+#VARIABLE         {hook}  {{Advice}{}{Arena}{}{Barter}{}{Gossip}{}{Hero}{}{areaName}{}{arena}{}{arrive}{}{barter}{}{bump}{}{cchat}{}{characterName}{}{characterPosition}{}{charactername}{}{concentration}{}{gossip}{}{groupAdd}{}{groupEnd}{}{groupLeave}{}{groupTell}{}{hero}{}{hpPercent}{}{incapacitated}{}{info}{}{leave}{}{lootCorpse}{}{manaPercent}{}{morted}{}{opponentHealth}{}{opponentName}{}{opponentNumber}{}{playerDeath}{}{position}{}{race}{}{report}{}{roomName}{}{roomNumber}{}{roomTossed}{}{say}{}{staminaPercent}{}{stunned}{}{tell}{}{trackFail}{}{trackLose}{}}
+#VARIABLE         {hsnalreadycasting}  {0}
+#VARIABLE         {hsnhpratio}  {12.6}
+#VARIABLE         {hsnhuntdir}  {}
+#VARIABLE         {hsnint}  {2}
+#VARIABLE         {hsnmpratio}  {3}
+#VARIABLE         {hsnratio}  {122977.5}
+#VARIABLE         {hsnrecharmtimer}  {1}
+#VARIABLE         {hsnspratio}  {7.1}
+#VARIABLE         {hsntnl}  {22327837}
+#VARIABLE         {idleList}  {{1}{look}}
+#VARIABLE         {info}  {}
+#VARIABLE         {manualWerewolf}  {1}
+#VARIABLE         {onDeath}  {{1}{mount hippogriff}{2}{mount eagle}{3}{mount eagle}{4}{mount eagle}{5}{mount hippogriff}{6}{mount hippogriff}{7}{mount hippogriff}{8}{mount hippogriff}{9}{mount hippogriff}{10}{mount hippogriff}{11}{mount eagle}{12}{mount eagle}{13}{mount eagle}{14}{mount hippogriff}{15}{mount hippogriff}{16}{mount hippogriff}{17}{mount hippogriff}{18}{mount eagle}{19}{mount hippogriff}{20}{mount hippogriff}{21}{mount hippogriff}{22}{mount hippogriff}{23}{mount hippogriff}{24}{mount hippogriff}{25}{mount hippogriff}{26}{mount hippogriff}{27}{mount eagle}{28}{mount hippogriff}{29}{mount hippogriff}{30}{mount hippogriff}{31}{mount hippogriff}{32}{mount hippogriff}{33}{mount hippogriff}{34}{mount hippogriff}{35}{mount hippogriff}{36}{mount hippogriff}{37}{mount hippogriff}{38}{mount hippogriff}{39}{mount hippogriff}}
+#VARIABLE         {roomName}  {}
+#VARIABLE         {roomNumber}  {}
+#VARIABLE         {say}  {}
+#VARIABLE         {tell}  {}
+#VARIABLE         {tmp}  {GT}
+#VARIABLE         {trackFail}  {}
+#VARIABLE         {trackLose}  {}
+#VARIABLE         {weapon}  {lance}
+
+#CLASS {Xiro} CLOSE

@@ -1,0 +1,62 @@
+#act {Strength     : %1} {#var hsnstr %1}
+#act {Intelligence : %1} {#var hsnint %1}
+#act {Wisdom       : %1} {#var hsnwis %1}
+#act {Dexterity    : %1} {#var hsndex %1}
+#act {Constitution : %1} {#var hsncon %1}
+#act {Luck         : %1} {#var hsnluc %1}
+#act {New base stats: Str %1, Int %2, Wis %3, Dex %4, Con %5, Luk %6} {#var hsnstr %1;#var hsnint %2;#var hsnwis %3;#var hsndex %4;#var hsncon %5;#var hsnluc %6}
+#act {New HMS: %1hitpoints, %2mana, %3stamina} {#var hsnhp %1;#var hsnmn %2;#var hsnst %3;compute;showresults;decide}
+#act {The quest guild master tells you, 'Your skin boils, your hair grows, intense pain swells as you mutate.  You are now a%S %1!'} {reset;#var hsnrace %1}
+#act {Would you like to reroll this character?} {compute;showresults;decide}
+#act {You are now a %1 and have been rerolled.} {reset;#var hsnclass %1}
+
+#alias {decide}
+{
+	#if {$hsnssum < $hsnwcheck || $hsnstr < $hsnmstr || $hsnint < $hsnmint || $hsnwis < $hsnmwis || $hsndex < $hsnmdex || $hsncon < $hsnmcon || $hsnluc < $hsnmluc || $hsnsum < $hsnmsum}
+		{reroll};
+	#else
+		{#echo {<130>!!!!!!!!!!!DECIDE!!!!!!!!!!!<099>}}
+}
+#alias {reset} 
+{
+	#var hsnstr 0;#var hsnwis 0;#var hsnint 0;#var hsncon 0;#var hsnluc 0;#var hsndex 0;
+	#var hsntotal 0;#var hsnsample 0;#var hsnsum 0;#var hsnssum 0;#var hsnmaxssum 0;#var hsnmaxsum 0;
+	#var hsnmaxstr 0;#var hsnmaxcon 0;#var hsnmaxdex 0;#var hsnmaxwis 0;#var hsnmaxint 0;#var hsnmaxluc 0;
+	#var hsnsummax 0;#var hsnlmax 0;#var hsnmaxhp 0;#var hsnhp 0;#var hsnmaxmn 0;#var hsnmn 0;#var hsnmaxst 0;#var hsnst 0
+}
+#alias {showresults}
+{
+	#if {$hsnmaxhp < $hsnhp} {#math {hsnmaxhp} {$hsnhp}};
+	#if {$hsnmaxmn < $hsnmn} {#math {hsnmaxmn} {$hsnmn}};
+	#if {$hsnmaxst < $hsnst} {#math {hsnmaxst} {$hsnst}};
+	#echo {sum:$hsnssum/$hsnmaxssum/$hsnlmax/$hsnsum/$hsnmaxsum/$hsnsummax HMS:$hsnhp-$hsnmn-$hsnst/$hsnmaxhp-$hsnmaxmn-$hsnmaxst str:$hsnstr/$hsnmaxstr int:$hsnint/$hsnmaxint wis:$hsnwis/$hsnmaxwis dex:$hsndex/$hsnmaxdex con:$hsncon/$hsnmaxcon luc:$hsnluc/$hsnmaxluc race/class:$hsnrace/$hsnclass sample:$hsnsample};
+}
+#alias {compute}
+{
+	#math hsnsample {$hsnsample + 1};
+	#math {hsnsum} {$hsnstr + $hsnint + $hsnwis + $hsndex + $hsncon + $hsnluc};
+	#math {hsnssum} {$hsnstr*$hsnwstr + $hsnint*$hsnwint + $hsnwis*$hsnwwis + $hsndex*$hsnwdex + $hsncon*$hsnwcon + $hsnluc*$hsnwluc};
+	#if {$hsnssum > $hsnmaxssum} {#math hsnmaxssum $hsnssum};
+	#if {$hsnmaxstr < $hsnstr} {#math hsnmaxstr $hsnstr};
+	#if {$hsnmaxint < $hsnint} {#math hsnmaxint $hsnint};
+	#if {$hsnmaxwis < $hsnwis} {#math hsnmaxwis $hsnwis};
+	#if {$hsnmaxdex < $hsndex} {#math hsnmaxdex $hsndex};
+	#if {$hsnmaxcon < $hsncon} {#math hsnmaxcon $hsncon};
+	#if {$hsnmaxluc < $hsnluc} {#math hsnmaxluc $hsnluc};
+	#if {$hsnmaxsum < $hsnsum} {#math hsnmaxsum $hsnsum};
+	#math {hsnsummax} {$hsnmaxstr + $hsnmaxint + $hsnmaxwis + $hsnmaxdex + $hsnmaxcon + $hsnmaxluc};
+	#math {hsnlmax} {$hsnmaxstr*$hsnwstr + $hsnmaxint*$hsnwint + $hsnmaxwis*$hsnwwis + $hsnmaxdex*$hsnwdex + $hsnmaxcon*$hsnwcon + $hsnmaxluc*$hsnwluc}
+}
+#alias {hsnsetmin} {#var hsnmstr %1; #var hsnmint %2; #var hsnmwis %3; #var hsnmdex %4; #var hsnmcon %5; #var hsnmluc %6; #var hsnmsum %7}
+#alias {hsnsetweight} {#var hsnwstr %1; #var hsnwint %2; #var hsnwwis %3; #var hsnwdex %4; #var hsnwcon %5; #var hsnwluc %6; #var hsnwcheck %7}
+#alias {hsnsetweightassassin} {hsnsetweight 1.4 .3 .3 1.8 1 1.2 %1 100}
+#alias {hsnsetweightranger} {hsnsetweight 1.4 .6 .6 1.3 1 1.1 %1 90}
+#alias {hsnsetweightberserker} {hsnsetweight 1.7 .3 .3 1.5 1 1.2 %1 90}
+#alias {hsnsetweightpaladin} {hsnsetweight 1.4 .5 1.2 .8 1 1.1 %1 90}
+#alias {hsnsetweightmonastic} {hsnsetweight 1.4 .4 .4 1.8 .9 1.1 %1 90}
+#alias {hsnsetweightmage} {hsnsetweight .6 1.6 1.3 .4 1 1.1 %1 90}
+#alias {hsnsetweightpriest} {hsnsetweight .4 1.3 1.6 .6 1 1.1 %1 90}
+#alias {hsnpreset} {#var hsnrace %1; #var hsnclass %2}
+
+hsnsetmin 0 0 0 0 0 0 0
+hsnsetweight 0 0 0 0 0 0 0

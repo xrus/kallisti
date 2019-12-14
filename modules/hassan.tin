@@ -1,0 +1,80 @@
+#act {A huge mound of gold coins is lying here%1} {get all.gold}
+#act {You try to impale %1, but fumble your weapon!} {impaleimpale}
+#act {You impale %1 in %2 chest - %1 screams in pain.} {impaleimpale}
+#act {Unknown Command.  ('pracskill')} {#if {$MSDP_OPPONENT_NUMBER > 0} {#delay {pracpracdelay} {pracprac} {.3}}}
+#act {You lash out and strike %1's pressure point! (%2 damage)} {nervenerve}
+#act {You fumble your attempt to hit %1 and nearly end up poking your own eye.} {nervenerve}
+#act {You do a beautiful spinning kick... right over %1.} {kickkick}
+#act {Your kick at %1 catches %2 right in the %3.} {kickkick}
+#act {You sweep %1, sending %2 to the ground.} {sweepsweep}
+#act {You try to sweep %1, but can't seem to budge %2.} {sweepsweep}
+#act {You try to sweep %1, but %2 swiftly avoids you.} {sweepsweep}
+#act {You toss %1 to the ground.} shihonageshihonage
+#act {You try to throw %1, but slip and fall.} shihonageshihonage
+#act {You time a powerful punch to %1.} {punchpunch}
+#act {You suddenly find your hand empty as %1 skillfully disarms you.} {rearm}
+#act {Your new ability scores are:} {#var hsnsum 0}
+#act {You fail your stroke at %1, and fall to the ground - aww.} {deathstrokedeathstroke}
+#act {Your powerful punch strikes %1 square in the chest.} {deathstrokedeathstroke}
+#act {^You receive your reward for the kill, %1} hsndone;
+
+#alias {ig} {#ignore actions}
+
+#alias {on} {open north}
+#alias {os} {open south}
+#alias {oe} {open east}
+#alias {ow} {open west}
+#alias {ou} {open up}
+#alias {od} {open down}
+
+#alias {wield} {#var weapon %0; \wiel %0}
+#alias {dualwield} {#var weapon2 %0; \dualwiel %0}
+#alias {w0} {remove $weapon}
+#alias {w00} {remove $weapon2}
+
+#alias {hsndone} {showtnl;#nop save;hsndone0;hsndone1;hsndone2;hsndone3;hsndone4;hsndone5}
+#alias {hsndone0} {#IF {$MSDP_EXPERIENCE > $hsnmaxexp} {nohunt;#delay {7} {wake;/}}}
+#alias {hsndone1} {get coins corpse;exam corpse}
+#alias {hsndone2} {#nop}
+#alias {hsndone3} {#nop}
+#alias {hsndone4} {#nop}
+#alias {hsndone5} {#nop}
+#alias {geat} {get %0;eat %0}
+#alias {gput} {get %0;put %0 $sack}
+
+#alias {gwear} {get %0;wear %0}
+#alias {wa} {wake}
+#alias {wak} {wake}
+#alias {scn} {scan}
+#alias {showtnl} {#echo {<030>-------------- TNL: $MSDP_EXPERIENCE --------------<099>}}
+
+#alias {00} {recite recall; get recall $sack}
+#alias {000} {00}
+#alias {w1} {wield sword}
+#alias {w11} {dualwield ShadowDancer}
+#alias {w9} {wield spear}
+#alias {w0} {remove $weapon}
+#alias {w00} {remove $weapon2}
+#alias {of} {order followers}
+#alias {ofj} {of join %0 $MSDP_CHARACTER_NAME}
+#alias {deathstrokedeathstroke} {pracskill}
+#alias {sweepsweep} {pracskill}
+#alias {kickkick} {pracskill}
+#alias {shihonageshihonage} {pracskill}
+#alias {punchpunch} {pracskill}
+#alias {nervenerve} {pracskill}
+#alias {impaleimpale} {pracskill}
+#alias {evadeevade} {pracskill}
+#alias {pracprac} {#nop kick}
+#alias {rearm} {get $weapon;wield $weapon}
+#alias {rearm2} {get $weapon2;dualwield $weapon2}
+#alias {bind} {get bandage $sack; bin %0; put bandage $sack}
+#alias {orf} {order followers %0}
+
+#alias {setautoall}{autosanc {sanc};autorecall /;autoeat {get bread $sack;eat bread;put bread $sack};autodrink {get waterskin $sack;drink waterskin;put waterskin $sack};autowarpaint mandrake;}
+
+#alias {login2} {#var mudAddress 127.0.0.1;login}
+
+#var {hsnmaxexp} {1000000000000}
+#var {sack} {tent}
+#var {character[container]} {$sack}

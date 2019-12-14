@@ -1,0 +1,311 @@
+xrus
+prompt
+gos hey
+get trident armoury
+remove all
+filter
+wne
+withdraw 500000
+buy change
+buy change trog
+wield trident
+autodeposit
+deposit 500100
+#10 poke ptam
+style aggressive
+wwss
+prac backs
+fle;ws
+7n
+autogold
+ba pegasus
+#alias hsndone2
+ba pig
+ba unicorn
+list
+get spear armoury
+put spear armoury
+sac jacket
+sac dagger
+get stone armoury
+l lavender
+put lavender armoury
+l purple
+put purple armoury
+l Xend
+l Xenodrite
+put bindings armoury
+get robe armoury
+l robe
+put robe armoury
+get Special vault
+l Special
+put Special vault
+get all
+drop all.corpse
+s;ba gypsy
+n4e
+ba gold
+ba goat
+ba sheep
+ba boy
+ba girl
+we
+quest
+11n
+fle;n
+e3n
+ba woman
+q
+ba gypsy
+gos well done!
+prac hide
+help palm
+help peek
+#alias hsndone
+#alias hsndone1
+#alias hsndone1 {get coins corpse;exam corpse;hide}
+comba
+help dodge
+10n
+4e
+ba lady
+ba man
+ss4w10s
+3e
+depart;s4w10sw
+4w
+10e
+exam vault
+exam armoury
+exam chest
+get cesti chest
+l cesti
+wear cesti'
+wear cesti
+combat
+3ne
+whoi Rhexx
+tel Rhexx You hunt here?
+ba stand
+reply I kill stagehands?
+fle;hide;en
+fle;hide;ew
+fle;hide;wn
+wield trickster
+visit Horg
+gos It didn't
+3nw6n
+ba stagehand
+fle;hide;dw
+e4n
+l act
+oe;ow
+ba Romeo
+recal
+fle;hide;n
+prac multi
+blink
+help Trog
+races
+help races
+s7w4n8ws
+ba animal
+ba clerk
+3s
+7s
+s7w4n8w
+8s
+ba ticket
+'vigor
+'bless
+get purple $sack;quaff purple
+fle;hidescn
+e;ba act
+ba king
+fle;hide;e
+ba fool
+ba act
+whoi Iapetus>
+whoi Iapetus
+spel demona
+spel demoni
+help garrotte
+help meta poins
+help meta points
+help hero point
+help meta
+help meta gain
+help metagains
+help evade
+spel demon
+help disguise
+help assassin
+spel assassin
+reca;visit Tux
+'heal
+'refresh
+s4w10sw
+fle;hide;scn
+whoi Scimon
+l trident
+xscn
+!dir
+2s14e26n13ess;oe;e
+fle;hide;esd
+fle;ues
+wwn
+fle;uws
+fle;hide;eew
+44659805
+quaff purple
+skli
+gos thanks
+prac dodge
+prac blind
+prac blind fighting
+visit Darchoun
+get sceptre chest
+beckon Loki
+vis
+'vigor;'bless;'ffire;'barkskin
+tel Loki :eyes
+'eyes
+s4w10s
+3w
+s4w10ss
+fl
+nw
+ss
+gos tzag
+fle;hide
+w;ba
+reply I will quit soon.
+en
+where
+reply guessed so! heeh
+reply I am fine with you sitting. Just that I will logout soon, or we could join
+reply hehe
+4s
+4n
+spec assassin
+wear scepter
+l scepter
+l sceptre
+wear sceptre'
+wear sceptre
+prac backstab
+rec
+ss4w10sw
+where zombie
+10w
+ee
+nn
+ww
+es
+ws
+ba
+ba zombie
+#split
+tel Irene Hey
+help backstab
+help followers
+spel bad
+sed
+style
+style neutral
+4
+remove trident
+nofilter
+get all.spear armoury
+wield desoy-tipped
+l desoy
+prac edged
+wield desoy
+visit Tux
+put trident armoury
+put all.spear armoury
+depart
+hide
+wsd
+3swwss
+prac critical
+prac pick
+prac feign
+3nw
+wak;l cesti;l sceptre;sl
+fle;seu
+fle
+sswwss
+#10 poke ptam;put all.purple ptam
+sanc
+quaf purple
+3n
+w
+wear all
+u
+n
+se
+get corpse
+get all corpse
+sac corpse
+scn
+e
+d
+top damage
+ba member
+nne
+w5sww3s
+gain
+prac
+skil
+3nwn
+help etude;help maestro;help gelsewhere
+spel
+spel bard
+#cr
+help pastoral;help battle hymn;help Hillsborough
+help pastoral;help battle hymn;help Hillsborough halfstep
+help blast
+help draiodoir;help harmony;help conduct
+help march;help dirge
+help march bard
+help march2
+help discordia
+help requiem
+help lullaby
+s14e26n13ess;oe;e
+reca
+sl
+af
+who
+wak
+s
+tap
+l spear
+lore spear
+drop all
+noprompt
+display all
+setweight
+hsnsetweight
+#var
+l
+setweight 1001 1 1 1001 1 1 45105
+reroll
+buy change giant
+reclass rogue
+gos The reroll bug is fixed Sammy?
+#ig
+ig
+i
+eq
+wor
+8
+
+1
+sc
+camp
+5
+3
+2

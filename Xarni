@@ -1,0 +1,157 @@
+#CLASS {Xarni} OPEN
+
+#ACTION {**%w: '{A|a}ll %2'}
+{
+     #if {"%1"=="$leader"}
+     {
+          %2
+     }
+}
+
+#ACTION {A huge mound of gold coins is lying here.%0}
+{
+     get all.gold
+}
+
+#ACTION {Int :%3 Skill Points:%2 To Level:%1}
+{
+     #variable {hsntnl} %1
+}
+
+#ACTION {SEEK SHELTER AT ONCE!  Kronos has begun to sing.}
+{
+     rescue Kronos
+}
+
+#ACTION {You join the fight with %1.}
+{
+     assistassist
+}
+
+#ACTION {You receive your reward for the kill, %1 experience point%2.}
+{
+     #math {hsntnl} {$hsntnl-%1};
+     hsndone
+}
+
+#ACTION {^**%w: 'qw'$}
+{
+     #if {"%1"=="$leader"}
+     {
+          /
+     }
+}
+
+#ALIAS {1put}
+{
+     put %0 $sack
+}
+
+#ALIAS {2put}
+{
+     put %0 2.$sack
+}
+
+#ALIAS {3put}
+{
+     put %0 3.$sack
+}
+
+#ALIAS {assistassist}
+{
+     #nop
+}
+
+#ALIAS {assistassit}
+{
+     #nop
+}
+
+#ALIAS {san}
+{
+     sanc
+}
+
+#ALIAS {shihonageshihonage2}
+{
+     kick
+}
+
+#VARIABLE         {MSP}  {{LAST}{channel_tell.wav}{SOUND}{0}{VOLUME}{0}}
+#VARIABLE         {OLD_MSDP_OPPONENT_NAME}    {a squirrel}
+#VARIABLE         {auto}  {{recall}{/}{recallPercent}{30}}
+#VARIABLE         {autoHealSelfPercent}  {50}
+#VARIABLE         {autohealList}  {}
+#VARIABLE         {autorescueList}  {}
+#VARIABLE         {channelAdvice}  {}
+#VARIABLE         {channelArena}  {}
+#VARIABLE         {channelBarter}  {}
+#VARIABLE         {channelGossip}  {}
+#VARIABLE         {channelHero}  {}
+#VARIABLE         {currTime}  {1555533000}
+#VARIABLE         {enemyConditionTone}  {1090}
+#VARIABLE         {filter}  {0}
+#VARIABLE         {fleeString}  {}
+#VARIABLE         {friends}  {}
+#VARIABLE         {groupAdd}  {}
+#VARIABLE         {heal}  {{moderate}{args}{morted}{args}{nearDeath}{args}{severe}{args}}
+#VARIABLE         {hook}  {{Advice}{}{Arena}{}{Barter}{}{Gossip}{}{Hero}{}{areaName}{}{arrive}{}{barter}{}{bump}{}{cchat}{}{characterName}{}{characterPosition}{}{charactername}{}{gossip}{}{groupAdd}{}{groupTell}{}{hero}{}{hpPercent}{}{incapacitated}{}{info}{}{leave}{}{lootCorpse}{}{manaPercent}{}{morted}{}{opponentHealth}{}{opponentName}{}{opponentNumber}{}{playerDeath}{}{position}{}{race}{}{report}{}{roomName}{}{roomNumber}{}{say}{}{staminaPercent}{}{stunned}{}{tell}{}}
+#VARIABLE         {hours}  {432092}
+#VARIABLE         {hsncon}  {14 }
+#VARIABLE         {hsndamagedr}  {25}
+#VARIABLE         {hsndamagehw}  {238}
+#VARIABLE         {hsndamagemw}  {423}
+#VARIABLE         {hsndamagetotal}  {26519.5}
+#VARIABLE         {hsndamagewd1}  {13.5}
+#VARIABLE         {hsndamagewd2}  {18}
+#VARIABLE         {hsndex}  {13 }
+#VARIABLE         {hsnhp}  {0}
+#VARIABLE         {hsnhpratio}  {14.4}
+#VARIABLE         {hsnhuntdir}  {north}
+#VARIABLE         {hsnint}  {9}
+#VARIABLE         {hsnlmax}  {114.8}
+#VARIABLE         {hsnluc}  {11 }
+#VARIABLE         {hsnmaxcon}  {15}
+#VARIABLE         {hsnmaxdex}  {21}
+#VARIABLE         {hsnmaxhp}  {0}
+#VARIABLE         {hsnmaxint}  {21}
+#VARIABLE         {hsnmaxluc}  {18}
+#VARIABLE         {hsnmaxmn}  {0}
+#VARIABLE         {hsnmaxssum}  {83.3}
+#VARIABLE         {hsnmaxst}  {0}
+#VARIABLE         {hsnmaxstr}  {19}
+#VARIABLE         {hsnmaxsum}  {82}
+#VARIABLE         {hsnmaxwis}  {20}
+#VARIABLE         {hsnmn}  {0}
+#VARIABLE         {hsnmpratio}  {1.5}
+#VARIABLE         {hsnratio}  {191404.9}
+#VARIABLE         {hsnsample}  {620}
+#VARIABLE         {hsnspratio}  {6.3}
+#VARIABLE         {hsnssum}  {75.7}
+#VARIABLE         {hsnst}  {0}
+#VARIABLE         {hsnstr}  {15 }
+#VARIABLE         {hsnsum}  {71}
+#VARIABLE         {hsnsummax}  {114}
+#VARIABLE         {hsntnl}  {34781563}
+#VARIABLE         {hsntotal}  {0}
+#VARIABLE         {hsnwis}  {11 }
+#VARIABLE         {idle.seconds}  {11}
+#VARIABLE         {idle.time}  {1576236300}
+#VARIABLE         {idleList}  {{1}{look}}
+#VARIABLE         {info}  {}
+#VARIABLE         {manualWerewolf}  {1}
+#VARIABLE         {music}  {{newAutoTitleString}{ - }{oldAutoTitleString}{ - }}
+#VARIABLE         {playerDeath}  {}
+#VARIABLE         {roomName}  {}
+#VARIABLE         {roomNumber}  {}
+#VARIABLE         {roomTossed}  {}
+#VARIABLE         {say}  {}
+#VARIABLE         {tell}  {}
+#VARIABLE         {tmp}  {east}
+#VARIABLE         {trackFail}  {}
+#VARIABLE         {trackLose}  {}
+#VARIABLE         {voteTime}  {-n 0}
+#VARIABLE         {weapon}  {longsword}
+#VARIABLE         {weapon2}  {dagger}
+
+#CLASS {Xarni} CLOSE

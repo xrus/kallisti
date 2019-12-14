@@ -1,0 +1,970 @@
+xrus
+gos me?
+gos just 25k
+prompt
+gos Was trying to see if the bug can be regenerated on mages
+gos was not after anything special
+prompt all
+gos it happened a lot more on warrior
+gos yes
+gos in 25k it happened about 30 times on fighters
+gos about 20 times on monastics
+gos but just about 5 times on mages
+gos I did explain it
+gos he did a quick check and said that it should be impossible.
+gos But after showing him a sample, he is going to check it thoroughly
+reply let me show you a sample
+display all
+k girl
+buy change eldar
+2
+buy change ogre
+6n
+autogold
+get corpse;sac corpse
+n6e
+help precision
+zap boy'
+zap girl
+zap boy
+prac zap
+help zap
+top paragon
+help sleep
+help sleep2
+\news
+#alias hsndone2 ranged
+#alias %*weapon%*
+hsnsetweapons
+hsnsetweapons staff staff
+zap woman
+help ventriloquate
+spel necr
+hsnsetweapons nothing nothing
+n4e
+zap pig
+zap pegasus
+help shocking
+zap unicorn
+help blur
+help astral walk
+en
+help gaseous form
+help poison
+help sacrifice2
+help sacrifice
+help drain
+zap gypsy
+spel wizar
+help lightning bolt
+help frostbite
+help stasis
+#7 zap
+tel Loki hey
+tel Loki :depart
+tel Loki s4w10s4w
+s4w10s4w
+5e
+spel wizard
+zap man;#6 zap
+zap gypsy;#7 zap
+zap woman;#7 zap
+spec wizard
+spec mordent
+prac precision spells
+help magic shield
+remove spellb
+remove spellbook
+l spellbooke
+drop book
+nwwn
+id 3
+id 1
+buy 3
+hodl book
+hold book
+rec
+ss4w10sww
+5w
+get coins
+zap zombie;#7 zap
+wak;visit Tux;'heal;depart
+zap zombie;#10 zap
+help regenerate
+s7w
+4n8w
+zap father
+help resistance;help reverberate
+#5 zap
+zap mother
+#4 zap
+help chill
+zap kender
+k kender
+help knock
+e;list
+prac burning
+7w4n8w4s
+#alias hsndone2 #nop
+sg Bobby
+sg money
+sg mother
+help acid blast
+help fireball
+zap man
+k lady
+ace
+zap lady
+l staff
+get sword armoury
+get long armoury
+l sword
+remove staff
+wield sword
+put staff armoury
+put sword armoury
+put long armoury
+filter
+get jacketnake armoury
+get leather armoury
+get all.leather armoury
+drop all.purple
+put all armoury
+get all
+get wand armoury
+l wand
+put wand armoury
+visit Darc
+get chains armoury
+l chains
+put armoury
+put chains armoury
+get Special vault
+get pages vault
+l pages
+l Spell_Fail
+l Special
+put pages vault
+put Special vault
+'hey
+get teardrop chest
+l teardrop
+put teardrop chest
+rege
+help mgse
+help mordent
+help race
+#10 zap
+wwssu
+prac shocking
+prac magic
+sil
+#7 sg
+help wizard
+help dictum
+'hea
+help necro
+spel nec
+help vdrain
+help energy drain
+eee
+zap zombie
+#3 sg man
+help web
+prac magic shield
+nne
+4swwss
+regress zap
+prac precision
+#5 sg
+help enchant armor
+help enchant weapons
+help enchant weapon
+knowmon ticket
+11n4e
+prac shocking grasp
+sg zombie;#7 sg
+10w10s
+top mage
+top1
+whoi Earl
+whoi Nogada
+top 2
+top 1
+l 2.zom
+l zombie
+l zom
+rea
+prac know monster
+ss4w10s
+sg zombie;#5 sg
+#alias hsndirmelee kill
+#alias hsndirranged kill
+#alias hsnkwranged sg
+#act {You grab ahold of %1 and shock %2.} shockingshocking
+#alias shockingshocking pracskill
+#alias dir {sg %0; ofj}
+#alias ofj #nop
+help enlarge
+list armoury
+list chest
+spel necro
+help shroud of darkness
+help sg
+help shocking grasp
+help dark fire
+help darkfire
+11n
+sg gypsy
+dir gypsy
+regensc
+dir zombie:
+een
+gos nah. Finally found the stats I needed to do my experiments
+knowmon zombie
+gos you know at which level I can see the levels of mobs?
+gos at which level of knowmon
+gos notyet
+gos ah no!
+#split
+gos I did nothing
+gos what did you do?
+gos knowmon should give more useful info at lower costs!
+gos that is what I did last
+gos you know what shroud of darkness has 1 rank, but invisibility has 5?
+gos why!
+gos wizard life is tough!
+gos even necros can gain mana back. Wizards cannot!
+gos Your priest is faulty! my priest could
+gos If it's in the guarrantee period, have it fixed!
+gos yeah I know.. was kidding
+gos but prophets can meditate
+gos and templars, yes
+gos not wizards
+gos maybe they should be able to trance
+help trance
+gos oh my! Iapetus is the 2nd paragon now
+gos I should start xrus again
+gos why is he working on paragons?
+gos what is he after?
+gos top10 list?
+gos I see..
+gos I should set some traps for him! :D
+gos kidding
+get gloves chest
+wear gloves
+get stone armoury
+'what are these?
+put all.stone armoury
+remove stone
+wear stone
+'I can keep it?
+'if not, send me a tell
+reci scroll ticket
+wwn
+id 4
+seen
+spel prophet
+spel bard
+#cr
+area 1 30
+area village
+area Nebelwald
+help Nebelwald
+2s7e13sws7w3n3wnuw4n8wn4wn2w
+2s7e13sws7w3n3wnuw;sl;4n8wn4wn2w
+depart;sl
+s14e
+10n
+4e
+sg man
+nn13e
+3ne
+#alias hsnkwmelee sg
+#alias hsnkwranged zap
+get elderberry chest
+eat elderberry
+whoi Iapetus>
+whoi Mullin
+whoi Krios
+whoi Prometheus
+whoi Kronos
+whoi Kraken
+whoi Mouser
+whoi Tantalus
+tel Iapetus Two questions
+tel Iapetus 1. when will you stop leveling with Iapetus? You're getting out of rich
+reply DAMN!
+reply why there?
+reply Why a bonus level? bloodtrait is defined now?
+reply what is it going to be? What you know about it?
+reply OK
+reply I'll ask more later
+reply I will ask him too.
+sg zombie's
+reply I am testing a few things
+reply need to be around level 30. hard to do it alone
+reply working on it
+tel Ivy bloodtrait is defined? You know what it is going to be, now?
+help bloodtrait
+help blood trait
+reply share it?
+tel Iapetus I know. Wizards are hard to solo though
+reply I did solo my ranged and druid
+reply my ranger
+reply ranged ranger
+reply He is an archer master!
+reply Demoniacs are a bit of solo builds too, or I could help you
+reply Yes.
+reply and I just went after melee
+tel Iapetus I should set some traps for you, or I'll never be able to get Iapetus with Xrus! hehe
+reply I'm busy for the time being
+reply and I don't have a good connection these days, either
+reply that is why xrus has died recently
+help charm person
+ssss
+#alias shockingshocking #nop
+scb
+tel Iapetus Why you selected Demoniac over necro?
+tel Iapetus for your paragon
+tel Demoniac Well, not saying that you chose wrong. Asking which parts of it helped you do it?
+reply Well, not saying that you chose wrong. Asking which attributes of it helped you do it?
+reply why not bard/assassin then?
+spel demon
+reply checking it now. which skills you use most, which you could get similar effects from other two subclasses?
+10w
+3e
+dir zombie
+reply But you mainly do (hide;hunt;backstab)?
+reply But you mainly do (hide\;hunt\;backstab)?
+top1 damage
+reply yeah, that is a nice advantage.
+sw
+ws
+sg zombie
+sg;sg;sg
+sg;sg
+reply what is your weapon?
+prac light
+help chromatic orb
+reply I knew too. but was going to help sammy on a few things with it
+nn
+4w10s
+chorb zom
+reply hmm.. not exactly, but close! hehe
+#unact {You grab ahold of %1 and shock %2.} shockingshocking
+#unalias shockingshocking
+#act {You quickly find page 18, in the a sage's spell book.
+www
+#act {You need to specify a victim name for your spell.
+#act {You need to specify a victim name for your spell.} #alias castcast #unalias castcast
+#act {You need to specify a victim name for your spell.} #alias castcast #alias castcast pracskill
+#alias castcast pracskill
+tel Iapetus What you kill mostly? not lamias, right?
+reply share?
+area all
+reply did
+area lost temple
+help lost temple
+'bles
+'bless
+whoi Catalyst
+tel Catalyst greetings
+whoi Sorrowsend
+whoi kronos
+#alias hsnkwrange
+#alias dir
+chorb member
+castcast
+#alias castcast
+reply what is blood trait?
+reply You won't share what you know?
+#act {You quickly find page %1, in the %2.} castcast
+#act {You need to specify a victim name for your spell.} #alias pracskill #alias pracskill
+#act {You need to specify a victim name for your spell.} #act
+sg
+#ig
+#act {You need to specify a victim name for your spell.} #act {Unknown Command.  ('pracskill')
+#act {You need to specify a victim name for your spell.} #act {Unknown Command.  ('pracskill')} {#act {Unknown Command.  ('pracskill')
+#act {You need to specify a victim name for your spell.} #act {Unknown Command.  ('pracskill')} {#act {Unknown Command.  ('pracskill')} pracprac}
+sg member
+#act {Unknown Command.  ('pracskill')
+#act {Unknown Command.  ('pracskill')}
+reply I still wonder what is it going to give you.
+repl to which classes?
+reply hmm... does it give some skills of the father to the blood?
+reply yes, but just a little bit
+reply from what I've seen.
+reply about 20/20/20 to stats for a lvl 50 blood
+help bloodlines
+reply also mlr, yes
+replay
+s4w10sw
+advance
+kw zombie
+reply if you could change your class now, would you change demoniac to necro now?
+reply is it not faster for a necro at lvl 50+?
+reply that is why I ask you
+reply You will know the answer
+reply and I've seen how fast kronos can massacre
+kw;kw
+ig
+sswws
+visit Horg
+exam armoury
+get serpentine armoury
+l rod
+put rod armoury
+get alb vault
+l alb
+put alb armoury
+reply Well.. depends
+reply I don't know the mud yet, and I don't have gear. But I could get myself to lvl 53
+reply and I could continue much further, if my connection was better
+reply I lack the speed, yes
+reply I don't think that I can do it
+reply I could gather 5mil/irl-hour with Xrus
+reply so not much slower I was. But growing further, I knew not much more. Where to go? What to do? What to get? those could become huge problems if I could get couple more levels with xrus
+reply what you mean duo?
+exam vault
+reply That is absolutely true. One should know himself before doing it.
+reply I am a type that can do it. Many had left if they were in my shoes
+reply at higher levels, I had no idea what I can do, I admit
+reply you need the healings of the demoniac? drain it is, right?
+spel demoniac
+nofilter
+id 2
+gos where can I buy a raft?
+whoi Dajjal'
+4nenn
+gos where is paragon shop?
+help paragon
+help paragon shop
+help paragonshop
+3sees
+buy raft
+14e
+26n
+whoi Dajjal
+gos why should one use qp to change race to giant?
+gos it was..
+tel Iapetus I can ask your stats?
+reply But bloods don't give additional stats!
+reply how?
+help Iapetus{Rp}
+help Iapetus
+whoi Iapetus
+reply hehe
+#alias hsnkwmelee
+knowmon guard
+visit Darchoun
+recite identify guard
+gos talking to me?
+gos first of all, they are free
+gos second: yes, I presold some
+gos third: You can change race of a blood!
+gos There is no need to stay giant
+recite identify Polonius
+kw act
+combat
+gos my dam/hit/speed is -1/0/0
+gos hehe
+gos I am ogre!
+gos seems so
+gos much better
+gos he is about 100/100/100
+gos I used it as my se..six attack
+'eyes
+wak;ragne;sl
+wak;range;sl
+gos the mob which killed me, leveled up! hehe
+gos member
+zap
+prac chromatic
+gos yeah
+whoi Ladyabdullah
+whoi Angharad
+whoi Krimson
+whoi Lunaril
+whoi Eliana
+whoi Ryllae
+whoi Farryn
+tel Iapetus I am still figuring which class to choose for my paragon. Checking wizards now
+reply You can presell them
+regen
+gos you can do it, if you presell them for free, as I did.
+replay gos
+tel Ivy tell us?
+tel Ivy Iapetus is heading that way. I bet he knows something
+tel Ivy but you know it?
+gos you are going so fast, that you don't need a reason
+gos before you see the need, you'll be there
+gos speaking of death
+gos Yeah, I did my best
+5n
+wu
+get corpse
+get all corpse
+sac corpse
+s;kw member
+gos I already told them that I won't give out Xadu's bloods
+gos tzag Ton
+gos You successfully curse the audience member. (5 damage) [ critical hit ]
+gos I wonder what the curse was
+gos not game testers?
+whoi Greenman
+whoi Blueman
+whoi ton
+prac chromatic orb
+13esse
+whoi Sokorri
+gos chromatic orb is fun!
+help upon
+help puddles
+wa
+gemote dick
+gemote ass
+gemote cry
+gemote sex
+gos we should!
+help charm
+gos and I didn't know immortals die
+wn
+style defensive
+help style
+style wimpy
+help herogain
+help metagain
+kw member'
+4w10sw
+recite identify zombie
+ss7w4n8w8s
+recite identify ticket
+14e26n
+help giant
+help strength
+help giant strength
+help strength2
+tel Scimon can put this to sleep?
+'ed
+ed
+'these
+l Scimon
+'thanks
+tel Scimon how long they sleep?
+recite identify member
+reply testing something
+reply if you fail, they attack you?
+reply and how long you get lagged singing it?
+reply 45 is too much for bard?
+help assimilate
+help nethervoice
+help Dakheva's cloak
+spel samurai
+help deathbond
+spel dreadlord
+help deathknell
+help deadeyes
+help deathcry
+help deadcry
+of sit
+#alias of
+#alias ofj of join %0 Xadu
+'eye
+spel demonia
+help bloodlust
+s4w
+eessu
+prac sleep
+zzz member
+of stand
+charm 3.member
+of south
+gr all
+disband member
+ss14e26n
+wak;sse
+3nwu
+eu
+whoi Akima
+charm member
+charm 2.member
+charmm 2.member
+sn
+charmm 3.member
+charmm member
+of sle
+of wak
+of e
+of fol Xadu
+charm act
+charmm act
+disband
+3s
+visit Tux;'heal
+'vigor;'bless;'barkskin;'ffire
+tel Soriyoma want to get Loki and my ranger and get xp?
+whoi Soriyoma
+whoi Loki
+4
+tel Sammy You are there?
+top1 paragon
+help Necromancer]
+help Necromancer
+spel necromancer
+help mortify
+help zombify
+s14e26n
+13e
+#alias kw
+#alias hsnkwranged
+#alias hsnkwranged chorb
+#alias hsnkwmelee chorb
+#alias pracprac
+#alias pracprac kw
+kw
+help feeblemind
+kw member's
+quaf potion
+spel fighter
+spel mage
+help detect poison
+lwak
+rang
+kw member
+sswwss
+help wizard eye
+help light
+help crystal eyes
+prac charm monster
+grin
+noprompt
+'Or should I bring a tank?
+'I have an assassin. But if you get a couple more levels, I can bring my sam
+'Let's be like this with you, and learn how you play a wizard for a while?
+fol Inga
+fol Harbinger
+gos tzag
+mshield
+gt ready
+gt we kill?
+orb ticket
+help orb
+skli
+help chromatic
+exam corpse
+autosplit
+gt forgot autosplit
+gt nice
+l Harbinger
+gt I don't lead!
+gt atleast not now
+muds l
+chorb Trid'
+sgrasp
+help shockshield
+r
+sanc
+gr 57k
+gt 57k
+gt how you got so much hp?
+gt and how you don't have more mana?
+gt ah, priest
+gt ranger I mean
+gt Yeah, I thought it was Harbinger reporting
+gt almost ready
+med
+gt How you know?
+gos check Xiro. Xarni was a barbarian
+gos missed
+gt check Xiro. Xarni was a barb
+repor
+gt How you got that much hp/mana, Harbinger?
+gt OK.
+gt so?
+whoi Harbinger
+gt what plus?
+gt 4th gen bloodline gives bonus?
+gt I have a lvl 53 paragon myself. Shouldn't be much difference
+gt ah. But blood gives about +50 hp/mana, right?
+gt That's it
+gt yeah, I see
+gt my con is 4
+gt hehe
+gt int/wis?
+gt I got maxed int/wis/luck
+gt 6/24/21/12/4/18
+gt wow
+gt You got 91 total (+6 from blood)
+nod
+give all.purple Inga
+autojoin
+tog autojoin
+gt 20k
+chorb Trid
+gt damn
+think
+'what happend?
+'you attack if I do it?
+'BAH!
+'sorry, still learning group fights
+gos sorry about that. Not used to group fights
+gos The other muds I play, when you sleep and your group fights, you don't join
+who group
+who groups
+gwho
+tel Inga sorry, I ruined your fun
+#config
+tel Harbinger sorry, I intended to help. Seems that the negative side effects were larger.
+reply Trying to figure the best class for Xrus
+reply Not wizard
+help know monster
+knowmon Hamlet:
+knowmon Hamlet
+reply I see
+sse
+rec identify Hamlet
+rec identify gravedigger
+charmm gravedigger
+rec identify Macbeth
+rec identify Romeo
+rec identify Oberon
+rec identify Titania
+rec identify bard
+swwn
+buy identify
+14e26n13e
+rec identify guard
+rec identify princess
+8w
+l scrounging
+l scroll
+l ticket
+rec identify ticket
+of k ticket
+chorb ticket
+gr self
+ss4w
+10sw
+of k zombie
+rec iden cityguard
+10s
+e;charmm goul
+fle;reca
+s4w10s
+w5s
+charmm ghoul
+e;charmm ghoul
+ee
+s14e26n13e
+ss;oe;e
+3n
+charmm Romeo
+s4w10sw5s
+of k zombie;sl
+#alias hsndone1
+#alias hsndone2
+help mage
+sswwsse
+skskil
+help fubar
+withdraw 1000000
+4n
+prac hunt
+prac
+autodeposit
+4s
+help invisibility
+of k king;sl
+of k fool;sl
+rec iden Henry
+of k Henry
+oe
+rec iden John
+ow
+of k king
+of k fool
+range
+wak;mshield
+ac
+of k act;sl
+'barkskin;'bless;'ffire;'vigor
+chorb
+#10 poke ptam
+swwsse
+withdraw 100000
+w4s
+wwss
+prac identify
+#config {packet patch} 1.4
+u
+chorb;chorb
+of k member;sl
+fle
+ss
+sswwssu
+gain
+d
+charmm Juliet
+disband Juliet;charmm Juliet
+disband Romeo;charmm Romeo
+iden member
+#alias identify
+l magic
+l symbol
+swn
+list
+iden 7
+iden 6
+iden 5
+iden 4
+buy warlock
+hold warlock
+sell book
+quaf purple
+s14e26n13ess;oe;e
+4nw3n
+c iden member
+help identify
+help identify2
+help cast iden
+identify
+rec id member
+gos how can I use my identify spell?
+gos it doesn't work
+l book
+gos yes, but still..
+knowmon member
+knowmon control
+knowmon conductor
+identify conductor:
+identify conductor
+gos not identify <mob> ?
+iden purple
+gos and identify item doesn't work for me ither.
+identify purple
+gos identify purple tells me: Sorry, but you cannot do that here!
+knowmob conductor
+knowmob Guildenstern
+knowmon Guildenstern
+charmm Guildenstern:
+charmm Guildenstern
+disband Juliet
+disband Rosencrantz
+disband Romeo
+charmm Hamlet
+ww
+charmm Claudius
+charm Rosencrantz
+charmm Rosencrantz
+sl
+tel Darnon which monsters you suggest me to charm at this level?
+help charm monster
+c identify purple
+c 'identify' purple
+reply yeah, but which?
+reply suggestions?
+c 'identify' ptam
+gos ah! c 'identify' <item/mob> works.
+gos thanks
+wak
+7e
+7n
+c 'identify' gnome
+gos being able to identify is almost a must. Now that I can do it, I'll find mobs. Thanks.
+12n
+7w
+4w
+3w
+zzz ticket
+w
+l knife
+c 'iden' knife
+'refresh
+where Xendorian
+chorb Xendorian
+where
+c 'iden knight'
+fle;fle;reca
+visit Tux
+'heal
+gos I expected same thing. But knowmon won't work on mobs higher level than you
+gos atleast not yet
+depart
+es
+s;zzz Xendorian
+gos 5
+charmm 2.Xendorian
+n
+w;charmm 3.Xendorian
+charm 3.Xendorian
+gos yes. That's what I meant
+gos my casting level is 29 I cannot cast it on lvl 30 mobs
+gos but I can cast identify on them
+zzz
+ranged
+knowmon 2.Xendorian
+gos actually, the info is still very lacking
+disband knight
+charmm crossbowman
+charmm Xendorian
+e
+enter portal
+af
+c 'iden' crossbowman
+c 'iden' Xendorian
+dispel Xendorian
+wak Xendorian
+gos I slept this mob and charmed it. I cannot wake it?
+skil
+help fuba
+gr
+of wake
+scn
+c iden 2.Xendorian
+c 'iden' 2.Xendorian
+#alias iden c 'identify' %0
+iden Xendorian
+iden 2.Xendorian
+gos aggressive mobs attack you when the charm fails?
+gos when the charm ends
+gos not fails. ends
+gos if so, I'd better find non-aggressive mobs
+tel Darnon You have time to join?
+disband Xendorian
+l
+disband dreadlord
+reca
+iden Alban
+reply not Xadu
+reply Xiro
+who
+reply You might die, you know? \;)
+tap
+6
+remove all
+sc
+wear all
+1
+
+spel
+s
+id self
+#alias id
+#alias iden
+iden self
+wor
+eq
+l gloves
+l jacket
+l stone
+visit xrus
+visit zruz
+i
+remove book
+put book chest
+exam chest
+camp
+3
+55
+5

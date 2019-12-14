@@ -1,0 +1,42 @@
+Zmen
+10
+zone
+zerg
+b
+ogre
+8
+4n
+paragon
+#alias reroll
+#alias reroll rerol dex
+hsnsetmin
+hsnsetmin 0 0 0 0 0 14 0
+hsnsetweight 2 0 0 2 1 0 50
+hsnsetweight 3 0 0 2 1 0 110
+hsnsetweight 1 0 0 1 1 0
+reset
+hsnsetweight 1 0 0 1 1 0 53
+hsnsetweight 2 1 1 2 2 0 116
+reroll
+l
+who
+buy change werewolf
+#cr
+buy change
+scrol 55
+brief
+display all
+hsnclassdread
+help races
+buy change giant
+buy change human
+camp
+2
+zad
+y
+male
+e
+3
+4
+1
+n

@@ -1,0 +1,1 @@
+#act {A magical shard lies here.} {get shard;#tick {shard} {#echo {<010>!!!!!!! a shard was on the ground, hurry and pick it !!!!!!!<099>}} {12}}

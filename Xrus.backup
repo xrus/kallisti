@@ -1,0 +1,402 @@
+#CLASS {Xrus} OPEN
+
+#ACTION {%1 does not have enough energy left to drain.}
+{
+	#alias hsnspell darkfire
+}
+{5}
+
+#ACTION {**%1: 'qw'}
+{
+	#if {%1==$leader}
+	{
+		/
+	}
+}
+{5}
+
+#ACTION {**Hades: 'tnl%*'}
+{
+	gt $MSDP_EXPERIENCE_TNL $MSDP_HERO_POINTS_TNL $MSDP_NOBLE_POINTS_TNL
+}
+{5}
+
+#ACTION {**Icarius: '%1 me'}
+{
+	%1 Icarius
+}
+{5}
+
+#ACTION {**Icarius: 'all %1'}
+{
+	%1
+}
+{5}
+
+#ACTION {**Icarius: 'gsanc'}
+{
+	sanc group
+}
+{5}
+
+#ACTION {**Icarius: 'mira'}
+{
+	mira group
+}
+{5}
+
+#ACTION {**Xepher: 'qw'}
+{
+	/
+}
+{5}
+
+#ACTION {A powerful wind flows through the tunnels, sweeping you along with it.}
+{
+	hsndone
+}
+{5}
+
+#ACTION {Alas, you cannot go up...}
+{
+	open vent;
+	l
+}
+{5}
+
+#ACTION {Hades places something in the back of %1, resulting in a gush of blood!}
+{
+	shihonage $hsntarget
+}
+{5}
+
+#ACTION {Hades tries to backstab %1 but nearly cuts his own finger!}
+{
+	shihonage $hsntarget
+}
+{5}
+
+#ACTION {Maximum: Str %1,  Int %2,  Wis %3,  Dex %4,  Con %5,  Luk %6}
+{
+	#math {hsnmaximum} {%1+%2+%3+%4+%5+%6};
+	#echo $hsnmaximum
+}
+{5}
+
+#ACTION {Shakespeare places something in the back of %1, resulting in a gush of blood!}
+{
+	ofj Shakespeare
+}
+{5}
+
+#ACTION {Shakespeare tries to backstab %1 but nearly cuts his own finger!}
+{
+	ofj Shakespeare
+}
+{5}
+
+#ACTION {You are too full to eat more!}
+{
+	put all.berry $sack;
+	bind
+}
+{5}
+
+#ACTION {You join the fight with %1.}
+{
+	assistassist
+}
+{5}
+
+#ACTION {You miss your bash at %1 and land flat on your face.}
+{
+	bashbash
+}
+{5}
+
+#ACTION {You need to specify a victim name for your spell.}
+{
+	#undelay hsnnextcast
+}
+{5}
+
+#ACTION {You open the %1}
+{
+	l
+}
+{5}
+
+#ACTION {You quickly find page %1, in the %2 spell book.}
+{
+	#if {%1 == 17}
+	{
+		#delay {hsnnextcast} {castcast} {0.3}
+	}
+}
+{5}
+
+#ACTION {You try to climb but couldn't get a good grip that time.}
+{
+	l
+}
+{5}
+
+#ACTION {Your bash hits %1 square on and lands %2 flat on %3.}
+{
+	bashbash
+}
+{5}
+
+#ALIAS {assistassist}
+{
+	#nop
+}
+{5}
+
+#ALIAS {bashbash}
+{
+	pracskill
+}
+{5}
+
+#ALIAS {bashbash2}
+{
+	deathstroke
+}
+{5}
+
+#ALIAS {castcast}
+{
+	pracskill
+}
+{5}
+
+#ALIAS {charm}
+{
+	charmm
+}
+{5}
+
+#ALIAS {dir1}
+{
+	order Bink charge %0;
+	order Shakespeare join Bink;
+	#alias dir dir2
+}
+{5}
+
+#ALIAS {dir2}
+{
+	order Shakespeare backstab %0;
+	order Bink join Shakespeare;
+	#alias dir dir1
+}
+{5}
+
+#ALIAS {hsndone0}
+{
+	#if {$MSDP_EXPERIENCE > $hsnstopexp}
+	{
+		nohunt;
+		#echo {<160> No more hunting. Go meta! <099>}
+	};
+	#else
+	{
+		#echo {<160> Continue hunting <099>}
+	}
+}
+{5}
+
+#ALIAS {hsndone3}
+{
+	edrain corpse
+}
+{5}
+
+#ALIAS {hsnspell}
+{
+	darkfire
+}
+{5}
+
+#ALIAS {iden}
+{
+	cast 'identify'
+}
+{5}
+
+#ALIAS {joinjoin}
+{
+	assistassist
+}
+{5}
+
+#ALIAS {know}
+{
+	knowmon
+}
+{5}
+
+#ALIAS {knowm}
+{
+	knowmon
+}
+{5}
+
+#ALIAS {knowmo}
+{
+	knowmon
+}
+{5}
+
+#ALIAS {laglag2}
+{
+	bashbash2
+}
+{5}
+
+#ALIAS {ofk}
+{
+	of kill
+}
+{5}
+
+#ALIAS {recharm}
+{
+	disband %0;
+	charmm %0
+}
+{5}
+
+#ALIAS {reroll}
+{
+	rerol hp
+}
+{5}
+
+#ALIAS {san}
+{
+	sanc
+}
+{5}
+
+#ALIAS {sanc}
+{
+	get purple $sack;
+	quaff purple
+}
+{5}
+
+#GAG              {{Old|New} {base|max} stats: %*}
+#VARIABLE         {MSDP_COMBAT_STANCE}  {Aggressive}
+#VARIABLE         {MSDP_GROUP1_HEALTH}  {0}
+#VARIABLE         {MSDP_GROUP1_NAME}  {}
+#VARIABLE         {MSDP_GROUP1_STAMINA}  {0}
+#VARIABLE         {MSDP_GROUP2_HEALTH}  {0}
+#VARIABLE         {MSDP_GROUP2_NAME}  {}
+#VARIABLE         {MSDP_GROUP2_STAMINA}  {0}
+#VARIABLE         {MSDP_GROUP3_HEALTH}  {0}
+#VARIABLE         {MSDP_GROUP3_NAME}  {}
+#VARIABLE         {MSDP_GROUP3_STAMINA}  {0}
+#VARIABLE         {MSDP_GROUP4_HEALTH}  {0}
+#VARIABLE         {MSDP_GROUP4_NAME}  {}
+#VARIABLE         {MSDP_GROUP4_STAMINA}  {0}
+#VARIABLE         {MSDP_GROUP5_HEALTH}  {0}
+#VARIABLE         {MSDP_GROUP5_NAME}  {}
+#VARIABLE         {MSDP_GROUP5_STAMINA}  {0}
+#VARIABLE         {MSDP_GROUP6_HEALTH}  {0}
+#VARIABLE         {MSDP_GROUP6_NAME}  {}
+#VARIABLE         {MSDP_GROUP6_STAMINA}  {0}
+#VARIABLE         {MSDP_GROUP7_HEALTH}  {0}
+#VARIABLE         {MSDP_GROUP7_NAME}  {}
+#VARIABLE         {MSDP_GROUP7_STAMINA}  {0}
+#VARIABLE         {MSDP_GROUP8_HEALTH}  {0}
+#VARIABLE         {MSDP_GROUP8_NAME}  {}
+#VARIABLE         {MSDP_GROUP8_STAMINA}  {0}
+#VARIABLE         {MSDP_GROUP9_HEALTH}  {0}
+#VARIABLE         {MSDP_GROUP9_NAME}  {}
+#VARIABLE         {MSDP_GROUP9_STAMINA}  {0}
+#VARIABLE         {MSDP_HERO_POINTS}  {2229}
+#VARIABLE         {MSDP_HERO_POINTS_TNL}  {0}
+#VARIABLE         {MSDP_MOUNT_HEALTH}  {923}
+#VARIABLE         {MSDP_MOUNT_HEALTH_MAX}   {923}
+#VARIABLE         {MSDP_MOUNT_NAME}  {a winged nightmare}
+#VARIABLE         {MSDP_MOUNT_STAMINA}  {2082}
+#VARIABLE         {MSDP_MOUNT_STAMINA_MAX}    {2082}
+#VARIABLE         {MSDP_NOBLE_POINTS}  {0}
+#VARIABLE         {MSDP_NOBLE_POINTS_TNL}   {0}
+#VARIABLE         {MSDP_WHOFLAGS}  {<P>}
+#VARIABLE         {MSP}  {{LAST}{spell_heal.wav}{SOUND}{0}{VOLUME}{0}}
+#VARIABLE         {OLD_MSDP_OPPONENT_NAME}    {the audience member}
+#VARIABLE         {auto}  {{deposit}{1}{join}{1}{recall}{/}{recallPercent}{40}{sanc}{aura}{shape}{plant}{warpaint}{crimson}}
+#VARIABLE         {autoHealSelf}  {heal}
+#VARIABLE         {autoHealSelfPercent}  {70}
+#VARIABLE         {channelAdvice}  {}
+#VARIABLE         {channelArena}  {}
+#VARIABLE         {channelBarter}  {}
+#VARIABLE         {channelGossip}  {}
+#VARIABLE         {channelHero}  {}
+#VARIABLE         {concentration}  {}
+#VARIABLE         {enemyConditionTone}  {610}
+#VARIABLE         {filter}  {0}
+#VARIABLE         {friends}  {{1}{Xepher}}
+#VARIABLE         {gn}  {2}
+#VARIABLE         {groupAdd}  {}
+#VARIABLE         {heal}  {{incapacitated}{heal}{moderate}{heal}{morted}{heal}{nearDeath}{heal}{severe}{heal}{stunned}{heal}}
+#VARIABLE         {hook}  {{Advice}{}{Arena}{}{Barter}{}{Gossip}{}{Guilds}{}{Hero}{}{areaName}{}{arrive}{}{characterName}{}{characterPosition}{}{concentration}{}{groupAdd}{}{groupTell}{}{info}{}{leave}{}{playerDeath}{}{report}{}{roomName}{}{roomNumber}{}{roomTossed}{}{say}{}{tell}{}{trackFail}{}{trackLose}{}}
+#VARIABLE         {hsnclass}  {Mage}
+#VARIABLE         {hsncon}  {0}
+#VARIABLE         {hsndex}  {0}
+#VARIABLE         {hsnhp}  {0}
+#VARIABLE         {hsnhpratio}  {6.12}
+#VARIABLE         {hsnhuntdir}  {}
+#VARIABLE         {hsnint}  {0}
+#VARIABLE         {hsnlmax}  {0}
+#VARIABLE         {hsnluc}  {0}
+#VARIABLE         {hsnmaxcon}  {0}
+#VARIABLE         {hsnmaxdex}  {0}
+#VARIABLE         {hsnmaxhp}  {0}
+#VARIABLE         {hsnmaximum}  {127}
+#VARIABLE         {hsnmaxint}  {0}
+#VARIABLE         {hsnmaxluc}  {0}
+#VARIABLE         {hsnmaxmn}  {0}
+#VARIABLE         {hsnmaxssum}  {0}
+#VARIABLE         {hsnmaxst}  {0}
+#VARIABLE         {hsnmaxstr}  {0}
+#VARIABLE         {hsnmaxsum}  {0}
+#VARIABLE         {hsnmaxwis}  {0}
+#VARIABLE         {hsnmn}  {0}
+#VARIABLE         {hsnmpratio}  {11}
+#VARIABLE         {hsnrace}  {minotaur}
+#VARIABLE         {hsnratio}  {52775.74}
+#VARIABLE         {hsnsample}  {0}
+#VARIABLE         {hsnspratio}  {2.97}
+#VARIABLE         {hsnssum}  {0}
+#VARIABLE         {hsnst}  {0}
+#VARIABLE         {hsnstopexp}  {10000000}
+#VARIABLE         {hsnstr}  {0}
+#VARIABLE         {hsnsum}  {0}
+#VARIABLE         {hsnsummax}  {0}
+#VARIABLE         {hsntnl}  {486615}
+#VARIABLE         {hsntotal}  {0}
+#VARIABLE         {hsnwcheck}  {7580}
+#VARIABLE         {hsnwcon}  {201}
+#VARIABLE         {hsnwdex}  {1}
+#VARIABLE         {hsnwint}  {101}
+#VARIABLE         {hsnwis}  {0}
+#VARIABLE         {hsnwluc}  {101}
+#VARIABLE         {hsnwstr}  {1}
+#VARIABLE         {hsnwwis}  {101}
+#VARIABLE         {idleList}  {{1}{#nop}}
+#VARIABLE         {info}  {}
+#VARIABLE         {roomName}  {}
+#VARIABLE         {roomNumber}  {}
+#VARIABLE         {roomTossed}  {}
+#VARIABLE         {say}  {}
+#VARIABLE         {tell}  {}
+#VARIABLE         {tmp}  {north}
+#VARIABLE         {trackFail}  {}
+#VARIABLE         {trackLose}  {}
+#VARIABLE         {weapon}  {maul}
+
+#CLASS {Xrus} CLOSE

@@ -1,0 +1,44 @@
+#var hsnisranged 0
+#var hsnisevade 0
+#var hsnrangedweapon bow
+#var hsnmeleeweapon1 spear
+#var hsnmeleeweapon2 0
+#var hsnshield 0
+
+#alias hsngetranged hsngetevade
+#alias hsngetrangedonly {#if {$hsnisranged == 0} {ranged}}
+#alias hsngetevade {#if {$hsnisevade == 0} {evade}; #else {#if {$hsnisranged == 0} {ranged}}}
+#alias hsngetmelee {#if {$hsnisranged == 1} {ranged}}
+#alias ddrawddraw pracskill
+#alias hsndirranged snipe
+#alias hsndirmelee impale
+#alias hsndirmeleeranged hsndirmelee
+#alias dir {hsndirmeleeranged %0}
+#alias hsnkwranged deepdraw
+#alias hsnkwmelee #nop
+#alias hsnkwmeleeranged hsnkwmelee
+#alias kw hsnkwmeleeranged
+#alias hsnsetweapons {#var hsnrangedweapon %1; #var hsnmeleeweapon1 %2; #var hsnmeleeweapon2 0; #if { "%3" != "" } {#var hsnmeleeweapon2 %3}}
+#alias hsnsetshield {#var hsnshield %1}
+#alias hsnsetnoshield {#var hsnshield 0}
+#alias hsnwieldranged {#if {"$hsnshield" != "0"} {remove $hsnshield}; #if {"$hsnmeleeweapon2" != "0"} {remove $hsnmeleeweapon2}; remove $hsnmeleeweapon1;wield $hsnrangedweapon}
+#alias hsnwieldmelee {remove $hsnrangedweapon; wield $hsnmeleeweapon1; #if {"$hsnmeleeweapon2" != "0"} {hold $hsnmeleeweapon2}; #if {"$hsnshield" != "0"} {wear $hsnshield}}
+#alias hsnrangedmelee {#if {$hsnisranged == 0} {hsnfightranged}; #else {hsnfightmelee}}
+
+#alias hsnfightranged {#echo {<120>-------------- fighting ranged --------------<099>}; hsnwieldranged; #alias hsndirmeleeranged hsndirranged; #alias hsnkwmeleeranged hsnkwranged}
+#alias hsnfightmelee {#echo {<120>-------------- fighting melee --------------<099>}; hsnwieldmelee; #alias hsndirmeleeranged hsndirmelee; #alias hsnkwmeleeranged hsnkwmelee}
+
+#act {You fail to find a good evasive position.} evade
+#act {^%1 advances on you!} {#var hsnisevade 0;#var hsnisranged 0}
+#act {You are already evading.} {#var hsnisevade 1}
+#act {Success! You manage to get out of close quarter combat and into ranged combat.} {#var hsnisranged 1}
+#act {Ok, you will try to fight from ranged combat distance.} {#var hsnisranged 1}
+#act {You will not try to fight from ranged combat distance.  You will still need to ADVANCE on opponents who are attempting to use ranged combat in order to hit them.} {#var hsnisranged 0}
+#act {You need to ADVANCE to reach your opponent with melee attacks.} {#var hsnisranged 1}
+#act {You concentrate on evading enemies from advancing on you.} {#var hsnisevade 1;#var hsnisranged 1}
+#act {You stop evading.} {#var hsnisevade 0}
+
+#act {You draw back, and sputter as you exhale hooking your shot out of the battlefield.} ddrawddraw
+#act {You draw back slowly, and fire a shot at %1 hitting %2.} ddrawddraw
+
+#event {VARIABLE UPDATE hsnisranged} {#if {$hsnisranged != %1} {hsnrangedmelee}}

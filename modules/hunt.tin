@@ -1,0 +1,198 @@
+#ACTION {They aren't here.}
+{
+     #echo {lets hunt!};
+     #variable hsntryhere 0;
+     hunt $hsntarget
+}
+
+#ACTION {No target found by the name of '%1.'}
+{
+     #format {hsnarg1} {%l} {%1};
+     #if {"$hsntarget"=="$hsnarg1"}
+     {
+          #echo {lets hunt!};
+          #if {$hsntryhere}
+          {
+               #variable hsntryhere 0;
+               hunt $hsntarget
+          }
+     }
+}
+{4}
+
+#ACTION {No target found by the name of '%1'}
+{
+     #format {hsnarg1} {%l} {%1};
+     #if {"$hsntarget"=="$hsnarg1"}
+     {
+          #echo {lets hunt!};
+          #if {$hsntryhere}
+          {
+               #variable hsntryhere 0;
+               hunt $hsntarget
+          }
+     }
+}
+
+#ACTION {^{\[\* You found your target! \*\]|^You start searching for tracks but then realize your target is right here!}$}
+{
+     hsnsetrenewhunt;
+     #variable hsnhuntdir {};
+     #variable hsntryhere 1;
+     #echo {<120>!!!!!!!!!!!!!! You got here !!!!!!!!!!!!!!<099>};
+     hsnautoattacktarget
+}
+
+#ACTION {[* You see your target's tracks leading %1. *]}
+{
+     hsnsetrenewhunt;
+     #variable hsntryhere 1;
+     #variable hsnhuntdir %1;
+     hsngohunt
+}
+
+#ACTION {^[* You {fail to find|lose|lost} the tracks. *]$}
+{
+     hsnsethunt;
+     #variable hsnlasttarget $hsntarget;
+     #action {Couldn't find any such thing.} {hsnremovelasttarget};
+     #delay {hsnlasttargetremoval} {#unact {Couldn't find any such thing.}} {3};
+     where $hsnlasttarget;
+     hsnchangetarget
+}
+
+
+#ALIAS {hsnautoattack}
+{
+     #alias hsntdir hsndirmeleeranged $hsntarget
+}
+
+#ALIAS {hsnautoattacktarget}
+{
+     hsntdir
+}
+
+#ALIAS {hsnautohunt}
+{
+     #alias hsngohunt #send {$hsnhuntdir}
+}
+
+#ALIAS {hsnchangetarget}
+{
+     #list hsntargetlist size hsntargetsize;
+     #math {hsntargetindex} {1 d $hsntargetsize};
+     #if {$hsntargetsize > 0}
+     {
+          #variable hsntarget $hsntargetlist[-$hsntargetindex];
+          #echo {Now hunting for $hsntarget}
+     }
+}
+
+#ALIAS {hsngohunt}
+{
+     #send {$hsnhuntdir}
+}
+
+#ALIAS {hsnnoautoattack}
+{
+     #alias hsntdir #nop
+}
+
+#ALIAS {hsnnoautohunt}
+{
+     #alias hsngohunt #nop
+}
+
+#ALIAS {hsnremovelasttarget}
+{
+     #list hsntargetlist size {hsntargetsize};
+     #if {$hsntargetsize > 0}
+     {
+          #echo {finding/removing $hsnlasttarget};
+          #list hsntargetlist find {$hsnlasttarget} {hsnlasttargetindex};
+          #if {$hsnlasttargetindex > 0}
+          {
+               #list hsntargetlist delete $hsnlasttargetindex;
+               gt not hunting $hsnlasttarget anymore
+          }
+     };
+     #list hsntargetlist size {hsntargetsize};
+     #if {$hsntargetsize == 0}
+     {
+          #variable hsntarget {}
+     }
+}
+
+#ALIAS {hsnsethunt}
+{
+     #ticker {hsnhunt} {hunt $hsntarget} {$hsnhunttimer};
+     #unticker hsnrenewhunt;
+     #unticker hsncancelrenewhunt;
+}
+
+#ALIAS {hsnsetrenewhunt}
+{
+     #ticker {hsnrenewhunt} {hsnsethunt} {$hsnhunttimer*10};
+     #ticker {hsncancelrenewhunt} {#if {$MSDP_OPPONENT_NUMBER > 0} {#unticker hsnrenewhunt; #unticker hsncancelrenewhunt}} {hsnhunttimer};
+     #unticker hsnhunt;
+}
+
+#ALIAS {hunt}
+{
+     #if {"%0"!= ""}
+     {
+          #format {hsnarg1} {%l} {%0};
+          #if {"$hsntarget"!= "$hsnarg1"}
+          {
+               #variable hsntarget $hsnarg1;
+               #variable hsntryhere 1;
+               #list hsntargetlist find {$hsnarg1} hsntargetfound;
+               #if {! $hsntargetfound}
+               {
+                    #list hsntargetlist add $hsnarg1;
+                    #list hsntargetlist simplify hsnsimpletargetlist;
+                    gt Mytargetlist is: $hsnsimpletargetlist;
+                    #unvariable hsnsimpletargetlist
+               }
+          };
+          #if {$hsntryhere}
+          {
+               hsnautoattacktarget;
+               #echo {trying here 1}
+          };
+          #else
+          {
+               hun $hsntarget;
+               #unticker hsnrenewhunt;
+               #unticker hsncancelrenewhunt;
+          }
+     }
+}
+
+#ALIAS {huntlist}
+{
+     #list {hsntargetlits} clear;
+     #list {hsntargetlist} {create} {%0};
+     #list {hsntargetlist} size {hsntargetlistsize};
+     #loop {1} {$hsntargetlistsize} {hsntargetlistindex}
+     {
+          #format hsntargetlist[$hsntargetlistindex] {%l} {$hsntargetlist[$hsntargetlistindex]}
+     };
+     #list hsntargetlist simplify hsnsimpletargetlist;
+     gt My targetlist is: $hsnsimpletargetlist;
+     #unvariable hsnsimpletargetlist
+}
+
+#ALIAS {nohunt}
+{
+     hunt {};
+     gt my target is nothing now!;
+     #list hsntargetlist clear;
+     #variable hsntarget {};
+     #unticker hsnhunt;
+     #unticker hsnrenewhunt;
+     #unticker hsncancelrenewhunt;
+}
+
+#VARIABLE         {hsnhunttimer}  {5}
+

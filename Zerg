@@ -1,0 +1,39 @@
+#CLASS {Zerg} OPEN
+
+#VARIABLE         {MSP}  {{SOUND}{1}{VOLUME}{0}}
+#VARIABLE         {auto}  {{recall}{/}{recallPercent}{30}}
+#VARIABLE         {autoHealSelfPercent}  {50}
+#VARIABLE         {autohealList}  {}
+#VARIABLE         {hook}  {{areaName}{}{charactername}{}{manaPercent}{}{position}{}{race}{}{roomName}{}{roomNumber}{}{tell}{}}
+#VARIABLE         {hsncon}  {Average   }
+#VARIABLE         {hsndex}  {Poor      }
+#VARIABLE         {hsnhp}  {0}
+#VARIABLE         {hsnhpratio}  {13.8}
+#VARIABLE         {hsnint}  {Good      }
+#VARIABLE         {hsnlmax}  {0}
+#VARIABLE         {hsnluc}  {Average   }
+#VARIABLE         {hsnmaxcon}  {0}
+#VARIABLE         {hsnmaxdex}  {0}
+#VARIABLE         {hsnmaxhp}  {0}
+#VARIABLE         {hsnmaxint}  {0}
+#VARIABLE         {hsnmaxluc}  {0}
+#VARIABLE         {hsnmaxmn}  {0}
+#VARIABLE         {hsnmaxssum}  {0}
+#VARIABLE         {hsnmaxst}  {0}
+#VARIABLE         {hsnmaxstr}  {0}
+#VARIABLE         {hsnmaxsum}  {0}
+#VARIABLE         {hsnmaxwis}  {0}
+#VARIABLE         {hsnmn}  {0}
+#VARIABLE         {hsnmpratio}  {4.5}
+#VARIABLE         {hsnrace}  {human}
+#VARIABLE         {hsnsample}  {7}
+#VARIABLE         {hsnspratio}  {5.2}
+#VARIABLE         {hsnssum}  {0}
+#VARIABLE         {hsnst}  {0}
+#VARIABLE         {hsnstr}  {Average   }
+#VARIABLE         {hsnsum}  {0}
+#VARIABLE         {hsnsummax}  {0}
+#VARIABLE         {hsntotal}  {0}
+#VARIABLE         {hsnwis}  {Great     }
+
+#CLASS {Zerg} CLOSE

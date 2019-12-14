@@ -1,0 +1,24 @@
+#CLASS {Xin} OPEN
+
+#VARIABLE         {MSP}  {{SOUND}{1}{VOLUME}{0}}
+#VARIABLE         {OLD_MSDP_OPPONENT_NAME}    {a Xendorian knight}
+#VARIABLE         {auto}  {{deposit}{1}{recallPercent}{20}}
+#VARIABLE         {autoHealSelfPercent}  {50}
+#VARIABLE         {autohealList}  {}
+#VARIABLE         {autorescueList}  {}
+#VARIABLE         {currTime}  {1555137000}
+#VARIABLE         {filter}  {1}
+#VARIABLE         {fleeString}  {}
+#VARIABLE         {hook}  {{areaName}{}{arena}{}{arrive}{}{barter}{}{bump}{}{charactername}{}{gossip}{}{hero}{}{incapacitated}{}{info}{}{leave}{}{manaPercent}{}{morted}{}{opponentHealth}{}{opponentName}{}{opponentNumber}{}{pk}{}{position}{}{race}{}{roomName}{}{roomNumber}{}{say}{}{stunned}{}{tell}{}}
+#VARIABLE         {hours}  {431982}
+#VARIABLE         {hsnhpratio}  {13.2}
+#VARIABLE         {hsnhuntdir}  {}
+#VARIABLE         {hsnmpratio}  {0.1}
+#VARIABLE         {hsnspratio}  {11.05}
+#VARIABLE         {idle.seconds}  {5}
+#VARIABLE         {idle.time}  {1555251720}
+#VARIABLE         {idleList}  {{1}{pose}}
+#VARIABLE         {voteTime}  {-n 0}
+#VARIABLE         {weapon}  {spear}
+
+#CLASS {Xin} CLOSE

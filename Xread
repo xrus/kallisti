@@ -1,0 +1,75 @@
+#CLASS {Xread} OPEN
+
+#ACTION {%1 staggers back, shocked by your glare. (%2 damage)}
+{
+     glareglare
+}
+
+#ACTION {You glare at %1 who doesn't even notice.}
+{
+     glareglare
+}
+
+#ALIAS {glareglare}
+{
+     pracskill
+}
+
+#VARIABLE         {MSP}  {{LAST}{channel_gossip.wav}{SOUND}{0}{VOLUME}{0}}
+#VARIABLE         {OLD_MSDP_OPPONENT_NAME}    {an enraged taskmaster}
+#VARIABLE         {auto}  {{deposit}{1}{poke}{dir}{recall}{/}{recallPercent}{30}{sanc}{sanc}}
+#VARIABLE         {autoHealSelfPercent}  {50}
+#VARIABLE         {autohealList}  {}
+#VARIABLE         {autorescueList}  {}
+#VARIABLE         {currTime}  {1559592906}
+#VARIABLE         {enemyConditionTone}  {1080}
+#VARIABLE         {filter}  {1}
+#VARIABLE         {fleeString}  {}
+#VARIABLE         {friends}  {}
+#VARIABLE         {hook}  {{Advice}{}{Arena}{}{Barter}{}{Gossip}{}{Hero}{}{advice}{}{areaName}{}{arena}{}{arrive}{}{barter}{}{bump}{}{characterName}{}{charactername}{}{gossip}{}{groupAdd}{}{groupLeave}{}{groupTell}{}{hero}{}{hpPercent}{}{incapacitated}{}{info}{}{leave}{}{lootCorpse}{}{manaPercent}{}{morted}{}{opponentHealth}{}{opponentName}{}{opponentNumber}{}{playerDeath}{}{position}{}{race}{}{report}{}{roomName}{}{roomNumber}{}{say}{}{staminaPercent}{}{stunned}{}{tell}{}}
+#VARIABLE         {hours}  {433220}
+#VARIABLE         {hsnclass}  {Fighter}
+#VARIABLE         {hsncon}  {14}
+#VARIABLE         {hsndex}  {13}
+#VARIABLE         {hsnhp}  {138}
+#VARIABLE         {hsnhpratio}  {13.8}
+#VARIABLE         {hsnhuntdir}  {}
+#VARIABLE         {hsnint}  {10}
+#VARIABLE         {hsnlmax}  {71}
+#VARIABLE         {hsnluc}  {11}
+#VARIABLE         {hsnmaxcon}  {19}
+#VARIABLE         {hsnmaxdex}  {20}
+#VARIABLE         {hsnmaxhp}  {170}
+#VARIABLE         {hsnmaxint}  {21}
+#VARIABLE         {hsnmaxluc}  {19}
+#VARIABLE         {hsnmaxmn}  {42}
+#VARIABLE         {hsnmaxssum}  {101}
+#VARIABLE         {hsnmaxst}  {141}
+#VARIABLE         {hsnmaxstr}  {25}
+#VARIABLE         {hsnmaxsum}  {88}
+#VARIABLE         {hsnmaxwis}  {21}
+#VARIABLE         {hsnmn}  {33}
+#VARIABLE         {hsnmpratio}  {4.5}
+#VARIABLE         {hsnrace}  {human}
+#VARIABLE         {hsnratio}  {76275.6}
+#VARIABLE         {hsnrecharmtimer}  {1}
+#VARIABLE         {hsnsample}  {11473}
+#VARIABLE         {hsnspratio}  {5.2}
+#VARIABLE         {hsnssum}  {63}
+#VARIABLE         {hsnst}  {123}
+#VARIABLE         {hsnstr}  {20}
+#VARIABLE         {hsnsum}  {80}
+#VARIABLE         {hsnsummax}  {125}
+#VARIABLE         {hsntnl}  {117518}
+#VARIABLE         {hsntotal}  {0}
+#VARIABLE         {hsnwis}  {12}
+#VARIABLE         {idle.seconds}  {8}
+#VARIABLE         {idle.time}  {1575636300}
+#VARIABLE         {idleList}  {{1}{look}}
+#VARIABLE         {manualWerewolf}  {1}
+#VARIABLE         {onDeath}  {{1}{sanc}{2}{sanc}{3}{sanc}{4}{sanc}{5}{sanc}{6}{sanc}{7}{sanc}{8}{sanc}{9}{sanc}{10}{sanc}{11}{sanc}{12}{sanc}{13}{sanc}{14}{sanc}{15}{sanc}{16}{sanc}{17}{sanc}{18}{sanc}{19}{sanc}{20}{sanc}{21}{sanc}{22}{mount nightmare}{23}{sanc}{24}{sanc}{25}{sanc}{26}{sanc}{27}{sanc}}
+#VARIABLE         {tmp}  {east}
+#VARIABLE         {voteTime}  {-n 1556919009}
+#VARIABLE         {weapon}  {Hermes}
+
+#CLASS {Xread} CLOSE

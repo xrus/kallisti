@@ -1,0 +1,58 @@
+#CLASS {Xemple} OPEN
+
+#ALIAS {charmm}
+{
+	charm
+}
+{5}
+
+#VARIABLE         {MSP}  {{SOUND}{0}{VOLUME}{0}}
+#VARIABLE         {OLD_MSDP_OPPONENT_NAME}    {a zombie}
+#VARIABLE         {auto}  {{bless}{bless}{deposit}{1}{recall}{/}{recallPercent}{30}{sanc}{sanc}{vigor}{vigor}}
+#VARIABLE         {autoHealSelf}  {60}
+#VARIABLE         {autoHealSelfPercent}  {50}
+#VARIABLE         {autohealList}  {}
+#VARIABLE         {autorescueList}  {}
+#VARIABLE         {currTime}  {1555507800}
+#VARIABLE         {filter}  {1}
+#VARIABLE         {fleeString}  {}
+#VARIABLE         {hook}  {{advice}{}{areaName}{}{arena}{}{arrive}{}{bump}{}{charactername}{}{concentration}{}{gossip}{}{groupAdd}{}{hero}{}{incapacitated}{}{info}{}{leave}{}{manaPercent}{}{morted}{}{opponentHealth}{}{opponentName}{}{opponentNumber}{}{position}{}{race}{}{roomName}{}{roomNumber}{}{say}{}{stunned}{}{tell}{}}
+#VARIABLE         {hours}  {432085}
+#VARIABLE         {hsnclass}  {Priest}
+#VARIABLE         {hsncon}  {12 }
+#VARIABLE         {hsndex}  {16 }
+#VARIABLE         {hsnhp}  {0}
+#VARIABLE         {hsnhpratio}  {9}
+#VARIABLE         {hsnint}  {11 }
+#VARIABLE         {hsnlmax}  {0}
+#VARIABLE         {hsnluc}  {10 }
+#VARIABLE         {hsnmaxcon}  {12}
+#VARIABLE         {hsnmaxdex}  {17}
+#VARIABLE         {hsnmaxhp}  {0}
+#VARIABLE         {hsnmaxint}  {11}
+#VARIABLE         {hsnmaxluc}  {10}
+#VARIABLE         {hsnmaxmn}  {0}
+#VARIABLE         {hsnmaxssum}  {0}
+#VARIABLE         {hsnmaxst}  {0}
+#VARIABLE         {hsnmaxstr}  {15}
+#VARIABLE         {hsnmaxsum}  {70}
+#VARIABLE         {hsnmaxwis}  {8}
+#VARIABLE         {hsnmn}  {0}
+#VARIABLE         {hsnmpratio}  {9.75}
+#VARIABLE         {hsnrace}  {centaur}
+#VARIABLE         {hsnrecharmtimer}  {1}
+#VARIABLE         {hsnsample}  {2}
+#VARIABLE         {hsnspratio}  {2.55}
+#VARIABLE         {hsnssum}  {0}
+#VARIABLE         {hsnst}  {0}
+#VARIABLE         {hsnstr}  {13 }
+#VARIABLE         {hsnsum}  {70}
+#VARIABLE         {hsnsummax}  {73}
+#VARIABLE         {hsntotal}  {0}
+#VARIABLE         {hsnwis}  {8 }
+#VARIABLE         {idleList}  {{1}{pose}}
+#VARIABLE         {onDeath}  {{1}{sanc}{2}{sanc}{3}{bless}{4}{sanc}}
+#VARIABLE         {voteTime}  {-n 0}
+#VARIABLE         {weapon}  {club}
+
+#CLASS {Xemple} CLOSE

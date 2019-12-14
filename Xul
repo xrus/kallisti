@@ -1,0 +1,55 @@
+#CLASS {Xul} OPEN
+
+#ALIAS {bashbash2}
+{
+	deathstroke
+}
+{5}
+
+#ALIAS {laglag2}
+{
+	bashbash2
+}
+{5}
+
+#VARIABLE         {MSDP_COMBAT_STANCE}  {Neutral}
+#VARIABLE         {MSDP_HERO_POINTS}  {0}
+#VARIABLE         {MSDP_HERO_POINTS_TNL}  {0}
+#VARIABLE         {MSDP_MOUNT_HEALTH}  {0}
+#VARIABLE         {MSDP_MOUNT_HEALTH_MAX}   {0}
+#VARIABLE         {MSDP_MOUNT_NAME}  {}
+#VARIABLE         {MSDP_MOUNT_STAMINA}  {0}
+#VARIABLE         {MSDP_MOUNT_STAMINA_MAX}    {0}
+#VARIABLE         {MSDP_NOBLE_POINTS}  {0}
+#VARIABLE         {MSDP_NOBLE_POINTS_TNL}   {0}
+#VARIABLE         {MSDP_WHOFLAGS}  {}
+#VARIABLE         {MSP}  {{LAST}{miscellaneous_fanfare\*.wav}{SOUND}{1}{VOLUME}{0}}
+#VARIABLE         {auto}  {{recallPercent}{20}}
+#VARIABLE         {autoHealSelfPercent}  {50}
+#VARIABLE         {fleeString}  {}
+#VARIABLE         {hook}  {{areaName}{}{characterName}{}{leave}{}{roomName}{}{roomNumber}{}}
+#VARIABLE         {hsncon}  {11 }
+#VARIABLE         {hsndex}  {10 }
+#VARIABLE         {hsnhpratio}  {15.92}
+#VARIABLE         {hsnint}  {12 }
+#VARIABLE         {hsnlmax}  {0}
+#VARIABLE         {hsnluc}  {11 }
+#VARIABLE         {hsnmaxcon}  {11}
+#VARIABLE         {hsnmaxdex}  {10}
+#VARIABLE         {hsnmaxint}  {12}
+#VARIABLE         {hsnmaxluc}  {11}
+#VARIABLE         {hsnmaxstr}  {11}
+#VARIABLE         {hsnmaxsum}  {71}
+#VARIABLE         {hsnmaxwis}  {16}
+#VARIABLE         {hsnmpratio}  {0.1}
+#VARIABLE         {hsnsample}  {1}
+#VARIABLE         {hsnspratio}  {9.07}
+#VARIABLE         {hsnssum}  {0}
+#VARIABLE         {hsnstr}  {11 }
+#VARIABLE         {hsnsum}  {71}
+#VARIABLE         {hsnsummax}  {71}
+#VARIABLE         {hsntnl}  {100}
+#VARIABLE         {hsnwis}  {16 }
+#VARIABLE         {i}  {0}
+
+#CLASS {Xul} CLOSE

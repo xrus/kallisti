@@ -1,0 +1,214 @@
+#CLASS {Xen} OPEN
+
+#ACTION {Anatta marks %1 for death.}
+{
+     dir %1
+}
+
+#ACTION {Banzai! To the rescue...}
+{
+     rescuerescue
+}
+
+#ACTION {Iapetus places something in %1enfan%2}
+{
+     shihonage enfan
+}
+
+#ACTION {Iapetus places something in %1goblin%2}
+{
+     shihonage goblin
+}
+
+#ACTION {Iapetus tries to backstab %1enfan%2}
+{
+     shihonage enfan
+}
+
+#ACTION {Iapetus tries to backstab %1goblin%2}
+{
+     shihonage goblin
+}
+
+#ACTION {Kilya screams insanely and charges into %1!}
+{
+     kick lem
+}
+
+#ACTION {Scimon places something %0}
+{
+     rescue Scimon
+}
+
+#ACTION {Scimon tries to %0}
+{
+     rescue Scimon
+}
+
+#ACTION {You join the fight with %0}
+{
+     joinjoin
+}
+
+#ACTION {You try to throw %1 down, but %2 is too stable.}
+{
+     shihonageshihonage
+}
+
+#ALIAS {allsearch}
+{
+     search armoury %0;
+     search vault %0;
+     search trunk %0;
+     search chest %0
+}
+
+#ALIAS {charm}
+{
+     charmm
+}
+
+#ALIAS {darkfire}
+{
+     #echo {casting darkfire};
+     darkfir
+}
+
+#ALIAS {drain}
+{
+     #echo {casting drain};
+     drai
+}
+
+#ALIAS {edrain}
+{
+     #echo {energy drain};
+     edrai
+}
+
+#ALIAS {hsntdir}
+{
+     hsndirmeleeranged $hsntarget
+}
+
+#ALIAS {joinjoin}
+{
+     #2 rescue dragonne;
+     shihonage
+}
+
+#ALIAS {ref}
+{
+     tel Tortwaah :refresh Xen
+}
+
+#ALIAS {rescuerescue}
+{
+     pracskill
+}
+
+#ALIAS {sanc}
+{
+     get purple $sack;
+     quaff purple
+}
+
+#ALIAS {shihonageshihonage2}
+{
+     kick
+}
+
+#ALIAS {soulcloak}
+{
+     #nop
+}
+
+#ALIAS {vdrain}
+{
+     #echo {vampiric drain};
+     vdrai
+}
+
+#TICKER           {hsncancelrenewhunt}  {#if {$MSDP_OPPONENT_NUMBER > 0} {#unticker hsnrenewhunt; #unticker hsncancelrenewhunt}}                                                               {0}
+#TICKER           {hsndelayrestdelay}  {hsndone2}  {5}
+#TICKER           {hsnrenewhunt}  {hsnsethunt}  {50}
+#VARIABLE         {MSP}  {{LAST}{death_human_male.wav}{SOUND}{0}{VOLUME}{0}}
+#VARIABLE         {OLD_MSDP_OPPONENT_NAME}    {a skilled miner}
+#VARIABLE         {auto}  {{deposit}{1}{focus}{dex}{poke}{#act {Kilya screams insanely and charges into %1!} kick}{recall}{/}{recallPercent}{30}{refreshgroup}{refresh}{sanc}{sanc}}
+#VARIABLE         {autoHealSelfPercent}  {50}
+#VARIABLE         {autohealList}  {}
+#VARIABLE         {autorefreshList}  {}
+#VARIABLE         {autorescueList}  {{1}{Kavi}{2}{Tortwaah}{3}{Dragonne}}
+#VARIABLE         {battle_manager}  {{tmp}{Dragonne}}
+#VARIABLE         {breakout}  {1 spamset breakout 15}
+#VARIABLE         {character.lastDeath}  {You were last killed by the mighty Ent and lost 539999  exp, 0 hps, 0 mana, and 0 stamina.}
+#VARIABLE         {currTime}  {1555057800}
+#VARIABLE         {enemyConditionTone}  {280}
+#VARIABLE         {filter}  {0}
+#VARIABLE         {fleeString}  {}
+#VARIABLE         {friends}  {{1}{Kavi}{2}{Aciath}}
+#VARIABLE         {hook}  {{Advice}{}{Arena}{}{Barter}{}{Gossip}{}{Hero}{}{advice}{}{areaName}{}{arena}{}{arrive}{}{barter}{}{bump}{}{cchat}{}{characterName}{}{characterPosition}{}{charactername}{}{closed}{}{disarmed}{}{gossip}{}{groupAdd}{}{groupEnd}{}{groupLeave}{}{groupTell}{}{groupVariable}{}{hero}{}{hpPercent}{}{incapacitated}{}{info}{}{leave}{}{lootCorpse}{}{manaPercent}{}{morted}{}{opponentHealth}{}{opponentName}{}{opponentNumber}{}{playerDeath}{}{position}{}{race}{}{report}{}{roomName}{}{roomNumber}{}{roomTossed}{}{say}{}{shout}{}{staminaPercent}{}{stunned}{}{tell}{}{trackFail}{}{trackLose}{}{yell}{}}
+#VARIABLE         {hours}  {431960}
+#VARIABLE         {hsnalreadycasting}  {0}
+#VARIABLE         {hsnarg1}  {miner}
+#VARIABLE         {hsnclass}  {Monastic}
+#VARIABLE         {hsncon}  {0}
+#VARIABLE         {hsndamagedr}  {33}
+#VARIABLE         {hsndamagehw}  {128}
+#VARIABLE         {hsndamagemw}  {170}
+#VARIABLE         {hsndamagetotal}  {14433.0}
+#VARIABLE         {hsndamagewd1}  {13.5}
+#VARIABLE         {hsndamagewd2}  {18}
+#VARIABLE         {hsndex}  {0}
+#VARIABLE         {hsnhp}  {0}
+#VARIABLE         {hsnhpratio}  {14.4}
+#VARIABLE         {hsnhuntdir}  {}
+#VARIABLE         {hsnint}  {2}
+#VARIABLE         {hsnlasttarget}  {miner}
+#VARIABLE         {hsnlasttargetindex}  {1}
+#VARIABLE         {hsnlmax}  {0}
+#VARIABLE         {hsnluc}  {0}
+#VARIABLE         {hsnmaxcon}  {0}
+#VARIABLE         {hsnmaxdex}  {0}
+#VARIABLE         {hsnmaxhp}  {0}
+#VARIABLE         {hsnmaxint}  {0}
+#VARIABLE         {hsnmaxluc}  {0}
+#VARIABLE         {hsnmaxmn}  {0}
+#VARIABLE         {hsnmaxssum}  {0}
+#VARIABLE         {hsnmaxst}  {0}
+#VARIABLE         {hsnmaxstr}  {0}
+#VARIABLE         {hsnmaxsum}  {0}
+#VARIABLE         {hsnmaxwis}  {0}
+#VARIABLE         {hsnmn}  {0}
+#VARIABLE         {hsnmpratio}  {1.5}
+#VARIABLE         {hsnrace}  {minotaur}
+#VARIABLE         {hsnratio}  {76727.6}
+#VARIABLE         {hsnrecharmtimer}  {0}
+#VARIABLE         {hsnsample}  {0}
+#VARIABLE         {hsnspratio}  {6.3}
+#VARIABLE         {hsnssum}  {0}
+#VARIABLE         {hsnst}  {0}
+#VARIABLE         {hsnstr}  {0}
+#VARIABLE         {hsnsum}  {0}
+#VARIABLE         {hsnsummax}  {0}
+#VARIABLE         {hsntarget}  {miner}
+#VARIABLE         {hsntargetfound}  {0}
+#VARIABLE         {hsntargetindex}  {1}
+#VARIABLE         {hsntargetlist}  {{1}{miner}}
+#VARIABLE         {hsntargetlistindex}  {16}
+#VARIABLE         {hsntargetlistsize}  {16}
+#VARIABLE         {hsntargetlits}  {}
+#VARIABLE         {hsntargetsize}  {1}
+#VARIABLE         {hsntnl}  {1511513}
+#VARIABLE         {hsntotal}  {0}
+#VARIABLE         {hsntryhere}  {1}
+#VARIABLE         {hsnwis}  {0}
+#VARIABLE         {idle.seconds}  {1}
+#VARIABLE         {idle.time}  {1576343520}
+#VARIABLE         {idleList}  {{1}{look}}
+#VARIABLE         {manualWerewolf}  {1}
+#VARIABLE         {onDeath}  {{1}{sanc}{2}{sanc}{3}{sanc}{4}{sanc}{5}{get steel tent}{6}{quaff steel}{7}{sanc}{8}{sanc}{9}{sanc}{10}{sanc}{11}{sanc}{12}{sanc}{13}{get steel tent}{14}{quaff steel}{15}{sanc}{16}{sanc}{17}{sanc}{18}{get steel tent}{19}{quaff steel}{20}{sanc}{21}{get steel tent}{22}{quaff steel}{23}{sanc}{24}{sanc}{25}{sanc}{26}{sanc}{27}{sanc}{28}{sanc}{29}{sanc}{30}{sanc}{31}{sanc}{32}{sanc}{33}{sanc}{34}{sanc}{35}{sanc}{36}{sanc}{37}{sanc}{38}{sanc}{39}{sanc}{40}{get steel tent}{41}{quaff steel}{42}{sanc}{43}{sanc}{44}{sanc}{45}{sanc}{46}{sanc}{47}{sanc}{48}{sanc}{49}{sanc}{50}{sanc}{51}{sanc}{52}{sanc}{53}{sanc}{54}{sanc}{55}{sanc}{56}{sanc}{57}{sanc}{58}{sanc}{59}{sanc}{60}{sanc}{61}{sanc}{62}{sanc}{63}{sanc}{64}{sanc}{65}{sanc}{66}{sanc}{67}{sanc}}
+#VARIABLE         {voteTime}  {-n 0}
+#VARIABLE         {weapon}  {green}
+
+#CLASS {Xen} CLOSE

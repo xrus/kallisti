@@ -1,0 +1,25 @@
+#ACTION {%!sAttack%!s#%!d\:%!s%d%%%!s%d%%}
+{
+     #math {hsndamagemw} {$hsndamagemw + %1};
+     #math {hsndamagehw} {$hsndamagehw + %2};
+}
+
+#ACTION {^Combat Auto-skills:$}
+{
+     #math {hsndamagetotal} {$hsndamagemw*($hsndamagewd1+$hsndamagedr)+$hsndamagehw*($hsndamagewd2+$hsndamagedr)};
+     #echo $hsndamagetotal;
+}
+
+#ACTION {^Damroll:%!s%d%!sDamroll:%!s%d%!s$}
+{
+     #variable {hsndamagedr} {%1};
+     #variable {hsndamagemw} {0};
+     #variable {hsndamagehw} {0};
+}
+
+
+#ALIAS {hsnweapondamage}
+{
+     #variable hsndamagewd1 %1;
+     #variable hsndamagewd2 %2;
+}

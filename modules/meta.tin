@@ -1,0 +1,19 @@
+#act {HitPoints%2: %1 exp & %3 coins : Current %4} {#math hsnratio {%1 / $hsnhpratio};#echo {HP ratio is: $hsnratio}}
+#act {ManaPoints%2: %1 exp & %3 coins : Current %4} {#math hsnratio {%1 / $hsnmpratio};#echo {MP ratio is: $hsnratio}}
+#act {Stamina%2: %1 exp & %3 coins : Current %4} {#math hsnratio {%1 / $hsnspratio};#echo {SP ratio is: $hsnratio}}
+
+#alias hsnmetaratio {#var hsnhpratio %1; #var hsnmpratio %2; #var hsnspratio %3}
+#alias hsnmetaratiobarbarian hsnmetaratio 15.92 0.1 9.07 14
+#alias hsnmetaratioassassin hsnmetaratio 13.2 0.1 11.05 12.4
+#alias hsnmetaratiosamurai hsnmetaratio 14.4 1.5 6.3 12
+#alias hsnmetaratioranger hsnmetaratio 12.6 3 7.1 11.5
+#alias hsnmetaratiodreadlord hsnmetaratio 13.8 4.5 5.8 10.5
+#alias hsnmetaratiopaladin hsnmetaratio 13.8 4.5 5.8 10.2
+#alias hsnmetaratiovalk hsnmetaratio 13.8 4.5 5.8 10.2
+#alias hsnmetaratiotemplar hsnmetaratio 9 9.75 2.55 9.25
+#alias hsnmetaratiomonk hsnmetaratio 11.5 4.5 6.5 9
+#alias hsnmetaratiowizard hsnmetaratio 6.12 12 2.97 8.5
+#alias hsnmetaratiodruid hsnmetaratio 7.4 9.5 3.6 8.4
+#alias hsnmetaratioprophet hsnmetaratio 6.12 11 3.4 8.3
+#alias hsnmetaratiodemoniac hsnmetaratio 10.57 2.1 6.97 8.2
+#alias hsnmetarationecromancer hsnmetaratio 6.12 11 2.97 8.1

@@ -1,0 +1,1000 @@
+gt blind
+owscn
+ow
+dir Juliet
+dir Romeo
+gt recall
+ss7w
+4n8w
+7s
+dir ticket
+gt ref me
+dir ringmaster
+whoi atlas
+dir member
+gt I have to leave soon.
+gt when Sin is lvl 15
+gt tnl?
+dir thrower's
+dir thrower
+gt if one of you lead, I can stay for sin's one more level.
+gt use ":pokes X" so Xread attacks
+autopoke dir
+appoint Adonis
+/
+gos that place is death trap
+gos hehe
+get corse
+sleepg
+sleep
+gwho
+'hey
+whoi selmak
+whoi Lastchance
+tel Rhexx long time no see!
+whoi Rhexx
+whoi sin
+l Ivy
+smiel
+smile
+'what's the stats of the dress?
+'and necklace?
+tel Rhexx how you doing?
+whoi Kermorvan
+reply lol
+reply so you left Kallisti?
+q
+reply anyway..
+reply you shouldn't be bashed if you stay mounted
+Xuid
+Xruid
+y
+male
+whog
+l pike
+search weapon vault
+search vault weapon
+l leggings
+get Sorrow chest
+remove leggings
+wear Sorrow
+get desoy chest
+put pike chest
+put ring chest
+wear hlem
+get scalp chest
+l scalp
+wear scalp
+l help 
+put helm chest
+gos doh
+l yeti
+l gloves
+get pain chest
+remove gloves
+put gloves chest
+gos for dreads?
+get claymore trunk
+put spear chest
+get dragon trunk
+wear dragon
+remove plate
+l plate
+l dragon
+sell lplate
+sell plate
+prac terror
+withdra 400000
+resize claymore smaller
+wield claymore
+estimate claymore smaller
+l claymore
+put claymore chest
+put all vault
+get canoe vault
+get tent vault
+remove scimitar
+l scimitar
+get fullblade trunk
+remove shield
+wield fullblade
+get bracelet trunk
+remove stone
+remove all;put all chest
+put all trunk
+drop canoe
+autosplit
+4nenn
+hsnsetmin 1 0 0 1 0 14 100
+hsnsetmin 23 0 0 18 0 14 100
+hsnsetmin 22 0 0 17 0 14 100
+hsnsetmin 22 0 0 17 0 14 81
+hsnsetmin 22 0 0 17 0 14 0
+hsnsetweight 1 0 0 1 1 1 0
+hsnsetweight 2 0 0 2 0 1 72
+hsnsetweight 1 0 0 1 1 1 72
+hsnsetmin 22 0 0 14 0 14 0
+hsnsetweight 2 0 0 1 1 0 72
+hsnsetweight 1 0 0 1 1 0 50
+hsnsetmin 23 0 0 14 0 14 0
+hsnsetweight 4 0 0 3 1 2 200
+hsnsetweight 3 -1 -1 2 0 1 114
+hsnsetweight 3 -1 -1 2 0 1 90
+hsnsetweight 3 -1 -1 2 0 1 93
+hsnsetweight 3 -1 -1 2 0 1 98
+hsnsetweight 3 -1 -1 2 0 1 99
+hsnsetweight 3 -1 -1 2 0 1 100
+top1 defeaters
+whoi zruz
+hsnsetweight 3 -1 -1 1 1 1 100
+gos help dreadlord says that constitution is the prime for dreadlords. But as far as I see, str/dex seem more important on the skills. What am I missing?
+help prime stat
+help dreadlord
+help metagain
+hsnsetmin 23 0 0 0 0 14 0
+hsnsetmin 23 0 0 0 14 14 0
+hsnsetweight 3 -1 -1 2 1 1 114
+hsnsetweight 3 -1 -1 2 1 1 110
+rerol
+help int
+help wis
+hsnsetweight 3 -1 -1 1 2 1 114
+10
+brief
+display all
+enn
+hsnsetweight 3 -1 -2 0 2 1 114
+#alias reroll
+hsnsetweight 3 -1 -2 0 2 1 90
+hsnsetmin
+hsnsetweight 3 -1 -2 0 2 1 96
+12
+hsnsetweight 1 0 0 1 1 0 56
+hsnsetweight 3 -1 -2 0 2 1 95
+5nenn
+hsnsetweight 3 -1 -2 0 2 1 97
+hsnsetweight 3 -1 -2 0 2 1 101
+hsnsetmin 23 0 0 12 14 14 0
+hsnsetweight 3 -1 -2 1 2 0 101
+hsnsetweight 3 -1 -2 1 2 0 97
+hsnsetmin 23 0 0 14 14 15 0
+hsnsetweight 3 -1 -2 1 2 0 100
+hsnsetmin 23 0 0 13 13 14 0
+help races
+hsnsetmin 23 0 0 0 0whi paz 14 0
+gos You are all there, so let me ask it again
+whoi junta
+gos help dreadlord says that prime for dreads is con.
+gos But as I see the skill list, I don't figure why it is
+gos what is the point of con for dreads?
+whio paz
+whoi paz
+top1 monas
+gos You are all veterans of kallisti. In other muds I played, almost always veterans knew better than the coders. :D
+gos I suck too. I might be a good match for dreads
+gos but really. What is the prime stat at all?
+whoi chocco
+gos who is choco?
+whoi choco
+gos I get nothing
+whoi chocobo
+whoi ogre
+whoi Althor
+whoi zopok
+help paladin
+gos so you don't pay attention to prime stat at all?
+gos you go for high str/dex for melee, int for mage and wis for priest?
+gos I want to have all the class/race 50s
+whoi koto
+top1 paragon
+whoi fatale
+whoi Siobhan
+gos he is
+gos I checked his list
+gos hse
+gos she
+gos already has all the unspec builds at 50
+gos yeah
+hsnsetweight 3 -1 -2 2 0 1 94
+reset
+hsnsetweight
+hsnsetweight 3 -1 -2 2 0 1 97
+hsnsetmin 25 0 0 0 0 14 0
+hsnsetweight 3 -1 -2 2 0 1 98
+#alias reroll rerol str
+buy change human
+reclass fighter
+hsnsetweight 3 -1 -2 2 0 1 99
+hsnsetmin 24 0 0 0 0 14 0
+hsnsetweight 3 -1 -2 2 0 1 100
+hsnsetweight 3 -1 -2 2 0 1 102
+reroll
+donate plate
+donate sword
+get medal armoury
+l medal
+put medal armoury
+exam armoury
+get soul case
+'doh
+get pixie-spear case
+get pixie case
+put pixie case
+get battleaxe case
+wield battleaxe
+search armoury weapon
+drop all;get soul
+get shard trunk
+get all.trident case
+get all.trident trunk
+get all.trident chest
+withdraw 50000
+wssw
+kneel
+pray chaos
+l battleaxe
+put battleaxe chest
+#config {packet patch} 1.
+auc offer trident 1000000000;auc id;auc cancel
+auc offer shard 1000000000;auc id;auc cancel
+auc offer soul 1000000000;auc id;auc cancel
+wield trident
+tog sound
+where girl
+k boy
+k pig
+k pegasus
+where boy
+k unicorn
+style
+k goat
+k sheep
+prac parry
+l chest
+get all chest
+eat elderberry
+dir gypsy
+dir woman
+k girl
+kick goat
+dir sheep
+dir man
+dir boy
+kick boy
+kick girl
+spec dread
+12n
+kick woman
+tel Isalei hey
+ w
+kick pig
+pra
+help glare
+prac climb
+l shard
+put shard chest
+reca;visit tux
+whoi Tortwaah
+whoi Asatru
+'heal
+level 12
+level 13
+level 14
+ac
+w;scn
+where zomibe
+prac critical;prac multi
+prac glair
+prac glaire
+glaire member
+k member;glare
+get prayer case
+l prayer
+get symbol chest
+wear symbol
+3nw
+remove symbol
+l symbol
+drop symbol
+id 2
+whoi stabby
+exam 5
+\id 5
+buy unholy
+10sw
+whoi panzer
+gos Any group?
+l falcon
+whoi lasic
+whoi Shinji
+whoi Gailin
+whoi Lasic
+whoi Jaric
+tel Zerasling hey
+#alias pracprac kick
+e;scn
+gos what is it?
+csn
+;scn
+s;scn
+n;scn
+level 15
+levle 16
+level 16
+level 17
+depart;s4w10sw
+10w
+7w4n8w7s
+k ticket
+10n
+k lady
+k man
+11n
+k gypsy
+kick gypsy
+scan s
+kick unicorn
+kick pegasus
+kick lady
+kick man
+prac blind fighting
+awho
+id 46
+id 39
+id 36
+id gar
+id harpoon
+id 25;id 13;id 9;id 7;id 2;id 1
+l trident
+gos well done!
+whoi loki
+whoi horg
+id pike
+list pike
+list pole
+3w
+4w10sw
+fw
+buy raft
+depart;s14e26n13ess;oe;e
+whoi The
+whoi Thanatophobia
+5n
+wear unholy
+#alias pracprac #nop
+kick stagehand
+kick stagehand;#4 glare
+whoi ChelseaFrown
+tel Fogpoem want to join?
+reply sure
+#3 glare
+kick zombie
+kick zombie;#3 glare
+regress glare
+s4w10sw
+#4 glare
+#act {A zombie staggers back, shocked by your glare. (1 damage)
+#act {%1 staggers back, shocked by your glare. (%2 damage)} glareglare
+#alias glareglare pracskill
+4w10s
+#act {You glare at %1 who doesn't even notice.} glareglare
+prac glare
+s4w10s
+spel dreadlord
+help terror
+help deadeyes
+help deadcry
+www
+prac assimilate
+4e
+prac ride
+s3en
+get trident case
+wield large
+wield 2.trident
+get runed safe
+put trident safe
+put coldblade trunk
+put 3.dagger trunk
+remove trident
+visit darchoun
+wield pike
+sear
+get spear trunk
+remove pike
+put pike trunk
+get all
+l wings
+drop wings
+l backplate
+l pixie
+drop 2.spear
+drop spear
+put trident trunk
+search chest weapon;search case weapon;search trunk weapon;search armoury weapon;search safe weapon
+get skull case
+wear skull
+get tail case
+wear tail
+get caligae case
+wear caligae
+get bicorne trunk
+skli
+ssse
+resize bicorne larger
+wear bicorne
+10s
+where zombie
+whoi xepher
+glare zombie
+ss
+prac critical
+prac armor
+drop raft
+exam trunk
+whoi super
+l reaver
+88+265
+l spear
+put dagger case
+wield spear
+get buckler trunk
+remove spear
+put spear case
+get dagger case
+get dagger trunk
+wield dagger
+get all.buckler case
+get all.buckler chest
+get all.buckler trunk
+l standard
+wear standard
+l spiked
+l type:
+l typhoon
+put all.buckler trunk
+help assimilate
+autosanc sanc
+#alias sanc
+\news
+glare memberl
+6n
+nnwnn
+withdraw 100000
+4s
+14wnnw3n
+gos don't know
+gos and tzag
+#alias hsndone
+#alias hsndone1
+#alias hsndone2
+dism;mount horde
+dism;mount horseshoe
+dism;mount horse
+gos I like dreads
+ne
+dwhere 
+level 24
+level 25
+#delay
+gos why?
+gos no?
+gos they are barbs. barbs won't die till a bit too -hp
+glare found
+gos huh!
+gos I reword it then..
+gos they are barbs. barbs won't die till a a huge -hp
+gos I wonder though.. why my barb dies just a bit after?
+gemote wink
+#var hsnrest%*
+#alias pracprac glare
+#alias glareglare
+#alias hsndirmelee glare
+fle
+prac call mount
+prac critical hits
+reac
+nnw4n
+ig
+#alias pracprac
+withdraw 1000000
+14w
+nnw3n
+prac hunt
+nne
+autodeposit
+w3s
+e4n
+get all.gold
+get corpse
+get all corpse
+sac corpse
+#alias hsndirmelee
+glare violh
+#config {packet patch} 1.4
+level 27
+prac dual wield
+get copper chest;get ring chest;get belt chest;get manica chest;get helm chest
+wear 2.ring
+nofilter
+filter
+get helm chest
+l bicorne
+l helm
+remove bicorne
+wear helm
+put bicorne chest
+estimate ring larger
+l manica
+exam
+exam case
+l belt
+get hands case
+get pain case
+wear pain
+get pain trunk
+get necklace trunk
+wear hands
+deparit
+get manica case
+get manica chest
+get manica trunk
+save
+where viol
+gla king
+glare act
+nne3n
+3ne3n
+hunt cello
+glare cello
+where member
+where act
+level 30
+glare hurdy
+eess
+help forage
+whoi Aciath
+tel Aciath hey
+get key;
+k groundling's
+hol dagger
+gos going to see if dreads are good for paragons
+replay gos
+eessd
+prac lore
+prac forage
+l gem
+drop claymore
+remove unholy
+wear chain
+l unholy
+help Bonecrafting
+09157139572l
+09157139572
+prac multi attack
+4ne
+dir Guildenstern
+dir Rosencrantz
+3ne4n
+dir Gertrude
+dir Polonius
+sd3n
+gl viol
+glare viol
+3s3w
+wield dagger;hold dagger
+whoi jason
+tel Jason hey
+glare member
+tel Jason Are these not too low lever for you?
+tel Jason level
+reply I wonder though, don't you get better coin at almost same speed from gnomes?
+whoi AtlasTower
+whio Jason
+tel Jason Could I ask how much hms you have for a lvl 70 demon? I wonder as you are a K4.0
+glare conductor
+help heropoints
+level 70
+level 71
+reply that is nice!
+hunt viol
+glare Guildenstern
+glare Rosencrantz
+ee
+glare Gertrude
+repl well that is fast
+repl you backstab them?
+regen
+wak
+reply I know. But my problem is, I don't know where to seel stuff, as the shops get full fast
+reply are there shopkeepers whom you kill after selling stuff to?
+3n
+w4n
+glare Claudius
+help deathknell
+help deathgrip
+glare Port
+glare Polonius
+glare stagehand
+level 35
+glare Juliet
+drop whip
+wear whips
+wear robes
+glare king
+glare fool
+5s
+3e
+sseessd
+prac edge
+prac edg
+prac multi
+get bastard case
+l bastard
+put bastard chest
+get heldur trunk
+l heldru
+l heldur
+put heldur trunk
+'refresh
+'ffire;'bless;'barkskin;'vigor
+reca;visit tux;'heal;'refresh
+drop wand
+drop khopesh
+drop rapier
+drop quarterstaff
+l buckler
+put unholy chest
+search chers
+get ruby chest
+l copper
+remove rock
+wear ruby
+estimate ruby larger
+put ruby chest
+get claw case
+wear claw
+get ent trunk
+remove tail
+l tail
+l ent
+'no
+l rock
+wear manica
+resize prayer
+wear prayer
+resize rock larger
+put tail trunk
+put ring trunk
+s7e5s4e
+glare Xendorian
+l knife
+drop knife
+gos tzag
+gos hmm?
+gos Time Zone Appropriate Greeting
+gos I'm not sure if there is a tzaf too
+gos but I use it too
+prac edged
+visit
+l pain
+get ogre case
+l ogre
+remove pain
+wear ogre
+put pain case
+get mask case
+wear mask
+help Disguise
+get chainmail chest
+l chainmail
+remove robes
+l robes
+seess
+prac armor use
+wear chainmail
+wear cape
+l cape
+put cape chest
+put robes chest
+exam chest
+get sorrow chest
+get mask chest
+get prayer chest
+l chain
+l 2.chain
+put chain chest
+l 2.mask
+put Grelician chest
+l mask
+put mask chest
+l skull
+get frostbrand
+get frost trunk
+l frost
+hold frost
+l soul
+put dagger trunk
+s7w
+visit tux
+'eyes
+level
+uptime
+k group!
+es
+drop axe
+get corpse;get all corpse;sac corpse
+buy 8
+nnw
+whoi xrus
+tel Xepher You there?
+whoi Zerasling
+whoi Echidna
+remove soul;auc offer soul 1000000000;auc id;auc cancel
+drop maul
+drop shards
+drop rod
+rink flask
+drink flask
+glare miner
+sseess
+gain
+prac army of darkness
+prac edged;prac armor
+prac
+remove soul
+bloodline
+help line
+line
+get ent chest
+rmeove all
+wear ent
+hold frostbrand
+wear backplate
+resistant buckler larger
+resize buckler larger
+wear buckler
+resistant ring larger
+resize ring larger
+wear ring
+resize manica larger
+resize backplate larger
+resize claw larger
+resize prayer larger
+resize skull larger
+resize necklace larger
+wear necklace
+l necklace
+put necklace chest
+eq all
+get belt chest
+get fate chest
+remove belt
+wear holstered
+wear 2.belt
+put belt chest
+resize belt larger
+wear belt
+get soul chest
+s4w3se
+estimate soul larger
+withdraw 1326510
+w4s
+4w3se
+resize soul larger
+wield soul
+7e26n13ess;oe;e
+smount
+9
+enter tree
+spel
+#cr
+#10 poke ptam
+#10 poke ptam;put all.purple $sack
+hunt groundling
+en
+k groundling
+drop stiletto
+autoloot
+wor
+autorecall / 30
+nohun
+26n
+13ess
+oe
+buy stamina
+buy int
+#system reset
+#split
+wher
+replay
+whoi lobo
+replay say
+tel Lobo now I am
+tel Lobo want to join?
+reply I don't like to always farm this place. especially when at times I have to get afk urgently. You can suggest anywhere else?
+reply But this place is where many farm for gold. I can go elsewhere, if I know where to go
+huntt Xendorian
+7e5s5e
+hunt Xendorian
+nw
+1dir
+ww
+dir Xendorian
+blink
+2
+iu
+put buckler chest
+campl
+put reaver chest
+put reaver trunk
+drop soul
+5
+drop bits
+drop gem
+drop fragments
+#config
+gt I need a weapon. brb
+visit zruz
+search case weapon
+search trunk weapon
+search chest weapon
+get Hermes chest
+wield Hermes
+get Heldur trunk
+l Heldur
+l dagger
+remove dagger
+put Heldur chest
+search chest
+search case
+l minotaur
+l black
+search trunk
+get cured tritanium
+get cured truk
+get cured trunk
+eq
+remove black
+wear armor
+put black chest
+put black trunk
+depart
+gt ready
+help dual wield
+skil
+l Hermes
+13e
+4w
+13w
+26s
+7wn
+7w
+goto orshingal
+dir enfan
+hunt enfan
+'ah
+gt all dism
+gt calling mount
+tel Zad :stand
+gt all stand
+'doesn't work
+gt where to go now?
+wsen
+dir gryphon
+get all corpse;give 2.nightmare
+get all corpse;give saddle2.nightmare
+get all corpse;give saddle 2.nightmare
+sw
+where miner
+!get reca
+get recall $sack;give recall zad
+#10 buy recall;put all.recall $sack
+buy recall
+wws
+enter portal
+sanc
+glare defender
+dism
+wake
+mount nightmare
+gt brb
+s14w;enter tree
+remove all
+re
+nn
+gt what?
+goto druid well
+ssun
+4n
+4su
+dir defender
+:pokes defender
+pose
+gt sure
+gt I'm a bit too afk now
+ds
+hunt lemur
+hunt sloth
+glare sloth
+:pokes sloth
+dir sloth
+sd
+hunt monkey
+dir monkey
+:pokes monkey
+gt qw
+#ig
+ranged
+disband
+list
+wear all
+hold dagger
+s14w
+7e
+4n8w7s
+where
+dir clown
+dir assistant
+dir knife
+k assistant
+u
+dir tightrope
+withdraw 100000;buy HitPoints
+buy con
+13
+s7e
+callm
+sl
+af
+hsnclassdread
+glare
+hunt act
+dir act
+ew
+dir king
+dir fool
+wsews
+dir Falstaff
+dir Henry
+hunt stagehand
+w
+dir stagehand
+sss
+wsw
+d
+kick
+n
+e
+dir miner
+scn
+level 58
+who
+level 38
+level 39
+level 40
+level 41
+nohunt
+e;reca;s;tap;wear all;hold dagger
+i
+combat
+tap
+gr all
+gr
+s14e26n13ess;oe;e
+3ne
+hunt member
+hunt miner
+get key;unlock door;drop key;l
+
+1
+muds l
+l
+s14w;enter tree;w;remove all;list
+withdraw 100000;buy HitPoints;list
+sc
+reca
+s
+camp
+3
+8

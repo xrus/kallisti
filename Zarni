@@ -1,0 +1,75 @@
+#CLASS {Zarni} OPEN
+
+#ACTION {Renewing charm duration for %1 to %2 hours.}
+{
+     #delay {hsnrecharmtimerdelay} {#var hsnrecharmtimer 1} {300};
+     #variable hsnrecharmtimer 0
+}
+
+#ALIAS {charm}
+{
+     charmm
+}
+
+#ALIAS {charmm}
+{
+     controlundead
+}
+
+#ALIAS {darkfire}
+{
+     #echo {casting darkfire};
+     darkfir
+}
+
+#ALIAS {drain}
+{
+     #echo {casting drain};
+     drai
+}
+
+#ALIAS {edrain}
+{
+     #echo {energy drain};
+     edrai
+}
+
+#ALIAS {hsntdir}
+{
+     hsndirmeleeranged $hsntarget
+}
+
+#ALIAS {vdrai}
+{
+     edrain
+}
+
+#ALIAS {vdrain}
+{
+     #echo {vampiric drain};
+     vdrai
+}
+
+#TICKER           {hsnrecharmtimerdelay}  {#var hsnrecharmtimer 1;#if {$MSDP_OPPONENT_NUMBER < 1} {charm group}}                                             {300}
+#VARIABLE         {MSP}  {{LAST}{channel_tell.wav}{SOUND}{0}{VOLUME}{0}}
+#VARIABLE         {OLD_MSDP_OPPONENT_NAME}    {the second violinist}
+#VARIABLE         {auto}  {{recall}{/}{recallPercent}{30}{refreshgroup}{refresh}}
+#VARIABLE         {autoHealSelfPercent}  {50}
+#VARIABLE         {autohealList}  {}
+#VARIABLE         {autorefreshList}  {}
+#VARIABLE         {autorescueList}  {}
+#VARIABLE         {breakout}  {1 spamset breakout 15}
+#VARIABLE         {filter}  {1}
+#VARIABLE         {fleeString}  {}
+#VARIABLE         {hook}  {{advice}{}{areaName}{}{arena}{}{arrive}{}{barter}{}{bump}{}{charactername}{}{charmEnd}{}{closed}{}{concentration}{}{dismounted}{}{gossip}{}{groupAdd}{}{groupVariable}{}{hpPercent}{}{incapacitated}{}{info}{}{leave}{}{manaPercent}{}{morted}{}{opponentHealth}{}{opponentName}{}{opponentNumber}{}{position}{}{race}{}{roomName}{}{roomNumber}{}{say}{}{shout}{}{staminaPercent}{}{stunned}{}{tell}{}{yell}{}}
+#VARIABLE         {hsnalreadycasting}  {0}
+#VARIABLE         {hsnhpratio}  {6.12}
+#VARIABLE         {hsnmpratio}  {11}
+#VARIABLE         {hsnrecharmtimer}  {0}
+#VARIABLE         {hsnspratio}  {2.97}
+#VARIABLE         {idle.seconds}  {16}
+#VARIABLE         {idle.time}  {1575832560}
+#VARIABLE         {idleList}  {{1}{pose}}
+#VARIABLE         {onDeath}  {{1}{mount nightmare}{2}{#var {mounting} {1}}}
+
+#CLASS {Zarni} CLOSE

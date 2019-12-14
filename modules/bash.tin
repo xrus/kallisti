@@ -1,0 +1,10 @@
+#act {You work your way to your knees.} #nop bash2
+#act {You work your way up from your knees.} #nop bash2
+#act {You work your way to your feet.} #nop bash2
+#act {^%1 works %2 way to %2 feet.} bash2
+#ACTION {You must wait for your victim to stand up first.} laglag2
+
+#alias hsnautobash #alias bash2 {#showme {<030>!!!! TO BASH !!!!<099>};bash}
+#alias hsnnoautobash #alias bash2 #nop
+#alias bash2 #nop
+#alias bash3 #nop

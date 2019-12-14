@@ -1,0 +1,19 @@
+#CLASS {Xalka} OPEN
+
+#VARIABLE         {MSP}  {{SOUND}{1}{VOLUME}{0}}
+#VARIABLE         {OLD_MSDP_OPPONENT_NAME}    {an actress}
+#VARIABLE         {auto}  {{deposit}{1}{recallPercent}{20}{sanc}{sanc}}
+#VARIABLE         {autoHealSelfPercent}  {50}
+#VARIABLE         {autohealList}  {}
+#VARIABLE         {autorescueList}  {}
+#VARIABLE         {breakout}  {1 spamset breakout 15}
+#VARIABLE         {filter}  {1}
+#VARIABLE         {fleeString}  {}
+#VARIABLE         {hook}  {{areaName}{}{arrive}{}{barter}{}{bump}{}{cchat}{}{charactername}{}{closed}{}{gossip}{}{hero}{}{hpPercent}{}{incapacitated}{}{info}{}{leave}{}{manaPercent}{}{morted}{}{opponentHealth}{}{opponentName}{}{opponentNumber}{}{position}{}{race}{}{roomName}{}{roomNumber}{}{say}{}{staminaPercent}{}{stunned}{}{tell}{}{trackFail}{}{trackLose}{}}
+#VARIABLE         {hsnhuntdir}  {}
+#VARIABLE         {idle.seconds}  {1}
+#VARIABLE         {idle.time}  {1575130080}
+#VARIABLE         {idleList}  {{1}{pose}}
+#VARIABLE         {weapon}  {fullblade}
+
+#CLASS {Xalka} CLOSE

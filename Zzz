@@ -1,0 +1,10 @@
+#CLASS {Zzz} OPEN
+
+#VARIABLE         {MSP}  {{SOUND}{1}{VOLUME}{0}}
+#VARIABLE         {auto}  {{recallPercent}{20}}
+#VARIABLE         {autoHealSelfPercent}  {50}
+#VARIABLE         {character}  {{audioprompt}{1}}
+#VARIABLE         {hook}  {{arrive}{}{characterName}{}{leave}{}{roomName}{}{roomNumber}{}{say}{}}
+#VARIABLE         {idleList}  {{1}{look}}
+
+#CLASS {Zzz} CLOSE

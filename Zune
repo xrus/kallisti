@@ -1,0 +1,8 @@
+#CLASS {Zune} OPEN
+
+#VARIABLE         {auto}  {{recallPercent}{20}}
+#VARIABLE         {autoHealSelfPercent}  {50}
+#VARIABLE         {fleeString}  {}
+#VARIABLE         {hook}  {{charactername}{}{hpPercent}{}{manaPercent}{}{position}{}{race}{}{roomName}{}{roomNumber}{}{staminaPercent}{}}
+
+#CLASS {Zune} CLOSE

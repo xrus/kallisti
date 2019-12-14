@@ -1,0 +1,10 @@
+#CLASS {Xaladin} OPEN
+
+#VARIABLE         {auto}  {{recallPercent}{20}}
+#VARIABLE         {autoHealSelfPercent}  {50}
+#VARIABLE         {fleeString}  {}
+#VARIABLE         {hook}  {{areaName}{}{arrive}{}{charactername}{}{hpPercent}{}{leave}{}{manaPercent}{}{opponentHealth}{}{opponentNumber}{}{position}{}{race}{}{roomName}{}{roomNumber}{}{staminaPercent}{}}
+#VARIABLE         {idle.seconds}  {60}
+#VARIABLE         {idle.time}  {1575636180}
+
+#CLASS {Xaladin} CLOSE

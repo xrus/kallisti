@@ -1,0 +1,108 @@
+#CLASS {Zad} OPEN
+
+#ACTION {You join the fight with Xrus.}
+{
+	joinjoin
+}
+{5}
+
+#ALIAS {charm}
+{
+	charmm
+}
+{5}
+
+#ALIAS {charmm}
+{
+	controlundead
+}
+{5}
+
+#ALIAS {darkfire}
+{
+	#echo {casting darkfire};
+	darkfir
+}
+{5}
+
+#ALIAS {drain}
+{
+	#echo {casting drain};
+	drai
+}
+{5}
+
+#ALIAS {edrain}
+{
+	#echo {energy drain};
+	edrai
+}
+{5}
+
+#ALIAS {joinjoin}
+{
+	glare
+}
+{5}
+
+#ALIAS {vdrain}
+{
+	#echo {vampiric drain};
+	vdrai
+}
+{5}
+
+#VARIABLE         {MSP}  {{SOUND}{1}{VOLUME}{0}}
+#VARIABLE         {OLD_MSDP_OPPONENT_NAME}    {a root dweller}
+#VARIABLE         {auto}  {{deposit}{1}{poke}{glare}{recall}{/}{recallPercent}{30}}
+#VARIABLE         {autoHealSelf}  {heal}
+#VARIABLE         {autoHealSelfPercent}  {60}
+#VARIABLE         {autohealList}  {}
+#VARIABLE         {autorescueList}  {}
+#VARIABLE         {currTime}  {1557491400}
+#VARIABLE         {filter}  {1}
+#VARIABLE         {fleeString}  {}
+#VARIABLE         {friends}  {{1}{Xrus}{2}{Xread}}
+#VARIABLE         {hook}  {{areaName}{}{arena}{}{arrive}{}{barter}{}{bump}{}{charactername}{}{gossip}{}{groupAdd}{}{groupEnd}{}{groupTell}{}{incapacitated}{}{info}{}{leave}{}{lootCorpse}{}{manaPercent}{}{morted}{}{opponentHealth}{}{opponentName}{}{opponentNumber}{}{playerDeath}{}{position}{}{race}{}{report}{}{roomName}{}{roomNumber}{}{say}{}{stunned}{}{tell}{}}
+#VARIABLE         {hours}  {432636}
+#VARIABLE         {hsnalreadycasting}  {1}
+#VARIABLE         {hsnclass}  {Fighter}
+#VARIABLE         {hsncon}  {0}
+#VARIABLE         {hsndex}  {0}
+#VARIABLE         {hsnhp}  {0}
+#VARIABLE         {hsnhpratio}  {13.8}
+#VARIABLE         {hsnint}  {0}
+#VARIABLE         {hsnlmax}  {0}
+#VARIABLE         {hsnluc}  {0}
+#VARIABLE         {hsnmaxcon}  {0}
+#VARIABLE         {hsnmaxdex}  {0}
+#VARIABLE         {hsnmaxhp}  {0}
+#VARIABLE         {hsnmaxint}  {0}
+#VARIABLE         {hsnmaxluc}  {0}
+#VARIABLE         {hsnmaxmn}  {0}
+#VARIABLE         {hsnmaxssum}  {0}
+#VARIABLE         {hsnmaxst}  {0}
+#VARIABLE         {hsnmaxstr}  {0}
+#VARIABLE         {hsnmaxsum}  {0}
+#VARIABLE         {hsnmaxwis}  {0}
+#VARIABLE         {hsnmn}  {0}
+#VARIABLE         {hsnmpratio}  {4.5}
+#VARIABLE         {hsnrace}  {minotaur}
+#VARIABLE         {hsnrecharmtimer}  {1}
+#VARIABLE         {hsnsample}  {0}
+#VARIABLE         {hsnspratio}  {5.2}
+#VARIABLE         {hsnssum}  {0}
+#VARIABLE         {hsnst}  {0}
+#VARIABLE         {hsnstr}  {0}
+#VARIABLE         {hsnsum}  {0}
+#VARIABLE         {hsnsummax}  {0}
+#VARIABLE         {hsntotal}  {0}
+#VARIABLE         {hsnwis}  {0}
+#VARIABLE         {idle.seconds}  {13}
+#VARIABLE         {idle.time}  {1557494940}
+#VARIABLE         {idleList}  {{1}{pose}}
+#VARIABLE         {onDeath}  {{1}{mount nightmare}}
+#VARIABLE         {voteTime}  {-n 1556919009}
+#VARIABLE         {weapon}  {sword}
+
+#CLASS {Zad} CLOSE

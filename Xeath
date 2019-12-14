@@ -1,0 +1,81 @@
+#CLASS {Xeath} OPEN
+
+#ALIAS {allsearch}
+{
+     search chest %0;
+     search trunk %0;
+     search vault %0;
+     search armoury %0
+}
+
+#ALIAS {charm}
+{
+     charmm
+}
+
+#ALIAS {charmm}
+{
+     controlundead
+}
+
+#ALIAS {darkfire}
+{
+     #echo {casting darkfire};
+     darkfir
+}
+
+#ALIAS {drain}
+{
+     #echo {casting drain};
+     drai
+}
+
+#ALIAS {edrain}
+{
+     #echo {energy drain};
+     edrai
+}
+
+#ALIAS {id}
+{
+     cast 'identify'
+}
+
+#ALIAS {vdrain}
+{
+     #echo {vampiric drain};
+     vdrai
+}
+
+#VARIABLE         {MATCHPOINT}  {8526472}
+#VARIABLE         {MSP}  {{LAST}{ambience_bell.wav}{SOUND}{1}{VOLUME}{0}}
+#VARIABLE         {OLD_MSDP_OPPONENT_NAME}    {an orc soldier}
+#VARIABLE         {auto}  {{aura}{aura}{deposit}{1}{recall}{/}{recallPercent}{30}{wraith}{1}}
+#VARIABLE         {autoHealSelfPercent}  {80}
+#VARIABLE         {autohealList}  {}
+#VARIABLE         {autorescueList}  {}
+#VARIABLE         {breakout}  {1 spamset breakout 15}
+#VARIABLE         {currTime}  {1558117800}
+#VARIABLE         {enemyConditionTone}  {470}
+#VARIABLE         {filter}  {0}
+#VARIABLE         {fleeString}  {}
+#VARIABLE         {friends}  {{1}{Isabelle}}
+#VARIABLE         {hook}  {{Advice}{}{Arena}{}{Barter}{}{Gossip}{}{Hero}{}{advice}{}{areaName}{}{arrive}{}{barter}{}{bump}{}{characterName}{}{charactername}{}{closed}{}{concentration}{}{disarmed}{}{dismounted}{}{gossip}{}{groupAdd}{}{groupTell}{}{groupVariable}{}{hero}{}{hpPercent}{}{incapacitated}{}{info}{}{leave}{}{lootCorpse}{}{manaPercent}{}{mobDeath}{}{morted}{}{opponentHealth}{}{opponentName}{}{opponentNumber}{}{playerDeath}{}{position}{}{race}{}{report}{}{roomName}{}{roomNumber}{}{roomTossed}{}{say}{}{staminaPercent}{}{stunned}{}{tell}{}{trackFail}{}{trackLose}{}}
+#VARIABLE         {hours}  {432810}
+#VARIABLE         {hsnalreadycasting}  {0}
+#VARIABLE         {hsnhpratio}  {6.12}
+#VARIABLE         {hsnhuntdir}  {}
+#VARIABLE         {hsnint}  {19}
+#VARIABLE         {hsnmpratio}  {11}
+#VARIABLE         {hsnratio}  {229168.69}
+#VARIABLE         {hsnrecharmtimer}  {1}
+#VARIABLE         {hsnspratio}  {2.97}
+#VARIABLE         {hsntnl}  {-12391398}
+#VARIABLE         {idleList}  {{1}{#nop}}
+#VARIABLE         {manualWerewolf}  {1}
+#VARIABLE         {onDeath}  {{1}{mount nightmare}{2}{mount nightmare}{3}{mount nightmare}{4}{mount nightmare}{5}{mount nightmare}{6}{mount nightmare}{7}{mount nightmare}{8}{mount nightmare}{9}{mount nightmare}{10}{mount nightmare}{11}{mount nightmare}{12}{mount nightmare}{13}{mount nightmare}{14}{mount nightmare}{15}{mount nightmare}{16}{mount nightmare}{17}{mount nightmare}{18}{mount nightmare}{19}{mount nightmare}{20}{mount nightmare}{21}{aura}{22}{aura}{23}{wraith}{24}{aura}{25}{wraith}{26}{aura}{27}{aura}{28}{mount nightmare}{29}{aura}{30}{aura}{31}{aura}{32}{aura}{33}{mount nightmare}{34}{aura}{35}{aura}{36}{mount nightmare}{37}{mount nightmare}{38}{#var {mounting} {1}}{39}{mount nightmare}{40}{#var {mounting} {1}}{41}{aura}{42}{mount nightmare}{43}{#var {mounting} {1}}{44}{aura}{45}{mount nightmare}{46}{#var {mounting} {1}}}
+#VARIABLE         {rndnum}  {1}
+#VARIABLE         {voteTime}  {-n 1556919009}
+#VARIABLE         {weapon}  {blade}
+
+#CLASS {Xeath} CLOSE

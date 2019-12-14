@@ -1,0 +1,21 @@
+#FUNCTION {qw_command}
+{
+	#if {"%1" == "$leader" && "%2" == "'qw'"}
+	{
+		#return /
+	};
+	#return #nop
+}
+
+#FUNCTION {all_command}
+{
+	#if {"%1" == "$leader" && "%2" == "'all %w'"}
+	{
+		#return %w
+	};
+	#return #nop
+}
+
+#VARIABLE         {groupTell}  {{qw}{qw_command}}
+#VARIABLE         {groupTell}  {{all}{all_command}}
+#VARIABLE         {groupTell}  {{All}{all_command}}

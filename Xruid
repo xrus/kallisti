@@ -1,0 +1,67 @@
+#CLASS {Xruid} OPEN
+
+#ALIAS {charm}
+{
+     friendship
+}
+
+#ALIAS {flamestrike}
+{
+     #echo {casting flamestrike};
+     fst
+}
+
+#ALIAS {stone}
+{
+     #echo {casting stone blast};
+     sb
+}
+
+#VARIABLE         {MSP}  {{LAST}{channel_gossip.wav}{SOUND}{1}{VOLUME}{0}}
+#VARIABLE         {auto}  {{barkskin}{barkskin}{bless}{bless}{deposit}{1}{ffire}{ffire}{recall}{/}{recallPercent}{30}{sanc}{sanc}{shape}{bear}{vigor}{vigor}}
+#VARIABLE         {autoHealSelf}  {heal}
+#VARIABLE         {autoHealSelfPercent}  {80}
+#VARIABLE         {currTime}  {1554751800}
+#VARIABLE         {filter}  {1}
+#VARIABLE         {fleeString}  {}
+#VARIABLE         {hook}  {{Arena}{}{Gossip}{}{areaName}{}{arrive}{}{bump}{}{characterName}{}{charactername}{}{gossip}{}{hero}{}{hpPercent}{}{info}{}{leave}{}{manaPercent}{}{opponentHealth}{}{opponentNumber}{}{position}{}{race}{}{roomName}{}{roomNumber}{}{staminaPercent}{}{tell}{}}
+#VARIABLE         {hours}  {431875}
+#VARIABLE         {hsnalreadycasting}  {0}
+#VARIABLE         {hsnclass}  {Priest}
+#VARIABLE         {hsncon}  {13 }
+#VARIABLE         {hsndex}  {10 }
+#VARIABLE         {hsnhp}  {0}
+#VARIABLE         {hsnhpratio}  {7.4}
+#VARIABLE         {hsnint}  {13 }
+#VARIABLE         {hsnlmax}  {0}
+#VARIABLE         {hsnluc}  {11 }
+#VARIABLE         {hsnmaxcon}  {13}
+#VARIABLE         {hsnmaxdex}  {10}
+#VARIABLE         {hsnmaxhp}  {0}
+#VARIABLE         {hsnmaxint}  {13}
+#VARIABLE         {hsnmaxluc}  {11}
+#VARIABLE         {hsnmaxmn}  {0}
+#VARIABLE         {hsnmaxssum}  {0}
+#VARIABLE         {hsnmaxst}  {0}
+#VARIABLE         {hsnmaxstr}  {10}
+#VARIABLE         {hsnmaxsum}  {71}
+#VARIABLE         {hsnmaxwis}  {14}
+#VARIABLE         {hsnmn}  {0}
+#VARIABLE         {hsnmpratio}  {9.5}
+#VARIABLE         {hsnrace}  {dwarf}
+#VARIABLE         {hsnsample}  {1}
+#VARIABLE         {hsnspratio}  {3.6}
+#VARIABLE         {hsnssum}  {0}
+#VARIABLE         {hsnst}  {0}
+#VARIABLE         {hsnstr}  {10 }
+#VARIABLE         {hsnsum}  {71}
+#VARIABLE         {hsnsummax}  {71}
+#VARIABLE         {hsntnl}  {100}
+#VARIABLE         {hsntotal}  {0}
+#VARIABLE         {hsnwis}  {14 }
+#VARIABLE         {idle.seconds}  {12}
+#VARIABLE         {idle.time}  {1575636480}
+#VARIABLE         {idleList}  {{1}{look}}
+#VARIABLE         {voteTime}  {-n 0}
+
+#CLASS {Xruid} CLOSE

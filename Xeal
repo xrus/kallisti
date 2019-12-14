@@ -1,0 +1,81 @@
+#CLASS {Xeal} OPEN
+
+#ACTION {%1 of gold coins is lying here.}
+{
+     get gold
+}
+
+#ACTION {You join the fight with %1.}
+{
+     joinjoin
+}
+
+#ALIAS {charmm}
+{
+     charm
+}
+
+#ALIAS {join}
+{
+     #nop
+}
+
+#ALIAS {joinjoin}
+{
+     #nop
+}
+
+#VARIABLE         {MSP}  {{LAST}{miscellaneous_fanfare*.wav}{SOUND}{0}{VOLUME}{0}}
+#VARIABLE         {OLD_MSDP_OPPONENT_NAME}    {the goblin king}
+#VARIABLE         {auto}  {{deposit}{1}{recall}{/}{recallPercent}{50}{sanc}{sanc}{vigor}{vigor}}
+#VARIABLE         {autoHealSelf}  {heal}
+#VARIABLE         {autoHealSelfPercent}  {80}
+#VARIABLE         {autohealList}  {{1}{Yara}{2}{Beryo}}
+#VARIABLE         {autorescueList}  {}
+#VARIABLE         {battle_manager}  {{tmp}{Beryo}}
+#VARIABLE         {filter}  {0}
+#VARIABLE         {fleeString}  {}
+#VARIABLE         {friends}  {{1}{Wraith}{2}{Storm}{3}{Hades}{4}{Beryo}{5}{Yara}}
+#VARIABLE         {heal}  {{incapacitated}{heal}{moderate}{heal}{morted}{heal}{nearDeath}{heal}{severe}{heal}{stunned}{heal}}
+#VARIABLE         {hook}  {{Advice}{}{Arena}{}{Barter}{}{Gossip}{}{Hero}{}{PK}{}{areaName}{}{arrive}{}{bump}{}{characterName}{}{charactername}{}{concentration}{}{gossip}{}{groupAdd}{}{groupEnd}{}{groupTell}{}{hero}{}{hpPercent}{}{incapacitated}{}{info}{}{leave}{}{lootCorpse}{}{manaPercent}{}{morted}{}{opponentHealth}{}{opponentName}{}{opponentNumber}{}{playerDeath}{}{position}{}{race}{}{report}{}{roomName}{}{roomNumber}{}{roomTossed}{}{say}{}{staminaPercent}{}{stunned}{}{tell}{}{trackFail}{}{trackLose}{}}
+#VARIABLE         {hsncon}  {16 }
+#VARIABLE         {hsndex}  {14 }
+#VARIABLE         {hsngrouptarget}  {gnome}
+#VARIABLE         {hsnhp}  {0}
+#VARIABLE         {hsnhpratio}  {6.12}
+#VARIABLE         {hsnhuntdir}  {}
+#VARIABLE         {hsnint}  {5 }
+#VARIABLE         {hsnlmax}  {0}
+#VARIABLE         {hsnluc}  {14 }
+#VARIABLE         {hsnmaxcon}  {16}
+#VARIABLE         {hsnmaxdex}  {14}
+#VARIABLE         {hsnmaxhp}  {0}
+#VARIABLE         {hsnmaxint}  {15}
+#VARIABLE         {hsnmaxluc}  {14}
+#VARIABLE         {hsnmaxmn}  {0}
+#VARIABLE         {hsnmaxssum}  {0}
+#VARIABLE         {hsnmaxst}  {0}
+#VARIABLE         {hsnmaxstr}  {21}
+#VARIABLE         {hsnmaxsum}  {74}
+#VARIABLE         {hsnmaxwis}  {18}
+#VARIABLE         {hsnmn}  {0}
+#VARIABLE         {hsnmpratio}  {11}
+#VARIABLE         {hsnrace}  {werewolf}
+#VARIABLE         {hsnratio}  {116006.2}
+#VARIABLE         {hsnrecharmtimer}  {1}
+#VARIABLE         {hsnsample}  {2}
+#VARIABLE         {hsnspratio}  {3.4}
+#VARIABLE         {hsnssum}  {0}
+#VARIABLE         {hsnst}  {0}
+#VARIABLE         {hsnstr}  {21 }
+#VARIABLE         {hsnsum}  {74}
+#VARIABLE         {hsnsummax}  {98}
+#VARIABLE         {hsntnl}  {-1121251}
+#VARIABLE         {hsntotal}  {0}
+#VARIABLE         {hsnwis}  {4 }
+#VARIABLE         {idleList}  {{1}{look}}
+#VARIABLE         {onDeath}  {{1}{sanc}{2}{sanc}{3}{sanc}{4}{sanc}{5}{sanc}{6}{sanc}{7}{sanc}{8}{sanc}{9}{sanc}{10}{sanc}{11}{sanc}{12}{sanc}{13}{sanc}{14}{sanc}{15}{sanc}{16}{sanc}{17}{sanc}{18}{sanc}{19}{sanc}{20}{sanc}{21}{sanc}{22}{sanc}{23}{vigor}{24}{sanc}{25}{sanc}{26}{vigor}{27}{vigor}{28}{sanc}}
+#VARIABLE         {tmp}  {west}
+#VARIABLE         {weapon}  {warhammer}
+
+#CLASS {Xeal} CLOSE

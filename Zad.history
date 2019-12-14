@@ -1,0 +1,332 @@
+Zmen
+10
+zone
+zerg
+b
+ogre
+8
+paragon
+#alias reroll
+#alias reroll rerol dex
+hsnsetmin
+hsnsetweight 2 0 0 2 1 0 50
+hsnsetweight 3 0 0 2 1 0 110
+hsnsetweight 1 0 0 1 1 0
+reset
+hsnsetweight 2 1 1 2 2 0 116
+buy change werewolf
+buy change
+buy change giant
+camp
+2
+zad
+y
+male
+3
+4
+brief
+scrol 55
+hsnsetweight 1 0 0 1 1 0 53
+hsnsetmin 0 0 0 0 0 14 0
+reclass fighter
+#alias reroll rerol str
+hsnsetweight 1 0 0 1 1 0 55
+hsnsetmin 22 0 0 14 0 14 0
+reroll
+reclass dwarf
+buy change trog
+hsnsetweight ogre
+hsnsetweight 2 1 1 2 2 0 120
+buy change ogre
+buy change goblin
+buy change human
+buy change half-orc
+buy change dwarf
+buy change troll
+#ig ac
+hsnclassnecro
+help races
+buy minotaur
+4n
+enn
+buy change minotaur
+12n
+exam chest
+get trident chest
+wield trident
+get lamp chest
+l lamp
+wear lamp
+exam case
+exam trunk
+get scarf trunk
+wear trunk
+wear scarf
+get boots trunk
+wear boots
+11n
+display all
+k girl
+kick girl
+newb hello
+help newbie
+att
+tel Ivy how to talk there?
+gos hello
+tel Ivy I'm not sure if I like muds. Xrus has got me here.
+k boy
+reply I'm not into games
+reply neither social networks
+kick pig
+reply yeah, xrus is here on my desk telling me what to do, instead of playing his own char who is on triggers. hehe
+kick boy
+autogold
+kick unicorn
+kick goat
+kick sheep
+kick pegasus
+prac parry
+#alias pracprac
+#alias pracprac kick
+kick woman
+l plate
+ssen
+sell plate
+seen
+sell sword
+10n
+3e
+kikc gypsy
+kick gypsy
+kick lady
+kick man
+s4w10s
+poke ptam
+quaf purple
+s4w10sw
+kick zombie
+wake;reca;s;sl
+gr all
+get raft trunk
+get raft case
+get raft chest
+autojoin
+tog autojoin
+replay
+noautojoin
+level
+c
+spec dread
+get bonemask chest
+wear bonemask
+fol xrus
+autojoin glare
+dir Polonius
+level 15
+prac glare
+friend add Xrus
+whoi zda
+whoi zad
+fol Xwo
+spel
+#cr
+gore
+tog
+tog AccountNames:
+tog AccountNames
+3ne
+dir control
+#config
+prac blind
+prac blind fighter
+prac blind fighting
+kick violinist
+7w
+ee
+kick viol
+prac climb
+prac assimilate
+help loot
+help corpse loot protection
+clp xrus
+sac corpse
+autodeposit
+autosplit
+tap
+withdraw 50000
+w3s
+4e
+prac ride
+wear all
+fle
+put trident chest
+search get spear trunk
+get spear trunk
+put all.spear trunk
+get desoy trunk
+wield spear
+put all.desoy trunk
+get tail chest
+wear tail
+get turban chest
+wear turban
+enter portal
+give red Xrus
+wear unholy
+nofilter
+l based
+l bastard
+prac edge
+l chestguard
+prac armor
+#alias joinjoin
+#alias assistassist
+#alias joinjoin galre
+#alias joinjoin glare
+#act {You join the fight with Xrus.
+#act {You join the fight with Xrus.} joinjoin
+prac call mount
+level 26
+prac critical
+prac dual wield
+wear chest
+get dagger chest
+put frostbrand chest
+remove spear
+put spear chest
+wield dagger
+remove red
+put red chest
+filter
+search case
+search trunk
+get necklace chest
+wear necklace
+wear buckler
+eq
+get ethereal chest
+wear ethereal
+l dagger
+wear ring
+10e
+wor
+sseessd
+level 29
+prac army of darkness
+nnwwnn
+gani
+prac lore
+sseess
+get bastard case
+put dagger chest
+remove dagger
+wield bastard
+hold dagger
+fol Xread
+friend add Xread
+tel Odd there is a portal you can use, already
+tel Odd but we cleaned that place
+tel Odd but we cleaned the place
+reply at the mages guild's entrance. But we already cleaned that place
+dir Xendorian
+get recall $sack;give recall Zad
+#10 buy recall
+glare defender
+prac multi
+prac army
+autopoke glare
+eeeee
+eeee
+nnw
+dism
+eessd
+skil
+prac edged
+1
+wake
+7e
+sl
+#config {packet patch} 1.4
+muds l
+whoi Beryo
+area trom
+goto atoll
+i
+s14e26n13esse
+glare gryphon
+#ig
+13w
+14wnn
+where
+tel Beryo need a third?
+fol Beryo
+ggr
+l guard
+gt Your wis is 45?
+wohi Beryo)
+whoi Beryo)
+kick
+#system reset
+#split
+replay gt
+gt well..
+gt you have 3 lvl 45 followers
+gt Your cast level is 48
+gt so you have atleast 39 wis
+gt that is high!
+eess
+gain
+prac protection from death
+prac
+visit zruz
+search chest
+eq all
+
+sc
+depart
+s7e
+7e26n13esse
+hsnclassdread
+wsen
+hunt member
+dir gryphon
+who
+13e
+3sen
+get saddle
+give saddle nightmare
+sw
+nn13w
+26s
+14w
+nn
+sssww4se
+en
+fol Xrus
+tel Loki :true Zad
+autoheal self heal 60
+#alias heal tel Loki :heal Zad
+heal
+af
+nohunt
+glare
+mount nightmare
+get all corpse
+n
+scn
+u
+callm
+gr
+combat
+#alias heal {#delay {healself} {tel Loki :heal Zad} {.7}
+goto druid well
+d
+s
+e
+w
+tel Loki :heal Xrus
+l
+tel Loki :reca;tel Loki :visit tux
+reca
+rec rec
+visit tux

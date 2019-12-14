@@ -1,0 +1,302 @@
+zarni
+#config
+l vest
+put vest chest
+put vest case
+whoi rake
+get book case
+wear book
+put all.book case
+wear bracelet
+l book
+s7e5see
+enter portal
+7e
+get rope chest
+4e
+3e
+12n
+#alias edrain
+#alias edrai #nop
+#alias vdrain
+#alias vdrai
+#alias vdrai edrain
+l dwarf
+dark dwarf
+ofk dwarf
+darkf dwarf
+get corpse
+drop corpse
+hsnclassbarb
+whoi thorne
+5n
+hunt stagehand
+ofk stagehnad
+ofk act;drain act
+prac animate dead
+prac unholy aura
+prac gaseous
+prac invisibility to undead
+get ring case
+wear ring
+op chest
+ssearch chest
+adv what is your rank in calling mounts?
+whio Xytha
+ofk member;drain
+dn
+regen
+l skeleton
+ofk member;drain member
+whoi Quinn
+l Quinn
+con Quinn
+dl
+con skel
+con 2.skel
+of sl
+26s
+14w
+swwss
+prac darkfriends
+prac darkfire
+prac drain
+remove book
+put book chest
+get wizard case
+hold book
+get hat chest
+wear hat
+get vest chest
+wear vest
+darkf stagehand
+ofk stagehand;sl
+rec reca
+l $sack
+exam bag
+13w26s
+13w
+of get rope chest
+of get lantern chest
+s7e12n
+ofk guard
+drain gu
+zzz
+ofk sentry
+drain dwarf
+of wear lantern
+12s
+7wn
+ofk Guildenstern
+disband zomb
+ofk Rosencrantz
+drain Rosencrantz
+id skeleton
+prac energy dragin
+#alias prac
+#alias edrai
+#unalias edrai
+of get rope
+of gte lantren
+of get hammer
+of get lantern
+of wield hammer
+ofk Polonius
+drain Gertrude
+#alias dir
+ksil
+spel necro
+ew
+dir king
+dir fool
+dir acg
+nohunt
+prac identify
+prac energy
+exam chest
+where
+darkf Gertrude
+drain Polonius
+l skel
+l 2.skel
+disband 2.skel
+#alias control
+#alias cundead
+se
+en
+drain act
+of kick
+ofk act
+wake;ofk act;sl
+dark
+fle
+rally
+nd
+dir act
+darkf violist
+r
+wak;edrain corpse
+help gouge
+wakee
+wake;aura
+wak
+uinvis
+l viol
+l quiver
+nofilter
+auc id
+filter
+ofk stagehand
+ssss
+ofk cello
+of get corpse
+tap
+wwss
+prac ride
+prac summoun mount
+prac summon m
+prac energ
+dismb
+dism;mount nightmare
+darkf Rosencrantz
+drain stag`
+drain stagehand
+darkf Guildenstern
+ofk Claudius;drain Claudius
+l zombie
+disband 2.zomb
+ow
+oe
+ofk Claudius
+darkf Claudius
+l zomb
+l 2.zomb
+disband zombie
+dir stagehand
+spel
+skil
+ww
+id viol
+help iden
+cast identify viol
+\id voil
+\id viol
+c identify viol
+c "identify" viol
+c "identify"
+identify viol
+#alias identify
+gos how can I use the identify spell?
+darkf mand
+drain
+darkf manor
+edrain corpse
+wwnne
+dir Claudius
+disband skeleton
+dir Guildenstern
+dir Rosencrantz
+muds l
+dir Polonius
+5s
+wsssw
+4s
+esssw
+darkf Polonius
+#ig
+dir Gertrude
+gase;u
+sswwss
+prac wraithform
+visit zruz
+search case
+search trunk
+get bracelet chest
+remove bracelet
+l golden
+wear Virgo
+put bracelet chest
+get golden chest
+wear golden
+search chest
+eq
+get order chest
+wear order
+i
+depart
+smount
+l Flynn
+con Flynn
+l 2.
+l 3.
+l knight
+l 2.knight
+con man
+c iden man
+iden man
+id man
+#alias id
+c 'identify' Ryl
+c 'identify' man
+4n
+swwsneen
+s14e26n13ess
+ofk viol
+drain viol
+sw
+dir hurdy
+darkf mandolin
+darkf member
+dir memberl
+wraith
+ee
+sssw
+sss
+3n
+fl
+sd
+dir conductor
+dir member
+dir cello
+es
+nn
+darkf cello
+aura
+darkf hurdy
+scn
+ss
+ig
+anim corpse
+dir viol
+darkf
+darkf viol
+sl
+wake
+mount nightmare
+gr
+gase
+reca
+w
+s
+d
+prac levitate
+prac shrieking
+u
+prac
+disband all
+e
+n
+l
+dism
+af
+sc
+whoi zarni
+whoi jaze
+
+1
+hsnclassnecro
+gos any immortal around?
+who
+tel Colenzo Hello. my account is not disconnected for 2 hours now
+tel Colenzo I cannot login
+tog sound

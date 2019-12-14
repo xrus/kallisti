@@ -1,0 +1,42 @@
+#CLASS {Xest} OPEN
+
+#VARIABLE         {MSP}  {{SOUND}{1}{VOLUME}{0}}
+#VARIABLE         {auto}  {{recallPercent}{20}}
+#VARIABLE         {autoHealSelfPercent}  {50}
+#VARIABLE         {currTime}  {1555047000}
+#VARIABLE         {fleeString}  {}
+#VARIABLE         {hook}  {{areaName}{}{charactername}{}{gossip}{}{hero}{}{info}{}{leave}{}{manaPercent}{}{position}{}{race}{}{roomName}{}{roomNumber}{}{tell}{}}
+#VARIABLE         {hours}  {431957}
+#VARIABLE         {hsncon}  {0}
+#VARIABLE         {hsndex}  {0}
+#VARIABLE         {hsnhp}  {0}
+#VARIABLE         {hsnint}  {0}
+#VARIABLE         {hsnlmax}  {0}
+#VARIABLE         {hsnluc}  {0}
+#VARIABLE         {hsnmaxcon}  {0}
+#VARIABLE         {hsnmaxdex}  {0}
+#VARIABLE         {hsnmaxhp}  {0}
+#VARIABLE         {hsnmaxint}  {0}
+#VARIABLE         {hsnmaxluc}  {0}
+#VARIABLE         {hsnmaxmn}  {0}
+#VARIABLE         {hsnmaxssum}  {0}
+#VARIABLE         {hsnmaxst}  {0}
+#VARIABLE         {hsnmaxstr}  {0}
+#VARIABLE         {hsnmaxsum}  {0}
+#VARIABLE         {hsnmaxwis}  {0}
+#VARIABLE         {hsnmn}  {0}
+#VARIABLE         {hsnrace}  {human}
+#VARIABLE         {hsnsample}  {0}
+#VARIABLE         {hsnssum}  {0}
+#VARIABLE         {hsnst}  {0}
+#VARIABLE         {hsnstr}  {0}
+#VARIABLE         {hsnsum}  {0}
+#VARIABLE         {hsnsummax}  {0}
+#VARIABLE         {hsntotal}  {0}
+#VARIABLE         {hsnwis}  {0}
+#VARIABLE         {idle.seconds}  {0}
+#VARIABLE         {idle.time}  {1555047900}
+#VARIABLE         {idleList}  {{1}{pose}}
+#VARIABLE         {voteTime}  {-n 0}
+
+#CLASS {Xest} CLOSE

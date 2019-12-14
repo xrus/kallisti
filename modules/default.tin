@@ -1,0 +1,230 @@
+#CLASS {Default} OPEN
+
+#ACTION {Renewing charm duration for %1 to %2 hours.}
+{
+	#delay {hsnrecharmtimerdelay} {#var hsnrecharmtimer 1} {300};
+	#variable hsnrecharmtimer 0
+}
+{#alias hsndone5 {hunt $hsntarget}}
+
+#ACTION {%1 of gold coins is lying here%1}
+{
+	get coins;
+}
+{5}
+
+#ACTION {A powerful wind flows through the tunnels, sweeping you along with it.}
+{
+	hsndone;
+}
+{5}
+
+#ACTION {Alas, you cannot go up..}
+{
+	op vent;
+	op flap;
+}
+{5}
+
+#ACTION {Unknown Command.  ('pracskilll')}
+{
+	pracprac
+}
+{5}
+
+#ACTION {You drain some of %1 life energy. (%2 damage)}
+{
+	#if {MSDP_OPPONENT_NUMBER < 1}
+	{
+		#echo {FIXING WRONG MSDP_OPPONENT_NUMBER};
+		#variable MSDP_OPPONENT_NUMBER 1
+	}
+}
+{5}
+
+#ACTION {You need to specify a victim name for your spell.}
+{
+	#if {$MSDP_OPPONENT_NUMBER > 0}
+	{
+		#echo {fixing msdp_opponent_number:$MSDP_OPPONENT_NUMBER};
+		#variable MSDP_OPPONENT_NUMBER 0
+	}
+}
+{5}
+
+#ACTION {You open the %1.}
+{
+	l
+}
+{5}
+
+#ACTION {You quickly find page 17, in the %0.}
+{
+	#echo {hsnalreadycasting:$hsnalreadycasting before actual cast};
+	#if {$hsnalreadycasting>0}
+	{
+		#math {hsnalreadycasting} {$hsnalreadycasting-1}
+	};
+	hsncastpage17
+}
+{5}
+
+#ACTION {You use %%1 to focus your spell.}
+{
+	#echo {hsnalreadycasting:$hsnalreadycasting before actual cast};
+	#if {$hsnalreadycasting>0}
+	{
+		#math {hsnalreadycasting} {$hsnalreadycasting-1}
+	};
+	pra
+}
+{5}
+
+#ACTION {You use %1 to focus your spell.}
+{
+	#echo {hsnalreadycasting:$hsnalreadycasting before actual cast};
+	#if {$hsnalreadycasting>0}
+	{
+		#math {hsnalreadycasting} {$hsnalreadycasting-1}
+	};
+	pracprac
+}
+{5}
+
+#ACTION {You use %1 to focus your spell.}
+{
+	#echo {FIXING WRONG MSDP_OPPONENT_NUMBER};
+	#variable MSDP_OPPONENT_NUMBER 0
+}
+{5}
+
+#ALIAS {hsndone}
+{
+	#nop save;
+	hsndone0;
+	hsndone1;
+	hsndone2;
+	hsndone3;
+	hsndone4;
+	hsndone5;
+}
+
+#ALIAS {bashbash2}
+{
+	#nop
+}
+{5}
+
+#ALIAS {breakout}
+{
+	#nop
+}
+{5}
+
+#ALIAS {heal}
+{
+	#echo {heal};
+	hea
+}
+{5}
+
+#ALIAS {hsncastpage17}
+{
+	pracskill
+}
+{5}
+
+#ALIAS {hsndone0}
+{
+	#nop
+}
+{5}
+
+#ALIAS {hsndone1}
+{
+	#nop
+}
+{5}
+
+#ALIAS {hsndone2}
+{
+	#nop
+}
+{5}
+
+#ALIAS {hsndone3}
+{
+	#nop
+}
+{5}
+
+#ALIAS {hsndone4}
+{
+	#nop
+}
+{5}
+
+#ALIAS {hsndone5}
+{
+	hunt $hsntarget
+}
+{5}
+
+#ALIAS {laglag2}
+{
+	bashbash2
+}
+{5}
+
+#ALIAS {ofk}
+{
+	of kill %0
+}
+{5}
+
+#ALIAS {reroll}
+{
+	rerol hp
+}
+{5}
+
+#ALIAS {sanc}
+{
+	get purple $sack;
+	quaff purple
+}
+{5}
+
+#ALIAS {shrieking}
+{
+	#echo {casting shrieking};
+	shriekin
+}
+{5}
+
+#ALIAS {xdrain}
+{
+	#math {rndnum} {1d2};
+	#if {$rndnum > 1}
+	{
+		#alias xxdrain {edrain corpse}
+	};
+	#if {$MSDP_MANA<.4*$MSDP_MANA_MAX || $MSDP_HEALTH>$MSDP_HEALTH_MAX}
+	{
+		#alias xxdrain {edrain corpse}
+	};
+	#if {$MSDP_HEALTH<.5*$MSDP_HEALTH_MAX || $MSDP_STAMINA<.3*$MSDP_STAMINA_MAX}
+	{
+		#alias xxdrain {vdrain corpse}
+	};
+	xxdrain
+}
+{5}
+
+#ALIAS {xxdrain}
+{
+	edrain corpse
+}
+{5}
+
+#CLASS {Default} CLOSE

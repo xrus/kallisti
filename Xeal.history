@@ -1,0 +1,1000 @@
+wear all;e;/;s;tap
+depar
+tel Storm where?
+help atol
+fol Storm
+'I have never been here
+'what we kill here?
+nod
+'I've been led here
+sanc storm
+autoheal add all
+#unact {Looks like its not quite %1 bedtime.  Mlixx frowns.} zzz $hsngrouptarget
+#alias hsndone
+#alias hsndone1
+#alias hsndone2
+nohun
+'want me to lead?
+gt coming
+charm 5.gu
+goto atol
+2s4w9s2e15s;open gate;3w6s2ws3wdse5s4w2s
+hunt storm
+gt appoint me
+charm 4.gu
+gt we kill all trog?
+gt OK
+gt I poke
+#alias hsndirmelee {:pokes %0; ofk %0}
+tel Mlixx going to get him to 50
+of warcry
+of focus str
+level 38
+level 40
+hunt trog
+get all.spear $Sack
+get all.spear $sack
+'hmm
+ge
+get spear trunk
+gt need stronger ones
+put But for now
+think
+7n
+drop all.lantern;drop all.rope;of get rope;of get lantern
+area druids
+area druidw
+help Druidwell
+of deaths defender's
+gt hard for us
+whoi tod
+gt bring tod. We do it
+gt sure
+heal 4.gu
+spel barb
+of deaths defender
+of bash defender
+of kick defender
+heal 3.gu
+gt I should change mobs
+gt these are not good charmies
+disband all
+tel Storm :qw
+tel Storm :recall
+prac calm
+gt brb
+3neun
+eed
+gt who else?
+nw
+wwwww
+wwww
+charm commander
+'brb
+6e
+reform Henry alpha
+reform Hamlet Secondary
+reform Rordack Tertiary
+heal Henry
+recharm Rordack
+sigh
+gt hard to keep them with me all the time
+gt not that
+gt there is no recharm command
+recharm Henry
+gt not for prophets
+recharm Hamlet
+recharm Matthew
+recharm commander
+#var hsnrestmnratio 0
+ennw
+dir Gertrude
+dir Polonius
+w;dir gravedigger
+w;dir Guildenstern
+dir Rosencrantz
+dir Claudius
+of remove lanter
+'baha
+sse
+gt all n
+4sww4n3w4n
+gt thanks
+charm keep
+/
+gt OK. Where could I find lvl 40 barbs?
+gt or rangers?
+s;charm gu
+get lantern
+get rope
+reform sentry Alpha
+reform 2.sent Secondary
+reform gu Tertiary
+reform 2.gu Quaternary
+nu
+l sense
+l 2.gu
+l 2.sent
+l sent
+whoi omen
+whoi air
+ds
+eneu
+'ah
+where enfan
+heal 2.sent
+heal sent
+gt where else could we go?
+recharm gu
+recharm 2.gu
+me
+recharm 2.sentr
+gt where is the key?
+of bers
+list key
+ns
+buy 2
+nwn
+gt going to quit after this title
+gt too sleeply
+bless group
+darmor group
+gt I go to sleep
+gt cannot stay awake anymore
+gt all visit tux
+level 42
+gt sure. Refreshing gnomish spear supplies and sleeping
+get recall $sack
+of grap
+put rope trunk
+put lantern trunk
+tel Storm join?
+tel storm ready
+beckon Storm
+gr Storm
+gt Let's get some followers
+7e5s
+6es
+of k groundling
+#loop 6 1 i get all $i\.corpse
+drop maul
+drop staff
+put id $sack
+replay  gt
+#alias hsndirmelee :pokes
+dir member
+k member
+charm Mat
+dir Falstaff
+dir Ariel
+zzz Prospero
+#alias hsndirmelee ofk
+dir Prospero
+hunt act
+hunt member
+gt back?
+dir conductor
+of bash viol
+of deaths viol
+gt Let's see if I can charm archers
+gt reca
+charm arch
+charm 4.archer
+charm 5.archer
+put all.desoy trunk
+put ice trunk
+gt join back at ptam
+#5 put spear trunk
+put trunk
+put spear trunk
+drop all.spear;#2 of get spear
+gt qw
+gt where are you?
+7e5s6es
+drop all.lantern;drop all.rope;of get rope;of get lantern;of wear lantern
+reply come?
+reply ptam
+reply :recall
+tel Storm :fol xeal
+gr all
+6n
+e;dir enfan
+vigor all
+'one
+'both
+of sit
+gt poke works?
+gt set to kill?
+:pokes defender
+gt ok.
+heal 3.archer
+wake;n;med
+reform gu Alpha;reform 2.gu Secondary
+gt all recal
+hunt rat
+nnw
+repl
+top1 paragon
+gt all recall
+gt all s
+2s14w4sws6w7n7w2n3ess
+ws
+dir defender's
+5w
+ne
+level 43
+level 44
+gt all reca
+swnn
+vigor group
+heal archer
+heal 4.archer
+of imp gnome
+form
+noautoheal
+autoheal add Storm
+gt tnl
+of berserk
+dir 2.gnome
+gt good xp?
+gt you are there?
+recharm archer
+recharm 2.archer
+recharm 3.archer
+recharm 4.archer
+whoi cunor
+whoi sin
+whoi Justcallmeremey
+whoi Jericho
+whoi Reorx
+whoi Sybil
+tog autojoin
+zzzz
+dir gnome
+gt I have to go
+gt You are there?
+gt Have to quit
+mira group
+gt later
+tip
+2
+Xemp
+y
+male
+8
+remove stirrups
+put stirrups trunk
+l scepter
+l hat
+l gloves
+l bleeding
+buy id
+autodeposit
+we
+w3s
+rec id self
+reply the maxes of this char is: 10/12/24/7/11/16
+tel Rhexx the maxes of this char is: 20/22/34/17/21/16
+tel Genja why?
+tel Genja as a necro? :D
+tel Genja I hate butter
+whoi thrux
+whoi Thrux
+whoi rhexx
+whoi vigil
+whoi Secro
+disband gu
+charm castle gu1
+spirit
+#alias charm
+charm
+tap
+visit tux
+exam vault
+get tunic chest
+wear tunic
+exam armor
+get ledger trunk
+get green trunk
+get Gemini trunk
+l green
+remove tunic
+wear green
+wear tuni
+stren
+drop all.spear
+drop all.rope
+drop all.lantern
+put tunic chest
+remove buckler
+put buckler chest
+3wss4sww4n3wnn
+charm cast gu1
+#unalias sanc
+charm royal gu1
+charm 2.royal gu2
+help group
+help groupp
+help grou
+help 'group'
+help "group"
+help help
+help group2
+help gr
+l royal
+5
+enn
+help quest points
+whoi
+whoi sammy
+whoi thorn
+whoi Siobhan
+hsnclassprop
+11n
+disband archer
+area 40 41
+area castle
+area palace
+area village
+area Aartuat
+area town
+area city
+area Evermore
+goto Evermore
+ww3n
+charm 2.sentry
+give rope sentry;give rope 2.sentry
+give lantern sentry;give lantern 2.sentry
+give spear goblin;give spear 2.goblin
+s7e7n
+autorefresh
+autorefresh 50
+alias auto%*
+#alias %*ref%*
+#alias %*auto%*
+#alias %*heal%*
+#alias auto
+#alias auto%*
+id goblin
+lore goblin
+rec id goblin
+charm group
+replay;replay gos
+level 45
+level 50
+level 46
+recharm sentry
+recharm 2.sentry
+sanc;darmor
+wake;sanc;darmor;med
+eye
+#var hsnresthpratio%*
+#var hsnrestmvratio%*
+#var hsnrestmnratio1 .4
+locate longsword
+locate green longsword
+#cr
+whoi Smith
+help raise dead
+prac true seeing
+help true seeing
+recharm 2.goblin
+skil medi
+zzz 2.lamia
+charm lamia
+wake;charm hawk
+of deathstroke
+k lamia
+autohealself heal 50
+autoheal self heal 50
+of repor
+wak
+ofk lamia
+reca;swnn
+wake;swnn
+of remove lantern
+of give lantern Xeal
+of give rope Xeal
+of give spear Xeal
+l 3.
+charm Arland
+disband Arland
+charm 2.paladin
+disband Vlad
+charm aging
+charm paladin
+l Jenson
+nofilter
+sell silvermesh
+charm Matthew
+l knight
+get key;unlock door;drop key;l
+hunt miner
+autoheal self heal 66
+#2 drop spear;of get spear
+of remove shield;of hold spear
+of wear shield
+heal Vlesh
+autoheal add Vlesh
+autoheal add Matthew
+#var hsnresthpratio1 .5
+autoheal.conf
+autoheal.setting
+autoheal.settings
+heal.setting
+heal.settings
+gos bah
+#alias /
+sup
+wak;vigor;med
+#tick
+#untick hsnhunt
+#delay
+#var spam
+wake;sanc;bless;darmor;med
+fa
+whoi Xeal
+withdraw 1000
+w4s
+buy raft
+sw
+nne
+withdraw 4000
+list
+buy 4
+wear symbol
+charm vlesh
+ese
+ee
+7w
+autoloot
+get all corpse;wear all
+l corpse
+exam corpse
+remove symbol
+drop symbol
+wear red
+sc stats
+3nw4nee
+charm hamlet
+l Vlad
+order Vlesh get all
+drop spear
+of get spear
+of give spear Hamlet
+ssws
+drop lantern
+of get lantern
+of give all xeal
+give spear Hamlet
+l Vlesh
+l fieldclasp
+put all.spear casde
+3wss4sww4n3w3n
+l gu
+of get green chest
+of wield longsword
+of put all chest
+l case
+of get all case
+of remove spear
+of wield sword
+sd
+oe
+charm Henry
+order henry get lantern case
+order henry get rope case
+order henry get lantern chest
+order henry get spear case
+of put spear case
+of drop rope;of get rope
+sws
+buy lantern
+give lantern henry
+get all.blade chest
+get all.blade case
+get all.blade trunk
+put all.blade chest
+l Henry;l guard
+k gnome
+l soldier
+l gnome
+ofk gnome
+zzz gnome
+ofk 2.gnome
+order henry get blade
+of k gnome
+order henry get blade corpse
+wake;nn
+wake;goto thalos
+autoheal self heal 75
+sanc;vigor;bless;darmor
+of deaths lamia
+autoheal remove Vlesh
+autoheal remove Matthew
+autoheal
+autoheal remove Storm
+heal henry
+of get all 2.corpse
+exam 2.corpse
+of drop all
+l henry
+s7e12n3en
+tel Zerigharf I like how you think
+tel Zerigharf Want to join?
+tel Zerigharf I am doing what you do. We might be able to do it together
+gwho
+help werewolf
+werewolves
+werewolf
+tel Sammy The only way to change race is quest points?
+replay
+whoi Thorne
+whoi Thorn
+whoi Sparrow
+tel Kackerlacka Up to level Xepher?
+whoi xepher
+where xepher
+whoi Shalazar
+whoi Zath
+spel priest
+goto roogna
+nn
+charm royal
+s11e12
+charm guarding
+charm 2.guard
+disband goblin
+disband noble
+charm king
+charm mage
+charm sense
+calm
+wake;zzz
+goto evermore
+3wss
+4sww4n
+3w4n
+ww
+charm Hamlet
+get blade case
+of get sun case
+of wield sun
+of hold blade
+of wield blade
+l Hamlet
+of get rope case
+of wear all
+get shard corpse
+help shard
+redeem shards
+remove all
+redeem shard
+gos woot what?
+gos how you know?
+gos ah
+gos it was useless though
+replay hero
+of kill lamia
+s;of k lamia
+wake;heal guard
+of sle
+heal guard
+wake;e
+wake;wnw
+of bash
+of kick
+of k lamia
+wake;reca;swnn;gain
+gos thanks
+wake;sse
+14e
+26n
+charm warrior
+whoi mullin
+whoi Hades
+whoi Iapetus
+whoi Nogada
+whoi Althor
+muds l
+tel Yara OK.
+tel Yara we can join if you like
+eq all
+fol Yara
+fol Beryo
+gt wow! 4 skeletons
+tel Beryo What wis?
+friend add Beryo
+friend add Yara
+autoheal add Yara
+autoheal add Beryo
+sanc Beryo
+syphone Yara
+syph Yara
+#var hsnrest%*
+#var hsnrestmnratio%*
+#var hsnresthpratio1
+#var hsnresthpratio1 0
+#var hsnresthpratio2 0
+#var hsnrestmnratio2 0
+ig
+repor
+gt nice!
+gt these orcs are easier than the orcs near dwarves?
+gt ah
+#alias hsndirmelee #nop
+gos tzag
+gt I think that necro are Really OP. Even after their nerf
+gt I love mine
+gt Druids were even stronger when I started Kallisti about a year ago. But soon after I joined, they nerfed AF
+gt I could carry four-five same level animals with me at lvl 40-50
+gt You can have atmost 2 now
+gt not even same lvl
+gt Unfortunately I tried all the charm classes and the all got nerfed. I have a feeling that I'm the cause!
+gt when could you have such an army? It wasn't possible a year ago
+gt I have missed a HUGE fun then! :D
+gt my druid was so powerful a year ago, that I could start farming lamias at lvl 30. I bet the necro of 3 years ago could have done much stranger things :D
+f
+sanc group
+gt But the good thing about necro/druid is that they can recharge their mana. that is awesome
+gt yeah
+gt being able to get to 2k hp/sp at lvl 30 in 3 weeks is awesome
+gt So you are a necro expert. Can you tell me where I can find some undeads to charm?
+gos 40-45 50-55
+gos mt
+gt 40-45-50-55
+gt what lvl?
+gt sounds nice
+gt near goblins?
+gt problem is, these skeletons cannot wield green longsword
+replay gt
+heal nightmare
+gt me? yes
+gt 2m
+gt I can solo this one to 50. not hard at all. If you are done with yours, I'm willing to switch to my young ones and grow some unspecialized chars
+grin
+gt Thanks
+gt let's then
+gt Even with current necro nerfs, they are much better than prophs :D
+vig
+vig Beryo
+whoi lone
+gr'
+gt Can I get afk briefly?
+6
+tel Sammy Hello again. Are you there?
+tel Dajjal hey
+s7e
+4e
+charm goblin
+charm 2.gu
+charm 3.gu
+7s
+eu
+charm are
+l are
+give all.gold Xeal
+drop all.coins
+get all.coins
+l archer
+l 2.archer
+of get spear case
+of get lantern case
+of get roep case
+5s
+5e
+nes
+buy rope
+drop rope
+of get rope
+#alias hsndirmelee kill
+zz
+w;zzz lamia
+w;ofk lamia
+hsnresthpratio1
+autoheal self heal 60
+autorecall mira 25
+autoheal self heal 70
+heal 2.archer
+l goblin;l 2.goblin
+hea 2.goblin
+'hey
+where lamia
+7e
+8s
+3s
+of imp thri-kreen
+of kick thri-kreen
+dir thri-kreen
+dir thri
+heal 2.goblin
+hea goblin
+l 2.gob
+of imp thr
+of imp thr;zz thri
+charm gu
+char goblin
+of disband
+disband goblin;charm goblin
+disband archer;charm archer
+3n
+charm bard
+goto druidwell
+goto list
+goto druid
+give rope Sha
+give lantern Shakespeare
+l Shakespeare
+get all.spear case
+put all.spear case
+get all.spear trunk
+give 2.spear Shakespeare
+put all.spear trunk
+get lantern case
+get rope case
+put lantern case
+get spear case
+sell blade
+8e
+10n
+charm se
+charm guard
+l guard
+give spear guard
+l goblin
+of give spear xeal
+disband guard
+of backs guard
+zzz gu
+#alias dir {of backstab %0; zzz %0}
+dir guard
+#alias dir
+#alias hsndirmelee {of backstab %0; zzz %0}
+hunt goblin
+dir 2.goblin
+dir goblin
+swn
+sanc Shakespeare
+wake;sanc
+#var hsnrestmnratio1
+#var hsnrestmnratio1 0
+#var hsnrestmnratio2
+save
+#alias hsndirmelee {of backstab %0; zzz %0; zzz; zzz; of dance}
+#alias hsndirmelee {of backstab %0; zzz %0; #2 zzz; of dance}
+where monkey
+hunt monkey
+nd
+hunt lemur
+of dance
+#alias hsndirmelee {of backstab %0; zzz %0; of dance}
+of backs lemur
+heal Shakespeare
+of slee
+#alias hsndirmelee {of backstab %0; of dance}
+af detail
+tel Saruman what you need here?
+zzz defender
+dir defender
+whoi Chaos
+gos gratz
+zzz monkey
+dir monkey
+3ne4n
+charm 2.bard
+4n
+where sentry
+charm sentry
+visit zru
+order goblin get spear case
+order goblin get lantern case
+order goblin get rope case
+of wear lantern
+l sentry
+of remove blade
+of drop blade
+of wield spear
+get balde
+get blade
+l blade
+drop blade
+of callm
+#alias hsndirmelee {of backstab %0; of rescue shakespeare; of dance}
+recharm Shakespeare
+#alias hsndirmelee {of backstab %0; of deathstroke %0; of dance}
+zzz lemur
+dir lemur
+#alias hsndirmelee
+#alias
+help deathstroke
+hunt sloth
+heal shakespeare
+#system reset
+#split
+sss
+en
+4w
+ss
+zzz sloth
+dir sloth
+es
+op d
+d
+of ba root
+of deaths
+heal group
+heal goblin;heal shakespeare
+zzz root
+dir root
+goto orshingal
+tel saruman know a lvl 40 assassin?
+of wake
+of give all.coins Xeal
+hunt lamia
+3w
+nnnn
+hunt enfa
+hunt enfan
+dir enfan
+nohunt
+recharm goblin
+recharm shakes
+goto druid well
+goto thalos
+heal goblin
+l lamia
+of sleep
+wake;true
+rege
+of stand
+dir lamia
+zzz lamia
+of put all case
+wne
+wn
+gain
+visit
+search case
+search trunk
+exam trunk
+get all.elb trunk
+exam case
+search chest
+exam chest
+get all.elb chest
+tel Azazer My hope was open to many and I've not been around for sometime.
+tel Azazer I had more eq than just divine stirrups
+reply having +heal on them
+tel Azazer for +heal
+tel Azazer but for now, that's just it
+tel Azazer that is +ride and +heal
+7
+s14w;enter tree;w;remove all;list
+hsnclassprophet
+s7e12n
+3en
+l ledger
+wear ledger'
+wear ledger
+charm orc
+mira
+spel
+prac lore
+prac
+help consecrate
+help spiritual guardian
+help resistance
+help reverberate
+prac full heal
+charm 3.archer
+skil
+l king
+get id $sack
+l $sack
+#ig
+#var sack
+exam $sack
+wor
+7e12n
+ofk sentry
+give spear archer
+give spear 2.archer
+of hold spear
+4s
+rally
+charm archer
+s11e12n
+charm 2.archer
+of put spear trunk
+get all.gnome trunk
+get all.gnome chest
+get all.gnome case
+uptime
+hsnclassproph
+#alias sanc
+sanc Colony
+sanc Saruman
+where
+11e
+charm knight
+combat
+e;charm Vlesh
+heal
+scn
+sl
+get raft
+s14e26n13ess;oe;e
+refresh
+wnw
+true
+wear all
+charm Vlad
+get corpse
+charm Vlesh
+s11e
+12n
+darmor
+vigor
+pfe
+bless
+sanc
+sanc Vlad
+5n
+u
+regen
+wake;w
+w;!of
+replay gos
+zzz king
+fle
+med
+whoi Arya
+gos you got nerfed?
+gos how you got nerfed Arya?
+eq
+gr
+w;of charge king
+of lay Xeal
+zzz
+of charge king
+get all
+get all corpse
+sac corpse
+l
+visit zruz
+put longsword trunk
+put longsword case
+\news
+wake
+depart
+who
+l vlad
+of remove all
+of give all Xeal
+sell silver
+sell sword
+swwn
+seen
+sell spear
+s7e7ne
+time
+l broach
+sell broach
+sell boots
+7e7n
+disband
+sell shield
+i
+reca
+n
+e
+w
+s
+af
+9
+
+1
+sc
+camp
+3
+10

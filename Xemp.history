@@ -1,0 +1,1000 @@
+prac armor use
+prac charm person
+reply join?
+reply not sure yet. Let's see what I can charm
+tel storm urgently going to do something. Will be back in ten mins
+tel storm let's
+get bleeding trunk
+get crying trunk
+gt hmm
+gt goblin guards probably
+10s
+gt set autopoke?
+gt we don't hunt just evils
+gt kill!
+dir sister
+charm Macbeth
+hunt viol
+dir viol
+dir gravedigger
+dir Hamlet
+zzz Hamlet
+dir Guildenstern
+ssss
+esw
+#act {You open the %1.} l
+prac meditate
+get id $sack
+rea
+s7w4n8w7s
+dir ticket
+nn
+hunt skeleton
+tel storm recall
+tel storm qw
+gt n
+9n
+gt all e
+rec rec sotrm
+heal storm
+gt too tough
+lscn
+gt why are they too tough?
+vigor storm
+gt going to get my things back
+rec rec
+gt I'll be back soon
+gt recovering my things
+9
+tel darnon what are those orcs' level?
+reply I kill him with 3 lvl 50 followers without loss, how your fall?
+sanc Storm
+gos you are satisfied with a shovel?
+gos I prefer an umbrella
+gos shove it in, then open it
+gt all tap
+gt what you do?
+gt all kill miner
+#alias hsndirmelee gt all kill miner
+#alias hsndirmelee gt all kill
+gos Darnon! why you play a proph? Were you not supposed to play a sam/barb so we newbs can learn and explore?
+gos this way, we won't learn much
+top1 22
+gos let's see then
+gos before you go to work..
+gos who are bigger prophs k5?
+top1 pries
+gos I've seen him once
+gos after a crash
+gos no one was online
+gos or better to say, I saw no one online
+gos what is level 1?
+whoi darnon
+gos 60+?
+gos I'm not sure about necros, but for charm person, I'd say you have to gather all the needed meta for lvl 80
+gt no
+#alias hsndirmelee :pokes %0
+gt now it does
+sanc;sanc Storm
+gos I love charm monster
+gos I wish it worked over 56
+gos why does it?
+gos charm person is not that good
+gos but charm monster rocks
+gos they might attack you
+gos control undead is limited to undeads, but after 56, it seems to be the main option
+gos 56 is a hard cap
+gos charm monster > charm person, because they won't attack on fail and you can charm almost all the living
+gos you could charm a couple levels higher with charm person 
+gos but you cannot do it anymore
+gos I meant something else. same level charm-person could charm higher level than charm-monster
+reply nice
+reply I don't say that charm person is not good. Just saying that charm monster is better in all the aspects
+gt good time to break
+reply me too
+gos from lvl 10
+gos or was it 20? The level I could get it
+reply you MUST group them now, or they won't help
+reply and you cannot order
+reply but it is much better now
+reply yesa
+reply hehe, me too
+reply just have different mobs, so you can heal them automatically
+tel Darnon the only problem is the 56 cap
+reply what will you do then?
+tel Darnon how long will you be around?
+get sash vault
+l payroll
+l sash
+remove payroll
+wear sash
+put payroll trunk
+reply You playing? I join?
+reply with xrus
+reply sure
+reply try 'top paragon'
+reply but don't tell anyone
+top paragon
+reply or Smith gets me in a day
+reply almost ready for lvl 60
+reply that is what I did
+reply not with a prophet, but a necro
+reply prophet is not bash-immune
+reply necro is
+reply it is, when you couple it with charmi rescue
+reply necro is immune to both
+whoi mase
+reply but honestly, I'd say necro is the best build solo
+reply even if they open the charm cap
+7e12n
+reply sure.
+reply groups' top build is proph
+charm elite
+charm 2.elite
+charm 3.elite
+charm 4.elite
+charm 5.elite
+reply You can do so with a necro too, right?
+#alias hsndirmelee of kill
+reply and with current charmies necro seems even easier
+reply I mean low playerbase
+reply solo seems to be more important now
+reply I'm not that proph friendly yet
+reply My speed with necro is much higher
+reply I gathered all the xp to get a barb paragon to lvl 60. I got disconnected and died immaturely
+reply that is why my barb is lvl 52
+reply if your pace with necro is higher than with a proph, and it's also same for almost anyone else, does it not prove that necro is the best solo build?
+reply Yeah, you can empty your mana on a mob and start fully refreshed after it
+reply Your time differs. when I play mostly, there are not many to group with
+reply I almost never get there
+reply my trigs are set to 50% mana. a bit more than I feel safe which is 30
+charm group
+reply well.. one more downside of charm-person is 'charm group'
+recharm elite
+recharm 2.elite
+recharm 3.elite
+recharm 4.elite
+recharm 5.elite
+reply you still get attacked with charm-person fails?
+reply what you do?
+reply One pros of necro over proph
+reply You can autopilot them much easier
+level 56
+level 36
+spel necro
+whoi Dedecus
+whoi Chirin
+whoi Shelby
+whoi Valkrist
+whoi blake
+whoi Belboz
+gos by exploring
+10
+whoi Beginning
+gt let me get us some friends
+4nww
+#alias hsndirmeleeranged
+#alias dir
+#alias dir hsndirmelee
+#alias dir hsndirmeleeranged
+autoheal all
+autoheal add Henry
+autoheal add Hamlet
+autoheal add Matthew
+autoheal
+style
+remove disc
+hunt sister
+g
+hunt Ariel
+wak;s
+wak;heal Storm;med
+tel Storm :follow Xeal
+wak;gr all;heal Storm;med
+gt that was harsh
+wak;vigor;med
+wak;sanc;med
+gos 2x36 I'd say
+gos without a doubt
+wak;sanc
+gt let me gather my things fast
+3nw4nde4sw
+get all 2.corpse
+get all
+drop all.steel
+drop corpse
+drop earring
+drop armbands
+gt where did my things go?
+get corpse
+'why here?
+wear all
+sac corpse
+s11e12n
+charm guard
+12e
+gt where did you go?
+gt I am at shakes
+gt know how to get here?
+gt yes you know
+get key;unlock door;drop key
+gt want me to lead you?
+gos hehe
+gt ok
+of sle
+tel storm join
+beckon storm
+s14w;enter tree
+whoi Taliesyn
+whoi kage
+withdraw 100000;buy dex
+3ne
+ow
+dir Juliet
+#alias hsndir
+dir romeo
+hunt Macbeth
+help races
+where act
+dir Oberon
+zzz Titania
+dir Titania's
+dir Titania
+wak;ws;oe;e;med
+wak;w;ow;w;med
+wak;es;ow;w;med
+of deaths Ariel
+of kill Prospero
+of deaths Prospero
+wak;oe;e;oe;e;med
+of death Falstaff
+wak;w;of deaths Falstaff
+of death Henry
+whoi Broeg
+whoi brog
+whoi Caelin
+whoi Rael
+whoi Silverlk
+whoi Adrahil
+of deaths Shakespeare
+wak;refresh
+eu
+4s
+help redemption
+remove buckler
+tel Darnon have time to xp?
+reply what you mean?
+reply that you have all the night to play?
+reply I see
+reply Never heard of it: all nighter!
+reply want to group?
+whoi Darnon
+whoi xrus
+whoi geoff
+dir miner
+reply hmm?
+reply which you prefer? paragon/barb/52 enough meta to 60 or non-paragon/56/ranger needing meta to 57?
+reply my paragon will be safe I hope
+tel Hades hey
+help tumble
+reply OK
+reply I have a lvl 29 necro
+reply no healer
+'who leads?
+whoi Mlerix
+tel Mlix forgot me
+styel
+fol Mlixx
+'hmm?
+'where did he go?
+fol Hades
+friend add Hades
+gt I do
+gt try a couple times so I trigger it
+noautorecall
+#var hsnrestmnratio
+#var hsnrestmvratio 0
+#var hsnresthpratio 0
+#act {Hades places something in the back of the mimic, resulting in a gush of blood!
+#act {Hades places something in the back of %1} #delay 1 zzz
+gt It should work now
+#act {Hades tries to backstab The %1 but %2} #delay 1 zzz
+gt I think so.
+gt we'll see
+gt I can
+gt it works. no worries
+gt I'm working on the auto sleep
+#act {Hades tries to backstab The %1 but %2} #delay 2 zzz
+#act {Hades places something in the back of %1} #delay 2 zzz
+heal hades
+gt trying
+#act {Looks like its not quite The gnomish soldier's bedtime.
+#act {Looks like its not quite %1 bedtime.} zzz
+vig
+wak;vig Geoff;med
+reply hey
+reply I just joined Hades, Mlixx and Geoff
+reply you didn't answer
+reply I figured
+gsanc
+gt I sure do
+wak;sanc group;med
+wak;heal Geoff
+heal Geoff's
+gt Give me a bit, so I can cast sanc
+quaf purple
+gt I stop sleeping
+gt I try to keep you healthy
+gt I don't have mana for both
+gt I just heal in fights
+gt Yes, but it's hard to sleep them
+gt I try more
+tog autoj
+zzz 
+#unact {Hades places something in the back of %1} #delay 2 zzz
+gt good god. I got packet loss and When my command got in, Geoff was 7% hp
+#unact {Hades tries to backstab The %1 but %2} #delay 2 zzz
+#unact {Looks like its not quite %1 bedtime.}
+gt Sorry it got awkward fast
+gt I don't have summon
+gt not practiced yet
+#alias joinjoin
+#alias assistassist
+get all.spear
+put all.spear $sack
+exam trun
+get tunic trunk
+darmor
+#alias joinjoin zzz
+#act {You join the fight with %1.} joinjoin
+heal Geoff
+gt I cannot
+crawl e
+gt no crawling either
+whoi Mlixx
+whoi Hades
+whoi Geoff
+gt I wonder, should we get hp/mana first or stats?
+gt yes
+gt Give me a bit
+level 37
+gt I have the feeling that I'm just getting your xp
+gt You are already doing it all on your own
+gt I don't know where to find gear eq
+recommend finger mana
+recommend finger
+gt nothing
+eq all
+gt spammed 10 times
+recommend legs
+recommend finger hms
+gt a ring made of living wood
+area Elven court
+gt I cannot see you
+gt not practiced
+quaf flask
+heal Hades
+#alias joinjoin #nop
+hunt Hades
+gt I cannot go there
+gt too steep
+remove velvet
+zzz soldier
+autojoin
+gos Xeal is not to grow over 50
+gt Xeal is not to grow over 50
+gt I'll build another for that matter
+gt Xeal is going to learn things with
+gt and help others
+gt youngers
+#act {Looks like its not quite The gnomish soldier's bedtime.  Mlixx frowns.
+#act {Looks like its not quite %1 bedtime.  Mlixx frowns.} zzz $hsngrouptarget
+#var hsngrouptarget gnome
+noautojoin
+gt I have toggle autojoin off but I still join
+#alias join #nop
+zz
+gt I miracled group
+tel Hades You stop
+tel Hades You stop?
+gt I go help storm. You come?
+muds l
+tel Storm running?
+reply alone?
+reply I can join
+enwn
+prac heal
+exam vault
+reply give me a short bit
+exam chest
+exam trunk
+put velvet trunk
+remove vest
+wear tunic
+put vest trunk
+wear buckler
+s14w;enter tree;w;remove all;list
+wear all;e;/;s;tap
+depar
+tel Storm where?
+help atol
+fol Storm
+'I have never been here
+'what we kill here?
+'I've been led here
+bless
+sanc storm
+autoheal add all
+#unact {Looks like its not quite %1 bedtime.  Mlixx frowns.} zzz $hsngrouptarget
+#alias hsndone
+#alias hsndone1
+#alias hsndone2
+nohun
+'want me to lead?
+s7e
+gt coming
+charm 5.gu
+goto atol
+2s4w9s2e15s;open gate;3w6s2ws3wdse5s4w2s
+hunt storm
+gt appoint me
+charm 3.gu
+charm 4.gu
+grin
+gt we kill all trog?
+gt OK
+gt I poke
+#alias hsndirmelee {:pokes %0; ofk %0}
+tel Mlixx going to get him to 50
+of warcry
+of focus str
+level 38
+level 40
+hunt trog
+get all.spear $Sack
+get all.spear $sack
+'hmm
+ge
+get spear trunk
+gt need stronger ones
+put But for now
+think
+7n
+drop all.lantern;drop all.rope;of get rope;of get lantern
+of wear lantern
+area druids
+area druidw
+help Druidwell
+of deaths defender's
+of kick
+ww
+gt hard for us
+whoi tod
+gt bring tod. We do it
+gt sure
+heal 4.gu
+repor
+spel barb
+of deaths defender
+of bash defender
+of kick defender
+heal 3.gu
+gt I should change mobs
+gt these are not good charmies
+disband all
+tel Storm :qw
+tel Storm :recall
+prac calm
+gt brb
+3neun
+charm Matthew
+eed
+w3s
+oe
+gt who else?
+7w
+nw
+wwwww
+wwww
+charm commander
+charm king
+gt ah
+ssws
+6e
+reform Henry alpha
+reform Hamlet Secondary
+reform Rordack Tertiary
+heal Henry
+recharm Rordack
+sigh
+gt hard to keep them with me all the time
+get all corpse
+gt not that
+gt there is no recharm command
+recharm Henry
+gt not for prophets
+recharm Hamlet
+recharm Matthew
+recharm commander
+#var hsnrestmnratio 0
+ennw
+dir Gertrude
+dir Polonius
+w;dir gravedigger
+w;dir Guildenstern
+dir Rosencrantz
+dir Claudius
+of remove lanter
+'baha
+sse
+gt all n
+goto evermore
+3wss
+4sww4n3w4n
+gt thanks
+charm keep
+/
+7e
+gt OK. Where could I find lvl 40 barbs?
+gt or rangers?
+calm
+s;charm gu
+get lantern
+get rope
+reform sentry Alpha
+reform 2.sent Secondary
+reform gu Tertiary
+reform 2.gu Quaternary
+nu
+l gu
+l sense
+l 2.gu
+l 2.sent
+l sent
+of give spear xeal
+whoi omen
+whoi air
+ds
+sss
+eneu
+'ah
+'hey
+where enfan
+heal 2.sent
+heal sent
+gt where else could we go?
+recharm gu
+recharm 2.gu
+recharm sentry
+me
+recharm 2.sentr
+gt where is the key?
+of bers
+list key
+ns
+buy 2
+nwn
+gt going to quit after this title
+gt too sleeply
+bless group
+darmor group
+gt I go to sleep
+gt cannot stay awake anymore
+gt all visit tux
+level 42
+s7e7ne
+gt sure. Refreshing gnomish spear supplies and sleeping
+mira
+get recall $sack
+of grap
+put rope trunk
+put lantern trunk
+tel Storm join?
+tel storm ready
+hsnclassproph
+beckon Storm
+gr Storm
+gt Let's get some followers
+sanc
+vigor
+charm sentry
+charm 2.sentry
+charm 2.gu
+sws
+7e5s
+6es
+of k groundling
+#loop 6 1 i get all $i\.corpse
+drop maul
+drop staff
+#alias hsndirmelee
+exam $sack
+put id $sack
+replay  gt
+charm gu
+s11e
+#alias hsndirmelee :pokes
+dir member
+k member
+charm Mat
+charm Hamlet
+charm Henry
+dir Falstaff
+of bash
+dir Ariel
+zzz Prospero
+#alias hsndirmelee ofk
+dir Prospero
+hunt act
+hunt member
+gt back?
+replay gt
+dir conductor
+of bash viol
+of deaths viol
+gt Let's see if I can charm archers
+disband
+11e
+gt reca
+charm arch
+charm 2.archer
+charm 3.archer
+charm 4.archer
+charm 5.archer
+get all.spear trunk
+put all.desoy trunk
+put ice trunk
+gt join back at ptam
+#5 put spear trunk
+put trunk
+drop all.spear;#2 of get spear
+of wield spear
+of hold spear
+gt qw
+gt where are you?
+l archer
+sw
+buy lantern
+7e5s6es
+buy rope
+drop all.lantern;drop all.rope;of get rope;of get lantern;of wear lantern
+reply come?
+reply ptam
+reply :recall
+tel Storm :fol xeal
+gr all
+6n
+e;dir enfan
+dir enfan
+vigor all
+rally
+'one
+'both
+of sit
+wn
+gt poke works?
+gt set to kill?
+:pokes defender
+gt ok.
+heal 2.archer
+heal 3.archer
+wake;n;med
+#system reset
+dir monkey
+sd
+reform gu Alpha;reform 2.gu Secondary
+gt all recal
+goto orshingal
+#tick
+hunt rat
+hunt enfa
+hunt enfan
+nnw
+get key;unlock door;drop key;l
+repl
+replay
+replay gos
+top1 paragon
+hunt miner
+gt all recall
+gt all s
+goto thalos
+where lamia
+2s14w4sws6w7n7w2n3ess
+refresh
+ws
+es
+dir defender's
+en
+dir defender
+hunt monkey
+5w
+hunt lemur
+d
+5s
+u
+hunt sloth
+level 43
+level 44
+gt all reca
+swnn
+ss
+7e7n
+vigor group
+heal archer
+heal 4.archer
+of imp gnome
+zzz gnome
+wor
+form
+noautoheal
+autoheal add Storm
+gos tzag
+gt tnl
+of berserk
+dir 2.gnome
+of deaths
+med
+of sleep
+gt good xp?
+gt you are there?
+of stand
+heal group
+recharm archer
+recharm 2.archer
+recharm 3.archer
+recharm 4.archer
+whoi cunor
+whoi sin
+whoi Justcallmeremey
+whoi Jericho
+whoi Reorx
+whoi Sybil
+heal
+tog autojoin
+zzzz
+zzz
+sanc group
+dir gnome
+level 46
+level 45
+gt I have to go
+gt You are there?
+gt Have to quit
+mira group
+gt later
+of remove spear
+of remove lantern
+of give all xeal
+tip
+swn
+7
+Xemp
+y
+male
+2
+set brief
+tel Xemp ah.. A prophet
+tel Xepher Ah a prophet
+tog
+tog brief
+tog BriefCombat:
+tog BriefCombat
+tog melee
+whoi Mirexi
+whoi Mirexis
+drop all
+get trident chest
+get trident vault
+'brb
+5n
+#alias reroll
+#alias reroll rerol str
+setweight 1 0 0 1 1 1 65
+setweight 1 0 0 1 1 1 66
+setweight 100 0 0 100 1 1 3830
+buy change human
+reset
+reroll
+setweight 200 0 0 100 1 1 5730
+4n
+enn
+buy change werewolf
+12n
+3e
+ba pig
+ba unicorn
+display all
+ba pegasus
+ba sheep
+ba goat
+ba girl
+ba boy
+ba lady
+autoloot
+autogold
+autosplit
+gos what?
+tel Xepher OK. I am ready to join. You lead and point and I backstab
+'one minute. Let me learn dodge
+'wong
+'wrong
+'not yet able to
+fol xe
+'ready
+autopoke backstab
+'we should be enough
+fol Xemp
+get wings trunk
+gt left me
+friends add Xemp
+friends add Xepher
+friend add Xepher
+l wings
+gt let's try stagehands
+gt almost same xp, but easier
+gt I'll get a level at this one
+'fall back if you need.
+whoi Xemp
+whoi Xepher
+ba stagehand
+help dodge
+gt actors are weaker than members too
+combat
+spel assassin
+ba
+ba act
+'You can sleep them?
+gt 9 more and I get a level, and can learn dodge
+gt makes it easier
+gt wait here. I'll be right back
+4e
+10n
+5e
+fle
+ba gypsy
+gos does hide help you backstab better?
+ba woman
+ba man
+k man
+'heal
+'refresh
+sswwss
+prac hide
+fol Xepher
+gt I'll be afk for up to 5 mins
+gt let me learn dodge
+prac critical
+prac natural
+spec assasssin
+spec assa
+prac pick
+re
+wak
+gt NP
+ne
+id 1
+gos what's the name? pitch black spear?
+buy 1
+gos thanks
+l trident
+remove trident
+gt I'll be right back
+put trident trunk
+wield spear
+get trident trunk
+wield trident
+list
+id 2
+s14e26n13ess;oe;e
+gt back
+3n
+level 13
+l cello
+ba 2.cello
+'sleep this one?
+gt they are alert
+gt sleep them?
+ba cello
+ba cell
+gt let me get two titles
+gt and practice more dodge
+prac multi
+gt two is all
+prac ctiti
+prac dodge
+gt give me one hour, so I get eyes
+visit tux
+'vigor
+'bless
+'barkskin
+'ffire
+'hunt
+tap
+gt ready
+e
+w
+n
+wear wings
+style defens
+gt close
+style aggressive
+hide
+sl
+regen
+#config
+#config {packet patch} 1.4
+wake
+nod
+gt should have asked tux for it
+zl
+gt Let's try Xendorians instead of these. Should be faster
+gt OK then
+gt sorry, couldn't help you get atleast where you were
+ba ba taskmaster
+gt the bite is nice
+gos I like it: You hit 0 of 2 attacks for 44 damage.
+l taskmaster
+scn
+l miner
+gos even better: You hit 0 of 1 attack for 64 damage.
+skil
+time
+hunt Xepher
+nount
+nohunt
+ba miner
+gt gratz
+gr
+spel
+gt charm?
+#cr
+spel proph
+gt agreeed
+gt -41351
+level 15
+gt can gain 2 levels
+level 16
+gt I have stronger chars to help you, now that you are high level enough
+gt we should just avoid my necro paragon. He is a bit too dangerous, even for himself
+gt monk or samurai is better
+gt OK.
+gt take care
+sc
+gt probably
+gt I have more
+gt I'll check to make sure
+whoi zruz
+gt on autopilot?
+gt OK. Let me see what I have exactly then
+gt recall after this one
+l
+3swwss
+gain
+prac
+prac backstab
+reca
+put spear trunk
+donate spear
+s
+depart
+where
+tel Xepher Weird. We were doing fine for 4 levels, with no problem and this happend.
+af
+who
+8
+
+#split
+eq
+remove all
+visit zruz
+put trident chest
+put canoe vault
+get canoe vault
+put canoe trunk
+put wings trunk
+i
+camp
+5
+3
+1

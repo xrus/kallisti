@@ -1,0 +1,1000 @@
+hunt noble
+eu
+dir guard
+w;dir skeleotn
+dir skeleton
+#ig
+w;dir skeleton
+where skeleton
+whoi ton
+e;dir thri
+s;dir thri
+w;dir thri
+hsnnoautoattack
+hunt griffon
+mount grouptell:
+hsnautoattack
+14w
+#5 buy steel;put all.steel $sack
+n;dir thri
+e;dir goblin
+dir goblin
+lay
+n;dir lamia
+layh
+get steel $sack;quaff steel
+hunt lamia
+prayer
+lsc
+s11e12n
+smie
+e;dir skeleton
+layh griffon's
+layh griffon
+dshield
+#var MSDP*%POS%*
+#var %*MSDP%*POS%*
+#var %*MSDP%*MOUNT%*
+#var MSDP_MOUNT_NAME
+#var MSDP%*
+mount griffon
+hunt skeleton
+hunt goblin
+top1 fight
+whoi eir
+spel dread
+where lamia
+goto thalos
+hunt zombie
+spel dreadlord
+goto orshingal
+dir enfan
+smite
+hunt rat
+hunt enfan
+who paragon
+level 53
+level 54
+level 55
+nohunt
+get dagger trunk
+get root chest
+l root
+put dagger trunk
+get captain chest
+remove brown;wear captain
+wear captain
+remove captain;wear brown
+l captain
+put captain trunk
+get sword
+get sword chest
+l crystal
+l parrying
+l sword
+put sword trunk
+search armoury finger
+l accuracy
+get ruby armoury
+l ruby
+help size
+put ring armoury
+l neck
+search armoury neck
+l protection
+l brooch
+l broach
+get Cerberus armoury
+remove broach
+wear Cerberus
+l brown
+search armoury body
+get brown armoury
+remove brown
+wear 2.brown
+put 2.brown armou
+put 2.brown armoury
+l helm
+l winged
+search armoury head
+get visor armoury
+remove winged
+prac shield
+prac divine shield
+wear 
+wear visor
+l ent
+search armoury right
+search armoury leg
+search armoury foot
+search armoury feet
+l gauntlets
+search armoury hands
+put gloves' armoury
+get gloves armoury
+auc offer gloves 1000000
+auc cancel
+put gloves armoury
+search armoury 
+l arm-wrap
+search armoury shield
+search armoury about
+l iridescent
+l sash
+search armoury belt
+search armoury waist
+l vivid
+l veil
+search armoury face
+put all trunk;get all.steel trunk
+put all.potion $sack
+put all.steel trunk
+get all.recall trunk
+swwn
+exam $sack
+#7 buy recall;put all.recall $sack
+get all.flask $sack
+put all.flask trunk
+put all.scroll $sack
+get recall $sack
+search armoury earring
+search armoury floating
+search armoury surrounding
+l fate
+search trunk wrist
+search trunk surrounding
+search trunk floating
+search chest wield
+get broadsword chest
+get frostbite chest
+l broadsword
+l axe
+put axe chest
+put broadsword chest
+get rope chest
+l rope
+put rope chest
+get opal chest
+remove stone
+get opal trunk
+get all.bracelet trunk
+l stone
+remove ring
+put ring trunk
+l bracelet
+put all.bracelet chest
+search chest waist
+search chest shield
+get buckler chest
+l buckler
+put buckler chest
+search chest neck
+search chest ankle
+search chest anklets
+search chest badge
+search chest eye
+search chest wrist
+get stone chest
+search armoury wrist
+search armoury anklets
+search armoury ankle
+eq all
+search armoury badge
+search armoury eye
+beckon Storm
+dism
+7w
+reac
+Xread
+help dreadlord
+buy troll
+setweight 1 1 1 1 1 1 1
+setweight
+setweight 2 0 0 0 3 1 88
+reclas fighter
+setweight 2 0 0 0 3 1 114
+#alias reroll rerol dex
+rerol
+setweight 2 0 0 0 4 0 114
+setweight 2 0 0 1 3 0 114
+help stats
+setweight 2 0 0 1 3 0 105
+setweight 3 0 0 2 1 0 105
+setweight 3 0 0 2 1 0 106
+withdraw 100000
+w4s
+buy iden
+5nenn
+buy change troll
+rec id self
+buy change Werewolf
+put all.scroll trunk
+get crimson-edged trunk
+get crimson trunk
+wield longsword
+put all.crimson trunk
+get kopesh trunk
+get plate trunk
+l kopesh
+l crimson
+put kopesh trunk
+remove plate
+l plate
+l 2.plate
+plate
+wear plate
+sell plate
+l greaves
+l vambraces
+nnwn
+sell steel
+get muddy armoury
+wear boots
+get strips armoury
+wear leather
+l leather
+get combat trunk
+get combat armoury
+wear helmet'
+get shirt armoury
+l shirt
+wear shirt
+put shirt trunk
+put shirt armoury
+get opal armoury
+exam armou
+get long armoury
+get spear armoury
+l spear
+put all.spear armoury
+put long armoury
+s3en
+sell long
+s3w
+n;k girl
+reca;sseess
+prac armor
+wear helmet
+nd
+put helmet armoury
+exam armoury
+get blue armoury
+wear blue
+3s
+enn
+search vault
+get smile armoury
+wear smile
+search chest
+search chest;search vault;search armoury
+autogold
+autosplit
+k pig
+k unicorn
+k pegasus
+s;k boy
+k sheep
+k goat
+k girl
+style neutral
+#config {packet patch} 1.5
+get grey chest
+wear grey
+remove grey
+put grey chest
+get pelt trunk
+wear pelt
+outlaw
+wear opal
+l ring
+wear ring
+drop all.potion
+drop all;get canoe
+k lady
+kick unicorn
+gos Storm is awake at alst?
+gt last
+gos last
+kick lady
+kick woman
+prac parry
+nofilter
+l gloves
+wear gloves'
+wear gloves
+get canoe
+visit taiwait
+put all armoury
+put all trunk
+get canoe trunk
+get all
+put all chest;get canoe chest
+get all.stone armoury
+put all.stone vault
+exam vault
+search chest;search vault;search armoury;search trunk
+get greaves trunk
+get vambraces trunk
+seen
+swn
+sell vambraces
+sell greaves
+fle
+visit horg
+11n
+whoi ish
+gos tzag Ish
+get all.gold
+#alias pracprac kick
+#alias kickkick
+gos that is a heavy one..
+gos could you auction it, so we see the stats?
+5e
+auc id
+gos finest dense metals
+gos filled with rocks
+kick pegasus
+ac
+gos damn! That's it, yes.
+who paz
+gos greetings
+gos wow! That's a high level sam
+kick gypsy
+kick man
+wwnn
+ss7e
+5w
+7e
+5s
+gos Hmm..
+gos I guess it totally makes sense
+gos Druids should outdamage anyone
+gos They should also outheal anyone
+gos that is the nature's energy
+gos yeah. That's why druids should be absolutely OP
+whoi Romu
+gos A barb is a hangnail, yes
+gos Ish! Necros are even more OP
+gos and prophets are almost as good as druis
+gos druids
+kick carrion
+gos I liked to see OP monks too.
+gos but they are not linked to nature energies here, so they are weak
+gos Storm is a paladin, you don't walk in and kill everyone you know..
+whoi arya
+gos I want to try assimilate
+kick osquip
+gos what you mean that you didn't have a chance to multi/offhand?
+gos can anyone heal me
+gos going to die
+gos ss7e5s3esees from temple
+gos died
+enter portal
+l mud
+get berry chest
+eat berry
+ss7e5s3esees
+gos I got my revenge
+gos let's see
+spel samu
+gos you still have bushido
+gos or did you have it before?
+7e5s
+3es
+3e
+kick gibberling
+gos but I think they are still a bit stronger than dreadlords
+gos They are also stronger than monks
+gos believe me they don't
+gos monks are very weak now
+gos I've tried both pre 50 and monks are by far weaker. Others who have tried them over 50, say that they are also weaker there
+gos how can they heal?
+spel monk
+gos not wearable by sams?
+gos I bet they are!
+gos maybe not
+gos what level to use them?
+gos Do you have the sam sword pair?
+gos I've seen sams hitting about 30 hits per round
+gos with sam-swords and bushido
+gos before lvl 60 that is
+gos I have. Let me remeber the char's name
+gos he got 25 attacks very frequently
+gos I cannot recall the name of the sam I'm talking about.
+whoi bus
+whoi bur
+gos bur... bus...
+gos Storm! You know who I'm talking about?
+top1 monas
+gos DAMN! That's on the top1 list. Bruiser.
+gos I don't say you don't. I just say that maybe the sam-sword-pair is buffed?
+gos I'm talking about 3 monthes ago
+gos when last I saw Bruiser
+gos that is what I've heard too. They say that sams were stronger before
+gos but also they say it about monks
+gos maybe they have changed the mobs' strength?
+gos necro is best to bot
+gos druid/proph are next for me
+gos But anyway, I think dread is the weakest.
+gos I had monk there for 2nd, but it might be sam as you say
+gos assassin doesn't seem good enough either. Demon and bard seem much better boht
+gos yes. paladins are much stronger than barbs
+gos there is almost nothing that a barb can do better than a paladin
+whoi paz
+gos come on! There is a problem there
+gos I can get to much higher damages with my lvl 45-ish samurai
+gos let me show you
+6
+tel sin join me
+spec dread
+reply ptam
+reply soon
+get helm trunk
+l helmet
+l steel
+put helmet trunk
+beckon
+'Give me purple potions or I'll get your soul
+gos fine!
+#10 poke ptam;put all.purple $sack
+gt fine!
+get tent armoury
+put all.purple $sack
+hsnclassbarb
+'hmm..
+prac ride
+'what else?
+12n
+k boy
+#var
+kick girl
+whoi Adonis!
+tel Adonis join us
+op flap
+kick Jorim
+gt qw
+gt What kind of a priest you are?
+gos druid?
+whoi Adonis
+gt druid?
+whoi Manadocer
+gt You can heal me?
+gt I bet not!
+gt you are not a newbie, right?
+gt don't tell me that.. I'm a noob myself, and I know noobs
+gt nope!
+whoi Thorne
+whoi Ghoti
+#var hsnrest%*
+#var hsnresthpratio1 0
+#var hsnresthpratio2 0
+#var hsnrestmvratio2 0
+#var hsnrestmvratio1 0
+#var hsnrestmnratio1 0
+#var hsnrestmnratio2 0
+gt ready to get a level Adonis?
+gt let's
+help glare
+pra
+gt ready when you are
+gt thanks
+k zombie
+#alias k
+kill zombie
+'I need an unholy symbol
+kick zombie
+where zombie
+s;sleep
+gt have boats?
+get symbol trunk
+wear holy
+gt OK. We stay close
+gt let's.
+s7e5s
+k cockroach
+k crawler
+kick cockroach
+kick 2.crawl
+kick crawl
+kick crawler's
+kick crawler
+kick bum
+kick flumph
+gt up for a tougher one?
+kick mud
+k skunk
+kick witherweed
+kick slime
+noautorecall
+remove symbol
+put symbol trunk
+gos thanks
+buy
+gos where can I buy an unholy symbol?
+wwnw
+gt yeah. Got it.
+gt I am at shakes
+sl
+wake
+gt Sin is on the way
+'thanks.
+gt we wait
+gt where are you sin?
+4s
+13w
+gt I recalled
+gt join us back at ptam?
+gt Adonis?
+grin
+gt you can have recall scrolls?
+26n
+ss;oee
+gt refresh once
+gt Let's.
+l unholy
+wear unholy
+wear symbol'
+5n
+kick stagehand
+whoi Lancelot
+gt I'm close
+kick actw
+hardcore
+kick fool
+gt heal
+'damn Lear
+kick act
+gt we all go
+'recalling
+prac multi
+\id 2
+'OK.
+s14e26n
+13e
+3n
+gt heal me works too?
+gt let's wait a few more?
+gos tzaf
+gos You are an australian, Cunor?
+whoi cunor
+tog melee
+tog Briefcombat
+tog
+gt I have 3 more hours
+level necro
+gt after these four
+'forgot about these
+gt my vigor gone
+wn
+help assimilate
+gt huh?
+prac glare
+ss
+7w4n8w
+kick father
+gt forgot Adonis
+gt reca
+gt ptam
+prac blindfighting
+prac blind fighting
+gt we stay close then
+deaprt
+4n8w7s
+gt ready for a tough one?
+k ticket
+kill ticket
+kick ticket
+ig
+gt heal fast
+gt glare is helping
+gt well done!
+kick ringmaster
+#alias pracprac #nop
+galare
+#alias pracprac
+gt all recall
+gt what is?
+l Adonis
+s7w4n8w7s
+kick member
+k member
+glare member
+safar
+gt what does glare do exactly?
+glare member;#5 glare
+gt not that worthy then?
+gt yeah
+gt they are missing one round each time I use it
+gt you can stay
+gt but set a trigger for recall?
+gl knife;#5 glare
+gt oK.
+k thrower
+gt OK.
+gl clown
+glare clown
+glare clown;#5 glare
+#alias dir
+#alias dir {glare %0;#5 glare}
+kick clown
+level 17
+level 18
+gt let's finish here?
+dir times
+gos yeah, we know
+od
+whoi romu
+gos nice!
+gos set the ssh port to 80 then!
+dir horse
+mount elephant
+'heal sin
+'recall
+'and cure
+gt can do it fast?
+gt DOH!
+gos yeah
+sseessd
+gt who did blind you?
+gt doh
+gt what is your heal rank?
+help heal
+gt damn. you couldn't heal the group either
+gt I know
+gt but he died
+search chest;search trunk;search vault;search armoury
+get skull chest
+wear skull
+gt he was wounded
+gt mortally
+get stone trunk
+wear stone
+get Hermes trunk
+wield Hermes
+seess
+gt I know..
+gt it was mostly my mistake
+l Hermes
+gt give me a bit
+prac edge
+put Hermes trunk
+get all.ring trunk
+remove opal
+l opal
+l desoy
+wear desoy
+put all.ring trunk
+search trunk
+get leggings trunk
+wield scimitar
+l longsword
+l scimitar
+remove scimitar'
+hold scimitar
+ees
+gt ok.
+gt where are you?
+search armoury
+think
+gt where to go?
+10s
+ee
+3w
+spel pri
+dir Bobby
+ew
+dir elephant
+dir evil
+ns
+os
+on
+dir keeper
+sseess
+prac assimilate
+prac critical
+wwn
+af
+visit darchoun
+nne
+gt wow
+id 52
+remove longsword
+remove scimitar
+buy 52
+#system reset
+id 4
+id 47
+id 19
+id 22
+id 28
+tel Sin sorry for that
+tel sin Adonis couldn't see you to heal
+id 37
+reply being with me? hehe
+id 51
+id 48
+id 45
+id 41
+id 63
+buy 63
+wear cloak
+l yeti
+sell cloak
+donate cloak
+id 98
+id 8
+id 85
+id 86
+id 35
+l pike
+remove pike
+ss4w3se
+resize pike faster
+estimate pike faster
+wield pike
+gt ready?
+tel sin how many levels you can get?
+'sit here?
+search armoury wield
+search trunk wield
+tel Sin can join us as soon as you get ready
+nnne
+reply moving to ptam
+gt I go get sin
+beckon sin
+gt coming back
+gr sin
+s14e26n13ess;oe;e
+drink flask
+20n
+gt bringing flask
+14e
+25n
+nod
+get scimitar trunk
+get flask trunk
+quaf flask
+s14e
+10n
+6n
+'drink?
+'hehe
+'we wait a bit
+give flask sin
+l Sin
+4e
+gt we are back
+gt yes
+snc
+gt tough. I cannot hit them
+gt cure me
+dir stagehand
+sd
+'we are back, fools!
+spel nero
+spel necro
+4w
+gt I know!
+gt we stop after this?
+gt ok
+gt do
+gt Why?
+gt hehe
+gt if you want
+kick viol
+dir conductor
+sanc
+gt ref
+dir viol
+dir cello
+kick cello
+kick
+gt blind
+ww
+owscn
+oe
+ow
+dir Juliet
+dir Romeo
+dir act
+dir fool
+dir king
+dir Polonius
+dir Gertrude
+dir Guildenstern
+spel
+dir Rosencrantz
+gt recall
+ss7w
+4n8w
+7s
+dir ticket
+gt ref me
+dir ringmaster
+whoi atlas
+dir member
+gt I have to leave soon.
+gt when Sin is lvl 15
+gt tnl?
+dir clown
+dir assistant
+k assistant
+glare
+dir thrower's
+dir thrower
+gt if one of you lead, I can stay for sin's one more level.
+scn
+dir tightrope
+gt use ":pokes X" so Xread attacks
+autopoke dir
+appoint Adonis
+/
+gos that place is death trap
+gos hehe
+8
+get corse
+get all corpse
+get corpse
+sac corpse
+eess
+d
+gain
+prac call mount
+prac terror
+help terror
+u
+gos tzag
+smount
+s7w
+callm
+sleepg
+sleep
+gr all
+gr
+'hey
+whoi selmak
+whoi Lastchance
+tel Rhexx long time no see!
+whoi Rhexx
+muds l
+whoi sin
+l Ivy
+smiel
+smile
+'what's the stats of the dress?
+'and necklace?
+tel Rhexx how you doing?
+whoi Kermorvan
+reply lol
+reply so you left Kallisti?
+\news
+q
+reply anyway..
+reply you shouldn't be bashed if you stay mounted
+combat
+Xuid
+Xruid
+brief
+remove all
+drop all
+buy gnome
+setweight 1 1 2 1 1 1 114
+#alias rerol
+buy change gnome
+reclass priest
+setweight 1 1 2 1 1 1 110
+buy change elf
+setweight 1 1 2 1 1 1 107
+buy change human
+setweight 1 1 2 1 1 1 106
+setweight 1 1 2 1 1 1 105
+setweight .7 1.3 1.7 .7 .6 1
+setweight .7 1.3 1.7 .7 .6 195
+setweight .7 1.3 1.7 .7 .6 1 95
+setweight .7 1.3 1.7 .7 .6 1 92
+setweight .7 1.3 1.7 .7 .6 1 91
+setweight .6 1.4 1.9 .6 .5 1 91
+setweight .6 1.4 1.9 .6 .5 1 92
+setweight .6 1.4 1.9 .6 .5 1 94
+setweight .6 1.4 1.9 .6 .5 1 95
+setweight .6 1.4 1.9 .6 .5 1 97
+setweight .6 1.4 1.9 .6 .5 1 96
+setweight .5 1.6 2.3 .5 .4 .8 96
+setweight .5 1.6 2.3 .5 .4 .8 110
+setweight .5 1.6 2.3 .5 .3 .8 110
+reset
+setweight .5 1.6 2.3 .5 .3 .8 100
+Xorse
+4
+hsnclassdruid
+display all
+sc stats
+#alias reroll
+#alias reroll rerol wis
+4n
+buy change huma
+hsnsetweight
+hsnsetweight 0 1 1 0 .5 0 50
+hsnsetmin
+hsnsetmin 0 0 0 0 0 0 80
+reroll
+hsnsetweight 0 1 1 0 .5 0 45
+hsnsetmin 0 17 23 0 0 14 80
+hsnsetweight .2 1 1 .2 .5 .5 50
+hsnsetweight .2 1 1 .2 .5 .5 51
+hsnsetweight .2 1 1 .2 .5 .5 55
+hsnsetweight .2 1 1 .2 .5 .5 54
+hsnsetmin 0 18 23 0 0 14 78
+help races
+replay
+buy change dwarf
+get identify chest
+get identify trunk
+get identify case
+rec identify self
+#split
+tel Xepher OK. I am ready to grow. Not sure how long I can stay though
+prac
+prac heal
+skil
+\id 4
+\id 5
+reca
+withdraw 50000
+w
+list
+buy 5
+wear symbol
+e
+#config
+#config {packet patch} 1.4
+tel Xepher join?
+help group
+s
+#10 poke ptam
+visit tux
+visit zruz
+filter
+exam trunk
+exam chest
+get blue trunk
+wear trunk
+wear scarf
+get gloves chest
+get symbol chest
+get cloak chest
+get warhammer chest
+l symbol
+put symbol chest
+exam case
+depart
+where
+l
+gwho
+top1
+top1 24
+noble
+top1 parag
+help noble
+#cr
+9
+5
+who
+Xiest
+y
+male
+2
+n
+Xest
+
+1
+eq
+remov all
+sc
+wear all
+i
+help druid
+tap
+camp
+3
+12

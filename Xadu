@@ -1,0 +1,72 @@
+#CLASS {Xadu} OPEN
+
+#ACTION {You need to specify a victim name for your spell.}
+{
+	#action {Unknown Command.  ('pracskill')} {#act {Unknown Command.  ('pracskill')} pracprac}
+}
+{5}
+
+#ACTION {You quickly find page %1, in the %2.}
+{
+	castcast
+}
+{5}
+
+#ALIAS {castcast}
+{
+	pracskill
+}
+{5}
+
+#ALIAS {iden}
+{
+	c 'identify' %0
+}
+{5}
+
+#VARIABLE         {MSDP_COMBAT_STANCE}  {Defensive}
+#VARIABLE         {MSDP_HERO_POINTS}  {0}
+#VARIABLE         {MSDP_NOBLE_POINTS}  {0}
+#VARIABLE         {MSP}  {{SOUND}{1}{VOLUME}{0}}
+#VARIABLE         {OLD_MSDP_OPPONENT_NAME}    {a Xendorian crossbowman}
+#VARIABLE         {auto}  {{deposit}{1}{recallPercent}{20}}
+#VARIABLE         {autoHealSelfPercent}  {50}
+#VARIABLE         {character}  {{audioprompt}{1}{beeps}{1}{prompt}{1}}
+#VARIABLE         {enemyConditionTone}  {1180}
+#VARIABLE         {filter}  {0}
+#VARIABLE         {friends}  {}
+#VARIABLE         {hook}  {{Arena}{}{Barter}{}{Gossip}{}{Hero}{}{arrive}{}{characterName}{}{characterPosition}{}{groupAdd}{}{groupTell}{}{info}{}{leave}{}{playerDeath}{}{report}{}{roomName}{}{roomNumber}{}{say}{}{tell}{}}
+#VARIABLE         {hsncon}  {0}
+#VARIABLE         {hsndex}  {0}
+#VARIABLE         {hsnhp}  {0}
+#VARIABLE         {hsnint}  {15}
+#VARIABLE         {hsnlmax}  {0}
+#VARIABLE         {hsnluc}  {0}
+#VARIABLE         {hsnmaxcon}  {0}
+#VARIABLE         {hsnmaxdex}  {0}
+#VARIABLE         {hsnmaxhp}  {0}
+#VARIABLE         {hsnmaxint}  {0}
+#VARIABLE         {hsnmaxluc}  {0}
+#VARIABLE         {hsnmaxmn}  {0}
+#VARIABLE         {hsnmaxssum}  {0}
+#VARIABLE         {hsnmaxst}  {0}
+#VARIABLE         {hsnmaxstr}  {0}
+#VARIABLE         {hsnmaxsum}  {0}
+#VARIABLE         {hsnmaxwis}  {0}
+#VARIABLE         {hsnmn}  {0}
+#VARIABLE         {hsnrace}  {ogre}
+#VARIABLE         {hsnsample}  {0}
+#VARIABLE         {hsnssum}  {0}
+#VARIABLE         {hsnst}  {0}
+#VARIABLE         {hsnstr}  {0}
+#VARIABLE         {hsnsum}  {0}
+#VARIABLE         {hsnsummax}  {0}
+#VARIABLE         {hsntnl}  {133957}
+#VARIABLE         {hsntotal}  {0}
+#VARIABLE         {hsnwis}  {0}
+#VARIABLE         {i}  {0}
+#VARIABLE         {idleList}  {{1}{look}}
+#VARIABLE         {tmp}  {south}
+#VARIABLE         {weapon}  {bow}
+
+#CLASS {Xadu} CLOSE

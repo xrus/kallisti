@@ -1,0 +1,383 @@
+#var hsnrestdelay 5;
+#var hsnrestmvratio1 .30;
+#var hsnresthpratio1 .60;
+#var hsnrestmnratio1 .30;
+#var hsnrestmvratio2 .95;
+#var hsnrestmnratio2 .95;
+#var hsnresthpratio2 .95;
+#var hsnrestmvratio $hsnrestmvratio2;
+#var hsnresthpratio $hsnresthpratio2;
+#var hsnrestmnratio $hsnrestmnratio2;
+#alias wake {stand;#var hsnrestmvratio $hsnrestmvratio1;#var hsnresthpratio $hsnresthpratio1;#var hsnrestmnratio $hsnrestmnratio1};
+#alias sleep {slee; #var hsnrestmvratio $hsnrestmvratio2;#var hsnresthpratio $hsnresthpratio2;#var hsnrestmnratio $hsnrestmnratio2};
+#alias med {sit;medit;#var hsnrestmvratio $hsnrestmvratio2;#var hsnresthpratio $hsnresthpratio2;#var hsnrestmnratio $hsnrestmnratio2};
+#alias recharm {disband %0; charm %0};
+#unalias sanc;
+
+#alias {hsnclassnecro}
+{
+	#var hsnalreadycasting 0;
+	#split;
+	#alias ofk {of kill};
+	#alias hsndirranged {#nop};
+	#alias hsndirmelee {drain};
+	#alias dir {#alias hsnkwmelee drain;hsndirmeleeranged %%0};
+	noautoheal self;
+	noautoheal;
+	autorecall / 30;
+	hsnautohunt;
+	hsnautoattack;
+	hsnmetarationecromancer;
+	#alias vdrain {#echo {vampiric drain};vdrai};
+	#alias edrain {#echo {energy drain};edrai};
+	#alias hsndone {showtnl;save;hsndone0;hsndone1;hsndone2;hsndone3;hsndone4;hsndone5};
+	#alias hsndone0 {#nop};
+	#alias hsndone1 {#if {$MSDP_OPPONENT_NUMBER <= 1} {#alias hsnkwmelee #nop;#echo {No more casting}}};
+	#alias hsndone2 {get all.coins corpse;exam corpse};
+	#alias hsndone3 {xdrain};
+	#var hsnrecharmtimer 0;
+	#alias hsndone4 {#if {$hsnrecharmtimer} {charm group}};
+	#delay {hsnrecharmtimerdelay} {#var hsnrecharmtimer 1;#if {$MSDP_OPPONENT_NUMBER < 1} {charm group}} {300};
+	#act {Renewing charm duration for %%1 to %%2 hours.} {#delay {hsnrecharmtimerdelay} {#var hsnrecharmtimer 1} {300};#var hsnrecharmtimer 0};
+	#alias hsndone5 {hunt $hsntarget};
+	#alias hsngetranged hsngetrangedonly;
+	#alias hsnkwranged darkfire;
+	#alias hsnkwmelee drain;
+	#alias hsnwieldmelee #nop;
+	#alias hsnwieldranged #nop;
+	#alias charmm controlundead;
+	#alias charm charmm;
+	#alias darkfire {#echo {casting darkfire};darkfir};
+	#alias drain {#echo {casting drain};drai};
+	#alias pracprac {#if {$MSDP_OPPONENT_NUMBER > 3 || $MSDP_HEALTH < .4*$MSDP_HEALTH_MAX} {#echo {pracprac first if true};/} {#echo {pracprac first if false};#if {$MSDP_OPPONENT_NUMBER > 0} {#echo {pracprac second if true};#if {$MSDP_OPPONENT_HEALTH < 25 || $MSDP_HEALTH > 1.3*$MSDP_HEALTH_MAX} {#echo {pracprac third if true};#alias hsnkwmelee darkfire} {#echo {pracprac third of false};#alias hsnkwmelee drain};hsnkwmeleeranged}}};
+	#alias hsncastpage17 pracskill;
+	#act {Unknown Command.  ('pracskill')} {#echo {hsnalreadycasting:$hsnalreadycasting before cast request};#if {$hsnalreadycasting <= 0} {#math {hsnalreadycasting} {$hsnalreadycasting+1};pracprac}};
+	#act {You quickly find page 17, in the %%0.} {#echo {hsnalreadycasting:$hsnalreadycasting before actual cast};#if {$hsnalreadycasting>0} {#math {hsnalreadycasting} {$hsnalreadycasting-1}};hsncastpage17};
+	#act {You drain some of %%1 life energy. (%%2 damage)} {#if {MSDP_OPPONENT_NUMBER < 1} {#echo {FIXING WRONG MSDP_OPPONENT_NUMBER};#var MSDP_OPPONENT_NUMBER 1}};
+	#alias {xdrain} {
+		#alias xxdrain #echo {No drain!};
+		#if {$MSDP_HEALTH<=$MSDP_HEALTH_MAX && $MSDP_STAMINA<.8*$MSDP_STAMINA_MAX} {#alias xxdrain {#echo {vdrain stamina light};vdrain corpse}};
+		#if {$MSDP_MANA<.9*$MSDP_MANA_MAX} {#alias xxdrain {#echo {edraina light};edrain corpse}};
+		#if {$MSDP_HEALTH<.9*$MSDP_HEALTH_MAX} {#alias xxdrain {#echo {vdrain health light};vdrain corpse}};
+		#if {$MSDP_STAMINA<.3*$MSDP_STAMINA_MAX} {#alias xxdrain {#echo {vdrain stamina heavy};vdrain corpse}};
+		#if {$MSDP_MANA<.3*$MSDP_MANA_MAX} {#alias xxdrain {#echo {edrain heavy};edrain corpse}};
+		#if {$MSDP_HEALTH<.4*$MSDP_HEALTH_MAX} {#alias xxdrain {#echo {vdrain health heavy};vdrain corpse}};
+		xxdrain;
+	};
+}
+
+#alias {hsnclassvalk}
+{
+	#split;
+	#alias sanc {get purple $sack;quaff purple};
+	#alias bashbash2 #nop;
+	#alias laglag2 bashbash2;
+	#alias pracprac #nop;
+	#alias hsndirranged {#nop};
+	#alias hsndirmelee {kill %%0; #delay 3 pracskill};
+	#alias ofk {of kill %%0};
+	hsnautohunt;
+	hsnautoattack;
+	hsnmetaratiovalk;
+	#var hsnresthpratio hsnresthpratio1;
+	#var hsnrestmnratio hsnrestmnratio1;
+	#var hsnrestmvratio hsnrestmvratio1;
+	#var hsnresthpratio2 .9;
+	#var hsnrestmnratio2 .9;
+	#var hsnrestmvratio2 .9;
+	#var hsnresthpratio1 .5;
+	#var hsnrestmnratio1 .3;
+	#var hsnrestmvratio1 .3;
+	#alias hsndone {showtnl;#nop save;hsndone1;hsndone2;hsndone3;hsndone4}
+	#alias hsndone1 #nop;
+	#alias hsndone2 {#if {"MSDP_MOUNT_NAME" == ""} {mount pegasus};#if {$MSDP_HEALTH > $MSDP_HEALTH_MAX*$hsnresthpratio && $MSDP_MANA > $MSDP_MANA_MAX*$hsnrestmnratio && $MSDP_STAMINA > $MSDP_STAMINA_MAX*$hsnrestmvratio} {#var hsnresthpratio $hsnresthpratio1;#var hsnrestmnratio $hsnrestmnratio1;#var hsnrestmvratio $hsnrestmvratio1;hunt $hsntarget} {#if {$MSDP_MANA > 40 && ($MSDP_STAMINA-30)*$MSDP_HEALTH_MAX > ($MSDP_HEALTH+75)*$MSDP_STAMINA_MAX} {wio};#var hsnresthpratio $hsnresthpratio2;#var hsnrestmnratio $hsnrestmnratio2;#var hsnrestmvratio $hsnrestmvratio2;#delay {hsndelayresetdelay} {hsndone2} {$hsnrestdelay}}};
+	#alias hsndone3 #nop;
+	#alias hsndone4 #nop;
+	#alias hsnkwranged #nop;
+	#alias hsnkwmelee #nop;
+	#alias hsnwieldmelee #nop;
+	#alias hsnwieldranged #nop;
+	#alias dir hsndirmeleeranged;
+	#act {Unknown Command.  ('pracskill')} {#if {$MSDP_OPPONENT_NUMBER > 0 && $MSDP_OPPONENT_NUMBER < 3} {#echo {Fighting a few!};#if {$MSDP_HEALTH < $MSDP_HEALTH_MAX*$hsnresthpratio} {#echo {Getting dangerous};#if {$MSDP_MANA > 40 && $MSDP_STAMINA > 50} {#echo {I can heal, so I do!};wio} {#echo {I cannot heal so I run!};/}} {#echo {Not dangerous, I use skills};pracprac}} {#if {$MSDP_OPPONENT_NUMBER >=3} {#echo {Fighting many, I recall!};/} {#echo {Not fighting it seems!}}}};
+	#alias pracprac {#if {"$MSDP_MOUNT_NAME" == ""} {mount pegasus};#delay {hsnpracprac} {pracskill} {3}};
+}
+
+#alias {hsnclasspaladin}
+{
+	#split;
+	#alias sanc {get purple $sack;quaff purple};
+	#alias bashbash2 #nop;
+	#alias laglag2 bashbash2;
+	#alias pracprac #nop;
+	#alias hsndirranged {#nop};
+	#alias hsndirmelee {kill %%0; #delay 3 pracskill};
+	#alias ofk {of kill %%0};
+	hsnautohunt;
+	hsnautoattack;
+	hsnmetaratiopaladin;
+	#var hsnresthpratio2 .9;
+	#var hsnrestmvratio2 .9;
+	#var hsnresthpratio1 .5;
+	#var hsnrestmvratio1 .3;
+	#alias hsndone {showtnl;#nop save;hsndone1;hsndone2;hsndone3;hsndone4}
+	#alias hsndone1 #nop;
+	#alias hsndone2 {#if {$MSDP_HEALTH > $MSDP_HEALTH_MAX*$hsnresthpratio && $MSDP_STAMINA > $MSDP_STAMINA_MAX*$hsnrestmvratio} {#var hsnresthpratio $hsnresthpratio1;#var hsnrestmvratio $hsnrestmvratio1;hunt $hsntarget} {#if {$MSDP_MANA > 40 && ($MSDP_STAMINA-30)*$MSDP_HEALTH_MAX > ($MSDP_HEALTH+75)*$MSDP_STAMINA_MAX} {layhands};#var hsnresthpratio $hsnresthpratio2;#var hsnrestmvratio $hsnrestmvratio2;#delay {hsndelayresetdelay} {hsndone2} {$hsnrestdelay}}};
+	#alias hsndone3 #nop;
+	#alias hsndone4 #nop;
+	#alias hsnkwranged #nop;
+	#alias hsnkwmelee #nop;
+	#alias hsnwieldmelee #nop;
+	#alias hsnwieldranged #nop;
+	#alias dir hsndirmeleeranged;
+	#act {Unknown Command.  ('pracskill')} {#if {$MSDP_OPPONENT_NUMBER > 0 && $MSDP_OPPONENT_NUMBER < 3} {#echo {Fighting a few!};#if {$MSDP_HEALTH < $MSDP_HEALTH_MAX*$hsnresthpratio} {#echo {Getting dangerous};#if {$MSDP_MANA > 40 && $MSDP_STAMINA > 50} {#echo {I can heal, so I do!};layhands} {#echo {I cannot heal so I run!};/}} {#echo {Not dangerous, I use skills};pracprac}} {#if {$MSDP_OPPONENT_NUMBER >=3} {#echo {Fighting many, I recall!};/} {#echo {Not fighting it seems!}}}};
+	#alias pracprac {#delay {hsnpracprac} {pracskill} {3}};
+	#act {You recite a prayer while laying hands on yourself.} layhandslayhands;
+	#alias layhandslayhands pracskill
+}
+
+#alias {hsnclassranger}
+{
+	#split;
+	#alias sanc {get purple $sack;quaff purple};
+	#alias bashbash2 #nop;
+	#alias laglag2 bashbash2;
+	#alias pracprac kw;
+	#alias hsndirranged {kill};
+	#alias hsndirmelee {impale};
+	#alias ofk {of kill %%0};
+	hsnautohunt;
+	hsnautoattack;
+	hsnmetaratioranger;
+	#var hsnresthpratio2 .7;
+	#var hsnrestmvratio2 .6;
+	#var hsnresthpratio1 .3;
+	#var hsnrestmvratio1 .3;
+	#alias hsndone2 {#if {$MSDP_HEALTH > $MSDP_HEALTH_MAX*$hsnresthpratio && $MSDP_STAMINA > $MSDP_STAMINA_MAX*$hsnrestmvratio} {#var hsnresthpratio $hsnresthpratio1;#var hsnrestmvratio $hsnrestmvratio1;hunt $hsntarget} {#if {$MSDP_HEALTH/$MSDP_HEALTH_MAX < $MSDP_STAMINA/$MSDP_STAMINA_MAX && $MSDP_HEALTH < .7*$MSDP_HEALTH_MAX} {bind} {#var hsnresthpratio $hsnresthpratio2;#var hsnrestmvratio $hsnrestmvratio2};#delay {hsndelayresetdelay} {hsndone2} {$hsnrestdelay}}};
+	#alias kw hsnkwmeleeranged;
+	#alias hsnkwmeleeranged hsnkwmelee;
+	#alias hsnkwranged #nop;
+	#alias hsnkwmelee #nop;
+	#alias hsnwieldmelee #nop;
+	#alias hsnwieldranged #nop;
+	#alias dir hsndirmeleeranged;
+	#alias hsndone {showtnl;#nop save;hsndone1;hsndone2;hsndone3;hsndone4}
+}
+
+#alias {hsnclassass}
+{
+	#split;
+	#alias sanc {get purple $sack;quaff purple};
+	#alias hsndirranged {#nop};
+	#alias hsndirmelee backstab;
+	hsnautohunt;
+	hsnautoattack;
+	hsnmetaratioassassin;
+	#alias hsndone2 {#if {$MSDP_HEALTH > $MSDP_HEALTH_MAX*$hsnresthpratio && $MSDP_STAMINA > $MSDP_STAMINA_MAX*$hsnrestmvratio} {#if {"$MSDP_POSITION" == "Sleeping"} {wake}; hunt $hsntarget} {#if {"$MSDP_POSITION" == "Sleeping"} {} {sleep};#delay {hsndelayrestdelay} {hsndone2} {$hsnrestdelay}}};
+	#alias hsnkwranged #nop;
+	#alias hsnkwmelee #nop;
+	#alias hsnwieldmelee #nop;
+	#alias hsnwieldranged #nop;
+	#alias dir hsndirmeleeranged;
+}
+
+#alias {hsnclassdemon}
+{
+	#split;
+	#alias sanc {get purple $sack;quaff purple};
+	#alias hsndirranged {#nop};
+	#alias hsndirmelee backstab;
+	hsnautohunt;
+	hsnautoattack;
+	hsnmetaratiodemoniac;
+	#alias hsndone2 {#if {$MSDP_HEALTH > $MSDP_HEALTH_MAX*$hsnresthpratio && $MSDP_STAMINA > $MSDP_STAMINA_MAX*$hsnrestmvratio} {#if {"$MSDP_POSITION" == "Sleeping"} {wake}; hunt $hsntarget} {#if {"$MSDP_POSITION" == "Sleeping"} {} {sleep};#delay {hsndelayrestdelay} {hsndone2} {$hsnrestdelay}}};
+	#alias hsnkwranged #nop;
+	#alias hsnkwmelee #nop;
+	#alias hsnwieldmelee #nop;
+	#alias hsnwieldranged #nop;
+	#alias dir hsndirmeleeranged;
+}
+
+#alias {hsnclassdread}
+{
+	#split;
+	#alias sanc {get purple $sack;quaff purple};
+	#alias bashbash2 #nop;
+	#alias laglag2 bashbash2;
+	#alias pracprac hsnkwmeleeranged;
+	#alias hsndirranged {#nop};
+	#alias hsndirmelee {glare};
+	#alias hsndirmelee {#if {$MSDP_MOUNT_STAMINA > 313} {charge %%0; pracskill;} {glare %%0}};
+	noautoheal self;
+	noautoheal;
+	autorecall / 30;
+	hsnautohunt;
+	hsnautoattack;
+	hsnmetaratiodreadlord;
+	#alias hsndone2 {#if {"$MSDP_MOUNT_NAME" == ""} {mount nightmare;#delay {hsndelayresetdelay} {hsndone2} {$hsnrestdelay}} {#if {$MSDP_HEALTH > $MSDP_HEALTH_MAX*$hsnresthpratio && $MSDP_STAMINA > $MSDP_STAMINA_MAX*$hsnrestmvratio} {#echo {good to kill};#var hsnresthpratio $hsnresthpratio1;#var hsnrestmvratio $hsnrestmvratio1;dir $hsntarget} {#echo {no good to kill};#var hsnresthpratio $hsnresthpratio2;#var hsnrestmvratio $hsnrestmvratio2;#untick hsnhunt;#untick hsnrenewhunt;#delay {hsndelayresetdelay} {hsndone2} {$hsnrestdelay}}}};
+	#alias hsnkwranged #nop;
+	#alias hsnkwmelee  glare;
+	#alias hsnwieldmelee #nop;
+	#alias hsnwieldranged #nop;
+	#alias dir hsndirmeleeranged;
+	#ACTION {%%1 staggers back, shocked by your glare. (%%2 damage)} {glareglare};
+	#ACTION {You glare at %%1 who doesn't even notice.} {glareglare};
+	#ALIAS {glareglare} {pracskill};
+}
+
+#alias {hsnclassbarb}
+{
+	#split;
+	#alias sanc {get purple $sack;quaff purple};
+	#alias bashbash2 deathstroke;
+	#alias laglag2 bashbash2;
+	#alias pracprac hsnkwmeleeranged;
+	#alias hsndirranged {#nop};
+	#alias hsndirmelee {#if {$MSDP_STAMINA > 313} {charge %%0; pracskill;} {kill %%0; pracskill;}};
+	noautoheal self;
+	noautoheal;
+	autorecall / 30;
+	hsnautohunt;
+	hsnautoattack;
+	hsnmetaratiobarbarian;
+	#alias hsndone2 {#if {$MSDP_HEALTH > $MSDP_HEALTH_MAX*$hsnresthpratio && $MSDP_STAMINA > $MSDP_STAMINA_MAX*$hsnrestmvratio} {#if {"$MSDP_POSITION" == "Sleeping"} {wake}; hunt $hsntarget} {#if {"$MSDP_POSITION" != "Sleeping" && $MSDP_OPPONENT_NUMBER < 1} {sleep};#delay {hsndelayrestdelay} {hsndone2} {$hsnrestdelay}}};
+	#alias hsnkwranged #nop;
+	#alias hsnkwmelee {#if {$MSDP_STAMINA > 114} {deathstroke} {#nop}};
+	#alias hsnwieldmelee #nop;
+	#alias hsnwieldranged #nop;
+	#alias dir hsndirmeleeranged;
+}
+
+#alias {hsnclasssam}
+{
+	#split;
+	#alias sanc {get purple $sack;quaff purple};
+	#alias shihonageshihonage2 kick;
+	#alias laglag2 shihonageshihonage2;
+	#alias pracprac shihonage;
+	#alias hsndirranged {#nop};
+	#alias hsndirmelee shihonage;
+	hsnautohunt;
+	hsnautoattack;
+	hsnmetaratiosamurai;
+	#alias hsndone2 {#if {$MSDP_HEALTH > $MSDP_HEALTH_MAX*$hsnresthpratio && $MSDP_STAMINA > $MSDP_STAMINA_MAX*$hsnrestmvratio} {#if {"$MSDP_POSITION" == "Meditating" || "$MSDP_POSITION" == "Sitting" || "$MSDP_POSITION" == "Sleeping"} {wake}; hunt $hsntarget} {#if {"$MSDP_POSITION" != "Meditating" && "$MSDP_POSITION" != "Sitting" && $MSDP_OPPONENT_NUMBER < 1} {med}; #delay {hsndelayrestdelay} {hsndone2} {$hsnrestdelay}}};
+	#alias hsnkwranged #nop;
+	#alias hsnkwmelee shihonage;
+	#alias hsnwieldmelee #nop;
+	#alias hsnwieldranged #nop;
+	#alias dir hsndirmeleeranged;
+}
+
+#alias {hsnclassmonk}
+{
+	#split;
+	#alias sanc {get purple $sack;quaff purple};
+	#alias shihonageshihonage2 kick;
+	#alias laglag2 shihonageshihonage2;
+	#alias pracprac hsnkwmelee;
+	#alias hsndirranged {#nop};
+	#alias hsndirmelee kick;
+	hsnautohunt;
+	hsnautoattack;
+	hsnmetaratiomonk;
+	#alias hsndone2 {#if {$MSDP_HEALTH > $MSDP_HEALTH_MAX*$hsnresthpratio && $MSDP_STAMINA > $MSDP_STAMINA_MAX*$hsnrestmvratio} {#if {"$MSDP_POSITION" == "Meditating" || "$MSDP_POSITION" == "Sitting" || "$MSDP_POSITION" == "Sleeping"} {wake}; hunt $hsntarget} {#if {"$MSDP_POSITION" != "Meditating" && "$MSDP_POSITION" != "Sitting" && $MSDP_OPPONENT_NUMBER < 1} {med}; #delay {hsndelayrestdelay} {hsndone2} {$hsnrestdelay}}};
+	#alias hsnkwranged #nop;
+	#alias hsnkwmelee kick;
+	#alias hsnwieldmelee #nop;
+	#alias hsnwieldranged #nop;
+	#alias dir hsndirmeleeranged;
+}
+
+#alias {hsnclassproph}
+{
+	autoheal self heal 80;
+	autorecall / 50;
+	#split;
+	#alias hsndirranged {#nop};
+	#alias hsndirmelee {ofk %%0};
+	#alias ofk of kill;
+	#unalias charm;
+	#alias charmm charm;
+	#unalias sanc;
+	hsnautohunt;
+	hsnautoattack;
+	hsnmetaratioprophet;
+	autodeposit;
+	autovigor vigor;
+	autosanc sanc;
+	#alias hsndone2 {#if {$MSDP_MANA > $MSDP_MANA_MAX*$hsnrestmnratio} {#if {"$MSDP_POSITION" == "Meditating" || "$MSDP_POSITION" == "Sitting"} {wake}; hunt $hsntarget} {#if {"$MSDP_POSITION" != "Meditating" && "$MSDP_POSITION" != "Sitting" && $MSDP_OPPONENT_NUMBER < 1} {sit;med};#delay {hsndelayrestdelay} {hsndone2} {$hsnrestdelay}}};
+	#alias hsnkwranged #nop;
+	#alias hsnkwmelee #nop;
+	#alias hsnwieldmelee #nop;
+	#alias hsnwieldranged #nop;
+	#alias dir hsndirmeleeranged;
+}
+
+#alias {hsnclassdruid}
+{
+	#split;
+	#var hsnalreadycasting 0;
+	#alias sanc {get purple $sack;quaff purple};
+	#alias ofk {of kill};
+	#alias hsndirranged {#nop};
+	#alias hsndirmelee {kill %%0; #delay 3 pracskill};
+	#alias ofk of kill;
+	#alias dir {hsndirmeleeranged};
+	#alias pracprac {#delay {hsnpracprac} {pracskill} {3}};
+	hsnautohunt;
+	hsnautoattack;
+	hsnmetaratiodruid;
+	autovigor vigor;
+	autobless bless;
+	autoffire ffire;
+	autobarkskin barkskin;
+	autoshape bear;
+	autodeposit;
+	autosanc sanc;
+	autorecall / 30;
+	autoheal self heal 80;
+	#alias sanc {get purple $sack;quaff purple};
+	#alias heal {#echo {heal};hea};
+	#alias hsndone {showtnl;save;hsndone0;hsndone1;hsndone2;hsndone3;hsndone4;hsndone5};
+	#alias hsndone0 {#nop};
+	#alias hsndone1 {#if {$MSDP_OPPONENT_NUMBER <= 1} {#alias hsnkwmelee #nop;#echo {No more casting}}};
+	#alias hsndone2 {get all.coins corpse;exam corpse};
+	#alias hsndone3 {#nop};
+	#alias hsndone4 {#nop};
+	#alias hsndone5 {#if {$MSDP_MANA > $MSDP_MANA_MAX*$hsnrestmnratio} {#echo {Good mana}; hunt $hsntarget;#var hsnrestmnratio $hsnrestmnratio2} {#echo {Low mana};#delay {hsndelayrestdelay} {hsndone5} {$hsnrestdelay};#var hsnrestmnratio $hsnrestmnratio1}};
+	#alias hsngetrangedonly #nop;
+	#alias hsngetranged hsngetrangedonly;
+	#alias hsnkwranged #nop;
+	#alias hsnkwmelee #nop;
+	#alias hsnwieldmelee #nop;
+	#alias hsnwieldranged #nop;
+	#alias charm friendship;
+	#alias flamestrike {#echo {casting flamestrike};fst};
+	#alias stone {#echo {casting stone blast};sb};
+	#alias pracprac {#if {$MSDP_OPPONENT_NUMBER > 3 || $MSDP_HEALTH < .5*$MSDP_HEALTH_MAX} {#echo {going to recall};/} {#if {$MSDP_OPPONENT_NUMBER > 0} {#echo {Fighting};#if {$MSDP_HEALTH < .7*$MSDP_HEALTH_MAX} {#echo {can heal?};#if {$MSDP_MANA > 100} {#echo {healing};#alias hsnkwmelee heal} {#echo {Cannot heal. Will recall};#alias hsnkwmelee {/}}} {#echo {no need to heal};#alias hsnkwmelee {#math {hsnalreadycasting} {$hsnalreadycasting - 1};#delay 1 {pracskill}}};hsnkwmeleeranged;#echo {FIGHTING}} {}}};
+	#act {Unknown Command.  ('pracskill')} {#if {$MSDP_OPPONENT_NUMBER > 0 && $MSDP_OPPONENT_NUMBER < 4} {#echo {Fighting a few!};#if {$MSDP_HEALTH < $MSDP_HEALTH_MAX*$hsnresthpratio1/2} {#echo {Getting dangerous};#if {$MSDP_MANA > 40} {#echo {I can heal, so I do!};heal} {#echo {I cannot heal so I run!};/}} {#echo {Not dangerous, I use skills};pracprac}} {#if {$MSDP_OPPONENT_NUMBER >=3} {#echo {Fighting many, I recall!};/} {#echo {Not fighting it seems!}}}};
+}
+
+#alias {hsnclasstemp}
+{
+	autoheal self heal 80;
+	autorecall / 50;
+	#split;
+	#alias hsndirranged {#nop};
+	#alias hsndirmelee {kill %%0};
+	#alias ofk of kill;
+	#alias charmm charm;
+	#unalias sanc;
+	hsnautohunt;
+	hsnautoattack;
+	hsnmetaratiotemplar;
+	autodeposit;
+	autovigor vigor;
+	autosanc sanc;
+	autobless bless;
+	#alias hsndone2 {#if {$MSDP_MANA > $MSDP_MANA_MAX*$hsnrestmnratio} {#if {"$MSDP_POSITION" == "Meditating" || "$MSDP_POSITION" == "Sitting"} {wake}; hunt $hsntarget} {#if {"$MSDP_POSITION" != "Meditating" && "$MSDP_POSITION" != "Sitting" && $MSDP_OPPONENT_NUMBER < 1} {sit;med};#delay {hsndelayrestdelay} {hsndone2} {$hsnrestdelay}}};
+	#alias hsnkwranged #nop;
+	#alias hsnkwmelee #nop;
+	#alias hsnwieldmelee #nop;
+	#alias hsnwieldranged #nop;
+	#alias dir hsndirmeleeranged;
+}

@@ -1,0 +1,40 @@
+channels:
+
+Kingdom channel
+
+skills
+
+New skill_backstab sound.
+Old backstab sound, removed scream, changed to skill_impale
+new gouge sound
+rescue
+rescue_fail
+shapechange through mammoth
+
+
+Songs:
+
+Dirge of doom
+
+
+Procs
+
+bonebreaker
+
+
+Combat:
+
+# Following is successful completion of combo
+3 "tripple combo"
+4 "quadro combo"
+5 "smash combo"
+6 "crusher combo"
+7 "awesome combo"
+8 "ruthless combo"
+9 "epic combo"
+10 "killer combo"
+combat_combo_start
+combat_combo_break
+
+new critical hit sound
+

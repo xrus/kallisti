@@ -1,0 +1,470 @@
+xrus
+display all
+get trident chest
+get blue chest
+remove jacket
+donate dagger
+donate jacket
+get rope case
+get recall case
+nes
+buy raft
+visit chest
+get bag trunk
+get tent trunk
+get tent case
+get tent chest
+get bag chest
+get bag case
+#var sack
+#var char%*
+#var character.container
+#var character[container]
+#var character[container] bag
+save
+11n
+#alias sanc
+autogold
+get all corpse
+wak
+ba good
+prac hide
+#4 hide
+get all
+drop corpse
+3sww
+10sw
+fle
+r
+hsnclassass
+ba girl
+ba pig
+tel Siobhan Zerangman?
+reply what is the mining of Zerang?
+reply what is zer then?
+ba boy
+reply ah
+reply I see
+reply Seems that you are up for champions
+reply yeah, me too. But I'm far far behind
+whoi Siobhan
+noble
+reply could you tell me the source of your 'noble' points?
+reply wondering how I can get it up fastest
+reply I will have the 1k for all races and 1k for all classes and 1k for unspecs
+reply I already have about 1.5k which makes it 4.5k
+reply how much you have from the bloodlines?
+reply for how many bloodlines?
+reply ah well
+reply that is hard to get
+reply Mostly it does. But it doesn't cover some parts
+reply like: how much you get from one prestige?
+whoi Bruiser
+reply so you get almost nothing
+reply right
+ba woman
+get all 2.corpse
+exam 2.corpse
+put all.purple $sack
+put all.purple bag
+#var sack bag
+get pants 2.corpse
+ba sheep
+ba goat
+reply champions seem to be out of my league
+whoi Zerangman
+gos gratz
+get helmet
+l helmet
+drop helmet!
+drop helmet
+drop leather
+'thanks
+'heal
+#config
+#config {packet patch} 1.4
+level 11
+level 12
+style defensive
+style aggressive
+ba combat:
+prac multi
+spec assassin
+prac pick
+www
+!wak;
+l zombie
+#alias hsndirmeleeranged
+#alias dir
+10w
+whoi Ghast
+whoi Ryki
+prac dodge
+wohi Vig
+prac climb
+3ws
+whoi Nyrek
+ww;scn
+wake;ww;scn
+wake;w;scn
+wake;s;ba zombie
+3swwss
+en
+wake;reca;visit tux;'heal
+3w
+ba zombie
+3swwsss
+filter
+get boots trunk
+wear boots
+5n
+#var hsnresthpratio1
+#var hsnresthpratio1 .6
+#var hsnrestmvratio1
+#var hsnrestmvratio1 .33
+#var hsnrestmvratio2
+#var hsnrestmvratio2 .95
+#var hsnresthpratio2 .95
+#var hsnrestmn%*
+#var hsnrestmnratio1 0
+#var hsnrestmnratio2 0
+spel assassin
+sswwsss
+prac kick
+bay gypsy
+ba gypsy
+#alias kickkick
+#alias pracprac
+#alias pracprac kick
+ba pegasus
+ba lady
+ba unicorn
+spel assass
+10e
+ba Jorim
+get cesti trunk
+3nw5n
+ba stagehand
+dir stand
+#alias hsndirmelee
+#alias hsndirmelee {backstab %0; pracskill}
+sd
+help harm
+'Would you please help me briefly?
+beckon Loki
+tel Loki :follow Xin
+w5n
+ba actor
+where stagehand
+level 17
+level 18
+10n
+4e
+ba man
+s7w
+8w
+get hat
+l hat
+drop hat
+sssss
+prac backstab
+get caligae chest
+wear calg
+l caligae'
+remove boots
+wear caligae'
+put muddy chest
+get robes trukn
+get robes trunk
+l robes
+wear robes
+get bracelet trunk
+wear bracelet
+put bracelet trukn
+put bracelet trunk
+get all.spear trunk
+put spear trunk
+prac edged
+l cesti'
+sc stats
+esw
+list
+browse green
+id 3
+buy green 2
+buy green
+wear cesti'
+dir assistant
+dir thrower's
+dir knife
+kick clown
+l trident
+ew
+dir horse
+remove trident
+wield spear
+put trident trunk
+ss
+dir elephant
+tel Kackerlacka You are there?
+help wither
+hide
+s;dir bear
+prac blind fighting
+withdraw 1000000
+autodeposit
+w4s
+14w
+s4w10sw
+#system reset
+#split
+5w
+dir dog
+ne
+ns
+7w
+dir keeper
+10s
+drir zom
+ws
+level
+level 22
+help shield use
+dir zombie
+k zombie
+depart;s4w10sw
+hunt zombie
+where zombie
+wher zombie
+7e
+5s
+3e
+fa
+where
+scan s
+con wife
+ba wife
+prac feign
+get tail case
+put tail case
+get pike chest
+l pike
+put pike chest
+l ring
+get ring chest
+wear ring
+put ring chest
+get 2.vest chest
+l vest
+l robe
+remove robe
+wear vest
+put robes chest
+get sceptre trunk
+l sceptre
+wear sceptre'
+wear sceptre
+get earring trunk
+l earring
+wear earring
+get vivid trunk
+l vivid
+l blue
+remove blue
+wear vivid
+put blue trunk
+3ne5n
+k stagehand
+d
+es
+level 23
+level 24
+level 25
+dir act
+k act
+dir ticket
+dir ringmaster
+tog combatbrief
+dir member
+depart;s7w4n8w8s
+dir clown
+u
+k clown
+dir tightrope
+kick
+k tightrope
+#ig
+freca
+replay gos
+gos tzag
+gos who was it?
+3n
+w4n
+dir stagehand
+3sww3s
+prac lore
+wear all
+4w3se
+resize tail smaller
+get coral chest
+l boots
+l caligae
+remove caligae
+wear caligae
+remove caligae;wear coral
+put caligae chest
+get morgel chest
+get order chest
+l order
+put belt chest
+exam cas3
+get Condone case
+wear quiver
+l Condone
+remove green
+wear green
+l cesti
+sc
+remove cesti'
+remove cesti
+put cesti chest
+get manhood trunk
+l manhood
+put manhood trunk
+get halberd trunk
+l halberd
+put halberd trunk
+l spear
+get scalp trunk
+get cesti chest
+get leggings trunk
+l leggings
+l tail
+wear leggings..Another
+wear legs
+wear leggings
+remove tail
+wear sorrow
+put tail trunk
+wear tail
+l scalp
+wear scalp
+wear cesti
+get bracers trunk
+get silvery trunk
+l stone
+put silvery trunk
+l bracers
+wear bracers
+wwss
+prac armor
+wear bracer
+#10 poke ptam;put all.purple $sack
+s14e26n13ess;oe;e
+wake;reca;visit tux;'heal;'refresh
+depart
+3s
+'refresh
+k member
+hunt member
+combat
+top1 damage
+tel Isalei Hey there
+help backstab
+ba member
+ba cello
+gos test back
+help assassin
+kick cello
+dir cello
+4w
+ba viol
+nn
+wake;e
+sl
+eq
+ee
+dir viol
+kick viol
+dir hurdy
+level 26
+level 27
+level 28
+help scout
+dir mandolin
+kick mandolin
+dir Polonius
+dir Gertrude
+ww
+dir Guildenstern
+gain
+prac scout
+prac critical
+prac find traps
+prac sneak
+prac peek
+s14w
+nnw3n
+prac hunt
+wor
+4s
+'ffire;'bless;'barkskin;'vigor
+depart;s14e26n13ess;oe;e
+hunt miner
+4n
+dir Rosencrantz
+muds l
+spel wizard
+help renew life
+hel phellstream
+help hellstream
+dir Claudius
+where member
+hunt act
+ba act
+help set traps
+enter portal
+hunt Xendorian
+sanc
+top1 paragon
+top1 noble
+nohunt
+scn
+e
+w
+sen
+regen
+dir Xendorian
+wake;reca;3sww3s;gain
+wake
+prac bind
+prac
+skil
+spel
+help poison use
+who
+6
+reca
+s
+get $sack
+l bag
+exam bag
+visit
+put bag chest
+2
+n
+#cr
+9
+i
+l
+exam chest
+exam case
+af
+visit tux
+'eyes
+visit zruz
+exam trunk
+camp
+
+3
+1

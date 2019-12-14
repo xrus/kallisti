@@ -1,0 +1,135 @@
+#CLASS {Xonk} OPEN
+
+#ACTION {%1 tosses you to the ground as you miss a punch aimed at %2}
+{
+     punchpunch
+}
+
+#ACTION {Hatshepsut issues the order: kill %1}
+{
+     dir %1
+}
+
+#ACTION {The door to %1 seems to be locked.}
+{
+     unlock door;
+     l
+}
+
+#ALIAS {allsearch}
+{
+     search armoury %0;
+     search vault %0;
+     search trunk %0;
+     search chest %0
+}
+
+#ALIAS {charm}
+{
+     charmm
+}
+
+#ALIAS {darkfire}
+{
+     #echo {casting darkfire};
+     darkfir
+}
+
+#ALIAS {drain}
+{
+     #echo {casting drain};
+     drai
+}
+
+#ALIAS {edrain}
+{
+     #echo {energy drain};
+     edrai
+}
+
+#ALIAS {hsntdir}
+{
+     hsndirmeleeranged $hsntarget
+}
+
+#ALIAS {shihonageshihonage2}
+{
+     kick
+}
+
+#ALIAS {vdrain}
+{
+     #echo {vampiric drain};
+     vdrai
+}
+
+#VARIABLE         {MSP}  {{LAST}{move_put.wav}{SOUND}{0}{VOLUME}{0}}
+#VARIABLE         {OLD_MSDP_OPPONENT_NAME}    {the goblin youngster}
+#VARIABLE         {auto}  {{deposit}{1}{focus}{dex}{join}{1}{poke}{kick}{recall}{/}{recallPercent}{30}{refreshgroup}{refresh}{sanc}{sanc}{vigor}{get steel tent;quaff steel}}
+#VARIABLE         {autoHealSelfPercent}  {50}
+#VARIABLE         {autohealList}  {}
+#VARIABLE         {autorefreshList}  {}
+#VARIABLE         {autorescueList}  {}
+#VARIABLE         {breakout}  {1 spamset breakout 15}
+#VARIABLE         {currTime}  {1555522200}
+#VARIABLE         {enemyConditionTone}  {1200}
+#VARIABLE         {filter}  {0}
+#VARIABLE         {fleeString}  {}
+#VARIABLE         {friends}  {{1}{Sin}{2}{Helios}}
+#VARIABLE         {hook}  {{Arena}{}{Barter}{}{Gossip}{}{Hero}{}{advice}{}{areaName}{}{arena}{}{arrive}{}{barter}{}{bump}{}{cchat}{}{characterName}{}{charactername}{}{closed}{}{gossip}{}{groupAdd}{}{groupEnd}{}{groupLeave}{}{groupTell}{}{groupVariable}{}{hero}{}{hpPercent}{}{incapacitated}{}{info}{}{join}{}{leave}{}{lootCorpse}{}{manaPercent}{}{morted}{}{opponentHealth}{}{opponentName}{}{opponentNumber}{}{playerDeath}{}{position}{}{race}{}{report}{}{roomName}{}{roomNumber}{}{say}{}{shout}{}{staminaPercent}{}{stunned}{}{tell}{}{trackFail}{}{trackLose}{}}
+#VARIABLE         {hours}  {432089}
+#VARIABLE         {hsnalreadycasting}  {0}
+#VARIABLE         {hsnarg1}  {}
+#VARIABLE         {hsncon}  {0}
+#VARIABLE         {hsndamagedr}  {21}
+#VARIABLE         {hsndamagehw}  {142}
+#VARIABLE         {hsndamagemw}  {404}
+#VARIABLE         {hsndamagetotal}  {11466}
+#VARIABLE         {hsndex}  {0}
+#VARIABLE         {hsnhp}  {0}
+#VARIABLE         {hsnhpratio}  {11.5}
+#VARIABLE         {hsnhuntdir}  {}
+#VARIABLE         {hsnint}  {0}
+#VARIABLE         {hsnlasttarget}  {enfan}
+#VARIABLE         {hsnlasttargetindex}  {1}
+#VARIABLE         {hsnlmax}  {0}
+#VARIABLE         {hsnluc}  {0}
+#VARIABLE         {hsnmaxcon}  {0}
+#VARIABLE         {hsnmaxdex}  {0}
+#VARIABLE         {hsnmaxhp}  {0}
+#VARIABLE         {hsnmaxint}  {0}
+#VARIABLE         {hsnmaxluc}  {0}
+#VARIABLE         {hsnmaxmn}  {0}
+#VARIABLE         {hsnmaxssum}  {0}
+#VARIABLE         {hsnmaxst}  {0}
+#VARIABLE         {hsnmaxstr}  {0}
+#VARIABLE         {hsnmaxsum}  {0}
+#VARIABLE         {hsnmaxwis}  {0}
+#VARIABLE         {hsnmn}  {0}
+#VARIABLE         {hsnmpratio}  {4.5}
+#VARIABLE         {hsnrace}  {werewolf}
+#VARIABLE         {hsnratio}  {71649.2}
+#VARIABLE         {hsnrecharmtimer}  {1}
+#VARIABLE         {hsnsample}  {0}
+#VARIABLE         {hsnspratio}  {6.5}
+#VARIABLE         {hsnssum}  {0}
+#VARIABLE         {hsnst}  {0}
+#VARIABLE         {hsnstr}  {0}
+#VARIABLE         {hsnsum}  {0}
+#VARIABLE         {hsnsummax}  {0}
+#VARIABLE         {hsntarget}  {}
+#VARIABLE         {hsntargetfound}  {0}
+#VARIABLE         {hsntargetindex}  {1}
+#VARIABLE         {hsntargetlist}  {}
+#VARIABLE         {hsntargetsize}  {0}
+#VARIABLE         {hsntnl}  {-200354}
+#VARIABLE         {hsntotal}  {0}
+#VARIABLE         {hsntryhere}  {1}
+#VARIABLE         {hsnwis}  {0}
+#VARIABLE         {idle.seconds}  {19}
+#VARIABLE         {idle.time}  {1576308180}
+#VARIABLE         {idleList}  {{1}{look}}
+#VARIABLE         {onDeath}  {{1}{sanc}{2}{get steel tent}{3}{quaff steel}{4}{get steel tent}{5}{quaff steel}{6}{get steel tent}{7}{quaff steel}{8}{get steel tent}{9}{quaff steel}{10}{get steel tent}{11}{quaff steel}{12}{sanc}{13}{sanc}{14}{get steel tent}{15}{quaff steel}{16}{sanc}{17}{sanc}{18}{sanc}{19}{sanc}{20}{sanc}{21}{sanc}{22}{sanc}{23}{sanc}{24}{sanc}{25}{get steel tent}{26}{quaff steel}{27}{sanc}{28}{sanc}{29}{get steel tent}{30}{quaff steel}{31}{get steel tent}{32}{quaff steel}{33}{sanc}{34}{sanc}{35}{sanc}}
+#VARIABLE         {voteTime}  {-n 0}
+
+#CLASS {Xonk} CLOSE

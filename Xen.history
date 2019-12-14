@@ -1,0 +1,1000 @@
+#alias hsnkwmelee
+muds
+wakee
+drop ae
+drop axe
+drop quarterstaff
+autofocus dex
+wake;med
+get vivid chest
+wear vivid
+get dipper case
+get crimson case
+l sword
+l dagger
+hsnweapondamage 13.5 21
+remove dagger
+hold crimson
+put dagger chest
+l dripper
+l dipper
+estimate dipper faster
+put dipper chest
+get black chest
+remove crimson
+put crimson chest
+!ssear
+#10 poke ptam
+14w
+5s
+#5 buy steel;put all.steel $sack
+spel monk
+spel
+#cr
+help battou jutsu
+help awareness
+awareness
+#var hsn%*ratio%*
+hunt member
+huntlist {member}{stagehand}{viol}{cello}{hurdy}{mandolin}{Juliet}{Romeo}{Guilden}{Gertru}{Poloni}{Claudi}{Rosen}{conduct}{Hamlet}{gravedigger}
+#alias hsndirmeleerangeed
+#alias hsndirmeleeranged
+#alias hsndirmelee {kill %0; pracprac}
+#alias hsndirmelee {kill %0; pracskill}
+reegen
+drop wand
+drop staff
+drop stiletto
+drop shortsword
+drop potion
+quaf inferno
+quaff infu
+#act {You try to throw the lamia down, but she is too stable.} pracskill
+teel Tortwaah want to join?
+tel Tortwaah want to join briefly?
+/
+reply join at ptam
+gt you are all set?
+gt all heal dragonne
+shihonag
+help rescue
+shihona
+u;dir lamia
+n;dir lamia
+autorescue all
+autorescue Tortwaah
+autorescue dragonne
+gt what was the autorescue command?
+autorescue add Tortwaah
+autorescue add dragonne
+e;s;tap;wield green;hold longsword;wear all
+gt al sll
+gt all sll
+level 51
+gt heal dragonne
+#alias hsndone4 ref me
+#alias hsndone
+#alias hsndone4
+nohun
+buy stre
+buy stamina
+vig
+vigor
+aware
+s;gt all dism
+gt up to go?
+gt prep
+gt prep me
+gt prepare
+gt pre
+think
+gt vig me
+gt bless
+spel druid
+gt ff
+gt armor
+gt darmor
+kick lamia
+kick
+help vortex
+#alias hsndone4 #2 gt ref me
+#act {You try to throw the lamia down, but she is too stable.}
+#unact {You try to throw the lamia down, but she is too stable.}
+#act {You try to throw %1 down, but %2 is too stable.} shihonageshihonage
+gt all autoshape plant
+gt all stan
+gt vig
+gt vigor
+gt vigo
+shih
+gos ?
+mudsl
+gos Sateen the mighty!
+f
+dir guard
+l black
+l black longsword
+remove longsword
+ss4w3se
+l 2.longsword
+w4s
+4w3se
+nne
+withdraw 5000000
+w4s4w3se
+resize longsword faster
+estimate longsword faster
+wield longsword
+7w
+enter tree
+remove all
+wake;rescue dragonne
+gt dism
+gt all sle
+sl
+shiho lamia
+ss7e7ne
+ne4n
+se4n
+ddd
+gos hey
+eee
+gt damn
+s7e
+7ne
+get all 2.corpse
+get 3.corpse
+gr Tortwaah
+gt all tures
+gt all trues
+gt all true
+gt all eyes
+gt all get corpse
+gt all get all corpse
+gt all sac corpse
+ggr
+ql
+gt how can I make you stop casting offensive spells?
+gt You are Coyote?
+gt will be good to turn it off for now
+gt which level will you stop?
+gt OK
+buy str
+e;reca;s;tap;wield green;hold longsword;wear all
+af deetail
+wwho
+11e
+4n
+l king
+shiho longsword
+gos it's fine with us
+shiho goblin castle
+get longsword corpse
+auc offer longsword 300000
+whoi Dynasty
+barter no one wants a green longsword?
+whoi Lastchance
+9
+gt depart
+wake;reca
+wake;s
+tel Tortwaah :fle
+put green chest
+gt all sl
+wakee;s
+l bonemask
+put bonemask chest
+wake;depart
+l mail
+sell mail
+l corpse
+gr self
+s11e12n
+5n
+drop corpse
+l antlers
+w;dir lamia
+reply I don't know where it is
+whoi Ossim
+reply lamias
+s14w
+tel Sammy Hello
+reply no
+tel Tortwaah let's join?
+tel Tortwaah :depart
+whoi Glia
+whoi Chaoran
+whoi Anatta
+whoi toc
+tel Anatta You know about the samurai swords?
+reply where to get them and if they are worth getting
+reply that nodachi is a 2-handed?
+reply I think I have it already. But it doesn't seem worthy at all
+repl what is good about the nodachi?
+reply OK, I meant the wakizashi and it's pair
+reply worth getting then?
+reply could you auction them so I see the stats?
+reply I see
+gt hael me
+ss7w
+gt all dism;gt all sl
+reply how many hits you do with them both?
+reply how you have so much 100% hits?
+reply hmm.. high level helps a lot? what is your dex with eq?
+reply I seee
+buy dex
+reply I already have 42 dex with focus
+s7w
+gt all stand
+7en
+gt all vig
+reply and can train dex 6 more times
+reply aggressive
+reply multi at rank 5 with no eq to boost it
+reply my 3rd main hand attack is at 97
+reply ah! I already found one
+get flowing chest
+l sash
+remove sash
+wear flooded forest
+wear flowing
+l flowing
+reply nice! third attack 100. 4th is at 89 now
+put sash chest
+put sash trunk
+reply I think that I've fogot about multi attack. I should have better eq to boost it
+search case
+search trunk
+search chest
+get robw
+get robe chest
+put robe chest
+get plain case
+get plain trunk
+get plain chest
+l robes
+hsnweapondamage 13.5 18
+wear robes
+l elm
+get light trunk
+remove robes
+put robes trunk
+wear elm
+remove elm
+wear light
+put elm trunk
+l broach
+removget necklace trunk
+get necklace trunk
+get necklace chest
+get necklace case
+put desoy trunk
+remove broach
+wear necklace
+put broach trunk
+ieq all
+put ring trunk
+reemove sorrow
+remove sorrow
+put sorrow trunk
+get cured trunk
+put boots trunk
+geet ring trunk
+gte ring trunk
+geet ring tru
+get ring trunk
+put opal trunk
+wear leggings
+remove horns
+wear paws
+get paws case
+get paws trunk
+get paws chest
+get jaguar chest
+get jaguar case
+get jaguar trunk
+wear paw
+put horns trunk
+s4w3se
+campsc
+reply 800 for now. Just started meta
+reply Yes, I use tintin
+reply with a huge pack of triggers/actions
+skil charge
+reply wait
+14
+reply wait. Need to learn charge
+depar
+s5esse
+withdraw 200000
+setsam all
+advise
+help setsam
+setsam any
+setsum any
+reply ready
+setsum clangroup
+fol Anatta
+reepor
+gt 28 dam 49 hit
+gt not yet
+#act {Anatta marks %1 for death.} dir %1
+l boots
+gt this one is +2 dex
+gt I just changed drow boot and sorrow leggings with these.
+gt also changed the opal ring with the xendorian
+gt all boost dex
+gt a tiny bit more hits
+l Anatta
+gt what does the staff do?
+gt what's the stats?
+gt I think that I should have a better mana drain weapon for you
+gt want mee check?
+gt I have both
+gt I cannot recall tbh
+gt maybe I've bought them on an auction
+gt should play dreads
+gt best for running through weak mobs
+gt that is necro
+gt necro will do it from 16
+spel necro
+gt animate dead
+gt You just go in and order your zombies to attack
+gt kill something with your sam and use the corpse
+gt and you will start
+gt yes
+gt you cannot animate much higher lvl corpses
+gt the zombies will be a couple lvls below the corpse you raise
+gt I raise lvl 55 corpses with my lvl 50 necro
+gt then I give them green longswords
+gt and gnomish spears
+gt huh?
+gt warranty on charges?
+gt who has idled out?
+gt who was the previous?
+whoi dain
+gt we can make it a quad..
+gt centaur of doom
+gt I'm not a native english, so I cannot understand what you say from time to time
+gt persian
+gt where you two live?
+gt so you are chinese?
+gt and how are you awake now, Vash?
+gt it's almost night for you, Anatta, right?
+gt so, how is living in beijing?
+gt it's not even close to a persian name. But many of ancient persian names are written close to it in modern english
+gt one is xerses
+gt xerxes
+gt syrus is another
+gt actually, xrus is named after syrus or cyrus..
+top1 paragon
+gt hehe.. me too
+gt who is the leader of wolf? Xepher?
+whoi xepher
+gt yeah
+gt he was 60 when I joined
+whoi Stabitha
+gt not tux?
+whoi selmak
+gt it's a newbie clan? you mean it gathers newbies?
+gt seems that emc is an old-returner clan
+gt I'm the cross membere then
+gt The day I returned after 8-9 monthes, I used a new char and started playing
+gt I don't know how kronos found out I'm xrus
+gt he called me after a day and told me to login xrus to recruit me
+gt kronos for sure knew I'm newb
+gt I used to group with him with my lvl 56 warrior.
+gt hehehehe
+gt I used to give him all access
+gt I had nothing to worry
+gt and he got me killed a lot!
+gt hehehe
+gt I don't mind to give all access to almost anyone
+gt lol
+gt well.. not anyone
+gt neither do I
+gt I don't mind loosing all my gear, if that means I will learn a player is a sh*t!
+gt to be honest, all I have, he can get fast easily
+gt well.. I don't have wak/kat either
+gt I have a couple ice shards
+gt ice shard is high end? really?
+gt I don't know what it is
+gt never seen one
+gt I should ask an immortal to give me 75 qp!
+reply gos
+tel Tortwaah gratz
+reply no! mostly thanks to you
+gt np with me
+gt I'm going to build a weird/simple OP monk to make them nerf something new
+gt why don't we just kill all elementals?
+gt but technically, we just kill elementals?
+gt so I just come here and hunt elementals?
+gt I will bring a healer
+gt one of your leaders
+wink
+gt tux is so kind, he always gives me full access through all commands.
+iwho
+comb
+af detali
+gt 51 dex
+gt 32 is mine. can still take it to 38
+gt rest is eq
+gt speed 12
+gt speed 120
+gt you know how much it goes up with lvl?
+gt ok
+gt thanks for all the fun
+gt I'll get a few lvls instead of metaing
+gt to be able to help you more in the future
+tel Tortwaah wanna join?
+fo self
+whoi Sateen
+#alias hsndirmelee {shihonage %0;#2 rescue dragonne;#2 rescue Tortwaah;}
+gt you cv auto?
+gt or I should tell you to?
+5esse
+cb thanks
+gt thanks
+tel Chaoran attack speed doesn't go up with lvl
+whoi God
+whoi Goliath
+reply yeah
+prac edge
+nn5w
+ct I don't know
+replay group
+wehre
+7e7n
+shihonage
+replay gos
+whoi ton
+gos tzag Ton
+clan member wolf
+tel Tortwaah :cv
+help conver
+gt cv
+gt all cv
+gt convert
+gt ah
+deposit 33223
+deposit 200000
+spelf
+whoi jason
+ct you go to lower druidwell?
+ct and tzag Abuna
+ct I go to upper then
+got druidwell
+got druid well
+goto druidwell
+goto druid weell
+ct orcs?
+#alias joinjoin {#2 rescue dragonne;shihonage;}
+ct what are rooties?
+ct hmm.. they are not same? I thought they are all same with one leader
+dir defender
+#alias hdndone4
+foc dex
+gt dism;gt smount
+gt all conver
+whoi Wightknight
+whoi Ravens
+whoi Ravensnest
+autohunt
+ct tzag
+ct can I ask for some tough eqs?
+ct you think that you can arrange to get it?
+ct sam swords
+ct I don't know where to get them at all
+get elm corpse
+ct I know. I should grow a bit to be able to use the
+ct them
+dir ent
+ct what are bear claws?
+tel Muse what is it?
+put all.steel $sack
+put all.flask $sack
+l key
+cb what was that, Muse?
+ct what was that, Muse?
+ct keep it.
+ct I have many
+ct ah, thanks
+gt all heal Tortwaah
+gt all heal Xen
+sell elm
+get 2.bag
+get 3.bag
+drop canoe;drop tent;put all bag;drop bag;get canoe;get tent
+sac bag
+l bag
+nws
+buuy bag
+ne
+put flute bag
+sw
+se
+get bag
+put harp bag
+l harp
+drop harp
+drop bag
+gt all give longsword xen
+'thanks
+put longsword chest
+gt all autoheal add all
+tel Tortwaah :flee
+tel Tortwaah qw
+tel Tortwaah :qw
+beckon
+sac c orpse
+get longsword chest
+l longsword
+hunt ent
+whoi muse
+gos which self buffs?
+hunt lamia;hunt sloth;hunt monkey
+helep fap
+help fap
+whoi Taiwait
+whoi hare
+scan u
+gt all true xen
+eye
+gt all eye
+scan d
+top xrus
+top1 detail
+wn
+ssn
+hunt defender
+hunt lemur;hunt sloth;hunt monkey
+whoi prod
+tel prod you could get paws of the jaugar?
+hunt lemur
+shiho lemur
+where lemur
+where sloth
+hunt jaguar
+ft ref me
+af detail
+#alias hsndone4 gt ref me
+#alias joinjoin
+gt heal me
+drop all.stone
+lore potion
+dir thalos
+dirs thalos
+help thalos
+4n10wsswsws5w2n2w3n
+help dirs
+con priest
+dir spectator
+l general
+con general
+dir general
+l lares
+dir Lares
+con Froboz
+con shopkeeper
+con soldier
+dir shopkeeper
+barge door
+dir gateguard
+l philosopher
+con philosopher
+dir philosopher
+get pen corpse
+l peg
+l pen
+auc pen 400
+auc offer pen 400
+dir slavemaster
+get whip corpse
+l whip
+gos which skills you use mostly?
+gfr
+dir lamis
+e;dir lamia
+#alias dir
+drop pen
+drop whip
+put all.stone bag;drop bag
+med
+buy bag;put all.stone bag;drop bag
+focus str
+buy bag
+put all.potion bag
+put all.potion bag;drop bag
+buy bag;put all.potion bag;drop bag
+sell black
+sell plate
+get corpse
+sac corpse
+swwn
+sell potion
+see
+swn
+sell stone
+l lance
+auc offer lance 200000
+goto druid well
+tel muse cannot find you
+hunt hare
+hunt muse
+fol muse
+reply ah, sorry. That barb is a paragon
+tel Tortwaah hey
+buy hitpoints
+whoi Abuna
+hunt groundling
+k graveyard
+#alias hsndirmelee shihonage
+autoloot
+ct well.. as a prophet you should watch what you say. But maybe you want to roll a dreadlord or something to be more free! :D
+whoi Drakkon
+ct You know who he is? I mean, you know his previous chars?
+whoi Fiddle
+whoi Darthal
+whoi Colenzo
+whoi Marinus
+whoi clint
+whoi cards
+whoi Icarius
+whoi House
+whoi colenzo
+area ignor
+id 4
+id 6
+id 7
+id 5
+buy 5
+clanitem badge
+wear badge
+list
+id 27
+id 26
+id 25
+id 24
+id 23
+id 22
+id 21
+id 20
+id 19
+id 18
+id 17
+id 16
+id 15
+id 14
+id 13
+id 12
+id 11
+resis
+ac
+eq detail
+nofilter
+put rock chest
+l ruby
+wear ruby
+wear accuracy
+remove accuracy
+put accuracy chest
+l fury
+get all.ring chest
+get all.ring case
+get all.ring trunk
+l ring
+l carved
+put carved chest
+l signet
+put signet trunk
+l opal
+wear opal
+l dignity
+put ring case
+l marble
+put marble chest
+l studded
+put studded chest
+removee opal
+remove opal
+get bracelet chest
+wear bracelet
+put opal chest
+sen
+sell fury
+s5w3se
+resize ring larger
+wear ring
+remove ring
+focu dex
+tel sammy hey there
+'Hello
+tel Tortwaah up to continue?
+exam chest
+get all.elderberry chset
+get all.elderberry chsest
+get all.elderberry chest
+put all.elderberry $sack
+'thanks for berries
+'vig me
+'vig
+'ff
+'bark
+tel Tortwaah vig
+search armor
+l hat
+l scalp
+15
+tip
+'hey
+'You lead?
+'I do?
+eq all
+one
+gt you have triggers?
+put ring chest
+gt wait
+gt it's safer now
+gt lost you?
+#alias ref tel Tortwaah ref me
+#alias ref tel Tortwaah ref
+#alias ref tel Tortwaah :ref Xen
+repor
+gt you have enough hits to take front too, right?
+gt nice!
+gt ref me
+#alias ref tel Tortwaah :refresh Xen
+#alias heal tel Tortwaah :heal Xen
+tel Tortwaah :shapec plant
+gt I've done my best to hit as much as possible
+eq
+l green
+wear all
+l shieeld
+l shield
+grin
+hunt thri-kreen
+#alias hsndirmelee chargee
+#alias hsndirmelee charge
+12n
+hsnnoautoattack
+gt me  too
+#alias hunt
+gt hmm
+hsnautoattack
+hsnautohunt
+#alias hsnnoautohunt
+#alias hsnautoattack
+#alias hsnautohunt
+gt it's fine
+hun orc
+dir orc
+hunt orc
+gt how much xp you get per orc?
+noautovig
+autovig
+autovigor
+noautovigor
+reply hi
+reply I wanted to try a build which is very expensive. Wanted to ask if it works at all, first
+sreply I have a very dexy monk. Wondering if getting kick to rank 10 will be the only active skill needed by the monk, as it should bash
+reply and the monk can do it almost once per round
+reply I just know a boot which helps +rank kick. I have two of which. the build is very expensive, because I have to earn 75 qp to get the kick to rank 8+2
+reply bash part
+gt good
+reply no. centaurs cannot wear those
+repl actually, those are hooves. Maybe centaurs should be able to wear them
+gt I'll be back soon
+tel Sammy let me see
+camp
+3
+10
+1
+beckon Tortwaah
+tel Tortwaah :fol Xen
+gr all
+tel Qumasta ready now
+tel Aruba need any gear?
+tel Aruba or rerolling?
+tel Tortwaah :shapech plant
+gt all vig group
+reply nice!
+wheeree
+ig
+reca;s
+reef
+ct what?
+wake;hunt Tortwaah
+4w
+s;charge beholder
+w;charge beholder
+4e
+5ess
+gain
+s5ess
+regress kick
+prac
+prac charge
+prac battou
+gt all vigor all
+ss5ess
+prac climbe
+prac climb
+ww
+7n
+shiho gnome
+#alias hsndirmelee {charge %0; pracskill;}
+os
+s;dir gnome
+get all corpse
+l armor
+auc offer armor 200000
+auc cancel
+skil
+nwn
+ws
+7e
+7s
+withdraw 500000
+deposit 377971
+s7e7ne
+ee
+s7e7n4e
+wield green
+hold longsword
+k groundling
+#alias hsndirmelee
+#alias hsndirmelee {kill %0; pracskill;}
+#alias hsndone4 {get flask corpse;put flask $sack}
+quaf flask
+e;reca
+wear green
+drop 2.key
+l rock
+wheree
+visit zruz
+wheere
+tle Tortwaah You are there?
+gt ready to continue?
+5w
+gt all shapec n
+gt all w
+gt all e
+wake;sw
+esw
+s7e7nee
+#ig
+wak
+ness
+dir gnomee
+es
+get key corpse
+get key 2.corpse
+exam corpse
+exam 2.corpse
+nwww
+hun
+#10 poke ptam;put all.purple $sack
+gt all dance
+gt ref
+s;dir lamia
+4s
+w;dir thri
+heal dragonne
+heal Tortwaah
+e;dir thri
+s;dir thri
+en
+eu
+ss7e7nee
+dir soldier
+tap
+s7e7n
+5e
+hunt gnome
+dir gnome
+visit tux
+gt  ready to continue?
+deposit 193552
+deposit 1761214
+depart
+gt all depart
+goto thalos
+where
+#alias hsndirmelee {shihonage %0;#3 rescue dragonne;#2 rescue Tortwaah;}
+#alias hsndone4 ref
+fle
+hunt Tortwaah
+rescue dragonne
+#alias heal gt heal %0 Xen
+gt hey there
+gt fine, you?
+gt TBH, I'm semi botting
+gt hehe
+gt but our pair is good enough. We have survived 3 runs through lamias so far. I've been semi-afk
+gt You can meta a bunch, right?
+gt maybe about 700 points
+#alias heal
+#alias heal tel Tortwaah :heal %0 Xen
+gt I'll be right back
+ss
+charge beholder
+d
+where lamia
+dir beholder
+n;charge beholder
+e;charge beholder
+rescue Tortwaah
+gt all dism
+gt all smount
+n;dir thri
+gt all vigor group
+gt all shapec plant
+hunt thri
+shiho
+gt all mount dragonne
+heal
+gt all heal
+gt all conveert
+gt all convert
+wake
+dir thri
+w
+nn
+e4n
+hunt lamia
+dir lamia
+sanc
+ref
+auc id
+reeca
+reca
+s14w;enter tree;w;remove all;list
+buy HitPoints
+i
+withdraw 1000000
+#10 buy Hitroll:
+#10 buy HitPoints
+deposit 298460
+e;reca;s;tap;wield green;hold longsword;wear all;focus dex
+gt qw
+s14e26n13ess;oe;e
+unlock door
+level 53
+replay
+replay clan
+who
+u
+n
+get necklace
+l necklace
+drop necklace'
+drop necklace
+exam $sack
+nohunt
+e!shi
+e
+scn
+s
+shiho miner
+sc
+get steel $sack;quaff steel
+get flask $sack;quaff flask
+regen
+muds l
+af
+focus dex
+unlock door;l
+combat
+help metagain
+help hero points
+help spirit of bush
+gr
+wor
+
+hsnclasssam
+gos tzag
+hunt miner
+#alias hsndirmelee kill
+#alias hsndone4 #nop
+l

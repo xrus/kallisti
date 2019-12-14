@@ -1,0 +1,1000 @@
+#var hsnrest%*
+#var hsnrestmnratio2 0
+#var hsnrestmnratio1 0
+#var hsnrestmvratio1 0
+#var hsnrestmvratio2 0
+#var hsnresthpratio2 0
+#var hsnresthpratio1 0
+w;dir enfan
+kick enfan
+dir defender
+2s14w4sws6w7n7w2n3ess
+shihonage defender
+sweep
+2s14w;enter tree;w;remove all;list
+s5ess
+whoi kokyonage
+help kokyonage
+withdraw 938009
+prac kokyonage
+search vault
+get antlers trunk
+l skull
+remove skull
+wear antlers
+put skull trunk
+request 
+recommend light
+recommend ring
+help waves of war
+kokyonage
+2s7e13swsw2s7ws
+enter ship
+l 2.sailor
+l sailor
+l archer
+l first
+l war?'
+l warrior
+l fire-archer
+l Callidyrr
+l mate
+con mate
+con sailor
+'heal
+'barkskin;'ffire;'bless;'vigor
+recommend neck
+recommend leg
+recommend wrist
+area Ghaldor
+area Caverns
+help Ghaldor
+3s2e2s6wnwns3e2nd
+dir lizard
+dir goblin
+dir rat
+s;dir rat
+e;dir rat
+hunt rat
+#alias hsndirmelee nervestrike
+#alias ofj
+#alias ofj #nop
+dro sword
+l lizard
+shihoange
+drop lizard
+drop rock
+drop sword
+#alias hsndone1
+#alias hsndone2
+get flask $sack
+quaff flask
+get all.flask trunk
+seen
+sell axe
+s3en
+sell sword
+get axe
+l axe
+gos one is this monk
+gos not crash
+gos this one is not a crash bug
+gos this is stats bug
+gos let me tell you my max stats
+wwn
+buy id
+rec id self
+gos Maximum: Str 24,  Int 21,  Wis 25,  Dex 39,  Con 24,  Luk 12
+gos see the point?
+gos who can get 39 max dex?
+gos what is your max dex?
+gos see?
+gos Let me show another one
+tel sin want to join?
+tel Sin you can lead and I take front
+autopoke kick
+gt you point and I kick
+#alias pracprac kick
+friend add Sin
+tog autoj
+gt hmm..
+dir sentry
+'you still ordering, instead of poking!
+dir area
+dir archer!
+dir noble
+dir archer
+gt let's try lamias?
+#alias pracprac #nop
+gt sure
+gt but why?
+l 6.gu
+dir 6.gu
+dir tower
+dir butler
+gt back?
+gt I started fighting
+'vig me
+gt vig me
+gt heal
+dir bink
+shihonage royal
+kick royal
+dir royal
+on
+get pouch
+drop pouch
+op pouch
+exam pouch
+drop  pouch
+#config
+l beltpack
+wear beltpack'
+wear beltpack
+'how you recharm them?
+gt when their time finishes I mean
+gt disband them one by one and charm them
+gt this way you do it when you are fine to do it
+gt not recharm
+gt just disband X and charm X
+gt mages can recharm
+gt no
+gt never found it
+gt but wait
+donate beltpack
+8
+shiho royal
+rec id royal
+l king
+gt king is here.
+gt with Roogna's axe
+gt I will bash him
+quest
+shihonage King
+'heal?
+'it's not that easy
+'ready
+shihonage king
+kick king
+'I wonder what his level is
+l chest
+whoi sin
+gt no.
+gt boat is enough
+whoi Anubis
+where lamia
+gt yes
+whoi Jericho
+gt wait
+gt disband the gurds
+gt You can charm archers now
+gt disband one
+gt to make sure..
+fol Sin
+'let's try an archer now
+'good
+'how many you can charm?
+'5?
+'will know
+'it's 180 now
+'bah!
+'wrong one!
+gt they don't
+gt nice!
+gt get 2 archers and 3 guards
+gt ah wait
+gt get 4 archers
+'recall?
+reply hehe.. Don't recall what I wanted to talk about
+where archer
+gt I quit now
+reply ah wait... I recall
+reply I just checked the charm-monster code you gave me
+gt thanks for the fun. See you later
+tel Sammy in one condition the mobs says: has a strong will and resists.
+reply IS_AFFECTED(victim, AFF_CHARM)
+reply I found some mobs that give same info when you try to charm them. But they are not affected by charm.
+whoi lastchance
+whoi Anothersar
+tel Anubis where are you?
+5
+4e
+10
+gput all.bandage
+get all.silvermesh case
+#31 sell silvermesh
+ss5e
+skli
+exam case
+get Gemini chest
+remove all
+gos who?
+style defensive
+gos well done!
+top1 paragon
+top1 rog
+gos gratz
+reply hey!
+reply There is a barkskin something that is an armguard
+reply much lower level I think
+reply I just know that one
+reply let me check
+reply heh. I don't have a high level druid now and my paragon isn't a druid anymore
+tel Azazer I don't have a high level druid now and my paragon is not a druid anymore
+tel Azazer in short, I don't remember
+s14e
+prac climb
+prac vitals punch
+#alias pracprac
+prac natural weapons
+w5s
+regress sweep
+time
+gos OK. my monk is a demon now
+af detail
+gos seems that the name is wrong. stats are right
+help vital
+#alias hsndirmelee punch
+punch Xendorian
+s14w
+enter tree
+l stone
+drop statue
+visit tuz
+'vigor;'bless;'barkskin;'ffre
+'vigor;'bless;'barkskin;'ffire
+'ffire
+l pearl
+l standard
+exam chest
+get ent-wood case
+get ent-wood trunk
+l ent-wood
+get ent trunk
+wear ent
+get all.ring case
+get all.ring chest
+get all.ring trunk
+l accuracy
+l rock
+l 2.ring
+put all.ring chest
+put all.ring trunk
+l band
+withdraw 50000
+w4s
+estimate band larger
+resize band larger
+wear band
+estimate necklace larger
+resize necklace larger
+wear necklace
+nne
+get bracelet chest
+get bracelet case
+get bracelet trunk
+l battleclasp
+l fieldclasp
+wear fieldclasp
+put standard chest
+get sleeves trunk
+get sleevest chest
+get sleevest case
+help lagoon
+reply no
+get raft
+get canoe
+noble
+#act {%1 tosses you to the ground as you miss a punch aimed at %2}
+#act {You time a%*
+#act {%1 tosses you to the ground as you miss a punch aimed at %2} punchpunch
+l mystic
+l demonskin
+#10 {poke ptam;put all.purple $sack}
+level 41
+spel mag
+'eye
+gos anyone there? How is it going?
+uptime
+sw
+es
+ene
+ww
+3w
+'barkskin
+s3e
+shihonage Xepher
+level 42
+level 43
+en
+where Xendorian
+reply tzag
+tel Loki hey
+tel Ivy fine, thanks
+wehre
+whoi Derizen
+5essu
+prac vitals
+wear all
+remove club
+remove faith
+drop all;get all.recall;get all.tent;get canoe;get quiver
+'ffire;'barkskin;'bless;'vigor
+'and thanks
+help vitals punch
+'refresh
+'eyes
+tel Aciath want to join?
+l $sack
+l 2.$sack
+exam 2.$sack
+get all.purple $sack;drop all.puprle
+drop all.purple
+get all.purple $sack;drop all.purple
+drop all.bits
+6
+drop $sack
+exam $sack
+9
+l tent
+exam tent
+drop tent
+3n
+reply come where?
+reply Helios/Xonk?
+reply I will be afk. You can lead?
+friend add Helios
+tel Helios no?
+tel Helios damn
+'atleast we can hunt
+beckon Zerangman
+7w
+gt all wake
+7e
+11e
+26n
+gt rest well
+help meta gain
+gt all stand
+gt all callm
+sleep
+gt all sleep
+autosplit
+13e
+#alias hsndirmeleeranged
+#alias dir
+put all.purple $sack
+repor
+gt all repor
+help metagain
+hunt Xenodrite
+wake;w;k Xendorian
+wake;n;k Xendorian
+wake;k Xendorian
+gt all recall
+shihonage Xendorian
+gt all :imp Xendorian
+3s
+ne
+gt all imp Xendorian
+#alias hsndirmelee {pokes %0; kill}
+#alias hsndirmelee {:pokes %0; kill}
+dir Xendorian
+#alias hsndirmelee {:pokes %0; kill %0}
+se
+eeee
+sl
+tog autojoin
+replay gt
+gt all n
+ssee
+l mace
+drop mace
+'no?
+nn
+s7w4n8w7s
+shihonage ticket
+dir ringmaster
+dir keeper
+gt all ll
+gt all ssee
+gt all enter portal
+gt all e
+gt all s
+k lieutenant
+shihonage
+k Xendorian
+:pokes Xendorian
+drop axe
+level 44
+level 45
+see
+drop hammer
+hunt Xendorian
+gt all mount eagle
+enter portal
+ l
+nnw
+get key;unlock door;drop key;l
+#system reset
+#split
+where miner
+whoi Llewellyn
+whoi Akima
+tel Akima group?
+whoi horg
+whoi Toshiba
+whoi Conseiva
+whoi Cemsa
+whoi Xulincharia
+whoi kidra
+tel Aciath join?
+tel Kavi join?
+reply sure
+reply ah, he told me he is with you.
+reply I just forgot
+reply sorry
+gte claws chest
+remove gloves
+wear claws
+ct doh
+ct can you check it for me then?
+give claws Usargo
+fol Usargo
+ctt doh
+ct hehe
+ct you are close?
+ct close!
+buy dex
+q
+help qpts
+help qtransfer
+enn
+#10 poke ptam
+eess
+3e
+regress kokyonage
+withdraw 1000000
+s5essu
+regress combination
+dir goblin castle
+/
+#alias dir kick
+#alias kw
+#alias kw kick
+wake;wear all
+l ring
+get ring chest
+put ring trunk
+l necklace
+put necklace trunk
+l lmap
+l lamp
+l sleeves
+l belt
+l bloodlamp
+put lamp trunk
+put belt trukn
+put belt trunk
+gw
+get key
+put sleeves trunk
+get horns chest
+wear horns
+put horns chest
+l gloves
+get leather chest
+l robe
+remove robe
+put robe chest
+5ess
+prac armor
+wear leather
+l armor
+put armor chest
+put armor trunk
+put battle trunk
+l bindings
+put bindings trunk
+put battleclasp trunk
+put armguards trunk
+l antlers
+remove ant farm
+put antlers trunk
+get sceptre chest
+wear sceptre
+get fate trunk
+get fate chest
+wear fate
+put fate chest
+get flowing chest
+wear belt
+put belt chest
+l tooth
+l boots
+get boots trunk
+l ent
+remove ent
+put ent chest
+get ring trunk
+wear ring
+put ring chest
+put caligae chest
+get cured trunk
+wear cured
+remove boots
+l cured
+put cured trunk
+wear boots
+n4w
+#act {The door to %1 seems to be locked.} unlock door
+#act {The door to %1 seems to be locked.} {unlock door;l}
+#alias hsndirmelee shihonage
+#alias hsndirmelee kick
+#alias hsnkwmelee
+#alias hsnkwmelee kick
+get hoof trunk
+get hoof case
+get hoof chest
+remove drow
+l drow
+put drow chest
+estimate hoof smaller
+14
+qtransfere withdraw 50
+qtrans withdraww 50
+#10 poke pta
+gos what city had the camping tent?
+gos I didn't
+gos thanks
+goto nebelwalk
+goto nebelwald
+shoho
+buy tent 4
+buy tent
+put all.tent trunk
+get tent trunk
+deparit
+put all.recall tent
+geet recall tent
+waer hoof
+put all.purple tent
+get recall tent
+withdraw 200000
+drop whip
+gos where can I find a hoof of Taurus?
+gos it was?
+gos no more?
+gos ah
+dir Orion
+shihon
+help dragon strike
+l Capricorn
+shiho Capricorn
+wake;s
+muds l
+top1 fightre
+top1 fighter
+whoi Turod
+top1
+top1 19
+whoi ton
+top1 18
+wawke
+hunt Capricorn
+get hoof
+ corpse
+wake;reca
+lor ebranch
+lore branch
+auc offer branch 1000000
+gos well, it's a key
+resize hoof smallre
+l horn
+put horn chest
+put horn trunk
+goto galaxy
+enter ball
+l cancelled
+l Cancer
+l Gemini'
+l Gemini
+l Taurus
+whoi Flame
+gos can anyone help me with something briefly?
+ct hoof of Taurus
+ct what else gives +rank kick?
+help vital punch
+kick Taurus
+meed
+whoi rake
+tel ton what gives +rank kick other than the hoof of taurus?
+tel prod what gives +rank kick other than the hoof of taurus?
+tel Ujarak what gives +rank kick other than the hoof of taurus?
+cwho
+reply ok, thanks
+l mead
+gt ready?
+gt east
+scan e
+get hoof corpse
+'thanks
+4w3se
+resize hoof smaller
+l 2.hoof
+donate branch
+vital miner
+#alias hsndone
+#alias hsndone4
+prac soul cloak
+prac lore
+s7e12n
+whoi Nachtmusik
+wake;ss14w5sws7w
+wake;esw;list
+#7 buy steel;put all.steel $sack
+hunt self
+hunt laskjdflksjflkdsj
+wake;s11e12n
+hunt skeleton
+nw
+#loop 29 1 i id $i\
+#5 l
+#loop 29 1 i id $i
+id 7
+id 6
+id 4
+list
+id 27
+id 5
+buy 5
+help clan item
+clanitem badge
+wear badge
+hunt viol
+;
+3ne3nw
+shihonage viol
+kick viol
+wak
+vital viol
+vital Polonius
+hunt Gertrude
+hunt Polonius
+hunt Guildenstern
+hunt Rosencrantz
+hunt Claudius
+dir Polonius
+dir Gertrude
+gos 61
+wwho
+regen
+eq all
+kick
+spel
+#cr
+gos I'm a wolf monk
+tel Tortwaah let's join?
+hunt member
+k member
+ss5ess
+u
+gain
+prac dragon strike
+prac natural
+prac
+tel Tortwaah :fol Xonk
+#alias sanc
+#alias sanc {get purple $sack;quaff purple}
+save
+#alias hsndirmelee
+#alias hsndirmelee kill
+ig
+#ig
+drop tail
+ct what is nat?
+ac
+ct my level bonus is 146 now
+ct what lvl?
+ct why you say so? they aren't bad it seems
+ct tbh, I don't see much difference between fighter classes that much
+ct add samurai to that
+ct I have a feeling that there is a very simple monk build too.. which should work very nice
+drop ro
+l rod
+ct I mean a bash-locker build
+ct you have monk gloves?
+wake;focus dex
+ct which?
+ct can auction them so I see the stats?
+help kick
+tog combatbrief
+ct auc offer X 18257934759347
+ct hmm
+ct There is something special? what is it?
+get rending chest
+auc offer claws 10000000
+auc cancel
+gos seems that my claws are even better
+ct seems that my claws are even better. Want to try them?
+get claws chest
+filter
+'wanna try them and give feedbacks?
+grin
+l Dajjal
+' Dajjal the great
+give claws Egor
+tel Egor try them
+5e
+ee
+10e
+replay gos
+l officer
+'how was it?
+l Egor
+'can kill that huntmaster for me?
+'for the banner?
+'Let me recall the area name
+wher
+search 2.chest
+l bow
+drop bow
+l quiver
+drop quiver
+ct trying to recall the area name
+4nwn
+ss
+14w
+4n
+ct what was the name?
+area snow
+area froz
+area freez
+ct yes
+area winter
+ct where are you now?
+visit clan
+l emerald
+visit cland
+l shard
+drop shard
+l circlet
+drop circlet
+drop emerald
+buy rope
+ct I think I've found it
+ct where are you Egor?
+ct I can take you here.
+beckon
+tip
+'west
+'wrong?
+'north?
+scan w
+'north
+scan n
+get steel $sack;quaff steel
+gr self
+gt didn't know he will attack me
+ct you killed it?
+search trunk
+search case
+search chest
+get Sagittarius chest
+wear quiver
+remove Condone
+wear Sagittarius
+ct trying
+put Condone chest
+estimate quiver smaller
+withdraw 5000000
+s4w3se
+resize quiver smaller;wear quiver
+goto winter
+style neutral
+hunt Egor
+hsnclassmonk
+get all
+drop all.corpse
+get corpse;get all corpse;sac corpse
+l corpse
+exam corpse
+exam 2.corpse
+get all 2.corpse
+exam 3.coprse
+exam 3.corpse
+get all 3.corpse
+get all 4.corpse
+'thnaks
+l amror
+l laminated
+nod
+nod horn
+lore horns
+ct horns is not that special
+drop flask
+l flask
+ct where are you?
+'ah
+'wrong one
+give horn Dajjal
+lore laminated
+put banner chest
+lore huntsmaster
+lore horn
+tel Egor thanks
+lore sharp
+donate sharp
+lore broadsword
+tel Egor what you think about those two gloves now?
+put broadsword chest
+lore helmet
+lore armor
+sen
+sell armor
+sell helmet
+whoi Dynasty
+clan who
+whoi Bruce
+whoi Bruise
+whoi Bruis
+reply the claws has +block. That is not good?
+help block
+skil
+soulc
+med
+get hat trunk
+l velvet
+remove velvet
+l hat
+wear hat
+style aggressive
+put hat trunk
+put hood trunk
+get tunic chest
+wear tunic
+s14e26n13ess;oe;e
+tel Dajjal thanks
+auc offer horn 100000
+auc id
+hunt groundling
+replay
+hunt miner
+quaf flask
+#alias hsndone4 {get flask corpse}
+get flask $sack;quaff flask
+donate horn
+reply how much does it heal?
+tel Tortwaah sorry for that
+tel Tortwaah seems that I couldn't order you to flee
+reply how much?
+reply I don't know either
+reply what's the chance? 1 out of 10 hits?
+tel Tortwaah up to continue?
+grin Egor
+'I cannot wait to wear the claws then
+nofilter
+'thanks for the info
+put claws chest
+gt right
+gt OK
+think
+goto thalos
+gt all smount
+gt ah
+gt all shapec plant
+gt you like the plant form?
+gt It is
+scn
+n;dir lamia
+gt not good
+got orshingal
+goto orshingal
+gt not healing automatically?
+hunt Tortwaah
+'weird
+hunt enfan
+focus dex
+drop quarterstaff
+autoloot
+e
+10s
+dir enfan
+gt ref me
+gt reca
+gt qw
+s11e12n
+6n
+fle
+e;reca;s;tap;wear all
+remove dagger
+drop dagger
+combat
+put tunic chest
+#10 poke ptam;put all.purple $sack
+sanc
+hunt goblin
+shiho
+get 2.corpse
+beckon Tortwaah
+gr all
+nohunt
+gt all vig group
+l Tortwaah
+gt all autoheal add all
+gt heal Xonk
+gt all heal Xonk
+wake
+gr
+gt all tap
+tap
+tel Tortwaah :fol self
+gr Tortwaah
+gt heal me
+tel Tortwaah :heal Xonk's
+tel Tortwaah :heal Xonk
+tel Tortwaah :dance
+gt all dance
+whoi Rayzor
+ope corpse
+12
+get corpse
+get all corpse
+sac corpse
+wor
+sc
+l
+tel Tortwaah qw
+tel Tortwaah :qw
+tel Tortwaah not working again
+
+geet id $sack
+get id $sack
+w
+buy identify
+lore self
+s
+s14w;enter tree;w;remove all;list
+tel Sammy I can geete my dex to 39. So this monk should be able to consistantly kick every round
+reca
+e;reca;wear all;tap
+e;reca;wear all;tap;s
+e;reca;wear all;s;tap
+af
+reply nice!
+reply is it a high enough rank?
+reply high enough chance
+reply ah
+reply that's too low
+reply I thought it'll be much more
+reply at what rank will it be about 50?
+reply I want to get to bash lock
+reply OK, thanks. Atleast I won't try the build yet
+reply Well, I'm not a centaur
+reply You know anything else which has +rank kick?
+smile
+gos anyone knows anything with {+rank kick}?
+eq detail
+i
+wear hoof
+tel Tortwaah :reca
+visit tux
+where
+d
+reply damn
+depart
+n
+'good that you are back
+smilee
+who
+gos anything else? I already have a pair
+l hoof
+remove hoof
+remove hooves
+eq
+visit zruz
+put hoof case
+camp
+3
+15
+1
