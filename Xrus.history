@@ -1,162 +1,3 @@
-whoi Finan
-mudss l
-deposit 6298565
-get green chest
-quaf steel
-whoi rake
-wake;remove silver;wield green;sl
-get all.green case
-put hat trunk
-get all.green trunk
-put green chest;wield green
-get all.green chest
-l 3.green
-l 4.green
-l 5.green
-l 6.green
-drop 6.green
-put green ches
-drop green
-get 2.green chest
-drop green;get green chest
-get all.green
-#8 put green chest
-l 2.green
-put green cheset
-l greeen
-estimate green larger
-resize green larger;wield green
-remove green;wield silver
-hsnweapon 22.5 17.5
-remove silver
-l silver
-get silver chest
-get all.axe chest
-get all.axe trunk
-get all.axe case
-l ibixian
-put axe trunk
-remove crimson
-get velvet chest
-get fleece chest
-wake;sanc;sl
-combaat
-wake;lore green;sl
-wake;remove green;lore green;wield green;sl
-eqe all
-ct where can I find centaur gear? the centaur village has anything now?
-help bind
-help grapple
-stand;quaff steel
-stand;reca;s
-stand;visit zruz;e;get silver chest;remove green;wield silver;depart
-wield silver
-hsnweapondamage 22.5 17.5
-remove silver;wield green
-regne
-wake;forage
-grapa
-withdraw 1000000
-buy dex;list
-e;reca;s;tap;wield $weapon1;hold $weapon2;wear all
-hold thinblade
-put silver chest
-get 3.crimson chest
-get crimson chest
-get crimson case
-l sword
-l thinblade
-hsnweapondamage 13.5 17.5
-remove thinblade
-put thinblade chest
-stand;warpain crimson
-help constitution
-get flask $sack
-quaff flask
-stand;s;sl
-stand;combat;sl
-11e
-wake;focus dex;sl
-help top1
-wake;sanc;get steel $sack;quaff steel
-regn
-gos gratz
-put all.recall $sack
-nofiltre
-drop mandolin
-wake;l rod
-wake;tap
-sell rod
-sws
-sell scriptings
-enter 2.tree
-charge wolf
-k tree
-k squirrel
-exam
-exam w
-k wolf
-dir goblin castle
-n;dir goblin
-wake;w;dir lamia
-stand;reca
-wake;n;sl
-op tree
-gos where is the meta guy?
-charge tree
-gt tree is not here!
-gos but the tree is not here!
-enter portal
-gos can it move?
-gos well, weird. I do have a quartz ball
-wear ball
-gos You light a smooth quartz ball and hang it on your belt.
-gos Hours is 0, so no
-get quartz chest
-remove quartz
-put 2.ball chest
-wear quartz
-l quartz
-whoi Zavor
-es
-gos can I refill it?
-l sign
-nen
-whog
-s14w
-date
-etime
-help day
-help time
-get ball chest
-l 2.ball
-wear 2.ball
-l ball
-focus con
-wake;e;get steel $sack;quaff steel
-level 48
-help convert
-scare
-reply Hello
-reply You should ask a clan leader
-reply but I don't know what's good about being in a clan yet
-charge beholder;#3 grap;scn
-adv you should ask a clan leader
-wake;focus dex
-help races
-gos crash
-whoi Taiwait
-ct hey Bunnie!
-whoi Bunnie!'
-whoi Bunnie
-reply It did
-reply I suggest you don't team up, so you learn the game better. if you group with others, you won't learn much
-reply but if you insist, you should ask if anyone wants to group. Don't ask too much. once every couple hours.
-'who multi?
-reply I see
-reply stay in shakespeare
-reply and xendorian outpost
-wwho
 tel Qumasta I don't multi!
 tel Qumasta Xytha is not my char. She is a blind player, playing on phone.
 whoi Qumasta
@@ -215,7 +56,6 @@ buy dex
 stand;s
 autorecall / 40
 s11e12n
-7n
 whoi Mysterya
 tel Yhedryah zombies
 whoi Yhedryah
@@ -242,8 +82,6 @@ muds
 s7e7n
 stand;warpaint crimson;focus dex;warcry;sle
 #config
-escn
-wake;s
 wear all
 enter tree
 remove all
@@ -255,8 +93,6 @@ tel Tortwaah hey
 tel Tortwaah I kill lamias. You will survive them, right?
 buy con
 visit tuz
-beckon Tortwaah
-grin
 'vig me
 'vigor me
 'vigor
@@ -274,7 +110,6 @@ stand;focus dex;sl
 wake;warpaint crimson
 wake;warcry;sl
 wak;focus dex
-warc
 wake;reca;s
 s14w;enter tree;w;remove all;list
 e;reca;s;tap;wield green;hold crimson;wear all
@@ -334,11 +169,9 @@ prac blunt
 remove crimson;hold rod
 put crimson chest
 l buckler
-#alias hsndirmelee
 save
 regeen
 reegen
-whoi Bjatt
 whoi Arram
 wake;focus dex;sanc;sl
 area centa
@@ -408,9 +241,7 @@ help bash
 sanc;warcry
 put all.steel $sack
 drop tail
-autoloot
 adv semi-common
-tap
 #unalias charge
 #unalias deathstroke
 help kick
@@ -422,7 +253,6 @@ level 52
 level 53
 level 54
 level 55
-spel
 level 50 60
 help level
 vigor
@@ -542,7 +372,6 @@ put steel $sack
 stand;focus dex
 warcry;sanc
 where lamia
-s7e7ne
 stand;warcry;sl
 grpa
 help charge
@@ -550,16 +379,13 @@ il
 ne
 k guard
 k 2.soldier
-dir gnome
 deposit 12899108
 regen
-hunt groundling
 #alias charge kill
 #alias deathstroke #nop
 n4w
 ww
 sw
-k groundling
 get all 3.corpse
 get all 4.corpse
 help wither
@@ -567,9 +393,6 @@ top1 paragon;top1 deetail
 focus dex;sanc
 dir lami
 tog soud
-tog sound
-s14e26n13ess;oe;e
-hunt miner
 #alias charge kill;#alias deathstroke #nop
 warpaint crimson
 #unalias deathstroke;#unalias charge
@@ -611,8 +434,6 @@ eq detail
 nofilter
 search chest
 tel Tortwaah :fol Xrus
-gr all
-gt qw
 whoi Tortwaah
 tel Anatta 2.7k
 reply and yes to charge
@@ -626,7 +447,6 @@ setsum clan
 '800 was low?
 #ac {Anatta marks %1 for death.} dir %1
 'ready
-one
 dir ice
 gt OK. ready
 spel samurai
@@ -721,7 +541,6 @@ gt yeah, after I got back, I saw many over mysellf
 gt now, I'm catching up
 gt really? so they have just got me?
 gt nice!
-top1 detail
 gt I've tried all possible builds with my paragon! hehe
 gt for about a year, I just played paragons
 gt it is
@@ -778,15 +597,12 @@ w;dir lamia
 wake;n;dir lamia
 time
 reca;s;tap
-dir lamia
-#ig
 s;dir lamia
 who group
 whoi Dynasty
 whoi Kronos
 ct gratz
 gete all
-get all
 exam 2.corpse
 get all corpse
 get all 2.corpse
@@ -802,67 +618,46 @@ ct what fangs?
 ct what do they do?
 ct I should gather a few +multi gear for my samurai. It seems that sams love them
 wake;foc dex
-/
 sl
 whoi hare
 whoi enforcer
 ct thanks
 san
-kw
 tel Sammy hey there
 tel Ivy hey there
 spell druid
 help shapeshif
 help shapecha
-#cr
 whoi Nachtmusi
 whoi Nachtmusic
-warcry
 reply hey there
-focus dex
 stand;warpaint crimson
 reply I want to try an expensive build. But first, I wanted to know if you know it works
 reply I mean the code/devel part is already fully done and tested
-wak
 replay
 sc
 ct tzag
-gos tzag
 whoi kage
 whoi Ujarak
 tel Ujarak Is it hard to get the waki/kat?
 whoi cysh
 repl OK, thanks
 goto druidwell
-goto druid well
-u
-en
-ss
 ct wellcome!
 whoi legion
 hunt lemur;hunt sloth;hunt monkey
-d
-dir defender
-dir ent
 hsnmelee
-hsngetmelee
 grap defender
 k defender;grap
 fe
-fle
 s;dir ent
 muds l
-where
 tel muse need a third?
 l corpse
 sac corpse
 drop corpse
 1
-hsnclassbarb
-#10 poke ptam;put all.purple $sack
-sanc
 gr self
-gr
 help dodge
 l rod
 wor
@@ -918,15 +713,7 @@ remove robe
 wear pitch
 put robe chest
 put cloak chest
-goto thalos
-get flask $sack;quaff flask
-af
-get steel $sack;quaff steel
-w
-grap
-scn
 charge beholder;grap
-hunt lamia
 stand;sanc
 whoi grac
 whoi grantly
@@ -937,11 +724,8 @@ whoi Toc
 whoi Enganar
 whoi Grac
 whoi yara
-top1 paragon
-af detail
 stand
 get infused $sack;quaff infused
-who
 tel Qumasta hey
 reply want to join?
 gwho
@@ -949,23 +733,15 @@ repl ptam?
 reply You don't mind if I switch chars, do you?
 reply xen
 whoi xen
-nohunt
-wake
-
 get hoof trunk
 get hoof chest
 get hoof case
 wear hoof
 gos seems possible
 l horseshoe
-visit zruz
 remove hoof
 gos now I wish my monk was a centaur! hehe
 put hoof case
-depart
-l
-e
-n
 id 1
 eq
 eq all
@@ -974,7 +750,6 @@ id 3
 buy 3
 l bonemask
 remove bonemask
-combat
 l chanfron
 lore chanfron
 tel Sammy hmm.. can you check why I cannot wear this face wear?
@@ -990,11 +765,236 @@ id 4
 id 5
 reply well.. that is logical.
 wear bonemask
-i
 sell face
 list
+
+#10 poke ptam;put all.purple $sack
+beckon Tortwaah
+gr all
+ct kobold
+s7e
+12n3en
+dir orc
+#alias heal tell Tortwaah :heal Xrus
+#alias ref tell Tortwaah :refresh Xrus
+gt all paral 2.orc
+whoi Mullin
+refresh
+ct I should focus on orcs instead of trolls
+get flask $sack;quaff flask
+gaf
+get flask $sack;quaff flask;warcry
+af detail
+#alias cure tell Tortwaah cure %0 Xrus
+hunt orc
+dir lamia
+e;dir thri
+wake;e4n
+4s
+s;dir thri
+wake;reca
+wake;s
+7e
+7n
+dir thri
+gt all dism;gt all smount
+escn
+e;dir kobold
+rescue Tortwaah;rescue dragonne
+n;dir kobold
+w;dir kobold
+s;dir kobold
+ct we should get back the top10 paragon
+q
+gop1
+gop1 1
+whoi Bjatt
+ranged
+hsngetranged
+#alias hsndirmelee
+#ig
+kw defender
+tel Tortwaah :cure Xrus
+combat
+n;dir ent
+ct ah.. talking to me?
+ct didn't see you here
+ct hmm.. I don't pay much attention to those in same area. Tell me if you see it happend again, and I move out
+tap
+ct no, I just leave the area, if I know someone is there. as I said, I just miss checking
+ct I don't run fully afk. But I might miss a tell or two
+ct I will do my best to check more
+ct Prod! Good to see you awake
+ct You know where katana comes from?
+ct Waki?
+ct both there?
+whoi prod
+ct hmm, could I ask for a raid?
+snc
+ct I'm just wondering.. you kill ent/defender/lemur/sloth/monkey in druid well?
+ct I meant it for Abuna
+ct Thanks. Just wondering if you still get reasonable xp from the uppers ata those lvls
+get steel $sack;quaff steel
+combaat
+fle;reca
+ct so, can you arrange a waki/kata raid?
+hunt lamiaa
+ct I have a dipper if you like. I've heard that templars love them
+warc
+4e
+4w
+dir beholder
+s7e7ne
+5e
+ll
+heael
+ss
+dir gnome
+barge door
+grap
+hunt gnome
+s14e26n13ess;oe;e
+#alias hsndirmelee kill
+hunt groundling
+es
+ee
+get all
+drop all.corpse
+k groundling
+hunt miner
+unlock door
+gt all vigor group
+reeca
+hsnclassbarb
+advance
+hsngetmelee
+gt all cure
+#alias heal tell Tortwaah :heal %0 Xrus
+#alias refresh
+#alias ref
+where ent
+gt all s
+gt all ee
+gt heal
+gt all cure Xrus
+gos tzag
+goto druid well
+#heal
+heeal
+hael
+nohun
+gt all shapec bear
+hunt defender;hunt sloth;hunt lemur;hunt monkey
+whoi feda
+tel Feda hey
+ct hmm?
+aread gods
+area gods
+dir defender
+ct why are there two godspikes in area list?
+ct are they aggro?
+area Encamp
+ct even lower?
+whoi Feda
+whoi Althor
+gos So barb is the best tank in group raids?
+reef
+/
+wak
+wakee
+d
+wake;e
+gt all heal
+gt all convert
+wake
+gr
+fle
+hunt Tortwaah
+dir ent
+drop scroll
+l broadsword
+drop broadsword
+drop fragments
+drop all.bits
+quaf flask
+scn
+warpaint mandrake
+warcry
+hunt ent
+kw
+qheal
+heal
+whoi Jason
+ct nice!
+ct ah well
+top1
+top1 1
+top1 14
+top1 12
+top1 16
+top1 18
+top1 19
+whoi Crush
+u
+hunt defendere
+hunt defender
+hunt monkey
+got thalos
+af
+l
+goto thalos
+hunt lamia
+where
+who
+sanc
+top1 paragon
+top1 detail
+spel
+#cr
+ref
+tog sound
+ct yes?
+replay clan
+nohunt
+gt qw
 reca
+roll
+depart
+w
 s
+drop mandolin
+drop flute
+focus dex
+autoloot
+ct doing so
+put all.stone bag;drop bag
+buy bag;put all.stone bag;drop bag
+n
+en
+sell plate
+swws
+buy bag
+put all.stone bag
+drop bag
+visit clan
+donate potion
+'done
+donate dagger
+l wakizashi
+grin
+'thanks
+' A lot!
+lore katana
+one
+visit zruz
+e
+lore wakizashi'
+lore wakizashi
+i
+l kimono
+put kimono chest
+put wakizashi chest
+put katana chest
 camp
 3
 12

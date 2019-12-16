@@ -142,6 +142,9 @@
      #if {"%0"!= ""}
      {
           #format {hsnarg1} {%l} {%0};
+          #unticker hsnhunt;
+          #unticker hsnrenewhunt;
+          #unticker hsncancelrenewhunt;
           #if {"$hsntarget"!= "$hsnarg1"}
           {
                #variable hsntarget $hsnarg1;
@@ -185,7 +188,7 @@
 
 #ALIAS {nohunt}
 {
-     hunt {};
+     hun {};
      gt my target is nothing now!;
      #list hsntargetlist clear;
      #variable hsntarget {};

@@ -1,293 +1,3 @@
-#alias hsnkwmelee
-muds
-wakee
-drop ae
-drop axe
-drop quarterstaff
-autofocus dex
-wake;med
-get vivid chest
-wear vivid
-get dipper case
-get crimson case
-l sword
-l dagger
-hsnweapondamage 13.5 21
-remove dagger
-hold crimson
-put dagger chest
-l dripper
-l dipper
-estimate dipper faster
-put dipper chest
-get black chest
-remove crimson
-put crimson chest
-!ssear
-#10 poke ptam
-14w
-5s
-#5 buy steel;put all.steel $sack
-spel monk
-spel
-#cr
-help battou jutsu
-help awareness
-awareness
-#var hsn%*ratio%*
-hunt member
-huntlist {member}{stagehand}{viol}{cello}{hurdy}{mandolin}{Juliet}{Romeo}{Guilden}{Gertru}{Poloni}{Claudi}{Rosen}{conduct}{Hamlet}{gravedigger}
-#alias hsndirmeleerangeed
-#alias hsndirmeleeranged
-#alias hsndirmelee {kill %0; pracprac}
-#alias hsndirmelee {kill %0; pracskill}
-reegen
-drop wand
-drop staff
-drop stiletto
-drop shortsword
-drop potion
-quaf inferno
-quaff infu
-#act {You try to throw the lamia down, but she is too stable.} pracskill
-teel Tortwaah want to join?
-tel Tortwaah want to join briefly?
-/
-reply join at ptam
-gt you are all set?
-gt all heal dragonne
-shihonag
-help rescue
-shihona
-u;dir lamia
-n;dir lamia
-autorescue all
-autorescue Tortwaah
-autorescue dragonne
-gt what was the autorescue command?
-autorescue add Tortwaah
-autorescue add dragonne
-e;s;tap;wield green;hold longsword;wear all
-gt al sll
-gt all sll
-level 51
-gt heal dragonne
-#alias hsndone4 ref me
-#alias hsndone
-#alias hsndone4
-nohun
-buy stre
-buy stamina
-vig
-vigor
-aware
-s;gt all dism
-gt up to go?
-gt prep
-gt prep me
-gt prepare
-gt pre
-think
-gt vig me
-gt bless
-spel druid
-gt ff
-gt armor
-gt darmor
-kick lamia
-kick
-help vortex
-#alias hsndone4 #2 gt ref me
-#act {You try to throw the lamia down, but she is too stable.}
-#unact {You try to throw the lamia down, but she is too stable.}
-#act {You try to throw %1 down, but %2 is too stable.} shihonageshihonage
-gt all autoshape plant
-gt all stan
-gt vig
-gt vigor
-gt vigo
-shih
-gos ?
-mudsl
-gos Sateen the mighty!
-f
-dir guard
-l black
-l black longsword
-remove longsword
-ss4w3se
-l 2.longsword
-w4s
-4w3se
-nne
-withdraw 5000000
-w4s4w3se
-resize longsword faster
-estimate longsword faster
-wield longsword
-7w
-enter tree
-remove all
-wake;rescue dragonne
-gt dism
-gt all sle
-sl
-shiho lamia
-ss7e7ne
-ne4n
-se4n
-ddd
-gos hey
-eee
-gt damn
-s7e
-7ne
-get all 2.corpse
-get 3.corpse
-gr Tortwaah
-gt all tures
-gt all trues
-gt all true
-gt all eyes
-gt all get corpse
-gt all get all corpse
-gt all sac corpse
-ggr
-ql
-gt how can I make you stop casting offensive spells?
-gt You are Coyote?
-gt will be good to turn it off for now
-gt which level will you stop?
-gt OK
-buy str
-e;reca;s;tap;wield green;hold longsword;wear all
-af deetail
-wwho
-11e
-4n
-l king
-shiho longsword
-gos it's fine with us
-shiho goblin castle
-get longsword corpse
-auc offer longsword 300000
-whoi Dynasty
-barter no one wants a green longsword?
-whoi Lastchance
-9
-gt depart
-wake;reca
-wake;s
-tel Tortwaah :fle
-put green chest
-gt all sl
-wakee;s
-l bonemask
-put bonemask chest
-wake;depart
-l mail
-sell mail
-l corpse
-gr self
-s11e12n
-5n
-drop corpse
-l antlers
-w;dir lamia
-reply I don't know where it is
-whoi Ossim
-reply lamias
-s14w
-tel Sammy Hello
-reply no
-tel Tortwaah let's join?
-tel Tortwaah :depart
-whoi Glia
-whoi Chaoran
-whoi Anatta
-whoi toc
-tel Anatta You know about the samurai swords?
-reply where to get them and if they are worth getting
-reply that nodachi is a 2-handed?
-reply I think I have it already. But it doesn't seem worthy at all
-repl what is good about the nodachi?
-reply OK, I meant the wakizashi and it's pair
-reply worth getting then?
-reply could you auction them so I see the stats?
-reply I see
-gt hael me
-ss7w
-gt all dism;gt all sl
-reply how many hits you do with them both?
-reply how you have so much 100% hits?
-reply hmm.. high level helps a lot? what is your dex with eq?
-reply I seee
-buy dex
-reply I already have 42 dex with focus
-s7w
-gt all stand
-7en
-gt all vig
-reply and can train dex 6 more times
-reply aggressive
-reply multi at rank 5 with no eq to boost it
-reply my 3rd main hand attack is at 97
-reply ah! I already found one
-get flowing chest
-l sash
-remove sash
-wear flooded forest
-wear flowing
-l flowing
-reply nice! third attack 100. 4th is at 89 now
-put sash chest
-put sash trunk
-reply I think that I've fogot about multi attack. I should have better eq to boost it
-search case
-search trunk
-search chest
-get robw
-get robe chest
-put robe chest
-get plain case
-get plain trunk
-get plain chest
-l robes
-hsnweapondamage 13.5 18
-wear robes
-l elm
-get light trunk
-remove robes
-put robes trunk
-wear elm
-remove elm
-wear light
-put elm trunk
-l broach
-removget necklace trunk
-get necklace trunk
-get necklace chest
-get necklace case
-put desoy trunk
-remove broach
-wear necklace
-put broach trunk
-ieq all
-put ring trunk
-reemove sorrow
-remove sorrow
-put sorrow trunk
-get cured trunk
-put boots trunk
-geet ring trunk
-gte ring trunk
-geet ring tru
-get ring trunk
-put opal trunk
-wear leggings
-remove horns
-wear paws
-get paws case
 get paws trunk
 get paws chest
 get jaguar chest
@@ -304,7 +14,6 @@ skil charge
 reply wait
 14
 reply wait. Need to learn charge
-depar
 s5esse
 withdraw 200000
 setsam all
@@ -442,11 +151,8 @@ reply yeah
 prac edge
 nn5w
 ct I don't know
-replay group
 wehre
-7e7n
 shihonage
-replay gos
 whoi ton
 gos tzag Ton
 clan member wolf
@@ -454,7 +160,6 @@ tel Tortwaah :cv
 help conver
 gt cv
 gt all cv
-gt convert
 gt ah
 deposit 33223
 deposit 200000
@@ -480,7 +185,6 @@ whoi Wightknight
 whoi Ravens
 whoi Ravensnest
 autohunt
-ct tzag
 ct can I ask for some tough eqs?
 ct you think that you can arrange to get it?
 ct sam swords
@@ -509,10 +213,8 @@ sac bag
 l bag
 nws
 buuy bag
-ne
 put flute bag
 sw
-se
 get bag
 put harp bag
 l harp
@@ -522,21 +224,15 @@ gt all give longsword xen
 'thanks
 put longsword chest
 gt all autoheal add all
-tel Tortwaah :flee
-tel Tortwaah qw
-tel Tortwaah :qw
-beckon
 sac c orpse
 get longsword chest
 l longsword
 hunt ent
-whoi muse
 gos which self buffs?
 hunt lamia;hunt sloth;hunt monkey
 helep fap
 help fap
 whoi Taiwait
-whoi hare
 scan u
 gt all true xen
 eye
@@ -597,9 +293,7 @@ dir lamis
 e;dir lamia
 #alias dir
 drop pen
-drop whip
 put all.stone bag;drop bag
-med
 buy bag;put all.stone bag;drop bag
 focus str
 buy bag
@@ -609,11 +303,9 @@ buy bag;put all.potion bag;drop bag
 sell black
 sell plate
 get corpse
-sac corpse
 swwn
 sell potion
 see
-swn
 sell stone
 l lance
 auc offer lance 200000
@@ -629,7 +321,6 @@ whoi Abuna
 hunt groundling
 k graveyard
 #alias hsndirmelee shihonage
-autoloot
 ct well.. as a prophet you should watch what you say. But maybe you want to roll a dreadlord or something to be more free! :D
 whoi Drakkon
 ct You know who he is? I mean, you know his previous chars?
@@ -650,7 +341,6 @@ id 5
 buy 5
 clanitem badge
 wear badge
-list
 id 27
 id 26
 id 25
@@ -723,8 +413,6 @@ put all.elderberry $sack
 tel Tortwaah vig
 search armor
 l hat
-l scalp
-15
 tip
 'hey
 'You lead?
@@ -744,12 +432,9 @@ gt you have enough hits to take front too, right?
 gt nice!
 gt ref me
 #alias ref tel Tortwaah :refresh Xen
-#alias heal tel Tortwaah :heal Xen
 tel Tortwaah :shapec plant
 gt I've done my best to hit as much as possible
-eq
 l green
-wear all
 l shieeld
 l shield
 grin
@@ -759,7 +444,6 @@ hunt thri-kreen
 12n
 hsnnoautoattack
 gt me  too
-#alias hunt
 gt hmm
 hsnautoattack
 hsnautohunt
@@ -768,8 +452,6 @@ hsnautohunt
 #alias hsnautohunt
 gt it's fine
 hun orc
-dir orc
-hunt orc
 gt how much xp you get per orc?
 noautovig
 autovig
@@ -786,64 +468,37 @@ reply no. centaurs cannot wear those
 repl actually, those are hooves. Maybe centaurs should be able to wear them
 gt I'll be back soon
 tel Sammy let me see
-camp
-3
 10
-1
-beckon Tortwaah
-tel Tortwaah :fol Xen
-gr all
 tel Qumasta ready now
 tel Aruba need any gear?
 tel Aruba or rerolling?
 tel Tortwaah :shapech plant
-gt all vig group
 reply nice!
 wheeree
-ig
 reca;s
-reef
 ct what?
 wake;hunt Tortwaah
 4w
 s;charge beholder
 w;charge beholder
-4e
 5ess
-gain
 s5ess
 regress kick
-prac
-prac charge
 prac battou
 gt all vigor all
-ss5ess
 prac climbe
 prac climb
-ww
-7n
 shiho gnome
-#alias hsndirmelee {charge %0; pracskill;}
 os
 s;dir gnome
-get all corpse
 l armor
 auc offer armor 200000
 auc cancel
-skil
 nwn
 ws
-7e
-7s
 withdraw 500000
 deposit 377971
-s7e7ne
-ee
 s7e7n4e
-wield green
-hold longsword
-k groundling
-#alias hsndirmelee
 #alias hsndirmelee {kill %0; pracskill;}
 #alias hsndone4 {get flask corpse;put flask $sack}
 quaf flask
@@ -851,61 +506,26 @@ e;reca
 wear green
 drop 2.key
 l rock
-wheree
-visit zruz
-wheere
 tle Tortwaah You are there?
 gt ready to continue?
 5w
 gt all shapec n
-gt all w
 gt all e
 wake;sw
 esw
-s7e7nee
-#ig
-wak
 ness
 dir gnomee
 es
 get key corpse
 get key 2.corpse
-exam corpse
-exam 2.corpse
 nwww
-hun
-#10 poke ptam;put all.purple $sack
 gt all dance
-gt ref
 s;dir lamia
-4s
-w;dir thri
-heal dragonne
-heal Tortwaah
-e;dir thri
-s;dir thri
-en
 eu
 ss7e7nee
-dir soldier
-tap
-s7e7n
-5e
-hunt gnome
-dir gnome
-visit tux
 gt  ready to continue?
 deposit 193552
 deposit 1761214
-depart
-gt all depart
-goto thalos
-where
-#alias hsndirmelee {shihonage %0;#3 rescue dragonne;#2 rescue Tortwaah;}
-#alias hsndone4 ref
-fle
-hunt Tortwaah
-rescue dragonne
 #alias heal gt heal %0 Xen
 gt hey there
 gt fine, you?
@@ -914,87 +534,467 @@ gt hehe
 gt but our pair is good enough. We have survived 3 runs through lamias so far. I've been semi-afk
 gt You can meta a bunch, right?
 gt maybe about 700 points
-#alias heal
-#alias heal tel Tortwaah :heal %0 Xen
 gt I'll be right back
-ss
 charge beholder
-d
-where lamia
-dir beholder
 n;charge beholder
 e;charge beholder
-rescue Tortwaah
 gt all dism
 gt all smount
-n;dir thri
-gt all vigor group
-gt all shapec plant
-hunt thri
-shiho
 gt all mount dragonne
-heal
-gt all heal
-gt all conveert
-gt all convert
-wake
-dir thri
-w
 nn
 e4n
-hunt lamia
-dir lamia
-sanc
-ref
 auc id
-reeca
-reca
-s14w;enter tree;w;remove all;list
-buy HitPoints
-i
-withdraw 1000000
 #10 buy Hitroll:
-#10 buy HitPoints
 deposit 298460
-e;reca;s;tap;wield green;hold longsword;wear all;focus dex
-gt qw
-s14e26n13ess;oe;e
-unlock door
 level 53
-replay
-replay clan
-who
-u
-n
 get necklace
 l necklace
 drop necklace'
 drop necklace
 exam $sack
-nohunt
 e!shi
-e
-scn
-s
 shiho miner
-sc
-get steel $sack;quaff steel
-get flask $sack;quaff flask
-regen
-muds l
-af
-focus dex
-unlock door;l
-combat
 help metagain
 help hero points
 help spirit of bush
-gr
-wor
-
-hsnclasssam
-gos tzag
-hunt miner
-#alias hsndirmelee kill
+hsnclasssec
+gos hmm.. how my history came to this?
+reply hmm
+reply whom you with?
+reply ah
+reply where are you?
+reply Tortwaah is afk
+'let's go
+gos hmm
+gt all vigor group
+sref
+spel rang
+ct why? they are technically barbarians in a group. Right?
+ct well, both my lvl 58 ranger and barb are almost same
+ct l
+reply group
+reply misspoked
+replay group
+r
+gt heal
+www
+charge beholder;shiho
+s;ref
+s7e7n
+whoi egor
+ct wow
+#alias heal tel Tortwaah :heal Xen
+7s
+7w
+gt all tap
+tel Tortwaah :vis tux
+tel Tortwaah :visi tux
+help fol
+disban
+tel Tortwaah :dance
+whoi bor
+ct could you try the waki/kat?
 #alias hsndone4 #nop
+whoi Prometheus
+whoi Prod
+ct tt is best
+ct also a huge bunch of movies on tt
+ct not the ++ version though. the sport one
+unlock door;l
+wheree
+huntlist miner
+#alias donee5
+#alias hsndone5 {get flask corpse;put flask $sack}
+ct first you need to install tt++. Done it?
+ct what is your os?
+ct you need to download wintin++
+ct easy to do
+beckon Ttor
+whoi Mus
+get steel $sack;quaff steel
+help metagain;help hero points
+get infused $sack;quaf infused
+tel Tortwaah :tel Xen I'm ready
+tel Tortwaah You are fine now?
+gos all vig group
+#alias hsndirmelee {shihonage %0;#3 rescue dragonne;#2 rescue Tortwaah;}
+#alias hsndone5 #nop
+#alias hsndone4 ref
+ct what is the best build to kill the toughest mobs solo?
+gt all conv
+whoi Grogz
+whoi Barfoozelah
+gt all convret
+huntlist lamia
+charge lamia
+gain;combat
+gos thanks
+prac charge
+regress dragon strike
+#alias shihonage charge
+whiho
+#unalias shihonage
+hunt tri
+fil
+filter
+search case
+search trunk
+search chest
+eq
+l scalp
+put cloak trunk
+get sword corpse
+geet seal corpse
+get seal corpse
+l seal
+l sword
+seen
+sell sword
+deposit 2684324
+depar
+deposit 670000
+tel Tortwaah :reca
+wher
+gtt all visit tux
+gt all visitt ttux
+gt all visit tux
+comba
+tel abuna will you please remind them on waki/kat when they are ready? I have to sleep
+charge santat
+where sant
+e!ch
+een
+poke ptam
+charge santa
+med
+visi tux
+l chest
+'heal
+ct not even close
+scan w
+'you take front
+'I help
+fol Abuna
+whoi bjat
+'wall road
+where santa
+'hey again
+tel Tortwaah Up to continue?
+g all depart
+gt all depar
+#alias hsndirmelee {charge %0; pracskill}
+#alias hsndirmelee {charge %0;#3 rescue dragonne;#2 rescue Tortwaah;}
+#alias hsndone4 #2 ref
+#alias hsndone4 #if {$MSDP_STAMINA + 200 < $MSDP_STAMINA_MAX} {#2 ref} {ref}
+#alias hsndone4 #if {$MSDP_STAMINA + 170 < $MSDP_STAMINA_MAX} {#2 ref} {ref}
+#alias hsndone4 #if {$MSDP_HITPOINTS + 313 < $MSDP_HITPOINTS_MAX} {heal}
+#alias hsndone3
+#alias hsndone3 {rescue dragonne;rescue Tortwaah}
+area ing
+area all
+area thalos
+area thri
+ss7e7neee
+area Grimmbal
+#alias hunt
+#alias nohunt
+gt  qw
+ss7e12n
+area Encampment
+#alias ref
+#var MSDP_HITPOINT%*
+#var $MSDP_HEALTH_MAX
+#var MSDP_HEALTH_MAX
+3s
+uptime
+gos well done!
+whoi donovon
+whoi Donovan
+ct we need to work on our paragons too. We are EMC, but Wolves are top.
+help legend
+ct You mean getting it to 58 or 60?
+ct why would you want this char be 75 first/
+advance
+getranged
+#alias hsn%*rang%*
+hsngetranged
+l polearm
+rescue dragonne
+gt all shapec plant
+w;dir thri
+wh
+ig
+dir beeh
+gt all fle
+gt all ww
+gt all w
+e;dir beholder
+w;dir beholder
+s;dir beholder
+n;dir beholder
+wor
+withdraw 1000000
+#10 buy HitPoints
+level 54
+ns
+s7e7nee
+dir soldier
+swn
+kl
+top1 monas
+s7e
+7n
+hea
+rescue Tortwaah
+gt all vig group;sanc
+rescue dragonne;rescue Tortwaah
+geet longsword corpse
+gte longsword 2.corpse
+get longsword corpse
+wield longsword
+get longsword 2.corpse
+wear all
+l claymore
+l thie
+l thighbone
+l gnome
+l bone
+gt all paral
+n;dir kobold
+whew
+uu
+shiho
+s;dir kobold
+w;dir kobold
+hold longsword
+area
+3es
+4es
+ses
+se
+get green corpse
+wield green
+hunt kobold
+nw
+unlock door
+wak
+replay
+replay gos
+tel Tortwaah congratulations
+beckon
+gr Tortwaah
+tel Tortwaah :fol Xen
+gt up to continue?
+gt all depart
+deepart
+#alias hsndone4
+#alias hsndone5
+gt convert
+replay clan
+gt  all heal
+gt all conveert
+5e
+where lamia
+tel Kronos hey there
+ct tzag
+dir beholder
+ct could you arrange a kat/wak raid?
+s7e7ne
+#alias hsndirmelee {charge %0; pracskill;}
+ct that would be awesome, thanks
+ct are they together? Or do they need two seperate raids?
+ct both?
+clan who
+tel prod You know which is wheree?
+ct which one is the held one?
+  sanc
+4e
+dir kobold
+heal dragonne
+tel Tortwaah qw
+tel Tortwaah :qw
+tel Tortwaah :flee
+tel Tortwaah :/
+igr
+7e7n
+#alias heal
+7e
+rescue Tortwaah;rescue dragonne
+gt all drop corpse
+exam 3.corpse
+exam corpse
+exam 2.corpse
+get 2.corpse
+gt all give 1763864 coins Xen
+sac corpse
+reeca
+camp
+3
+15
+tap
+visit zruz
+get kimono chest
+get waki chest
+get kata chest
+l katana
+l wakizashi
+lore katana
+l kimono
+put kimono chest
+put wakizashi chest
+put katana chest
+gos now the hard work begins
+s14w;enter tree;w;remove all;list
+cb getting to 55
+ct getting to 55
+buy HitPoints
+ct I cannot use them till 55
+e;reca;s;tap;wield green;hold longsword;wear all;focus dex
+hsnsetsam
+#14 poke ptam;put all.purple $sack
+whoi hare
+tel hare want to join me and Tortwaah?
+ct cannot wait to be able to use the gifts
+ct so waki/kat are the best sam weapon till lvl 100?
+ct anyone of them was my answer?
+ct lol, I heard so many short answers, I thought maybe one of them is mine
+ct whom you talk about?
+ct he is the one with waki?
+sNC
+wake;s
+heael
+gt all repor
+hunt beholder
+d
+ct OK, I was checking the paladin and valky skills. Why should one go paladin over valk now?
+ss7e7ne
+hunt gnome
+ct I mean, other than the redemption, the rest of paladin skills are covered in valky, and valk has a bit more
+dir gnome
+ct you had paladins before?
+ct I see. I tried a paladin to about lvl 55 and a valk to about lvl 45. seemed that valk is the better choice
+whoi muse
+hun {}
+hun
+5n
+dir orc
+gwho
+cwho
+whoi Jebus
+ct well done!
+#ig
+s7e12n5e
+3e
+hsngetmelee
+reef
+heal Tortwaah
+ss
+5s
+hunt orc
+wwho
+goto orshingal
+focus dex
+get flask $sack;quaff flask
+gt bah
+muds l
+gt back
+gt you should focus on hitpoints, more
+gt I can do it for you too. Just not sure which you prefer to do.
+hunt enfan
+4n
+4s
+gt that was tough
+gt all heal
+gt all convert
+spel druid
+hunt thri
+s;dir thri
+gos gratz
+hael
+e;dir thri
+ss;dir thri
+n;dir thri
+dir thri
+
+1
+whoi Yhedryah
+gos tzag
+#10 poke ptam;put all.purple $sack
+reegen
+regen
+get all corpse
+get all 2.corpse
+get all 3.corpse
+get all 4.corpse
+ess
+ne
+#alias hsndirmelee kill
+en
+drop dagger
+scn
+quaf potion
+drop khopesh
+u
+ee
+ww
+3en
+k groundling
+sses
+list
+#cr
+list manager
+buy 4
+s14e26n13ess;oe;e
+#alias hsndirmelee
+hunt membre
+wheere
+hunt member
+hunt miner
+autoloot
+drop whip
+drop scroll
+drop tail
+i
+unlock door;open door
+ss5ess
+e
+gain
+w
+prac
+visit tux
+beckon Tort
+beckon Tortwaah
+gr all
+gt let's.
+depart
+whoi Tortwaah
+who
+gt all shapec bear
+s
+gt ref
+n
+gt all vig group
+#alias heal tel Tortwaah :heal %0 Xen
+af
+combat
+hsnclasssam
+wake
+where
+gr
+fle
+hunt Tortwaah
+sanc
+skil
+heal
+nohunt
+gt qw
+reca
+goto thalos
 l
+hunt lamia
+#alias hsndirmelee {charge %0;#3 rescue dragonne;#2 rescue Tortwaah;pracskill;}
+dir lamia
+#alias hsndone4 #if {$MSDP_HEALTH + 313 < $MSDP_HEALTH_MAX} {heal}
+#alias hsndone5 #if {$MSDP_STAMINA + 170 < $MSDP_STAMINA_MAX} {#2 ref} {ref}
+sc
+ref

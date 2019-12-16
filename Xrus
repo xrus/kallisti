@@ -1,0 +1,56 @@
+#CLASS {Xrus} OPEN
+
+#ALIAS {cure}
+{
+     tell Tortwaah cure %0 Xrus
+}
+
+#ALIAS {hsntdir}
+{
+     hsndirmeleeranged $hsntarget
+}
+
+#ALIAS {ref}
+{
+     tell Tortwaah :refresh Xrus
+}
+
+#ALIAS {sanc}
+{
+     get purple $sack;
+     quaff purple
+}
+
+#TICKER           {hsnhunt}  {hunt $hsntarget}  {5}
+#VARIABLE         {MSP}  {{LAST}{move_put.wav}{SOUND}{1}{VOLUME}{0}}
+#VARIABLE         {OLD_MSDP_OPPONENT_NAME}    {the lamia}
+#VARIABLE         {auto}  {{recall}{/}{recallPercent}{30}{refreshgroup}{refresh}}
+#VARIABLE         {autoHealSelfPercent}  {50}
+#VARIABLE         {autohealList}  {}
+#VARIABLE         {autorefreshList}  {}
+#VARIABLE         {autorescueList}  {}
+#VARIABLE         {breakout}  {1 spamset breakout 15}
+#VARIABLE         {fleeString}  {}
+#VARIABLE         {friends}  {}
+#VARIABLE         {hook}  {{advice}{}{areaName}{}{arrive}{}{barter}{}{bump}{}{cchat}{}{charactername}{}{closed}{}{gossip}{}{groupAdd}{}{groupLeave}{}{groupTell}{}{groupVariable}{}{hero}{}{hpPercent}{}{incapacitated}{}{info}{}{join}{}{leave}{}{lootCorpse}{}{manaPercent}{}{morted}{}{opponentHealth}{}{opponentName}{}{opponentNumber}{}{position}{}{race}{}{roomName}{}{roomNumber}{}{say}{}{staminaPercent}{}{stunned}{}{tell}{}}
+#VARIABLE         {hsnarg1}  {lamia}
+#VARIABLE         {hsndamagedr}  {46}
+#VARIABLE         {hsndamagehw}  {270}
+#VARIABLE         {hsndamagemw}  {521}
+#VARIABLE         {hsndamagetotal}  {36386}
+#VARIABLE         {hsnhpratio}  {15.92}
+#VARIABLE         {hsnhuntdir}  {}
+#VARIABLE         {hsnlasttarget}  {}
+#VARIABLE         {hsnlasttargetindex}  {1}
+#VARIABLE         {hsnmpratio}  {0.1}
+#VARIABLE         {hsnspratio}  {9.07}
+#VARIABLE         {hsntarget}  {}
+#VARIABLE         {hsntargetfound}  {0}
+#VARIABLE         {hsntargetindex}  {0}
+#VARIABLE         {hsntargetlist}  {}
+#VARIABLE         {hsntargetsize}  {0}
+#VARIABLE         {hsntryhere}  {1}
+#VARIABLE         {idle.seconds}  {1}
+#VARIABLE         {idle.time}  {1576437300}
+
+#CLASS {Xrus} CLOSE
