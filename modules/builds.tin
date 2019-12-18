@@ -255,7 +255,7 @@
 	#alias laglag2 shihonageshihonage2;
 	#alias pracprac shihonage;
 	#alias hsndirranged {#nop};
-	#alias hsndirmelee shihonage;
+	#alias hsndirmelee {#if {$MSDP_STAMINA > 313} {charge %%0;pracskill;} {shihonage}}
 	hsnautohunt;
 	hsnautoattack;
 	hsnmetaratiosamurai;
