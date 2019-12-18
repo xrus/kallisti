@@ -1,352 +1,3 @@
-get paws trunk
-get paws chest
-get jaguar chest
-get jaguar case
-get jaguar trunk
-wear paw
-put horns trunk
-s4w3se
-campsc
-reply 800 for now. Just started meta
-reply Yes, I use tintin
-reply with a huge pack of triggers/actions
-skil charge
-reply wait
-14
-reply wait. Need to learn charge
-s5esse
-withdraw 200000
-setsam all
-advise
-help setsam
-setsam any
-setsum any
-reply ready
-setsum clangroup
-fol Anatta
-reepor
-gt 28 dam 49 hit
-gt not yet
-#act {Anatta marks %1 for death.} dir %1
-l boots
-gt this one is +2 dex
-gt I just changed drow boot and sorrow leggings with these.
-gt also changed the opal ring with the xendorian
-gt all boost dex
-gt a tiny bit more hits
-l Anatta
-gt what does the staff do?
-gt what's the stats?
-gt I think that I should have a better mana drain weapon for you
-gt want mee check?
-gt I have both
-gt I cannot recall tbh
-gt maybe I've bought them on an auction
-gt should play dreads
-gt best for running through weak mobs
-gt that is necro
-gt necro will do it from 16
-spel necro
-gt animate dead
-gt You just go in and order your zombies to attack
-gt kill something with your sam and use the corpse
-gt and you will start
-gt yes
-gt you cannot animate much higher lvl corpses
-gt the zombies will be a couple lvls below the corpse you raise
-gt I raise lvl 55 corpses with my lvl 50 necro
-gt then I give them green longswords
-gt and gnomish spears
-gt huh?
-gt warranty on charges?
-gt who has idled out?
-gt who was the previous?
-whoi dain
-gt we can make it a quad..
-gt centaur of doom
-gt I'm not a native english, so I cannot understand what you say from time to time
-gt persian
-gt where you two live?
-gt so you are chinese?
-gt and how are you awake now, Vash?
-gt it's almost night for you, Anatta, right?
-gt so, how is living in beijing?
-gt it's not even close to a persian name. But many of ancient persian names are written close to it in modern english
-gt one is xerses
-gt xerxes
-gt syrus is another
-gt actually, xrus is named after syrus or cyrus..
-top1 paragon
-gt hehe.. me too
-gt who is the leader of wolf? Xepher?
-whoi xepher
-gt yeah
-gt he was 60 when I joined
-whoi Stabitha
-gt not tux?
-whoi selmak
-gt it's a newbie clan? you mean it gathers newbies?
-gt seems that emc is an old-returner clan
-gt I'm the cross membere then
-gt The day I returned after 8-9 monthes, I used a new char and started playing
-gt I don't know how kronos found out I'm xrus
-gt he called me after a day and told me to login xrus to recruit me
-gt kronos for sure knew I'm newb
-gt I used to group with him with my lvl 56 warrior.
-gt hehehehe
-gt I used to give him all access
-gt I had nothing to worry
-gt and he got me killed a lot!
-gt hehehe
-gt I don't mind to give all access to almost anyone
-gt lol
-gt well.. not anyone
-gt neither do I
-gt I don't mind loosing all my gear, if that means I will learn a player is a sh*t!
-gt to be honest, all I have, he can get fast easily
-gt well.. I don't have wak/kat either
-gt I have a couple ice shards
-gt ice shard is high end? really?
-gt I don't know what it is
-gt never seen one
-gt I should ask an immortal to give me 75 qp!
-reply gos
-tel Tortwaah gratz
-reply no! mostly thanks to you
-gt np with me
-gt I'm going to build a weird/simple OP monk to make them nerf something new
-gt why don't we just kill all elementals?
-gt but technically, we just kill elementals?
-gt so I just come here and hunt elementals?
-gt I will bring a healer
-gt one of your leaders
-wink
-gt tux is so kind, he always gives me full access through all commands.
-iwho
-comb
-af detali
-gt 51 dex
-gt 32 is mine. can still take it to 38
-gt rest is eq
-gt speed 12
-gt speed 120
-gt you know how much it goes up with lvl?
-gt ok
-gt thanks for all the fun
-gt I'll get a few lvls instead of metaing
-gt to be able to help you more in the future
-tel Tortwaah wanna join?
-fo self
-whoi Sateen
-#alias hsndirmelee {shihonage %0;#2 rescue dragonne;#2 rescue Tortwaah;}
-gt you cv auto?
-gt or I should tell you to?
-5esse
-cb thanks
-gt thanks
-tel Chaoran attack speed doesn't go up with lvl
-whoi God
-whoi Goliath
-reply yeah
-prac edge
-nn5w
-ct I don't know
-wehre
-shihonage
-whoi ton
-gos tzag Ton
-clan member wolf
-tel Tortwaah :cv
-help conver
-gt cv
-gt all cv
-gt ah
-deposit 33223
-deposit 200000
-spelf
-whoi jason
-ct you go to lower druidwell?
-ct and tzag Abuna
-ct I go to upper then
-got druidwell
-got druid well
-goto druidwell
-goto druid weell
-ct orcs?
-#alias joinjoin {#2 rescue dragonne;shihonage;}
-ct what are rooties?
-ct hmm.. they are not same? I thought they are all same with one leader
-dir defender
-#alias hdndone4
-foc dex
-gt dism;gt smount
-gt all conver
-whoi Wightknight
-whoi Ravens
-whoi Ravensnest
-autohunt
-ct can I ask for some tough eqs?
-ct you think that you can arrange to get it?
-ct sam swords
-ct I don't know where to get them at all
-get elm corpse
-ct I know. I should grow a bit to be able to use the
-ct them
-dir ent
-ct what are bear claws?
-tel Muse what is it?
-put all.steel $sack
-put all.flask $sack
-l key
-cb what was that, Muse?
-ct what was that, Muse?
-ct keep it.
-ct I have many
-ct ah, thanks
-gt all heal Tortwaah
-gt all heal Xen
-sell elm
-get 2.bag
-get 3.bag
-drop canoe;drop tent;put all bag;drop bag;get canoe;get tent
-sac bag
-l bag
-nws
-buuy bag
-put flute bag
-sw
-get bag
-put harp bag
-l harp
-drop harp
-drop bag
-gt all give longsword xen
-'thanks
-put longsword chest
-gt all autoheal add all
-sac c orpse
-get longsword chest
-l longsword
-hunt ent
-gos which self buffs?
-hunt lamia;hunt sloth;hunt monkey
-helep fap
-help fap
-whoi Taiwait
-scan u
-gt all true xen
-eye
-gt all eye
-scan d
-top xrus
-top1 detail
-wn
-ssn
-hunt defender
-hunt lemur;hunt sloth;hunt monkey
-whoi prod
-tel prod you could get paws of the jaugar?
-hunt lemur
-shiho lemur
-where lemur
-where sloth
-hunt jaguar
-ft ref me
-af detail
-#alias hsndone4 gt ref me
-#alias joinjoin
-gt heal me
-drop all.stone
-lore potion
-dir thalos
-dirs thalos
-help thalos
-4n10wsswsws5w2n2w3n
-help dirs
-con priest
-dir spectator
-l general
-con general
-dir general
-l lares
-dir Lares
-con Froboz
-con shopkeeper
-con soldier
-dir shopkeeper
-barge door
-dir gateguard
-l philosopher
-con philosopher
-dir philosopher
-get pen corpse
-l peg
-l pen
-auc pen 400
-auc offer pen 400
-dir slavemaster
-get whip corpse
-l whip
-gos which skills you use mostly?
-gfr
-dir lamis
-e;dir lamia
-#alias dir
-drop pen
-put all.stone bag;drop bag
-buy bag;put all.stone bag;drop bag
-focus str
-buy bag
-put all.potion bag
-put all.potion bag;drop bag
-buy bag;put all.potion bag;drop bag
-sell black
-sell plate
-get corpse
-swwn
-sell potion
-see
-sell stone
-l lance
-auc offer lance 200000
-goto druid well
-tel muse cannot find you
-hunt hare
-hunt muse
-fol muse
-reply ah, sorry. That barb is a paragon
-tel Tortwaah hey
-buy hitpoints
-whoi Abuna
-hunt groundling
-k graveyard
-#alias hsndirmelee shihonage
-ct well.. as a prophet you should watch what you say. But maybe you want to roll a dreadlord or something to be more free! :D
-whoi Drakkon
-ct You know who he is? I mean, you know his previous chars?
-whoi Fiddle
-whoi Darthal
-whoi Colenzo
-whoi Marinus
-whoi clint
-whoi cards
-whoi Icarius
-whoi House
-whoi colenzo
-area ignor
-id 4
-id 6
-id 7
-id 5
-buy 5
-clanitem badge
-wear badge
-id 27
-id 26
-id 25
-id 24
-id 23
-id 22
 id 21
 id 20
 id 19
@@ -360,8 +11,6 @@ id 12
 id 11
 resis
 ac
-eq detail
-nofilter
 put rock chest
 l ruby
 wear ruby
@@ -372,7 +21,6 @@ l fury
 get all.ring chest
 get all.ring case
 get all.ring trunk
-l ring
 l carved
 put carved chest
 l signet
@@ -395,12 +43,9 @@ sell fury
 s5w3se
 resize ring larger
 wear ring
-remove ring
 focu dex
 tel sammy hey there
-'Hello
 tel Tortwaah up to continue?
-exam chest
 get all.elderberry chset
 get all.elderberry chsest
 get all.elderberry chest
@@ -417,10 +62,8 @@ tip
 'hey
 'You lead?
 'I do?
-eq all
 one
 gt you have triggers?
-put ring chest
 gt wait
 gt it's safer now
 gt lost you?
@@ -481,8 +124,6 @@ wake;hunt Tortwaah
 4w
 s;charge beholder
 w;charge beholder
-5ess
-s5ess
 regress kick
 prac battou
 gt all vigor all
@@ -493,7 +134,6 @@ os
 s;dir gnome
 l armor
 auc offer armor 200000
-auc cancel
 nwn
 ws
 withdraw 500000
@@ -508,11 +148,9 @@ drop 2.key
 l rock
 tle Tortwaah You are there?
 gt ready to continue?
-5w
 gt all shapec n
 gt all e
 wake;sw
-esw
 ness
 dir gnomee
 es
@@ -520,7 +158,6 @@ get key corpse
 get key 2.corpse
 nwww
 gt all dance
-s;dir lamia
 eu
 ss7e7nee
 gt  ready to continue?
@@ -543,15 +180,12 @@ gt all smount
 gt all mount dragonne
 nn
 e4n
-auc id
 #10 buy Hitroll:
 deposit 298460
 level 53
 get necklace
-l necklace
 drop necklace'
 drop necklace
-exam $sack
 e!shi
 shiho miner
 help metagain
@@ -561,7 +195,6 @@ hsnclasssec
 gos hmm.. how my history came to this?
 reply hmm
 reply whom you with?
-reply ah
 reply where are you?
 reply Tortwaah is afk
 'let's go
@@ -577,15 +210,12 @@ reply misspoked
 replay group
 r
 gt heal
-www
 charge beholder;shiho
 s;ref
 s7e7n
 whoi egor
 ct wow
 #alias heal tel Tortwaah :heal Xen
-7s
-7w
 gt all tap
 tel Tortwaah :vis tux
 tel Tortwaah :visi tux
@@ -611,7 +241,6 @@ ct you need to download wintin++
 ct easy to do
 beckon Ttor
 whoi Mus
-get steel $sack;quaff steel
 help metagain;help hero points
 get infused $sack;quaf infused
 tel Tortwaah :tel Xen I'm ready
@@ -626,21 +255,14 @@ whoi Grogz
 whoi Barfoozelah
 gt all convret
 huntlist lamia
-charge lamia
 gain;combat
-gos thanks
 prac charge
 regress dragon strike
 #alias shihonage charge
-whiho
 #unalias shihonage
 hunt tri
 fil
 filter
-search case
-search trunk
-search chest
-eq
 l scalp
 put cloak trunk
 get sword corpse
@@ -658,7 +280,6 @@ wher
 gtt all visit tux
 gt all visitt ttux
 gt all visit tux
-comba
 tel abuna will you please remind them on waki/kat when they are ready? I have to sleep
 charge santat
 where sant
@@ -666,7 +287,6 @@ e!ch
 een
 poke ptam
 charge santa
-med
 visi tux
 l chest
 'heal
@@ -675,7 +295,6 @@ scan w
 'you take front
 'I help
 fol Abuna
-whoi bjat
 'wall road
 where santa
 'hey again
@@ -722,17 +341,12 @@ l polearm
 rescue dragonne
 gt all shapec plant
 w;dir thri
-wh
-ig
 dir beeh
 gt all fle
 gt all ww
 gt all w
-e;dir beholder
-w;dir beholder
 s;dir beholder
 n;dir beholder
-wor
 withdraw 1000000
 #10 buy HitPoints
 level 54
@@ -751,7 +365,6 @@ rescue dragonne;rescue Tortwaah
 geet longsword corpse
 gte longsword 2.corpse
 get longsword corpse
-wield longsword
 get longsword 2.corpse
 wear all
 l claymore
@@ -763,23 +376,15 @@ gt all paral
 n;dir kobold
 whew
 uu
-shiho
 s;dir kobold
 w;dir kobold
-hold longsword
 area
 3es
 4es
-ses
-se
 get green corpse
 wield green
 hunt kobold
 nw
-unlock door
-wak
-replay
-replay gos
 tel Tortwaah congratulations
 beckon
 gr Tortwaah
@@ -787,8 +392,6 @@ tel Tortwaah :fol Xen
 gt up to continue?
 gt all depart
 deepart
-#alias hsndone4
-#alias hsndone5
 gt convert
 replay clan
 gt  all heal
@@ -797,18 +400,14 @@ gt all conveert
 where lamia
 tel Kronos hey there
 ct tzag
-dir beholder
 ct could you arrange a kat/wak raid?
 s7e7ne
-#alias hsndirmelee {charge %0; pracskill;}
 ct that would be awesome, thanks
 ct are they together? Or do they need two seperate raids?
 ct both?
-clan who
 tel prod You know which is wheree?
 ct which one is the held one?
   sanc
-4e
 dir kobold
 heal dragonne
 tel Tortwaah qw
@@ -822,34 +421,21 @@ igr
 rescue Tortwaah;rescue dragonne
 gt all drop corpse
 exam 3.corpse
-exam corpse
-exam 2.corpse
 get 2.corpse
 gt all give 1763864 coins Xen
 sac corpse
 reeca
-camp
-3
-15
-tap
-visit zruz
 get kimono chest
 get waki chest
 get kata chest
-l katana
-l wakizashi
-lore katana
 l kimono
 put kimono chest
 put wakizashi chest
 put katana chest
 gos now the hard work begins
-s14w;enter tree;w;remove all;list
 cb getting to 55
 ct getting to 55
-buy HitPoints
 ct I cannot use them till 55
-e;reca;s;tap;wield green;hold longsword;wear all;focus dex
 hsnsetsam
 #14 poke ptam;put all.purple $sack
 whoi hare
@@ -865,7 +451,6 @@ wake;s
 heael
 gt all repor
 hunt beholder
-d
 ct OK, I was checking the paladin and valky skills. Why should one go paladin over valk now?
 ss7e7ne
 hunt gnome
@@ -878,51 +463,34 @@ hun {}
 hun
 5n
 dir orc
-gwho
-cwho
 whoi Jebus
 ct well done!
-#ig
 s7e12n5e
 3e
 hsngetmelee
 reef
 heal Tortwaah
-ss
 5s
 hunt orc
-wwho
 goto orshingal
-focus dex
-get flask $sack;quaff flask
 gt bah
-muds l
 gt back
 gt you should focus on hitpoints, more
 gt I can do it for you too. Just not sure which you prefer to do.
 hunt enfan
-4n
-4s
 gt that was tough
 gt all heal
 gt all convert
 spel druid
 hunt thri
 s;dir thri
-gos gratz
 hael
 e;dir thri
 ss;dir thri
 n;dir thri
 dir thri
-
-1
 whoi Yhedryah
-gos tzag
-#10 poke ptam;put all.purple $sack
 reegen
-regen
-get all corpse
 get all 2.corpse
 get all 3.corpse
 get all 4.corpse
@@ -931,70 +499,502 @@ ne
 #alias hsndirmelee kill
 en
 drop dagger
-scn
 quaf potion
 drop khopesh
-u
-ee
-ww
 3en
 k groundling
 sses
-list
-#cr
 list manager
 buy 4
 s14e26n13ess;oe;e
-#alias hsndirmelee
 hunt membre
 wheere
 hunt member
 hunt miner
-autoloot
 drop whip
 drop scroll
 drop tail
-i
 unlock door;open door
 ss5ess
-e
-gain
-w
-prac
-visit tux
 beckon Tort
 beckon Tortwaah
-gr all
 gt let's.
-depart
 whoi Tortwaah
-who
 gt all shapec bear
-s
 gt ref
-n
 gt all vig group
 #alias heal tel Tortwaah :heal %0 Xen
-af
-combat
-hsnclasssam
-wake
-where
-gr
-fle
 hunt Tortwaah
-sanc
-skil
 heal
-nohunt
 gt qw
-reca
-goto thalos
-l
-hunt lamia
-#alias hsndirmelee {charge %0;#3 rescue dragonne;#2 rescue Tortwaah;pracskill;}
-dir lamia
 #alias hsndone4 #if {$MSDP_HEALTH + 313 < $MSDP_HEALTH_MAX} {heal}
 #alias hsndone5 #if {$MSDP_STAMINA + 170 < $MSDP_STAMINA_MAX} {#2 ref} {ref}
-sc
 ref
+ses
+clan who
+wake;reca;visit clan
+visit tux
+whoi bjat
+whoi Dynasty
+tel Dynasty vigor please?
+reply and sanctuary if sanctuary's lvl is any good?
+visit clan
+14w
+4s
+7w
+esw
+#7 buy steel;put all.steel $sack
+#alias hsndirmelee {charge %0;#3 rescue dragonne;#2 rescue Tortwaah;pracskill;}
+tel Anatta hey
+whoi Thornos
+d;dir lamia
+wak
+#alias hsndone5
+l longsword;l 2.longsword
+l black longsword
+remove longsword'
+l longsword
+lore longsword
+stand;l longsword
+hold longsword'
+hold longsword
+wield longsword
+whoi Dfviper
+whoi Konan
+whoi Grace
+whoi Kantoa
+whoi Javan
+tel Thornos Hello
+grap
+l in $sack
+tel Muse Hello there
+tel Thornos Didn't know if you are afk.
+reply Wanted to group if you are up for it
+spel valky
+help tale of valor
+tel Muse the other day you said that valkies have all kinds of buffs, right?
+reply Sure
+tel Muse which skill is it?
+wake;reca
+area baramon
+s7w
+9s
+help baramon
+whoi Kortuk
+help valmeyjar
+reply ah
+reply I see
+hunt Anatta
+goto baramon
+goto list
+hunt Thornos
+reply no
+reply I am at the entrance
+reply no.
+enter trees
+search
+reply OK.
+'Hello
+gr all
+'hmm..
+'I found here
+dir ba'alor
+'a
+'who has a key?
+dir halfling
+k halfling
+'I cannot assist. We are not grouped
+l rapier
+l hammer
+l rod
+l scythe
+#alias joinjoin
+#alias joinjoin shihonage
+gt can you can true seeing on others?
+#alias joinjoin #nop
+nod
+wh
+whoi Goliath
+cwho
+whoi Chaoran
+give key Thornos
+fol Thornos
+scan s
+fol Anatta
+gt hello
+gt we can go elsewhere too. gnomes/orcs/trolls/lamias/thri-kreens
+gt hmm.. I wonder when you asked the question. I have not looked away and I've missed it
+gt I joined a week after they introduced paragons, as they said. But after a few monthes, I left for less than a year
+gt about the gear, I don't know much. But I have bought/kept a long list in my bins. Most of what I have, I know where to get
+gos I don't mind what I wear. my only focus is attack speed currently
+gos misspoked
+gt I don't mind what I wear. my only focus is attack speed currently
+#alias hsndone
+#alias hsndone0
+#var hsn%*max%*exp%*
+#alias hsndone2
+#act %*Anatt%*
+level
+gos poor Muse!
+gt nice
+gt I run to get a lvl?
+gain
+prac
+regress awareness
+prac spirit
+prac spirit of bushido
+gos thanks
+get katana chest
+get wakizashi chest
+remove longsword
+put longsword chest
+4w3se
+estimate katana faster
+5ess
+get carved chest
+eq combat
+remove ring
+wear carved
+put ring chest
+l kataa
+s4w3se
+resize katana faster;estimate katana faster
+estimate wakizashi faster
+resize wakizashi faster;estimate wakizashi faster
+seach trunk
+l tunic
+l Condone
+gwho
+reply Hello.
+reply No, I didn't
+tel Thornos hello again
+tel Anatta Hello again
+#alias hsndirmelee {charge %0; pracskill;}
+remove katana;wield katana
+remove wakizashi;hold wakizashi
+wake;l katana;l wakizashi;med
+hsnweapon
+hsnweapondamage 25 16.5
+combaat
+ss;dir lamia
+dir beholder
+w;dir beholder
+e;dir beholder
+en;dir lamia
+u;dir lamia
+gos I don't think so
+#var hsn%*mv%*
+adv what is your weapon?
+visit zruz
+get Grelician chest
+wear Grelician
+l boots
+get boots chest
+remove boots
+wear 2.boots
+put boots chest
+ct tog combatbrief?
+whoi Miyamoto
+whoi Freedom
+ct your own hitpoints?
+ct display all
+ct and change class
+eq all
+l apw
+l paw
+search trunk
+search case
+search chest
+buy con
+buy Stamina
+e;reca;s;tap;wield green;hold longsword;wear all;focus dex
+#var hsnrestmvratio1
+#alias hsndirmelee
+#alias hsndirmelee {#if {$MSDP_STAMINA > 313} {charge %0; pracskill;} {shihonage}}
+e;reca;s;tap;wield katana;hold wakizashi;wear all;focus dex
+wake;wield katana
+w;dir lamia
+charge golem
+get corpse
+n;dir lamia
+dir golem
+whoi Kimdeal
+dir lamia
+s;dir lamia
+e;dir lamia
+#alias hsndone4
+#alias hsndone4 {get corpse corpse}
+f
+hwo
+help bloodline
+level 56
+repay
+tel Anatta Join?
+tel Thornos Join?
+goto baramon ingrol
+get key
+unlock door
+drop key
+dir Ba'Alor
+where
+dir troll
+dir squirrel
+dir bear
+enter door
+hunt bear
+hunt squirrel
+hunt troll
+replay
+s5ess
+s14w;enter tree;w;remove all;list
+buy HitPoints
+e;reca;s;tap;hold wakizashi;wear all;wield katana;focus dex
+spel
+#alias hsndirmelee {#if {$MSDP_STAMINA > 313} {charge %0; pracskill;} {shihonage %0}}
+#var hsnrestmvratio1 .4
+wak;bushido
+tog combatbrief
+gos meta
+e;reca;s;tap;hold wakizashi;wear all;wield katana;focus dex;bushido
+wor
+exam $sack
+put all.steel $sack
+sc combat
+nofilter
+#var hsnrestmvratio1 .5
+wwho
+san
+wake;bushido
+autobushido
+autofocus dex
+top1
+top1 6
+whoi Bruiser
+whoi Lastchance
+regen
+help bushido
+eq
+wake;focus dex
+get green
+drop green
+15
+l katana
+l wakizashi
+lore katana
+get flask $sack;quaff flask
+muds l
+whog
+help Villaggio
+help Barovia
+ss7e4nw
+ss
+l sign
+we
+ew
+l barrow
+w;l barrow
+w;l barrels
+l shelves
+l merchandise
+whoi Nyla
+l worshiper
+enter winds
+enter windows
+l dio
+gos what?
+l crescent
+exam
+shihonage
+get all corpse
+l bracelet
+l windows
+autoloot
+l necklace
+gos so, centaur gear is going to be found in Villagio Del Centaur. Right?
+l aangel
+fle
+help paragon
+#cr
+skil
+eq detail
+remove beltt
+remove belt
+combat
+wear belt
+w;charge angel
+kick
+auc offer anklet 1000000
+wakeaf
+charge moon
+#ig
+ig
+l anklet
+l ring
+eenter shelves
+enter shelves
+enter barrow
+enter barrels
+l barrels
+op walls
+op window
+op windows
+op glass
+l pews
+l prismatic
+l material
+l alter
+l altar
+enter altar
+l images
+exam  corpse
+exam barrels
+l counter
+exam counter
+exam materials
+l materials
+l walls
+exam boxes
+exam shelves
+get all
+get all shelves
+exam chest
+exam chests
+wwww
+op fence
+jump west
+l glass
+scn
+l path
+open path
+stand
+charge elk
+charge owl
+pray
+date
+l narrow
+l dirt
+op narrow
+camp
+3
+4
+#10 poke ptam;put all.purple $sack
+s7e4nww
+gos gratz
+tel Thornos You are familiar with Villagio Del Centaur?
+www
+charge snow
+l angel
+crawl w
+op dirt
+op path
+op west
+op doro
+op door
+7s
+ww
+se
+hunt centaur
+s7e4nwn
+l moon
+dir Persona
+sanc
+charge dio
+l blades
+l elbow
+wield elbow
+d
+l child
+4e
+charge child
+help races
+gos anyone been able to get anything from Villagio Del Centaur?
+area centaur
+help 117
+help villaggio del
+time
+charge 2.
+fle;w
+bushido
+eee
+charge angel
+whiho
+me
+med
+l angel;charge angel
+kneel
+charge tree
+4n
+5w
+brief
+exma corpse
+exam 2.corpse
+exam corpse
+ee
+k rabbit
+k squirrel
+k small
+k tree
+enter tree
+k owl
+i
+k elk
+w
+k wolf
+k bear
+
+1
+replay gos
+gos tzag
+ct hey all
+ct I will quit soon, and login again in about an hour
+ct I can help you then, Muse
+s
+tap
+ct now that elders are awake..
+hsnclasssam
+charge lamia
+ct how easy is it to get the healing weapons?
+get steel $sack;quaff steel
+gr self
+ct hehe.. I like waka/kata a lot. Now I feel a bit overconfident and want to try a few bosses!
+ct technically, waka/kat help me hit about 25% more hit
+ct I wonder if I can boost it
+af
+focus dex
+ct it is not possible to boost the lvl of waka/kata, right?
+l
+gr
+sc
+who
+whoi Ingrid
+wake
+nohunt
+e
+n
+remove wakizashi
+u
+list
+estimate wakizashi boost
+estimate wakizashi enhance power
+estimate enhance power wakizashi
+estimate enhance wakizashi
+ct Increasing that proc by 1 level would cost 1200 quest points and 500000 coins.
+hold wakizashi'
+hold wakizashi
+estimate enhance katana
+remove kattana
+remove katana
+auc offer katana 100000000
+auc id
+auc cancel
+ct heh. and the Frequency doesn't change either
+wield katana
+depart
+reca
+goto thalos
+comba
+hunt lamia
+ct they can't even learn how to use a weapon.
+ct not all are weapon  masters like us, Muse!
+ct I bet you mages have trouble cutting cheese with a knife!
+shiho

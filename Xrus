@@ -15,14 +15,7 @@
      tell Tortwaah :refresh Xrus
 }
 
-#ALIAS {sanc}
-{
-     get purple $sack;
-     quaff purple
-}
-
-#TICKER           {hsnhunt}  {hunt $hsntarget}  {5}
-#VARIABLE         {MSP}  {{LAST}{move_put.wav}{SOUND}{1}{VOLUME}{0}}
+#VARIABLE         {MSP}  {{LAST}{miscellaneous_fanfare*.wav}{SOUND}{1}{VOLUME}{0}}
 #VARIABLE         {OLD_MSDP_OPPONENT_NAME}    {the lamia}
 #VARIABLE         {auto}  {{recall}{/}{recallPercent}{30}{refreshgroup}{refresh}}
 #VARIABLE         {autoHealSelfPercent}  {50}
@@ -35,22 +28,22 @@
 #VARIABLE         {hook}  {{advice}{}{areaName}{}{arrive}{}{barter}{}{bump}{}{cchat}{}{charactername}{}{closed}{}{gossip}{}{groupAdd}{}{groupLeave}{}{groupTell}{}{groupVariable}{}{hero}{}{hpPercent}{}{incapacitated}{}{info}{}{join}{}{leave}{}{lootCorpse}{}{manaPercent}{}{morted}{}{opponentHealth}{}{opponentName}{}{opponentNumber}{}{position}{}{race}{}{roomName}{}{roomNumber}{}{say}{}{staminaPercent}{}{stunned}{}{tell}{}}
 #VARIABLE         {hsnarg1}  {lamia}
 #VARIABLE         {hsndamagedr}  {46}
-#VARIABLE         {hsndamagehw}  {270}
-#VARIABLE         {hsndamagemw}  {521}
-#VARIABLE         {hsndamagetotal}  {36386}
+#VARIABLE         {hsndamagehw}  {266}
+#VARIABLE         {hsndamagemw}  {513}
+#VARIABLE         {hsndamagetotal}  {35834}
 #VARIABLE         {hsnhpratio}  {15.92}
 #VARIABLE         {hsnhuntdir}  {}
-#VARIABLE         {hsnlasttarget}  {}
+#VARIABLE         {hsnlasttarget}  {lamia}
 #VARIABLE         {hsnlasttargetindex}  {1}
 #VARIABLE         {hsnmpratio}  {0.1}
 #VARIABLE         {hsnspratio}  {9.07}
 #VARIABLE         {hsntarget}  {}
 #VARIABLE         {hsntargetfound}  {0}
-#VARIABLE         {hsntargetindex}  {0}
+#VARIABLE         {hsntargetindex}  {1}
 #VARIABLE         {hsntargetlist}  {}
-#VARIABLE         {hsntargetsize}  {0}
+#VARIABLE         {hsntargetsize}  {1}
 #VARIABLE         {hsntryhere}  {1}
-#VARIABLE         {idle.seconds}  {1}
-#VARIABLE         {idle.time}  {1576437300}
+#VARIABLE         {idle.seconds}  {6}
+#VARIABLE         {idle.time}  {1576603560}
 
 #CLASS {Xrus} CLOSE

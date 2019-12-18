@@ -1,114 +1,3 @@
-remove warhammer;wield dagger
-resize warhammer faster
-estimate warhammer faster
-l warhammer
-wield warhammer
-remove shield
-put shield trunk
-get buckler trunk
-skil bash
-#alias hsndirmelee bash
-#alias pracprac bash
-#alias bashbash
-bash zombie
-bash
-depart;s4w10sw
-regress bash
-withdraw 500000
-nnw3n
-prac hunt
-4w10s
-wsws
-#alias pracprac kick
-tel Sammy I found other problems with 'skill' command
-tel Sammy I think it was animal friendship
-tel Sammy Also, it shows 1 mp for callmount, but the sp is much more important for it
-tel Tux hey there
-reply centaurs are supposed to be able to ride mounts?
-reply Is it possible to give all the mount benefits to them then? They already loose the mount attack damage
-reply maybe make it based on their ride skill (the mount bonuses)?
-reply First, I already get bashed
-reply the benefit to kick is a nice addition, but might be too good
-reply But I meant other benefits. Like charge benefit
-reply Am I wrong? Let me check
-help charge
-reply you should do 150% damage if riding, per help file
-reply Don't tell me that it's not the case! lol
-reply I'm not sure. But why don't you make them practice ride, to get these benefits? They get it for free.
-tel Loki NP
-tel Sammy those are too nice!
-tel Sammy :D
-gos is it a way to get kick up to rank 10?
-gos enough eq around?
-tel Loki I hope you didn't mind Xiro abusing your help
-reply yes. If you give all those perks to centaurs, won't it be too good for them? :D
-reply I will love it
-reply autokick won't do much help will it? My lvl 58 ranger has twice damage when mounted. autokick won't do your output damage double, right?
-gos it does
-gos huge difference
-help harm
-gos I think it's based on spell level, like most other spells
-gos yes. at lvl 3, the spell level is same as your level, which goes up with your level
-gos at rank 3
-tel Isalei You are welcomed to join me
-tel Isalei if you want
-tel Isalei I won't go over lvl 20 though, so you know
-reply sure
-reply BTW, you can check your spell level with 'skill' command
-reply just learn heal. We won't need the rest for nwo
-reply shakes
-whoi mullin
-whoi hades
-top1 rogue
-whoi zips
-reply no need to fly though
-reply buy a raft
-reply 2s2es from ptam
-reply me too
-#var hsnrestmvratio1 .3
-#var hsnrestmvratio2 .9
-gt sure
-tel Loki You didn't like it then?
-gos I'd say no
-reply ah good
-reply I did my best not to get you killed.
-reply I think you gathered about 80m
-repl come
-repl misspoke
-wake;gr Isalei
-'ah
-gr Isalei
-gt You can stay afk with me, if you have to go briefly next time.
-gt Let's go get level
-gt all refresh Xwo
-nohun
-10e
-10n
-gt tired?
-gt all ref isalei
-gt shakes, graveyard, Xendorians
-gt where else can I go?
-gt all heal Xwo
-gt all ref Xwo
-gt all refr Xwo
-nod
-gt Don't worry. I will rest when I have to
-gt my scripts are almost fully automated, but I'm not afk
-gt I want to get Xwo to 100
-gt hard to do it without scripts
-gt I have to go
-gt OK. if you see me again, call me. I will help more
-gt BTW
-gt You use animal friendship?
-gt TBH, my druids always use it pre 50
-gt I'd say it's very good
-gt It was awesome, but got nerfed
-gt it's still good enough
-gt six monthes ago, my druids could go to lamias at lvl 30
-gt with AF.
-gt Your own mounts
-gt other than dragonne
-gt don't get your smount level too high, so you have a chance to call rhino and elephant
 gt those two are good pre 35. elephant is still good pre 45
 gt yes
 gt smount and dismount
@@ -153,10 +42,8 @@ e;w
 #10
 s3ess
 l Brim
-autoloot
 sell warstaff
 dir Xenodrite
-ss
 depart;s3e;enter portal
 enter porta
 10
@@ -217,7 +104,6 @@ drop aura
 drop falchion
 l bicorne
 wear bicorne
-l helmet
 l manica
 l warstaff
 put all.xendorite trunk
@@ -256,7 +142,6 @@ reply :e
 tel Loki :true
 gos I got this: #SESSION 'Legends of Kallisti' DIED.
 wear vest
-l vest
 sell Xenodrite
 seen
 sell club
@@ -385,7 +270,6 @@ tel Loki :visit
 'thanks a lot
 s4w10sw
 hunt zombie
-12
 tel Iari You can join afkly if you want. I won't stay around too long though.
 reply ptam
 'hey
@@ -397,7 +281,6 @@ gr lal
 gt about what?
 autoj
 tog autoj
-4e
 3e
 sse
 replay gt
@@ -456,7 +339,6 @@ wear payroll'
 sell nose
 drop payroll
 l dagger;l hammer
-search armoury
 get necklace case
 put necklace case
 l blue
@@ -481,9 +363,7 @@ l robs
 l robes
 remove robes
 get hide trunk
-l hide
 wear hide
-put hide trunk
 get tunic trunk
 wear tunic
 put robes trunk
@@ -507,7 +387,6 @@ get all.flask armoury
 get all.flask chest
 l flask
 auc offer flask 10000000000
-auc cancel
 wake;dir member
 anc
 hunt juliet
@@ -525,7 +404,6 @@ ss7w
 7w
 4s
 qwake
-wake;reca
 wake;s14e26n13ess;oe;e
 4nw
 uptime
@@ -536,7 +414,6 @@ dir Juliet
 charge Romeo
 dir king
 where Gertrude
-4n
 eu
 dir Gertrude
 dir Polonius
@@ -594,7 +471,6 @@ wake;camp
 'ffire;'barkskin;'bless;'vigor
 'bless
 tel Loki You are there?
-visit tux
 #alias heal tel Loki :heal Xwo
 #alias refresh tel Loki :refresh Xwo
 hol ddagger
@@ -675,7 +551,6 @@ reply one more question. Have you got 260 noble points from your paragon?
 tel Kara One more question. Have you got 260 noble points from your paragon?
 reply 10 more paragon levels and you will have a champion. You know?
 reply actually 13 more levels
-buy con
 quaf potion
 s3wn
 en
@@ -704,7 +579,6 @@ drop shards
 sell gladius
 sell lance
 sell axe
-swwn
 sell bonemask
 get infused $sack
 quaff flask
@@ -733,29 +607,23 @@ q
 buy Constitution
 #system reset;#delay 1 #split
 drop shards;drop all.bits
-#alias hsndirmelee kill
 put identify $sack
 put rope $sack
 withdraw 100000;buy Stamina
 sd
 sss
-d
-kick miner
 wn
 swn
 #10 {buy recall;put recall $sack}
 buy recall
 wake;nnw
-where miner
 tel Thaad sure
 drop all.gem
-u
 !~hunt
 tel Odd Ah, sorry
 whoi odd
 s14w;enter tree;w;remove all;list
 wear all
-s3en
 sell dagger
 sell stiletto
 drop all.bits
@@ -772,9 +640,7 @@ op tree
 l open!
 enter open!
 remove all
-list
 buy Stamina
-gr
 swho
 \news
 gos tzag
@@ -795,7 +661,6 @@ enter tree
 ew
 drop gem
 drop mace
-drop bits
 drop fragments
 quaf flask
 drop rod
@@ -831,40 +696,22 @@ help noble
 top1 noble
 tel Herja Hey! You are there?
 #10 poke ptam;put all.purple $sack
-hunt miner
 get key;unlock door;drop key;l
 muds l
-#10 poke ptam
 put all.purple $sack
 l stone
 sell stone
-sen
 exam tent
 get rope $sack
 get recall $sack
 l necklace
 wake;visit zruz
 wak;search chest
-get spear chest
-remove dagger
-remove buckler
 l buckler
-wield spear
-wield dagger
-hold dagger
-wear buckler
-l dagger
-l spear
 eq all
-search chest
-search trunk
 get caligae trunk
 wear caligae
 put caligae trunk
-remove spear
-put spear chest
-search case
-nofilter
 l chalice
 put lamp chest
 geet lamp chest
@@ -878,27 +725,20 @@ sell disc
 l gloves
 put gloves chest
 dpeart
-l battledrum
 auc offer battledrum 30000
-auc id
-filter
 l lmap
 l lamp
 remove lamp
 sws
 sell lamp
-visit zruz
 donate lamp
 get lamp case
 put lamp case
-l armguards
-l ring
 search cas
 get sceptre case
 wear sceptre
 get earring case
 wear earring
-depart
 style
 style aggressive
 eess
@@ -906,20 +746,15 @@ ws
 prac parry
 style neutral
 prac critical
-spel
-#cr
 prac
 autosanc sanc
 5e
 #config
-sanc
 get flask $sack;quaff flask
 regen
 wake;w
 dir xendorian
 wake;dir xendorian
-s14e26n13ess;oe;e
-hunt member
 #alias hsndirmelee
 #alias dir
 #alias hsndirmeleeranged
@@ -932,18 +767,10 @@ l 2.maul
 get maul
 7e5see
 help bash
-skil
 15
-
-1
 hunt Xendorianw
-hsnclassbarb
-where
-#alias hsndirmelee kick
 !eent
-eq
 drop quarterstaff
-7e
 5s
 get scepter
 get all
@@ -954,47 +781,220 @@ ne
 7e5s
 dir Xendorian
 hunt Xendorian
-combat
-s14w;enter opening;w;remove all;list
 withdraw 100000;buy HitPoints;list
-sc
-e;reca;wield dagger;hold dagger;wear all;s
-af
 s7e5s
 ee
-wor
 kick member
-kick
 sw
 #var hsn%*hp%*ratio%*
 #var hsnresthpratio2 .95
 #var hsnresthpratio1 .6
 #var hsnresthpratio .6
-w
-wake
 fle
 wake;reca;s;sl
-sl
-tap
 s7ee5see
 ss7e5see
-hunt xendorian
-s
-n
-e
 www
 enter portal
 scn
 drop
 shortsword
-i
 drop shortsword
 gos valkyries are hot
-l
-nohunt
 wak
+7
+whog
+s14w;enter opening;w;remove all;list
+prac con
+buy con
+e;reca;wield dagger;hold dagger;wear all;s
+tog sound
+#10 poke ptam
+#alias sanc {get purple $sack;quaff purple}
+get steel $sack;quaff steel
+tel Tortwaah :vig Xwo
+ses
+list key
+list manager
+buy 1
+nwn
+#alias hsnkwmelee #nop
+#alias hsndirmelee kill
+gr self
+level  21
+kick miner
+kick
+autoloot
+drop bits
+wak;drop bits;sl
+muds  l
+skil
+sc
+spel
+help butchering
+whoi Kimdeal
+hsnweapondamage 15 15
+wake;reca
+tap
+gr
+search  chest
+l ogre
+get spear chest
+l spear
+wield spear
+remove buckler
+wear spear
+sl
+wake
+remove spear
+wear buckler
+put spear chest
+l ring
+search  trunk
+l hide
+remove hide
+get robes trunk
+wwear robes
+wear robes
+put hide trunk
+!seearch
+get armguards armoury
+get colorful armoury
+l colorful
+wear colorful
+search armoury
+#cr
+visit tux
+remove helmet
+get helmet armoury
+wear helmet
+put helmet armoury
+visit taiwait
+search trunk
+visit list
+visit anne
+search chest
+l tunic
+get cape chest
+remove tunic;wear cape
+remove cape;wear tunic
+put cape trunk
+put cape chest
+list
+id 1
+id 2
+id 3
+id 4
+4w3se
+resize dagger faster;estimate daggere faster
+resize dagger faster;estimate dagger fasteer
+resize dagger faster;estimate dagger faster
+filter
+search ches
+get vest chest
+comba
+l vest
+visit chest
+put vest chest
+estimate 2.dagger faster
+estimate 3.dagger faster
+resize 3.daggre faster
+resize 3.daggere faster
+resize 3.dagger faster
+hold daggeer
+hold 2.dagger
+nofilter
+l d again.'
+l arms
+l armguards
+put armguards trunk
+l weeping
+eq
+put earring trunk
+l helmet
+put helmet chest
+search case
+get all.dagger case
+get all.dagger trunk
+put dagger trunk
+put soul trunk
+s4ww3se
+ss4w3se
+resize dagger fasteere
+withdraw 400000
+hold  dagger
+hold daggre
+wield 2.daggre
+wield 2.dagger
+l daggre
+get all.dagger chest
+get 2.dagger chest
+put dagger chest
+put  dagger  chest
+get dagger chest
+hold 4.dagger
+put  all.dagger chest
+s3en
+swwn
+sell helmet
+hsnclassbarb
 who
+l 2.dagger
+remove dagger
+l dagger
+wor
+visit zruz
+withdraw 1000000
+s4w3se
+resize dagger faster
+estimate dagger faster
+hold dagger
+wield dagger
+combaat
+combat
+depart
+auc offer battledrum 1000000
+auc id
+help earth drum
+auc cancel
+sen
+sell battledrum
+i
+l battledrum
+drop battledrum
+sanc
+s14e26n13ess;oe;e
+#alias hsndirmelee kick
+#alias hsnkwmelee
+#alias hsnkwmelee kick
+#act {The %1 to the %2 seems to be locked.} {unlock %1; l}
+hunt member
+u
+4e
+hunt mineer
+hunt miner
+where
+where miner
+ss
+7e5s5e
+hunt xendorian
+nohunt
+
+1
+7e
+4n
+5w
+s
+exam barrels
+af
+d
+l angel
+l
+'Hello
+n
+e
+w
 reca
 camp
 3
-7
+12

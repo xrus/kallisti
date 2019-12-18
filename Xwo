@@ -1,5 +1,16 @@
 #CLASS {Xwo} OPEN
 
+#ACTION {The %1 to the %2 seems to be locked.}
+{
+     unlock %1;
+     l
+}
+
+#ALIAS {hsntdir}
+{
+     hsndirmeleeranged $hsntarget
+}
+
 #ALIAS {paral}
 {
      tel Loki :paral
@@ -8,12 +19,6 @@
 #ALIAS {refresh}
 {
      tel Loki :refresh Xwo
-}
-
-#ALIAS {sanc}
-{
-     get purple $sack;
-     quaff purple
 }
 
 #GAG              {Boosting Strength and MaxStrength by 4.}
@@ -25,28 +30,39 @@
 #GAG              {Old base stats: %*}
 #GAG              {Old max stats: %*}
 #GAG              {You reroll. . .}
-#VARIABLE         {MSP}  {{LAST}{miscellaneous_fanfare\*.wav}{SOUND}{0}{VOLUME}{0}}
-#VARIABLE         {OLD_MSDP_OPPONENT_NAME}    {a Xendorian swashbuckler}
-#VARIABLE         {auto}  {{deposit}{1}{recall}{/}{recallPercent}{30}{sanc}{sanc}}
+#TICKER           {hsnhunt}  {hunt $hsntarget}  {5}
+#VARIABLE         {MSP}  {{LAST}{spell_summon.wav}{SOUND}{1}{VOLUME}{0}}
+#VARIABLE         {OLD_MSDP_OPPONENT_NAME}    {the audience member}
+#VARIABLE         {auto}  {{deposit}{1}{recall}{/}{recallPercent}{30}{refreshgroup}{refresh}{sanc}{sanc}}
 #VARIABLE         {autoHealSelfPercent}  {50}
 #VARIABLE         {autohealList}  {}
+#VARIABLE         {autorefreshList}  {}
 #VARIABLE         {autorescueList}  {}
 #VARIABLE         {breakout}  {1 spamset breakout 15}
 #VARIABLE         {character.lastDeath}  {You were last killed by an irate taskmaster and lost 10476  exp, 2 hps, 0 mana, and 0 stamina.}
 #VARIABLE         {currTime}  {1559554200}
 #VARIABLE         {enemyConditionTone}  {500}
-#VARIABLE         {filter}  {1}
+#VARIABLE         {filter}  {0}
 #VARIABLE         {fleeString}  {}
 #VARIABLE         {friends}  {}
-#VARIABLE         {hook}  {{Arena}{}{Barter}{}{Gossip}{}{Hero}{}{advice}{}{areaName}{}{arena}{}{arrive}{}{barter}{}{bump}{}{characterName}{}{characterPosition}{}{charactername}{}{disarmed}{}{gossip}{}{groupAdd}{}{groupLeave}{}{groupTell}{}{hero}{}{hpPercent}{}{incapacitated}{}{info}{}{leave}{}{lootCorpse}{}{manaPercent}{}{morted}{}{opponentHealth}{}{opponentName}{}{opponentNumber}{}{playerDeath}{}{position}{}{race}{}{report}{}{roomName}{}{roomNumber}{}{say}{}{staminaPercent}{}{stunned}{}{tell}{}{trackFail}{}{trackLose}{}}
+#VARIABLE         {hook}  {{Arena}{}{Barter}{}{Gossip}{}{Hero}{}{advice}{}{areaName}{}{arena}{}{arrive}{}{barter}{}{bump}{}{characterName}{}{characterPosition}{}{charactername}{}{closed}{}{disarmed}{}{gossip}{}{groupAdd}{}{groupLeave}{}{groupTell}{}{groupVariable}{}{hero}{}{hpPercent}{}{incapacitated}{}{info}{}{leave}{}{lootCorpse}{}{manaPercent}{}{morted}{}{opponentHealth}{}{opponentName}{}{opponentNumber}{}{playerDeath}{}{position}{}{race}{}{report}{}{roomName}{}{roomNumber}{}{say}{}{staminaPercent}{}{stunned}{}{tell}{}{trackFail}{}{trackLose}{}}
 #VARIABLE         {hours}  {433209}
+#VARIABLE         {hsnarg1}  {xendorian}
 #VARIABLE         {hsnclass}  {Fighter}
 #VARIABLE         {hsncon}  {13 }
+#VARIABLE         {hsndamagedr}  {15}
+#VARIABLE         {hsndamagehw}  {119}
+#VARIABLE         {hsndamagemw}  {358}
+#VARIABLE         {hsndamagetotal}  {14310}
+#VARIABLE         {hsndamagewd1}  {15}
+#VARIABLE         {hsndamagewd2}  {15}
 #VARIABLE         {hsndex}  {12 }
 #VARIABLE         {hsnhp}  {0}
 #VARIABLE         {hsnhpratio}  {15.92}
 #VARIABLE         {hsnhuntdir}  {}
 #VARIABLE         {hsnint}  {2}
+#VARIABLE         {hsnlasttarget}  {}
+#VARIABLE         {hsnlasttargetindex}  {1}
 #VARIABLE         {hsnlmax}  {0}
 #VARIABLE         {hsnluc}  {12 }
 #VARIABLE         {hsnmaxcon}  {13}
@@ -71,15 +87,20 @@
 #VARIABLE         {hsnstr}  {14 }
 #VARIABLE         {hsnsum}  {72}
 #VARIABLE         {hsnsummax}  {72}
+#VARIABLE         {hsntarget}  {}
+#VARIABLE         {hsntargetfound}  {0}
+#VARIABLE         {hsntargetindex}  {0}
+#VARIABLE         {hsntargetlist}  {}
+#VARIABLE         {hsntargetsize}  {0}
 #VARIABLE         {hsntnl}  {104727}
 #VARIABLE         {hsntotal}  {0}
+#VARIABLE         {hsntryhere}  {0}
 #VARIABLE         {hsnwis}  {12 }
-#VARIABLE         {idle.seconds}  {1}
-#VARIABLE         {idle.time}  {1575635940}
+#VARIABLE         {idle.seconds}  {7}
+#VARIABLE         {idle.time}  {1576613640}
 #VARIABLE         {idleList}  {{1}{pose}}
 #VARIABLE         {manualWerewolf}  {1}
-#VARIABLE         {onDeath}  {{1}{sanc}{2}{sanc}{3}{sanc}{4}{sanc}{5}{sanc}{6}{sanc}{7}{sanc}{8}{sanc}{9}{sanc}{10}{sanc}{11}{sanc}{12}{sanc}{13}{sanc}{14}{sanc}{15}{sanc}{16}{sanc}{17}{sanc}{18}{sanc}{19}{sanc}{20}{sanc}{21}{sanc}{22}{sanc}{23}{sanc}{24}{sanc}{25}{sanc}{26}{sanc}{27}{sanc}{28}{sanc}{29}{sanc}{30}{sanc}{31}{sanc}{32}{sanc}{33}{sanc}{34}{sanc}{35}{sanc}{36}{sanc}{37}{sanc}{38}{sanc}{39}{sanc}{40}{sanc}{41}{sanc}{42}{sanc}{43}{sanc}{44}{sanc}{45}{sanc}{46}{sanc}{47}{sanc}{48}{sanc}{49}{sanc}{50}{sanc}{51}{sanc}{52}{sanc}{53}{sanc}{54}{sanc}{55}{sanc}{56}{sanc}{57}{sanc}}
-#VARIABLE         {tmp}  {west}
+#VARIABLE         {onDeath}  {{1}{sanc}{2}{sanc}{3}{sanc}{4}{sanc}{5}{sanc}{6}{sanc}{7}{sanc}{8}{sanc}{9}{sanc}{10}{sanc}{11}{sanc}{12}{sanc}{13}{sanc}{14}{sanc}{15}{sanc}{16}{sanc}{17}{sanc}{18}{sanc}{19}{sanc}{20}{sanc}{21}{sanc}{22}{sanc}{23}{sanc}{24}{sanc}{25}{sanc}{26}{sanc}{27}{sanc}{28}{sanc}{29}{sanc}{30}{sanc}{31}{sanc}{32}{sanc}{33}{sanc}{34}{sanc}{35}{sanc}{36}{sanc}{37}{sanc}{38}{sanc}{39}{sanc}{40}{sanc}{41}{sanc}{42}{sanc}{43}{sanc}{44}{sanc}{45}{sanc}{46}{sanc}{47}{sanc}{48}{sanc}{49}{sanc}{50}{sanc}{51}{sanc}{52}{sanc}{53}{sanc}{54}{sanc}{55}{sanc}{56}{sanc}{57}{sanc}{58}{sanc}{59}{sanc}}
 #VARIABLE         {voteTime}  {-n 1556919009}
 #VARIABLE         {weapon}  {dagger}
 
